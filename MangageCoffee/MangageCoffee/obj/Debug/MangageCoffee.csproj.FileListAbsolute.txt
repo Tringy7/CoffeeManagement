@@ -37,3 +37,5 @@ C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UI
 C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item_Order.resources
 C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\bin\Debug\LiveCharts.dll
 C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formdata.resources
+C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Bill.resources
+C:\Users\hi\Dropbox\CONCA\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Qr.resources

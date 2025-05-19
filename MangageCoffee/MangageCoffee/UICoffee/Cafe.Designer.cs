@@ -33,6 +33,7 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -40,7 +41,6 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.home1 = new MangageCoffee.UICoffee.Home();
             this.menu_add1 = new MangageCoffee.UICoffee.Menu.Menu_add();
             this.user_add1 = new MangageCoffee.UICoffee.User_add();
@@ -83,6 +83,18 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(87, 848);
             this.guna2CustomGradientPanel1.TabIndex = 4;
             // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel2.Controls.Add(this.home1);
+            this.guna2GradientPanel2.Controls.Add(this.menu_add1);
+            this.guna2GradientPanel2.Controls.Add(this.user_add1);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(152, 0);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
+            this.guna2GradientPanel2.TabIndex = 4;
+            // 
             // guna2Button5
             // 
             this.guna2Button5.BackColor = System.Drawing.Color.Transparent;
@@ -118,6 +130,7 @@
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(81, 45);
             this.guna2Button4.TabIndex = 8;
+            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -211,18 +224,6 @@
             this.btnHome.Size = new System.Drawing.Size(81, 45);
             this.btnHome.TabIndex = 3;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel2.Controls.Add(this.home1);
-            this.guna2GradientPanel2.Controls.Add(this.menu_add1);
-            this.guna2GradientPanel2.Controls.Add(this.user_add1);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(152, 0);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
-            this.guna2GradientPanel2.TabIndex = 4;
             // 
             // home1
             // 

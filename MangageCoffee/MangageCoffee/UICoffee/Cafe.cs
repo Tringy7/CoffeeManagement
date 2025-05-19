@@ -33,5 +33,16 @@ namespace MangageCoffee
         {
             menu_add1.BringToFront();  
         }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["Form2"] == null)
+            {
+                Form2 login = new Form2();
+                login.Show();
+                this.Hide(); // Ẩn form hiện tại
+            }
+            this.Close();
+        }
     }
 }

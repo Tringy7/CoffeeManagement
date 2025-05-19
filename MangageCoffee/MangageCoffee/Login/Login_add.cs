@@ -45,8 +45,9 @@ namespace MangageCoffee
             {
                 Cafe cafeForm = new Cafe();
                 cafeForm.Show();
-                this.Hide();    
+                this.Hide(); // Ẩn form hiện tại
             }
         }
+
     }
 }

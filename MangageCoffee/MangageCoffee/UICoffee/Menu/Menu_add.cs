@@ -71,5 +71,14 @@ namespace MangageCoffee.UICoffee.Menu
         {
 
         }
+
+        private void guna2Button8_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["Qr"] == null)
+            {
+                Qr qr = new Qr();
+                qr.Show();
+            }
+        }
     }
 }

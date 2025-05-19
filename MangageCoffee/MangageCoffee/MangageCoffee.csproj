@@ -75,6 +75,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UICoffee\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\Cafe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,6 +185,12 @@
     <Compile Include="UICoffee\Menu\Menu_add.Designer.cs">
       <DependentUpon>Menu_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\Qr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Qr.Designer.cs">
+      <DependentUpon>Qr.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\temp.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -209,6 +221,9 @@
     <Compile Include="UICoffee\User\User_add_formdata.Designer.cs">
       <DependentUpon>User_add_formdata.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UICoffee\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
     </EmbeddedResource>
@@ -269,6 +284,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Menu_add.resx">
       <DependentUpon>Menu_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Qr.resx">
+      <DependentUpon>Qr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\temp.resx">
       <DependentUpon>temp.cs</DependentUpon>
@@ -395,6 +413,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
