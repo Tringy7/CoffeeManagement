@@ -31,5 +31,10 @@ namespace MangageCoffee.UICoffee
         {
 
         }
+
+        private void temp_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
