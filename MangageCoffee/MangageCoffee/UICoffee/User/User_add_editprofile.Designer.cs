@@ -71,6 +71,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(236, 43);
             this.guna2Button1.TabIndex = 82;
             this.guna2Button1.Text = "Save Changes";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // checkBox3
             // 

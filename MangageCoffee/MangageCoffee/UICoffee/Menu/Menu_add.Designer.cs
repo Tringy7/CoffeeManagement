@@ -32,22 +32,11 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label4 = new System.Windows.Forms.Label();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.item_Order1 = new MangageCoffee.UICoffee.Menu.Item_Order();
-            this.item_Order2 = new MangageCoffee.UICoffee.Menu.Item_Order();
-            this.item_Order3 = new MangageCoffee.UICoffee.Menu.Item_Order();
             this.item5 = new MangageCoffee.UICoffee.Menu.Item();
             this.item1 = new MangageCoffee.UICoffee.Menu.Item();
             this.item2 = new MangageCoffee.UICoffee.Menu.Item();
@@ -55,6 +44,18 @@
             this.item4 = new MangageCoffee.UICoffee.Menu.Item();
             this.item6 = new MangageCoffee.UICoffee.Menu.Item();
             this.item7 = new MangageCoffee.UICoffee.Menu.Item();
+            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.item_Order1 = new MangageCoffee.UICoffee.Menu.Item_Order();
+            this.item_Order2 = new MangageCoffee.UICoffee.Menu.Item_Order();
+            this.item_Order3 = new MangageCoffee.UICoffee.Menu.Item_Order();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
@@ -64,14 +65,13 @@
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -99,6 +99,19 @@
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(911, 187);
             this.guna2CustomGradientPanel1.TabIndex = 16;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BorderRadius = 30;
+            this.guna2PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2PictureBox1.Image = global::MangageCoffee.Properties.Resources.pic_sale;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(911, 187);
+            this.guna2PictureBox1.TabIndex = 0;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -152,144 +165,6 @@
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(911, 434);
             this.flowLayoutPanel2.TabIndex = 0;
-            // 
-            // guna2Button6
-            // 
-            this.guna2Button6.BorderRadius = 20;
-            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(980, 785);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(369, 43);
-            this.guna2Button6.TabIndex = 86;
-            this.guna2Button6.Text = "Checkout";
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Black;
-            this.guna2GradientPanel2.BorderRadius = 30;
-            this.guna2GradientPanel2.BorderThickness = 2;
-            this.guna2GradientPanel2.Controls.Add(this.panel1);
-            this.guna2GradientPanel2.Controls.Add(this.label8);
-            this.guna2GradientPanel2.Controls.Add(this.flowLayoutPanel1);
-            this.guna2GradientPanel2.Controls.Add(this.panel3);
-            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
-            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(980, 73);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(369, 518);
-            this.guna2GradientPanel2.TabIndex = 90;
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(24, 52);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 2);
-            this.panel1.TabIndex = 88;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(110, 18);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 31);
-            this.label8.TabIndex = 87;
-            this.label8.Text = "Order Menu";
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPanel1.Controls.Add(this.item_Order1);
-            this.flowLayoutPanel1.Controls.Add(this.item_Order2);
-            this.flowLayoutPanel1.Controls.Add(this.item_Order3);
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(24, 60);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 379);
-            this.flowLayoutPanel1.TabIndex = 86;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.Controls.Add(this.label10);
-            this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(22, 463);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(320, 33);
-            this.panel3.TabIndex = 89;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Red;
-            this.label10.Location = new System.Drawing.Point(254, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(66, 31);
-            this.label10.TabIndex = 88;
-            this.label10.Text = "200$";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
-            this.label9.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label9.Location = new System.Drawing.Point(0, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 31);
-            this.label9.TabIndex = 87;
-            this.label9.Text = "Total:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(974, 617);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(198, 31);
-            this.label2.TabIndex = 95;
-            this.label2.Text = "Payment Method";
-            // 
-            // item_Order1
-            // 
-            this.item_Order1.BackColor = System.Drawing.Color.White;
-            this.item_Order1.Location = new System.Drawing.Point(3, 3);
-            this.item_Order1.Name = "item_Order1";
-            this.item_Order1.Size = new System.Drawing.Size(320, 103);
-            this.item_Order1.TabIndex = 0;
-            // 
-            // item_Order2
-            // 
-            this.item_Order2.BackColor = System.Drawing.Color.White;
-            this.item_Order2.Location = new System.Drawing.Point(3, 112);
-            this.item_Order2.Name = "item_Order2";
-            this.item_Order2.Size = new System.Drawing.Size(320, 103);
-            this.item_Order2.TabIndex = 1;
-            // 
-            // item_Order3
-            // 
-            this.item_Order3.BackColor = System.Drawing.Color.White;
-            this.item_Order3.Location = new System.Drawing.Point(3, 221);
-            this.item_Order3.Name = "item_Order3";
-            this.item_Order3.Size = new System.Drawing.Size(320, 103);
-            this.item_Order3.TabIndex = 2;
             // 
             // item5
             // 
@@ -360,6 +235,144 @@
             this.item7.Name = "item7";
             this.item7.Size = new System.Drawing.Size(242, 249);
             this.item7.TabIndex = 10;
+            // 
+            // guna2Button6
+            // 
+            this.guna2Button6.BorderRadius = 20;
+            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button6.ForeColor = System.Drawing.Color.White;
+            this.guna2Button6.Location = new System.Drawing.Point(980, 785);
+            this.guna2Button6.Name = "guna2Button6";
+            this.guna2Button6.Size = new System.Drawing.Size(369, 43);
+            this.guna2Button6.TabIndex = 86;
+            this.guna2Button6.Text = "Checkout";
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel2.BorderColor = System.Drawing.Color.Black;
+            this.guna2GradientPanel2.BorderRadius = 30;
+            this.guna2GradientPanel2.BorderThickness = 2;
+            this.guna2GradientPanel2.Controls.Add(this.panel1);
+            this.guna2GradientPanel2.Controls.Add(this.label8);
+            this.guna2GradientPanel2.Controls.Add(this.flowLayoutPanel1);
+            this.guna2GradientPanel2.Controls.Add(this.panel3);
+            this.guna2GradientPanel2.FillColor = System.Drawing.Color.White;
+            this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.White;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(980, 73);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(369, 518);
+            this.guna2GradientPanel2.TabIndex = 90;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(24, 52);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(320, 2);
+            this.panel1.TabIndex = 88;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label8.Location = new System.Drawing.Point(110, 18);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(143, 31);
+            this.label8.TabIndex = 87;
+            this.label8.Text = "Order Menu";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Controls.Add(this.item_Order1);
+            this.flowLayoutPanel1.Controls.Add(this.item_Order2);
+            this.flowLayoutPanel1.Controls.Add(this.item_Order3);
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(24, 60);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 379);
+            this.flowLayoutPanel1.TabIndex = 86;
+            // 
+            // item_Order1
+            // 
+            this.item_Order1.BackColor = System.Drawing.Color.White;
+            this.item_Order1.Location = new System.Drawing.Point(3, 3);
+            this.item_Order1.Name = "item_Order1";
+            this.item_Order1.Size = new System.Drawing.Size(320, 103);
+            this.item_Order1.TabIndex = 0;
+            // 
+            // item_Order2
+            // 
+            this.item_Order2.BackColor = System.Drawing.Color.White;
+            this.item_Order2.Location = new System.Drawing.Point(3, 112);
+            this.item_Order2.Name = "item_Order2";
+            this.item_Order2.Size = new System.Drawing.Size(320, 103);
+            this.item_Order2.TabIndex = 1;
+            // 
+            // item_Order3
+            // 
+            this.item_Order3.BackColor = System.Drawing.Color.White;
+            this.item_Order3.Location = new System.Drawing.Point(3, 221);
+            this.item_Order3.Name = "item_Order3";
+            this.item_Order3.Size = new System.Drawing.Size(320, 103);
+            this.item_Order3.TabIndex = 2;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.label10);
+            this.panel3.Controls.Add(this.label9);
+            this.panel3.Location = new System.Drawing.Point(22, 463);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(320, 33);
+            this.panel3.TabIndex = 89;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(254, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(66, 31);
+            this.label10.TabIndex = 88;
+            this.label10.Text = "200$";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label9.Location = new System.Drawing.Point(0, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(73, 31);
+            this.label9.TabIndex = 87;
+            this.label9.Text = "Total:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(974, 617);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(198, 31);
+            this.label2.TabIndex = 95;
+            this.label2.Text = "Payment Method";
             // 
             // guna2Button9
             // 
@@ -585,19 +598,6 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(448, 38);
             this.guna2TextBox1.TabIndex = 69;
             // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BorderRadius = 30;
-            this.guna2PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox1.Image = global::MangageCoffee.Properties.Resources.pic_sale;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(911, 187);
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
-            // 
             // Menu_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -625,6 +625,7 @@
             this.Size = new System.Drawing.Size(1381, 892);
             this.Load += new System.EventHandler(this.Menu_add_Load);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.flowLayoutPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
@@ -632,7 +633,6 @@
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

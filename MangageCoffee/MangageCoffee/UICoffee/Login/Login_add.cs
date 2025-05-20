@@ -13,6 +13,8 @@ namespace MangageCoffee
     public partial class Login_add : UserControl
     {
         public Form2 begin;
+        public event EventHandler exit;
+
 
         public Login_add()
         {
@@ -46,6 +48,11 @@ namespace MangageCoffee
                 Cafe cafeForm = new Cafe();
                 cafeForm.Show();
             }
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            exit?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
         }
     }
 }

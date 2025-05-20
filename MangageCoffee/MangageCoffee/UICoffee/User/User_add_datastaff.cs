@@ -12,9 +12,15 @@ namespace MangageCoffee.UICoffee
 {
     public partial class User_add_datastaff : UserControl
     {
+        public event EventHandler ButtonClicked;
         public User_add_datastaff()
         {
             InitializeComponent();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            ButtonClicked?.Invoke(this, EventArgs.Empty);
         }
     }
 }

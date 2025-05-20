@@ -13,6 +13,8 @@ namespace MangageCoffee
     public partial class Signup_add : UserControl
     {
         public Form2 begin;
+        public event EventHandler exit;
+
 
         public Signup_add()
         {
@@ -37,6 +39,11 @@ namespace MangageCoffee
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             begin.Login_add_load();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            exit?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
         }
     }
 }

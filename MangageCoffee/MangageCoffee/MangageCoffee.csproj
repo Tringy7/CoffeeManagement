@@ -75,10 +75,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UICoffee\Bill.cs">
+    <Compile Include="UICoffee\Untils\Bill.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UICoffee\Bill.Designer.cs">
+    <Compile Include="UICoffee\Untils\Bill.Designer.cs">
       <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Cafe.cs">
@@ -87,79 +87,25 @@
     <Compile Include="UICoffee\Cafe.Designer.cs">
       <DependentUpon>Cafe.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI cũ\Cashier.cs">
+    <Compile Include="UICoffee\Login\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI cũ\Cashier.Designer.cs">
-      <DependentUpon>Cashier.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Dashboard.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Dashboard.Designer.cs">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Dashboard_Cashier.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Dashboard_Cashier.Designer.cs">
-      <DependentUpon>Dashboard_Cashier.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Food.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Food.Designer.cs">
-      <DependentUpon>Food.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login\Form2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login\Form2.Designer.cs">
+    <Compile Include="UICoffee\Login\Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI cũ\History.cs">
+    <Compile Include="UICoffee\Login\Login_add.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UI cũ\History.Designer.cs">
-      <DependentUpon>History.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login\Login_add.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Login\Login_add.Designer.cs">
+    <Compile Include="UICoffee\Login\Login_add.Designer.cs">
       <DependentUpon>Login_add.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Menu.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Login\Signup_add.cs">
+    <Compile Include="UICoffee\Login\Signup_add.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Login\Signup_add.Designer.cs">
+    <Compile Include="UICoffee\Login\Signup_add.Designer.cs">
       <DependentUpon>Signup_add.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\Products.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\Products.Designer.cs">
-      <DependentUpon>Products.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UI cũ\User.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UI cũ\User.Designer.cs">
-      <DependentUpon>User.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Home\Home.cs">
       <SubType>UserControl</SubType>
@@ -185,16 +131,16 @@
     <Compile Include="UICoffee\Menu\Menu_add.Designer.cs">
       <DependentUpon>Menu_add.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\Qr.cs">
+    <Compile Include="UICoffee\Untils\Qr.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UICoffee\Qr.Designer.cs">
+    <Compile Include="UICoffee\Untils\Qr.Designer.cs">
       <DependentUpon>Qr.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\temp.cs">
+    <Compile Include="UICoffee\Untils\temp.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UICoffee\temp.Designer.cs">
+    <Compile Include="UICoffee\Untils\temp.Designer.cs">
       <DependentUpon>temp.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\User\User_add.cs">
@@ -221,41 +167,17 @@
     <Compile Include="UICoffee\User\User_add_formdata.Designer.cs">
       <DependentUpon>User_add_formdata.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UICoffee\Bill.resx">
+    <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Cashier.resx">
-      <DependentUpon>Cashier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Dashboard.resx">
-      <DependentUpon>Dashboard.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Dashboard_Cashier.resx">
-      <DependentUpon>Dashboard_Cashier.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Food.resx">
-      <DependentUpon>Food.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login\Form2.resx">
+    <EmbeddedResource Include="UICoffee\Login\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\History.resx">
-      <DependentUpon>History.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login\Login_add.resx">
+    <EmbeddedResource Include="UICoffee\Login\Login_add.resx">
       <DependentUpon>Login_add.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\Products.resx">
-      <DependentUpon>Products.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -267,11 +189,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Login\Signup_add.resx">
+    <EmbeddedResource Include="UICoffee\Login\Signup_add.resx">
       <DependentUpon>Signup_add.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI cũ\User.resx">
-      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Home\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -285,10 +204,10 @@
     <EmbeddedResource Include="UICoffee\Menu\Menu_add.resx">
       <DependentUpon>Menu_add.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\Qr.resx">
+    <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\temp.resx">
+    <EmbeddedResource Include="UICoffee\Untils\temp.resx">
       <DependentUpon>temp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add.resx">

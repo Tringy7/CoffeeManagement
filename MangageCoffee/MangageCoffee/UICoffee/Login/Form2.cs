@@ -19,6 +19,19 @@ namespace MangageCoffee
 
             login_add1.begin = this;
             signup_add1.begin = this;
+            login_add1.exit += Login_add1_exit;
+            signup_add1.exit += Signup_add1_exit;
+        }
+
+        private void Signup_add1_exit(object sender, EventArgs e)
+        {
+            this.Close(); // Đóng form
+        }
+
+
+        private void Login_add1_exit(object sender, EventArgs e)
+        {
+            this.Close(); // Đóng form
         }
 
         public void Login_add_load()

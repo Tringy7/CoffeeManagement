@@ -8,13 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MangageCoffee
+namespace MangageCoffee.UICoffee
 {
-    public partial class Dashboard_Cashier : UserControl
+    public partial class temp : UserControl
     {
-        public Dashboard_Cashier()
+        public temp()
         {
             InitializeComponent();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void label10_Click(object sender, EventArgs e)

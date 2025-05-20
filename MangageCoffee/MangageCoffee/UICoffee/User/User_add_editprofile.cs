@@ -12,9 +12,15 @@ namespace MangageCoffee.UICoffee
 {
     public partial class User_add_editprofile : UserControl
     {
+        public event EventHandler ButtonClickedFromData;
         public User_add_editprofile()
         {
             InitializeComponent();
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            ButtonClickedFromData?.Invoke(this, e);
         }
     }
 }

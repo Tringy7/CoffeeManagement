@@ -47,6 +47,7 @@
             this.sataTextBox4 = new SATATextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.signup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hide)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.view)).BeginInit();
@@ -61,6 +62,7 @@
             // signup
             // 
             this.signup.BackColor = System.Drawing.Color.White;
+            this.signup.Controls.Add(this.btnHome);
             this.signup.Controls.Add(this.panel9);
             this.signup.Controls.Add(this.sataTextBox5);
             this.signup.Controls.Add(this.hide);
@@ -293,6 +295,25 @@
             this.panel8.TabIndex = 33;
             this.panel8.UseWaitCursor = true;
             // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.Transparent;
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
+            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnHome.Location = new System.Drawing.Point(447, 3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(29, 27);
+            this.btnHome.TabIndex = 71;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // Signup_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -328,5 +349,6 @@
         private SATATextBox sataTextBox4;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel panel8;
+        private Guna.UI2.WinForms.Guna2Button btnHome;
     }
 }
