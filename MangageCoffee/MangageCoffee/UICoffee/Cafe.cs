@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MangageCoffee.UICoffee.ManageDishes;
 
 namespace MangageCoffee
 {
@@ -43,6 +44,11 @@ namespace MangageCoffee
                 this.Hide(); // Ẩn form hiện tại
             }
             this.Close();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            manage1.BringToFront();
         }
     }
 }

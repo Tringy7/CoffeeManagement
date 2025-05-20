@@ -81,6 +81,18 @@
     <Compile Include="UICoffee\ManageDishes\Manage.Designer.cs">
       <DependentUpon>Manage.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.Designer.cs">
+      <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_Item.Designer.cs">
+      <DependentUpon>ManageDishes_Item.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\Untils\Bill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -175,6 +187,12 @@
     </Compile>
     <EmbeddedResource Include="UICoffee\ManageDishes\Manage.resx">
       <DependentUpon>Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\ManageDishes_edit.resx">
+      <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\ManageDishes_Item.resx">
+      <DependentUpon>ManageDishes_Item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
       <DependentUpon>Bill.cs</DependentUpon>
@@ -368,6 +386,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\multiple-users-silhouette %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-sliders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

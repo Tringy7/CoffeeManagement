@@ -43,5 +43,10 @@ namespace MangageCoffee
         {
             signup_add1.BringToFront();
         }
+
+        private void login_add1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

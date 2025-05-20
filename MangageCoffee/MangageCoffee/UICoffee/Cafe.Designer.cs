@@ -33,7 +33,6 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
@@ -41,7 +40,9 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.btnUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.home1 = new MangageCoffee.UICoffee.Home();
+            this.manage1 = new MangageCoffee.UICoffee.ManageDishes.Manage();
             this.menu_add1 = new MangageCoffee.UICoffee.Menu.Menu_add();
             this.user_add1 = new MangageCoffee.UICoffee.User_add();
             this.guna2GradientPanel1.SuspendLayout();
@@ -82,18 +83,6 @@
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(87, 848);
             this.guna2CustomGradientPanel1.TabIndex = 4;
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GradientPanel2.Controls.Add(this.home1);
-            this.guna2GradientPanel2.Controls.Add(this.menu_add1);
-            this.guna2GradientPanel2.Controls.Add(this.user_add1);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(152, 0);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
-            this.guna2GradientPanel2.TabIndex = 4;
             // 
             // guna2Button5
             // 
@@ -149,6 +138,7 @@
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(81, 45);
             this.guna2Button3.TabIndex = 7;
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -225,6 +215,19 @@
             this.btnHome.TabIndex = 3;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GradientPanel2.Controls.Add(this.home1);
+            this.guna2GradientPanel2.Controls.Add(this.manage1);
+            this.guna2GradientPanel2.Controls.Add(this.menu_add1);
+            this.guna2GradientPanel2.Controls.Add(this.user_add1);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(152, 0);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
+            this.guna2GradientPanel2.TabIndex = 4;
+            // 
             // home1
             // 
             this.home1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
@@ -232,7 +235,16 @@
             this.home1.Location = new System.Drawing.Point(0, 0);
             this.home1.Name = "home1";
             this.home1.Size = new System.Drawing.Size(1381, 892);
-            this.home1.TabIndex = 2;
+            this.home1.TabIndex = 3;
+            // 
+            // manage1
+            // 
+            this.manage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.manage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.manage1.Location = new System.Drawing.Point(0, 0);
+            this.manage1.Name = "manage1";
+            this.manage1.Size = new System.Drawing.Size(1381, 892);
+            this.manage1.TabIndex = 2;
             // 
             // menu_add1
             // 
@@ -287,5 +299,6 @@
         private UICoffee.User_add user_add1;
         private UICoffee.Menu.Menu_add menu_add1;
         private UICoffee.Home home1;
+        private UICoffee.ManageDishes.Manage manage1;
     }
 }

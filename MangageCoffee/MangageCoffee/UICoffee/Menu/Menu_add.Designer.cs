@@ -49,9 +49,9 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label8 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.item_Order3 = new MangageCoffee.UICoffee.Menu.Item_Order();
             this.item_Order1 = new MangageCoffee.UICoffee.Menu.Item_Order();
             this.item_Order2 = new MangageCoffee.UICoffee.Menu.Item_Order();
-            this.item_Order3 = new MangageCoffee.UICoffee.Menu.Item_Order();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -293,38 +293,39 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.flowLayoutPanel1.Controls.Add(this.item_Order3);
             this.flowLayoutPanel1.Controls.Add(this.item_Order1);
             this.flowLayoutPanel1.Controls.Add(this.item_Order2);
-            this.flowLayoutPanel1.Controls.Add(this.item_Order3);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(24, 60);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(320, 379);
             this.flowLayoutPanel1.TabIndex = 86;
             // 
+            // item_Order3
+            // 
+            this.item_Order3.BackColor = System.Drawing.Color.White;
+            this.item_Order3.Location = new System.Drawing.Point(3, 3);
+            this.item_Order3.Name = "item_Order3";
+            this.item_Order3.Size = new System.Drawing.Size(320, 103);
+            this.item_Order3.TabIndex = 2;
+            // 
             // item_Order1
             // 
             this.item_Order1.BackColor = System.Drawing.Color.White;
-            this.item_Order1.Location = new System.Drawing.Point(3, 3);
+            this.item_Order1.Location = new System.Drawing.Point(3, 112);
             this.item_Order1.Name = "item_Order1";
             this.item_Order1.Size = new System.Drawing.Size(320, 103);
-            this.item_Order1.TabIndex = 0;
+            this.item_Order1.TabIndex = 3;
+            this.item_Order1.Load += new System.EventHandler(this.item_Order1_Load);
             // 
             // item_Order2
             // 
             this.item_Order2.BackColor = System.Drawing.Color.White;
-            this.item_Order2.Location = new System.Drawing.Point(3, 112);
+            this.item_Order2.Location = new System.Drawing.Point(3, 221);
             this.item_Order2.Name = "item_Order2";
             this.item_Order2.Size = new System.Drawing.Size(320, 103);
-            this.item_Order2.TabIndex = 1;
-            // 
-            // item_Order3
-            // 
-            this.item_Order3.BackColor = System.Drawing.Color.White;
-            this.item_Order3.Location = new System.Drawing.Point(3, 221);
-            this.item_Order3.Name = "item_Order3";
-            this.item_Order3.Size = new System.Drawing.Size(320, 103);
-            this.item_Order3.TabIndex = 2;
+            this.item_Order2.TabIndex = 4;
             // 
             // panel3
             // 
@@ -656,8 +657,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Item_Order item_Order1;
-        private Item_Order item_Order2;
         private Item_Order item_Order3;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label10;
@@ -676,5 +675,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Item_Order item_Order1;
+        private Item_Order item_Order2;
     }
 }

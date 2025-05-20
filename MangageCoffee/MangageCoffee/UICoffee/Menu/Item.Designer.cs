@@ -43,7 +43,7 @@
             // 
             // guna2Elipse1
             // 
-            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
             // guna2PictureBox1
@@ -64,7 +64,7 @@
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Location = new System.Drawing.Point(15, 187);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(107, 28);
+            this.guna2Panel1.Size = new System.Drawing.Size(153, 28);
             this.guna2Panel1.TabIndex = 1;
             // 
             // label2
@@ -85,7 +85,7 @@
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Location = new System.Drawing.Point(15, 218);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(107, 28);
+            this.guna2Panel2.Size = new System.Drawing.Size(153, 28);
             this.guna2Panel2.TabIndex = 78;
             // 
             // label1

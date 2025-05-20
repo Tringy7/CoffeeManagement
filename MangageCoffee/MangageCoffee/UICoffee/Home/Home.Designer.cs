@@ -35,7 +35,8 @@
             FrameworkTest.Charts.SATALineChart.DataSet dataSet4 = new FrameworkTest.Charts.SATALineChart.DataSet();
             FrameworkTest.Charts.SATALineChart.DataSet dataSet5 = new FrameworkTest.Charts.SATALineChart.DataSet();
             FrameworkTest.Charts.SATALineChart.DataSet dataSet6 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet7 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet8 = new FrameworkTest.Charts.SATALineChart.DataSet();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -57,16 +58,12 @@
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
@@ -77,12 +74,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.guna2GradientPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.guna2GradientPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.guna2GradientPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -360,12 +353,36 @@
         110F,
         50F,
         40F};
+            dataSet7.Label = "Sample Dataset 1";
+            dataSet7.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet7.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet7.Points = new float[] {
+        105F,
+        65F,
+        80F,
+        120F,
+        135F,
+        65F,
+        30F};
+            dataSet8.Label = "Sample Dataset 2";
+            dataSet8.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet8.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet8.Points = new float[] {
+        80F,
+        90F,
+        70F,
+        100F,
+        110F,
+        50F,
+        40F};
             this.sataLineChart1.DataSets.Add(dataSet1);
             this.sataLineChart1.DataSets.Add(dataSet2);
             this.sataLineChart1.DataSets.Add(dataSet3);
             this.sataLineChart1.DataSets.Add(dataSet4);
             this.sataLineChart1.DataSets.Add(dataSet5);
             this.sataLineChart1.DataSets.Add(dataSet6);
+            this.sataLineChart1.DataSets.Add(dataSet7);
+            this.sataLineChart1.DataSets.Add(dataSet8);
             this.sataLineChart1.DayColor = System.Drawing.Color.DarkGray;
             this.sataLineChart1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.sataLineChart1.GradientBackground = true;
@@ -388,7 +405,6 @@
             this.guna2GradientPanel1.BorderThickness = 1;
             this.guna2GradientPanel1.Controls.Add(this.label10);
             this.guna2GradientPanel1.Controls.Add(this.label9);
-            this.guna2GradientPanel1.Controls.Add(this.pictureBox3);
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel1.Location = new System.Drawing.Point(42, 175);
@@ -420,24 +436,6 @@
             this.label9.Size = new System.Drawing.Size(137, 23);
             this.label9.TabIndex = 16;
             this.label9.Text = "Total Of Cashier";
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(13, 35);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(13, 35);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox5.TabIndex = 15;
-            this.pictureBox5.TabStop = false;
             // 
             // label14
             // 
@@ -471,7 +469,6 @@
             this.guna2GradientPanel3.BorderThickness = 1;
             this.guna2GradientPanel3.Controls.Add(this.label13);
             this.guna2GradientPanel3.Controls.Add(this.label14);
-            this.guna2GradientPanel3.Controls.Add(this.pictureBox5);
             this.guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel3.Location = new System.Drawing.Point(472, 175);
@@ -479,15 +476,6 @@
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
             this.guna2GradientPanel3.Size = new System.Drawing.Size(207, 106);
             this.guna2GradientPanel3.TabIndex = 94;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(13, 35);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox6.TabIndex = 15;
-            this.pictureBox6.TabStop = false;
             // 
             // label16
             // 
@@ -521,7 +509,6 @@
             this.guna2GradientPanel4.BorderThickness = 1;
             this.guna2GradientPanel4.Controls.Add(this.label15);
             this.guna2GradientPanel4.Controls.Add(this.label16);
-            this.guna2GradientPanel4.Controls.Add(this.pictureBox6);
             this.guna2GradientPanel4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel4.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel4.Location = new System.Drawing.Point(687, 175);
@@ -529,15 +516,6 @@
             this.guna2GradientPanel4.Name = "guna2GradientPanel4";
             this.guna2GradientPanel4.Size = new System.Drawing.Size(207, 106);
             this.guna2GradientPanel4.TabIndex = 95;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(13, 35);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox4.TabIndex = 15;
-            this.pictureBox4.TabStop = false;
             // 
             // label12
             // 
@@ -571,7 +549,6 @@
             this.guna2GradientPanel2.BorderThickness = 1;
             this.guna2GradientPanel2.Controls.Add(this.label11);
             this.guna2GradientPanel2.Controls.Add(this.label12);
-            this.guna2GradientPanel2.Controls.Add(this.pictureBox4);
             this.guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.guna2GradientPanel2.Location = new System.Drawing.Point(257, 175);
@@ -607,14 +584,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);
             this.guna2GradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.guna2GradientPanel3.ResumeLayout(false);
             this.guna2GradientPanel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.guna2GradientPanel4.ResumeLayout(false);
             this.guna2GradientPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.guna2GradientPanel2.ResumeLayout(false);
             this.guna2GradientPanel2.PerformLayout();
             this.ResumeLayout(false);
@@ -645,18 +618,14 @@
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.PictureBox pictureBox6;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel3;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }

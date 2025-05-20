@@ -32,8 +32,8 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.signup_add1 = new MangageCoffee.Signup_add();
             this.login_add1 = new MangageCoffee.Login_add();
+            this.signup_add1 = new MangageCoffee.Signup_add();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -65,14 +65,6 @@
             this.panel1.Size = new System.Drawing.Size(958, 676);
             this.panel1.TabIndex = 1;
             // 
-            // signup_add1
-            // 
-            this.signup_add1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.signup_add1.Location = new System.Drawing.Point(479, 0);
-            this.signup_add1.Name = "signup_add1";
-            this.signup_add1.Size = new System.Drawing.Size(479, 676);
-            this.signup_add1.TabIndex = 52;
-            // 
             // login_add1
             // 
             this.login_add1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -80,6 +72,15 @@
             this.login_add1.Name = "login_add1";
             this.login_add1.Size = new System.Drawing.Size(479, 676);
             this.login_add1.TabIndex = 53;
+            this.login_add1.Load += new System.EventHandler(this.login_add1_Load);
+            // 
+            // signup_add1
+            // 
+            this.signup_add1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.signup_add1.Location = new System.Drawing.Point(479, 0);
+            this.signup_add1.Name = "signup_add1";
+            this.signup_add1.Size = new System.Drawing.Size(479, 676);
+            this.signup_add1.TabIndex = 52;
             // 
             // Form2
             // 

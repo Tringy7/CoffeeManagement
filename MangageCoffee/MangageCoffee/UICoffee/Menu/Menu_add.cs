@@ -80,5 +80,10 @@ namespace MangageCoffee.UICoffee.Menu
                 qr.Show();
             }
         }
+
+        private void item_Order1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

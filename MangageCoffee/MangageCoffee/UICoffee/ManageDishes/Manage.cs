@@ -16,5 +16,48 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             InitializeComponent();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Filter.Visible = !Filter.Visible;
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["ManageDishes_edit"] == null)
+            {
+                ManageDishes_edit ManageDishes_edit = new ManageDishes_edit();
+                ManageDishes_edit.Show();
+            }
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["ManageDishes_edit"] == null)
+            {
+                ManageDishes_edit ManageDishes_edit = new ManageDishes_edit();
+                ManageDishes_edit.Show();
+            }
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms["ManageDishes_edit"] == null)
+            {
+                ManageDishes_edit ManageDishes_edit = new ManageDishes_edit();
+                ManageDishes_edit.Show();
+            }
+        }
     }
 }
