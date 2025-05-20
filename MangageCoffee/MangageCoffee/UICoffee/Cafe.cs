@@ -50,5 +50,10 @@ namespace MangageCoffee
         {
             manage1.BringToFront();
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            history_add1.BringToFront();
+        }
     }
 }

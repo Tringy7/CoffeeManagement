@@ -27,11 +27,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
         }
 
-        private void guna2Button3_Click(object sender, EventArgs e)
-        {
-            Filter.Visible = !Filter.Visible;
-        }
-
         private void guna2Button2_Click_1(object sender, EventArgs e)
         {
             if (Application.OpenForms["ManageDishes_edit"] == null)
@@ -51,13 +46,14 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-            if (Application.OpenForms["ManageDishes_edit"] == null)
-            {
-                ManageDishes_edit ManageDishes_edit = new ManageDishes_edit();
-                ManageDishes_edit.Show();
-            }
+            Filter.Visible = !Filter.Visible;
+        }
+
+        private void manage_itemlist2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

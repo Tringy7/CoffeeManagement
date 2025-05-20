@@ -34,8 +34,8 @@
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.user_add_editprofile1 = new MangageCoffee.UICoffee.User_add_editprofile();
             this.user_add_formdata1 = new MangageCoffee.UICoffee.User.User_add_formdata();
+            this.user_add_editprofile1 = new MangageCoffee.UICoffee.User_add_editprofile();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -109,14 +109,6 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1285, 642);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
-            // user_add_editprofile1
-            // 
-            this.user_add_editprofile1.BackColor = System.Drawing.Color.White;
-            this.user_add_editprofile1.Location = new System.Drawing.Point(0, 0);
-            this.user_add_editprofile1.Name = "user_add_editprofile1";
-            this.user_add_editprofile1.Size = new System.Drawing.Size(1285, 642);
-            this.user_add_editprofile1.TabIndex = 1;
-            // 
             // user_add_formdata1
             // 
             this.user_add_formdata1.BackColor = System.Drawing.Color.White;
@@ -124,6 +116,14 @@
             this.user_add_formdata1.Name = "user_add_formdata1";
             this.user_add_formdata1.Size = new System.Drawing.Size(1285, 642);
             this.user_add_formdata1.TabIndex = 0;
+            // 
+            // user_add_editprofile1
+            // 
+            this.user_add_editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.user_add_editprofile1.Location = new System.Drawing.Point(0, 0);
+            this.user_add_editprofile1.Name = "user_add_editprofile1";
+            this.user_add_editprofile1.Size = new System.Drawing.Size(1285, 642);
+            this.user_add_editprofile1.TabIndex = 1;
             // 
             // User_add
             // 

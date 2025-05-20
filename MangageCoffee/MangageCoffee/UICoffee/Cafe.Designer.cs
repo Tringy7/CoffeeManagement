@@ -41,10 +41,11 @@
             this.btnUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.home1 = new MangageCoffee.UICoffee.Home();
-            this.manage1 = new MangageCoffee.UICoffee.ManageDishes.Manage();
-            this.menu_add1 = new MangageCoffee.UICoffee.Menu.Menu_add();
             this.user_add1 = new MangageCoffee.UICoffee.User_add();
+            this.menu_add1 = new MangageCoffee.UICoffee.Menu.Menu_add();
+            this.manage1 = new MangageCoffee.UICoffee.ManageDishes.Manage();
+            this.history_add1 = new MangageCoffee.UICoffee.History.History_add();
+            this.home1 = new MangageCoffee.UICoffee.Home();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
@@ -157,6 +158,7 @@
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(81, 45);
             this.guna2Button2.TabIndex = 6;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -219,6 +221,7 @@
             // 
             this.guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientPanel2.Controls.Add(this.home1);
+            this.guna2GradientPanel2.Controls.Add(this.history_add1);
             this.guna2GradientPanel2.Controls.Add(this.manage1);
             this.guna2GradientPanel2.Controls.Add(this.menu_add1);
             this.guna2GradientPanel2.Controls.Add(this.user_add1);
@@ -228,23 +231,14 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
             this.guna2GradientPanel2.TabIndex = 4;
             // 
-            // home1
+            // user_add1
             // 
-            this.home1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.home1.Location = new System.Drawing.Point(0, 0);
-            this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(1381, 892);
-            this.home1.TabIndex = 3;
-            // 
-            // manage1
-            // 
-            this.manage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.manage1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.manage1.Location = new System.Drawing.Point(0, 0);
-            this.manage1.Name = "manage1";
-            this.manage1.Size = new System.Drawing.Size(1381, 892);
-            this.manage1.TabIndex = 2;
+            this.user_add1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.user_add1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.user_add1.Location = new System.Drawing.Point(0, 0);
+            this.user_add1.Name = "user_add1";
+            this.user_add1.Size = new System.Drawing.Size(1381, 892);
+            this.user_add1.TabIndex = 0;
             // 
             // menu_add1
             // 
@@ -256,14 +250,32 @@
             this.menu_add1.Size = new System.Drawing.Size(1381, 892);
             this.menu_add1.TabIndex = 1;
             // 
-            // user_add1
+            // manage1
             // 
-            this.user_add1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.user_add1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.user_add1.Location = new System.Drawing.Point(0, 0);
-            this.user_add1.Name = "user_add1";
-            this.user_add1.Size = new System.Drawing.Size(1381, 892);
-            this.user_add1.TabIndex = 0;
+            this.manage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.manage1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.manage1.Location = new System.Drawing.Point(0, 0);
+            this.manage1.Name = "manage1";
+            this.manage1.Size = new System.Drawing.Size(1381, 892);
+            this.manage1.TabIndex = 2;
+            // 
+            // history_add1
+            // 
+            this.history_add1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.history_add1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.history_add1.Location = new System.Drawing.Point(0, 0);
+            this.history_add1.Name = "history_add1";
+            this.history_add1.Size = new System.Drawing.Size(1381, 892);
+            this.history_add1.TabIndex = 3;
+            // 
+            // home1
+            // 
+            this.home1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.home1.Location = new System.Drawing.Point(0, 0);
+            this.home1.Name = "home1";
+            this.home1.Size = new System.Drawing.Size(1381, 892);
+            this.home1.TabIndex = 4;
             // 
             // Cafe
             // 
@@ -296,9 +308,10 @@
         private Guna.UI2.WinForms.Guna2Button btnUser;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
-        private UICoffee.User_add user_add1;
-        private UICoffee.Menu.Menu_add menu_add1;
         private UICoffee.Home home1;
+        private UICoffee.History.History_add history_add1;
         private UICoffee.ManageDishes.Manage manage1;
+        private UICoffee.Menu.Menu_add menu_add1;
+        private UICoffee.User_add user_add1;
     }
 }

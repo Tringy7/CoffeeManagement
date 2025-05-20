@@ -113,5 +113,7 @@ C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\Manga
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.exe
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.pdb
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage.resources
-C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.ManageDishes_Item.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.ManageDishes_edit.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_itemlist.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_item.resources

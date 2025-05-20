@@ -30,11 +30,12 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(User_add_editprofile));
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
@@ -48,8 +49,48 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.Controls.Add(this.checkBox1);
+            this.guna2Panel1.Controls.Add(this.guna2Button1);
+            this.guna2Panel1.Controls.Add(this.checkBox3);
+            this.guna2Panel1.Controls.Add(this.checkBox2);
+            this.guna2Panel1.Controls.Add(this.label6);
+            this.guna2Panel1.Controls.Add(this.guna2DateTimePicker1);
+            this.guna2Panel1.Controls.Add(this.label4);
+            this.guna2Panel1.Controls.Add(this.label3);
+            this.guna2Panel1.Controls.Add(this.guna2TextBox4);
+            this.guna2Panel1.Controls.Add(this.label2);
+            this.guna2Panel1.Controls.Add(this.guna2TextBox3);
+            this.guna2Panel1.Controls.Add(this.label1);
+            this.guna2Panel1.Controls.Add(this.label5);
+            this.guna2Panel1.Controls.Add(this.guna2TextBox2);
+            this.guna2Panel1.Controls.Add(this.guna2TextBox1);
+            this.guna2Panel1.Controls.Add(this.btnHome);
+            this.guna2Panel1.Controls.Add(this.guna2CirclePictureBox2);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1285, 642);
+            this.guna2Panel1.TabIndex = 0;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.Transparent;
+            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(806, 289);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(74, 29);
+            this.checkBox1.TabIndex = 113;
+            this.checkBox1.Text = "Nam";
+            this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // guna2Elipse1
             // 
@@ -69,48 +110,34 @@
             this.guna2Button1.Location = new System.Drawing.Point(938, 555);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(236, 43);
-            this.guna2Button1.TabIndex = 82;
+            this.guna2Button1.TabIndex = 116;
             this.guna2Button1.Text = "Save Changes";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.BackColor = System.Drawing.Color.White;
+            this.checkBox3.BackColor = System.Drawing.Color.Transparent;
             this.checkBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox3.Location = new System.Drawing.Point(988, 289);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(76, 29);
-            this.checkBox3.TabIndex = 81;
+            this.checkBox3.TabIndex = 115;
             this.checkBox3.Text = "Khác";
             this.checkBox3.UseVisualStyleBackColor = false;
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.BackColor = System.Drawing.Color.White;
+            this.checkBox2.BackColor = System.Drawing.Color.Transparent;
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkBox2.Location = new System.Drawing.Point(901, 289);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(60, 29);
-            this.checkBox2.TabIndex = 80;
+            this.checkBox2.TabIndex = 114;
             this.checkBox2.Text = "Nữ";
             this.checkBox2.UseVisualStyleBackColor = false;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.White;
-            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(806, 289);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(74, 29);
-            this.checkBox1.TabIndex = 79;
-            this.checkBox1.Text = "Nam";
-            this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
@@ -120,7 +147,7 @@
             this.label6.Location = new System.Drawing.Point(800, 258);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 28);
-            this.label6.TabIndex = 78;
+            this.label6.TabIndex = 112;
             this.label6.Text = "Gender";
             // 
             // guna2DateTimePicker1
@@ -136,7 +163,7 @@
             this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
             this.guna2DateTimePicker1.Size = new System.Drawing.Size(221, 44);
-            this.guna2DateTimePicker1.TabIndex = 77;
+            this.guna2DateTimePicker1.TabIndex = 111;
             this.guna2DateTimePicker1.Value = new System.DateTime(2025, 5, 17, 17, 47, 8, 364);
             // 
             // label4
@@ -147,7 +174,7 @@
             this.label4.Location = new System.Drawing.Point(345, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(194, 28);
-            this.label4.TabIndex = 76;
+            this.label4.TabIndex = 110;
             this.label4.Text = "Month / Day / Year";
             // 
             // label3
@@ -158,7 +185,7 @@
             this.label3.Location = new System.Drawing.Point(345, 453);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(101, 28);
-            this.label3.TabIndex = 75;
+            this.label3.TabIndex = 109;
             this.label3.Text = "Password";
             // 
             // guna2TextBox4
@@ -182,7 +209,7 @@
             this.guna2TextBox4.PlaceholderText = "123456789";
             this.guna2TextBox4.SelectedText = "";
             this.guna2TextBox4.Size = new System.Drawing.Size(824, 43);
-            this.guna2TextBox4.TabIndex = 74;
+            this.guna2TextBox4.TabIndex = 108;
             // 
             // label2
             // 
@@ -192,7 +219,7 @@
             this.label2.Location = new System.Drawing.Point(345, 349);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 28);
-            this.label2.TabIndex = 73;
+            this.label2.TabIndex = 107;
             this.label2.Text = "Email";
             // 
             // guna2TextBox3
@@ -216,7 +243,7 @@
             this.guna2TextBox3.PlaceholderText = "ABC@gmail.com";
             this.guna2TextBox3.SelectedText = "";
             this.guna2TextBox3.Size = new System.Drawing.Size(824, 43);
-            this.guna2TextBox3.TabIndex = 72;
+            this.guna2TextBox3.TabIndex = 106;
             // 
             // label1
             // 
@@ -226,7 +253,7 @@
             this.label1.Location = new System.Drawing.Point(801, 130);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(112, 28);
-            this.label1.TabIndex = 71;
+            this.label1.TabIndex = 105;
             this.label1.Text = "Last Name";
             // 
             // label5
@@ -237,7 +264,7 @@
             this.label5.Location = new System.Drawing.Point(345, 130);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(115, 28);
-            this.label5.TabIndex = 70;
+            this.label5.TabIndex = 104;
             this.label5.Text = "First Name";
             // 
             // guna2TextBox2
@@ -261,7 +288,7 @@
             this.guna2TextBox2.PlaceholderText = "Trí";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.Size = new System.Drawing.Size(368, 43);
-            this.guna2TextBox2.TabIndex = 69;
+            this.guna2TextBox2.TabIndex = 103;
             // 
             // guna2TextBox1
             // 
@@ -284,7 +311,7 @@
             this.guna2TextBox1.PlaceholderText = "Nguyễn";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(368, 43);
-            this.guna2TextBox1.TabIndex = 68;
+            this.guna2TextBox1.TabIndex = 102;
             // 
             // btnHome
             // 
@@ -302,7 +329,7 @@
             this.btnHome.Location = new System.Drawing.Point(232, 179);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(29, 27);
-            this.btnHome.TabIndex = 67;
+            this.btnHome.TabIndex = 101;
             // 
             // guna2CirclePictureBox2
             // 
@@ -316,46 +343,31 @@
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.Size = new System.Drawing.Size(150, 150);
-            this.guna2CirclePictureBox2.TabIndex = 66;
+            this.guna2CirclePictureBox2.TabIndex = 100;
             this.guna2CirclePictureBox2.TabStop = false;
             // 
             // User_add_editprofile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.guna2TextBox4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.guna2TextBox3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.guna2TextBox2);
-            this.Controls.Add(this.guna2TextBox1);
-            this.Controls.Add(this.btnHome);
-            this.Controls.Add(this.guna2CirclePictureBox2);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.Controls.Add(this.guna2Panel1);
             this.Name = "User_add_editprofile";
             this.Size = new System.Drawing.Size(1285, 642);
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private System.Windows.Forms.CheckBox checkBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private System.Windows.Forms.Label label4;
@@ -369,5 +381,6 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button btnHome;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

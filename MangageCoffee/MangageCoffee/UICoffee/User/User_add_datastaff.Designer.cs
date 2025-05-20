@@ -49,6 +49,7 @@
             // 
             // guna2GradientPanel2
             // 
+            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.guna2GradientPanel2.BorderRadius = 30;
             this.guna2GradientPanel2.BorderThickness = 2;
             this.guna2GradientPanel2.Controls.Add(this.guna2Button1);

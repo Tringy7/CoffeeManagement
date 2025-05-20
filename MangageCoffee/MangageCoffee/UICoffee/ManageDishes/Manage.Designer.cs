@@ -29,17 +29,25 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label4 = new System.Windows.Forms.Label();
+            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.manage_itemlist1 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist2 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist3 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist4 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist5 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist6 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist7 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist8 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist9 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist10 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist11 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist12 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist13 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist14 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.manage_itemlist15 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
             this.Filter = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -47,145 +55,21 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.manageDishes_Item1 = new MangageCoffee.UICoffee.ManageDishes.ManageDishes_Item();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel1.SuspendLayout();
-            this.guna2GradientPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.guna2GradientPanel4.SuspendLayout();
             this.Filter.SuspendLayout();
+            this.guna2GradientPanel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guna2GradientPanel1
-            // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
-            this.guna2GradientPanel1.Controls.Add(this.Filter);
-            this.guna2GradientPanel1.Controls.Add(this.guna2Button3);
-            this.guna2GradientPanel1.Controls.Add(this.label3);
-            this.guna2GradientPanel1.Controls.Add(this.label2);
-            this.guna2GradientPanel1.Controls.Add(this.guna2GradientPanel2);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(47, 81);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1277, 759);
-            this.guna2GradientPanel1.TabIndex = 94;
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BorderRadius = 5;
-            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.White;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.Image = global::MangageCoffee.Properties.Resources.settings_sliders;
-            this.guna2Button3.Location = new System.Drawing.Point(1130, 17);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(128, 38);
-            this.guna2Button3.TabIndex = 88;
-            this.guna2Button3.Text = "Filer";
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(124, 17);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 31);
-            this.label3.TabIndex = 89;
-            this.label3.Text = "7";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(19, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(110, 31);
-            this.label2.TabIndex = 88;
-            this.label2.Text = "Desserts:";
-            // 
-            // guna2GradientPanel2
-            // 
-            this.guna2GradientPanel2.Controls.Add(this.flowLayoutPanel1);
-            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 67);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(1277, 692);
-            this.guna2GradientPanel2.TabIndex = 0;
-            this.guna2GradientPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel2_Paint);
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.guna2GradientPanel4);
-            this.flowLayoutPanel1.Controls.Add(this.manageDishes_Item1);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1277, 692);
-            this.flowLayoutPanel1.TabIndex = 3;
-            // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.Controls.Add(this.guna2Button1);
-            this.guna2GradientPanel4.Controls.Add(this.guna2Button2);
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(32, 20);
-            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(251, 251);
-            this.guna2GradientPanel4.TabIndex = 93;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 7;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Image = global::MangageCoffee.Properties.Resources.more;
-            this.guna2Button1.ImageSize = new System.Drawing.Size(27, 27);
-            this.guna2Button1.Location = new System.Drawing.Point(92, 93);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(58, 47);
-            this.guna2Button1.TabIndex = 118;
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.Teal;
-            this.guna2Button2.BorderRadius = 10;
-            this.guna2Button2.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button2.BorderThickness = 3;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Button2.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(251, 251);
-            this.guna2Button2.TabIndex = 116;
-            this.guna2Button2.Text = "Add New Dishes";
-            this.guna2Button2.TextOffset = new System.Drawing.Point(0, 35);
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // guna2Elipse1
             // 
@@ -204,6 +88,146 @@
             this.label4.TabIndex = 93;
             this.label4.Text = "Manage Dishes";
             // 
+            // guna2GradientPanel1
+            // 
+            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.guna2GradientPanel1.Controls.Add(this.flowLayoutPanel1);
+            this.guna2GradientPanel1.Controls.Add(this.guna2GradientPanel2);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(47, 81);
+            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(1277, 759);
+            this.guna2GradientPanel1.TabIndex = 94;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist1);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist2);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist3);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist4);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist5);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist6);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist7);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist8);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist9);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist10);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist11);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist12);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist13);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist14);
+            this.flowLayoutPanel1.Controls.Add(this.manage_itemlist15);
+            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 50);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1277, 709);
+            this.flowLayoutPanel1.TabIndex = 5;
+            // 
+            // manage_itemlist1
+            // 
+            this.manage_itemlist1.Location = new System.Drawing.Point(3, 3);
+            this.manage_itemlist1.Name = "manage_itemlist1";
+            this.manage_itemlist1.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist1.TabIndex = 0;
+            // 
+            // manage_itemlist2
+            // 
+            this.manage_itemlist2.Location = new System.Drawing.Point(3, 59);
+            this.manage_itemlist2.Name = "manage_itemlist2";
+            this.manage_itemlist2.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist2.TabIndex = 1;
+            this.manage_itemlist2.Load += new System.EventHandler(this.manage_itemlist2_Load);
+            // 
+            // manage_itemlist3
+            // 
+            this.manage_itemlist3.Location = new System.Drawing.Point(3, 115);
+            this.manage_itemlist3.Name = "manage_itemlist3";
+            this.manage_itemlist3.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist3.TabIndex = 2;
+            // 
+            // manage_itemlist4
+            // 
+            this.manage_itemlist4.Location = new System.Drawing.Point(3, 171);
+            this.manage_itemlist4.Name = "manage_itemlist4";
+            this.manage_itemlist4.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist4.TabIndex = 3;
+            // 
+            // manage_itemlist5
+            // 
+            this.manage_itemlist5.Location = new System.Drawing.Point(3, 227);
+            this.manage_itemlist5.Name = "manage_itemlist5";
+            this.manage_itemlist5.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist5.TabIndex = 4;
+            // 
+            // manage_itemlist6
+            // 
+            this.manage_itemlist6.Location = new System.Drawing.Point(3, 283);
+            this.manage_itemlist6.Name = "manage_itemlist6";
+            this.manage_itemlist6.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist6.TabIndex = 5;
+            // 
+            // manage_itemlist7
+            // 
+            this.manage_itemlist7.Location = new System.Drawing.Point(3, 339);
+            this.manage_itemlist7.Name = "manage_itemlist7";
+            this.manage_itemlist7.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist7.TabIndex = 6;
+            // 
+            // manage_itemlist8
+            // 
+            this.manage_itemlist8.Location = new System.Drawing.Point(3, 395);
+            this.manage_itemlist8.Name = "manage_itemlist8";
+            this.manage_itemlist8.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist8.TabIndex = 7;
+            // 
+            // manage_itemlist9
+            // 
+            this.manage_itemlist9.Location = new System.Drawing.Point(3, 451);
+            this.manage_itemlist9.Name = "manage_itemlist9";
+            this.manage_itemlist9.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist9.TabIndex = 8;
+            // 
+            // manage_itemlist10
+            // 
+            this.manage_itemlist10.Location = new System.Drawing.Point(3, 507);
+            this.manage_itemlist10.Name = "manage_itemlist10";
+            this.manage_itemlist10.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist10.TabIndex = 9;
+            // 
+            // manage_itemlist11
+            // 
+            this.manage_itemlist11.Location = new System.Drawing.Point(3, 563);
+            this.manage_itemlist11.Name = "manage_itemlist11";
+            this.manage_itemlist11.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist11.TabIndex = 10;
+            // 
+            // manage_itemlist12
+            // 
+            this.manage_itemlist12.Location = new System.Drawing.Point(3, 619);
+            this.manage_itemlist12.Name = "manage_itemlist12";
+            this.manage_itemlist12.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist12.TabIndex = 11;
+            // 
+            // manage_itemlist13
+            // 
+            this.manage_itemlist13.Location = new System.Drawing.Point(3, 675);
+            this.manage_itemlist13.Name = "manage_itemlist13";
+            this.manage_itemlist13.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist13.TabIndex = 12;
+            // 
+            // manage_itemlist14
+            // 
+            this.manage_itemlist14.Location = new System.Drawing.Point(3, 731);
+            this.manage_itemlist14.Name = "manage_itemlist14";
+            this.manage_itemlist14.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist14.TabIndex = 13;
+            // 
+            // manage_itemlist15
+            // 
+            this.manage_itemlist15.Location = new System.Drawing.Point(3, 787);
+            this.manage_itemlist15.Name = "manage_itemlist15";
+            this.manage_itemlist15.Size = new System.Drawing.Size(1277, 50);
+            this.manage_itemlist15.TabIndex = 14;
+            // 
             // Filter
             // 
             this.Filter.Controls.Add(this.checkBox5);
@@ -212,10 +236,10 @@
             this.Filter.Controls.Add(this.checkBox3);
             this.Filter.Controls.Add(this.checkBox2);
             this.Filter.Controls.Add(this.checkBox1);
-            this.Filter.Location = new System.Drawing.Point(1130, 61);
+            this.Filter.Location = new System.Drawing.Point(974, 63);
             this.Filter.Name = "Filter";
             this.Filter.Size = new System.Drawing.Size(132, 185);
-            this.Filter.TabIndex = 94;
+            this.Filter.TabIndex = 98;
             this.Filter.Visible = false;
             // 
             // checkBox5
@@ -295,6 +319,25 @@
             this.checkBox1.Text = "FastFood";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
+            // guna2Button3
+            // 
+            this.guna2Button3.BorderRadius = 5;
+            this.guna2Button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button3.FillColor = System.Drawing.Color.White;
+            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button3.Image = global::MangageCoffee.Properties.Resources.settings_sliders;
+            this.guna2Button3.Location = new System.Drawing.Point(974, 19);
+            this.guna2Button3.Name = "guna2Button3";
+            this.guna2Button3.Size = new System.Drawing.Size(128, 38);
+            this.guna2Button3.TabIndex = 97;
+            this.guna2Button3.Text = "Filer";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            // 
             // guna2TextBox1
             // 
             this.guna2TextBox1.BorderColor = System.Drawing.Color.Black;
@@ -311,7 +354,7 @@
             this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
-            this.guna2TextBox1.Location = new System.Drawing.Point(641, 19);
+            this.guna2TextBox1.Location = new System.Drawing.Point(519, 19);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
@@ -339,19 +382,89 @@
             this.guna2Button6.Text = "Add New Dishes";
             this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
-            // manageDishes_Item1
+            // guna2HtmlLabel2
             // 
-            this.manageDishes_Item1.Location = new System.Drawing.Point(347, 20);
-            this.manageDishes_Item1.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manageDishes_Item1.Name = "manageDishes_Item1";
-            this.manageDishes_Item1.Size = new System.Drawing.Size(251, 251);
-            this.manageDishes_Item1.TabIndex = 94;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(25, 12);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(104, 25);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = "Mã sản phẩn";
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(210, 12);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(114, 25);
+            this.guna2HtmlLabel3.TabIndex = 3;
+            this.guna2HtmlLabel3.Text = "Tên sản phẩm";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(431, 12);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(111, 25);
+            this.guna2HtmlLabel4.TabIndex = 4;
+            this.guna2HtmlLabel4.Text = "Giá sản phẩm";
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(650, 12);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(76, 25);
+            this.guna2HtmlLabel5.TabIndex = 5;
+            this.guna2HtmlLabel5.Text = "Số lượng";
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(823, 12);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(118, 25);
+            this.guna2HtmlLabel6.TabIndex = 6;
+            this.guna2HtmlLabel6.Text = "Loại sản phẩm";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(1036, 12);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(87, 25);
+            this.guna2HtmlLabel7.TabIndex = 7;
+            this.guna2HtmlLabel7.Text = "Tình trạng";
+            // 
+            // guna2GradientPanel2
+            // 
+            this.guna2GradientPanel2.BorderRadius = 30;
+            this.guna2GradientPanel2.BorderThickness = 2;
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel7);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel6);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
+            this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2GradientPanel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2GradientPanel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
+            this.guna2GradientPanel2.Size = new System.Drawing.Size(1277, 50);
+            this.guna2GradientPanel2.TabIndex = 4;
             // 
             // Manage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.Controls.Add(this.Filter);
+            this.Controls.Add(this.guna2Button3);
             this.Controls.Add(this.guna2TextBox1);
             this.Controls.Add(this.guna2Button6);
             this.Controls.Add(this.guna2GradientPanel1);
@@ -359,12 +472,11 @@
             this.Name = "Manage";
             this.Size = new System.Drawing.Size(1381, 892);
             this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel1.PerformLayout();
-            this.guna2GradientPanel2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.guna2GradientPanel4.ResumeLayout(false);
             this.Filter.ResumeLayout(false);
             this.Filter.PerformLayout();
+            this.guna2GradientPanel2.ResumeLayout(false);
+            this.guna2GradientPanel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,24 +486,39 @@
 
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Label label4;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
+        private Manage_itemlist manage_itemlist1;
+        private Manage_itemlist manage_itemlist2;
+        private Manage_itemlist manage_itemlist3;
+        private Manage_itemlist manage_itemlist4;
+        private Manage_itemlist manage_itemlist5;
+        private Manage_itemlist manage_itemlist6;
+        private Manage_itemlist manage_itemlist7;
+        private Manage_itemlist manage_itemlist8;
+        private Manage_itemlist manage_itemlist9;
+        private Manage_itemlist manage_itemlist10;
+        private Manage_itemlist manage_itemlist11;
+        private Manage_itemlist manage_itemlist12;
+        private Manage_itemlist manage_itemlist13;
+        private Manage_itemlist manage_itemlist14;
+        private Manage_itemlist manage_itemlist15;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel Filter;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private ManageDishes_Item manageDishes_Item1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button3;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
     }
 }
