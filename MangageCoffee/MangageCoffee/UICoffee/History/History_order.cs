@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace MangageCoffee.UICoffee.History
 {
-    public partial class History_add : UserControl
+    public partial class History_order : UserControl
     {
-        public History_add()
+        public History_order()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            history_historyform1.BringToFront();
-        }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
-        {
-            history_historyform1.SendToBack();
         }
     }
 }

@@ -81,11 +81,29 @@
     <Compile Include="UICoffee\History\History_add.Designer.cs">
       <DependentUpon>History_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\History\History_historyform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_historyform.Designer.cs">
+      <DependentUpon>History_historyform.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\History\History_item.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UICoffee\History\History_item.Designer.cs">
       <DependentUpon>History_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order.Designer.cs">
+      <DependentUpon>History_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order_item.Designer.cs">
+      <DependentUpon>History_order_item.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\ManageDishes\Manage.cs">
       <SubType>UserControl</SubType>
@@ -104,12 +122,6 @@
     </Compile>
     <Compile Include="UICoffee\ManageDishes\Manage_itemlist.Designer.cs">
       <DependentUpon>Manage_itemlist.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UICoffee\Untils\Bill.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UICoffee\Untils\Bill.Designer.cs">
-      <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Cafe.cs">
       <SubType>Form</SubType>
@@ -143,6 +155,12 @@
     <Compile Include="UICoffee\Home\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\ManageDishes\New.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\New.Designer.cs">
+      <DependentUpon>New.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\Menu\Item.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -166,12 +184,6 @@
     </Compile>
     <Compile Include="UICoffee\Untils\Qr.Designer.cs">
       <DependentUpon>Qr.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UICoffee\Untils\temp.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UICoffee\Untils\temp.Designer.cs">
-      <DependentUpon>temp.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\User\User_add.cs">
       <SubType>UserControl</SubType>
@@ -200,8 +212,17 @@
     <EmbeddedResource Include="UICoffee\History\History_add.resx">
       <DependentUpon>History_add.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_historyform.resx">
+      <DependentUpon>History_historyform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\History\History_item.resx">
       <DependentUpon>History_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_order.resx">
+      <DependentUpon>History_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_order_item.resx">
+      <DependentUpon>History_order_item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\Manage.resx">
       <DependentUpon>Manage.cs</DependentUpon>
@@ -211,9 +232,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\Manage_itemlist.resx">
       <DependentUpon>Manage_itemlist.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
-      <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Cafe.resx">
       <DependentUpon>Cafe.cs</DependentUpon>
@@ -240,6 +258,9 @@
     <EmbeddedResource Include="UICoffee\Home\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\New.resx">
+      <DependentUpon>New.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Item.resx">
       <DependentUpon>Item.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,9 +272,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\Untils\temp.resx">
-      <DependentUpon>temp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add.resx">
       <DependentUpon>User_add.cs</DependentUpon>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MangageCoffee.UICoffee
+namespace MangageCoffee.UICoffee.ManageDishes
 {
-    public partial class Bill : Form
+    public partial class New : UserControl
     {
-        public Bill()
+        public New()
         {
             InitializeComponent();
         }

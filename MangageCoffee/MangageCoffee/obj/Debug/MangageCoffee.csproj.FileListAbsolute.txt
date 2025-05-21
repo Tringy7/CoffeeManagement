@@ -91,7 +91,6 @@ C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Newto
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\SATAUiFramework.dll
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Newtonsoft.Json.xml
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.csproj.AssemblyReference.cache
-C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Bill.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Cafe.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Form2.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Login_add.resources
@@ -102,7 +101,6 @@ C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\Manga
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item_Order.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Menu_add.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Qr.resources
-C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.temp.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_datastaff.resources
 C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources
@@ -154,3 +152,7 @@ C:\Users\hi\Dropbox\UIcoffee\CoffeeManagement\MangageCoffee\MangageCoffee\obj\De
 C:\Users\hi\Dropbox\UIcoffee\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageC.20C02995.Up2Date
 C:\Users\hi\Dropbox\UIcoffee\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.exe
 C:\Users\hi\Dropbox\UIcoffee\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.pdb
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order_item.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_historyform.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.New.resources
