@@ -244,6 +244,7 @@
             this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button6.FillColor = System.Drawing.Color.Teal;
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
             this.guna2Button6.Location = new System.Drawing.Point(980, 785);
@@ -317,7 +318,6 @@
             this.item_Order1.Name = "item_Order1";
             this.item_Order1.Size = new System.Drawing.Size(320, 103);
             this.item_Order1.TabIndex = 3;
-            this.item_Order1.Load += new System.EventHandler(this.item_Order1_Load);
             // 
             // item_Order2
             // 
@@ -472,7 +472,6 @@
             this.guna2Button5.Text = "All";
             this.guna2Button5.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button5.TextOffset = new System.Drawing.Point(26, 30);
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click_1);
             // 
             // guna2Button4
             // 
@@ -497,7 +496,6 @@
             this.guna2Button4.Text = "Hot Drink";
             this.guna2Button4.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button4.TextOffset = new System.Drawing.Point(4, 30);
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click_1);
             // 
             // guna2Button3
             // 
@@ -522,7 +520,6 @@
             this.guna2Button3.Text = "Cold Drink";
             this.guna2Button3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button3.TextOffset = new System.Drawing.Point(3, 30);
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button2
             // 
@@ -547,7 +544,6 @@
             this.guna2Button2.Text = "Bakery";
             this.guna2Button2.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button2.TextOffset = new System.Drawing.Point(13, 30);
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -572,7 +568,6 @@
             this.guna2Button1.Text = "Fast Food";
             this.guna2Button1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.TextOffset = new System.Drawing.Point(5, 30);
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2TextBox1
             // 
@@ -624,7 +619,6 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "Menu_add";
             this.Size = new System.Drawing.Size(1381, 892);
-            this.Load += new System.EventHandler(this.Menu_add_Load);
             this.guna2CustomGradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2GradientPanel1.ResumeLayout(false);

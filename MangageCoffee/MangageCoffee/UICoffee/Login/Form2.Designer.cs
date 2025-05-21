@@ -72,7 +72,6 @@
             this.login_add1.Name = "login_add1";
             this.login_add1.Size = new System.Drawing.Size(479, 676);
             this.login_add1.TabIndex = 53;
-            this.login_add1.Load += new System.EventHandler(this.login_add1_Load);
             // 
             // signup_add1
             // 

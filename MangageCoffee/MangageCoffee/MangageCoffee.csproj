@@ -75,6 +75,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UICoffee\Customer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Customer\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\History\History_add.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -105,17 +111,17 @@
     <Compile Include="UICoffee\History\History_order_item.Designer.cs">
       <DependentUpon>History_order_item.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\ManageDishes\Manage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UICoffee\ManageDishes\Manage.Designer.cs">
-      <DependentUpon>Manage.cs</DependentUpon>
-    </Compile>
     <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.Designer.cs">
       <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_item.Designer.cs">
+      <DependentUpon>Manage_item.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\ManageDishes\Manage_itemlist.cs">
       <SubType>UserControl</SubType>
@@ -160,6 +166,12 @@
     </Compile>
     <Compile Include="UICoffee\ManageDishes\New.Designer.cs">
       <DependentUpon>New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Menu\Item.cs">
       <SubType>UserControl</SubType>
@@ -209,6 +221,9 @@
     <Compile Include="UICoffee\User\User_add_formdata.Designer.cs">
       <DependentUpon>User_add_formdata.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UICoffee\Customer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\History\History_add.resx">
       <DependentUpon>History_add.cs</DependentUpon>
     </EmbeddedResource>
@@ -224,11 +239,11 @@
     <EmbeddedResource Include="UICoffee\History\History_order_item.resx">
       <DependentUpon>History_order_item.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\ManageDishes\Manage.resx">
-      <DependentUpon>Manage.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\ManageDishes_edit.resx">
       <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Manage_item.resx">
+      <DependentUpon>Manage_item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\Manage_itemlist.resx">
       <DependentUpon>Manage_itemlist.cs</DependentUpon>
@@ -260,6 +275,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\New.resx">
       <DependentUpon>New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Item.resx">
       <DependentUpon>Item.cs</DependentUpon>

@@ -34,8 +34,8 @@
             this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.user_add_formdata1 = new MangageCoffee.UICoffee.User.User_add_formdata();
             this.user_add_editprofile1 = new MangageCoffee.UICoffee.User_add_editprofile();
+            this.user_add_formdata1 = new MangageCoffee.UICoffee.User.User_add_formdata();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,19 +57,18 @@
             // 
             // guna2GradientButton1
             // 
-            this.guna2GradientButton1.BackColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton1.BorderRadius = 20;
-            this.guna2GradientButton1.BorderThickness = 2;
             this.guna2GradientButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton1.FillColor = System.Drawing.Color.Teal;
+            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.Teal;
             this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.Location = new System.Drawing.Point(44, 100);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
             this.guna2GradientButton1.Size = new System.Drawing.Size(194, 46);
@@ -79,19 +78,18 @@
             // 
             // guna2GradientButton2
             // 
-            this.guna2GradientButton2.BackColor = System.Drawing.Color.White;
+            this.guna2GradientButton2.BackColor = System.Drawing.Color.Transparent;
             this.guna2GradientButton2.BorderRadius = 20;
-            this.guna2GradientButton2.BorderThickness = 2;
             this.guna2GradientButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2GradientButton2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2GradientButton2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2GradientButton2.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2GradientButton2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Transparent;
+            this.guna2GradientButton2.FillColor = System.Drawing.Color.Teal;
+            this.guna2GradientButton2.FillColor2 = System.Drawing.Color.Teal;
             this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.Black;
+            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton2.Location = new System.Drawing.Point(255, 100);
             this.guna2GradientButton2.Name = "guna2GradientButton2";
             this.guna2GradientButton2.Size = new System.Drawing.Size(194, 46);
@@ -109,14 +107,6 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1285, 642);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
-            // user_add_formdata1
-            // 
-            this.user_add_formdata1.BackColor = System.Drawing.Color.White;
-            this.user_add_formdata1.Location = new System.Drawing.Point(0, 0);
-            this.user_add_formdata1.Name = "user_add_formdata1";
-            this.user_add_formdata1.Size = new System.Drawing.Size(1285, 642);
-            this.user_add_formdata1.TabIndex = 0;
-            // 
             // user_add_editprofile1
             // 
             this.user_add_editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
@@ -124,6 +114,14 @@
             this.user_add_editprofile1.Name = "user_add_editprofile1";
             this.user_add_editprofile1.Size = new System.Drawing.Size(1285, 642);
             this.user_add_editprofile1.TabIndex = 1;
+            // 
+            // user_add_formdata1
+            // 
+            this.user_add_formdata1.BackColor = System.Drawing.Color.White;
+            this.user_add_formdata1.Location = new System.Drawing.Point(0, 0);
+            this.user_add_formdata1.Name = "user_add_formdata1";
+            this.user_add_formdata1.Size = new System.Drawing.Size(1285, 642);
+            this.user_add_formdata1.TabIndex = 0;
             // 
             // User_add
             // 

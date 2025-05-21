@@ -63,7 +63,6 @@
             this.label2.Size = new System.Drawing.Size(57, 20);
             this.label2.TabIndex = 78;
             this.label2.Text = "Burger";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

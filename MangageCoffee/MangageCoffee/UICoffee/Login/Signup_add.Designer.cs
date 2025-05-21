@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Signup_add));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.signup = new System.Windows.Forms.Panel();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.panel9 = new System.Windows.Forms.Panel();
             this.sataTextBox5 = new SATATextBox();
             this.hide = new System.Windows.Forms.PictureBox();
@@ -41,13 +42,11 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.sataTextBox1 = new SATATextBox();
             this.sataTextBox4 = new SATATextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.signup.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hide)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.view)).BeginInit();
@@ -72,7 +71,6 @@
             this.signup.Controls.Add(this.label5);
             this.signup.Controls.Add(this.label6);
             this.signup.Controls.Add(this.linkLabel3);
-            this.signup.Controls.Add(this.guna2Button2);
             this.signup.Controls.Add(this.guna2Button4);
             this.signup.Controls.Add(this.sataTextBox1);
             this.signup.Controls.Add(this.sataTextBox4);
@@ -84,11 +82,30 @@
             this.signup.Size = new System.Drawing.Size(479, 676);
             this.signup.TabIndex = 7;
             // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.Transparent;
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
+            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnHome.Location = new System.Drawing.Point(447, 3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(29, 27);
+            this.btnHome.TabIndex = 71;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.Black;
             this.panel9.ForeColor = System.Drawing.Color.Black;
-            this.panel9.Location = new System.Drawing.Point(41, 242);
+            this.panel9.Location = new System.Drawing.Point(42, 257);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(397, 2);
             this.panel9.TabIndex = 48;
@@ -106,7 +123,7 @@
             this.sataTextBox5.ForeColor = System.Drawing.Color.Black;
             this.sataTextBox5.Icon = null;
             this.sataTextBox5.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox5.Location = new System.Drawing.Point(41, 199);
+            this.sataTextBox5.Location = new System.Drawing.Point(42, 214);
             this.sataTextBox5.Multiline = false;
             this.sataTextBox5.Name = "sataTextBox5";
             this.sataTextBox5.PasswordChar = false;
@@ -122,7 +139,7 @@
             // 
             this.hide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hide.Image = global::MangageCoffee.Properties.Resources.hide;
-            this.hide.Location = new System.Drawing.Point(411, 358);
+            this.hide.Location = new System.Drawing.Point(412, 373);
             this.hide.Name = "hide";
             this.hide.Size = new System.Drawing.Size(27, 22);
             this.hide.TabIndex = 46;
@@ -133,7 +150,7 @@
             // 
             this.view.Cursor = System.Windows.Forms.Cursors.Hand;
             this.view.Image = ((System.Drawing.Image)(resources.GetObject("view.Image")));
-            this.view.Location = new System.Drawing.Point(411, 358);
+            this.view.Location = new System.Drawing.Point(412, 373);
             this.view.Name = "view";
             this.view.Size = new System.Drawing.Size(27, 22);
             this.view.TabIndex = 5;
@@ -184,31 +201,13 @@
             this.linkLabel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(291, 632);
+            this.linkLabel3.Location = new System.Drawing.Point(298, 632);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(47, 17);
             this.linkLabel3.TabIndex = 43;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Log in";
             this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BorderRadius = 20;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Image = global::MangageCoffee.Properties.Resources.google;
-            this.guna2Button2.Location = new System.Drawing.Point(41, 497);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(397, 47);
-            this.guna2Button2.TabIndex = 42;
-            this.guna2Button2.Text = " Log in with Google";
             // 
             // guna2Button4
             // 
@@ -221,7 +220,7 @@
             this.guna2Button4.FillColor = System.Drawing.Color.Black;
             this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.Location = new System.Drawing.Point(41, 429);
+            this.guna2Button4.Location = new System.Drawing.Point(42, 465);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(397, 47);
             this.guna2Button4.TabIndex = 1;
@@ -239,7 +238,7 @@
             this.sataTextBox1.ForeColor = System.Drawing.Color.Black;
             this.sataTextBox1.Icon = null;
             this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(41, 343);
+            this.sataTextBox1.Location = new System.Drawing.Point(42, 358);
             this.sataTextBox1.Multiline = false;
             this.sataTextBox1.Name = "sataTextBox1";
             this.sataTextBox1.PasswordChar = true;
@@ -263,7 +262,7 @@
             this.sataTextBox4.ForeColor = System.Drawing.Color.Black;
             this.sataTextBox4.Icon = null;
             this.sataTextBox4.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox4.Location = new System.Drawing.Point(41, 269);
+            this.sataTextBox4.Location = new System.Drawing.Point(42, 284);
             this.sataTextBox4.Multiline = false;
             this.sataTextBox4.Name = "sataTextBox4";
             this.sataTextBox4.PasswordChar = false;
@@ -279,7 +278,7 @@
             // 
             this.panel7.BackColor = System.Drawing.Color.Black;
             this.panel7.ForeColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(41, 386);
+            this.panel7.Location = new System.Drawing.Point(42, 401);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(397, 2);
             this.panel7.TabIndex = 34;
@@ -289,30 +288,11 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.Black;
             this.panel8.ForeColor = System.Drawing.Color.Black;
-            this.panel8.Location = new System.Drawing.Point(41, 312);
+            this.panel8.Location = new System.Drawing.Point(42, 327);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(397, 2);
             this.panel8.TabIndex = 33;
             this.panel8.UseWaitCursor = true;
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
-            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnHome.Location = new System.Drawing.Point(447, 3);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(29, 27);
-            this.btnHome.TabIndex = 71;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // Signup_add
             // 
@@ -343,7 +323,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.LinkLabel linkLabel3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private SATATextBox sataTextBox1;
         private SATATextBox sataTextBox4;

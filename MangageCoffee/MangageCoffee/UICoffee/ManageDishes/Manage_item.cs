@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MangageCoffee.UICoffee.Menu
+namespace MangageCoffee.UICoffee.ManageDishes
 {
-    public partial class Item_Order : UserControl
+    public partial class Manage_item : UserControl
     {
-        public Item_Order()
+        public Manage_item()
         {
             InitializeComponent();
         }

@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_add));
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.hide = new System.Windows.Forms.PictureBox();
             this.view = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -40,14 +41,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.sataTextBox1 = new SATATextBox();
             this.sataTextBox2 = new SATATextBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hide)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.view)).BeginInit();
@@ -71,7 +70,6 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.checkBox2);
             this.panel2.Controls.Add(this.linkLabel2);
-            this.panel2.Controls.Add(this.guna2Button1);
             this.panel2.Controls.Add(this.guna2Button3);
             this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.sataTextBox1);
@@ -84,11 +82,30 @@
             this.panel2.Size = new System.Drawing.Size(479, 676);
             this.panel2.TabIndex = 5;
             // 
+            // btnHome
+            // 
+            this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHome.FillColor = System.Drawing.Color.Transparent;
+            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
+            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
+            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
+            this.btnHome.Location = new System.Drawing.Point(447, 3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(29, 27);
+            this.btnHome.TabIndex = 70;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
+            // 
             // hide
             // 
             this.hide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.hide.Image = global::MangageCoffee.Properties.Resources.hide;
-            this.hide.Location = new System.Drawing.Point(411, 284);
+            this.hide.Location = new System.Drawing.Point(411, 318);
             this.hide.Name = "hide";
             this.hide.Size = new System.Drawing.Size(27, 22);
             this.hide.TabIndex = 46;
@@ -99,7 +116,7 @@
             // 
             this.view.Cursor = System.Windows.Forms.Cursors.Hand;
             this.view.Image = ((System.Drawing.Image)(resources.GetObject("view.Image")));
-            this.view.Location = new System.Drawing.Point(411, 284);
+            this.view.Location = new System.Drawing.Point(411, 318);
             this.view.Name = "view";
             this.view.Size = new System.Drawing.Size(27, 22);
             this.view.TabIndex = 5;
@@ -148,7 +165,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.checkBox2.Location = new System.Drawing.Point(52, 322);
+            this.checkBox2.Location = new System.Drawing.Point(52, 356);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(97, 20);
             this.checkBox2.TabIndex = 37;
@@ -161,31 +178,13 @@
             this.linkLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel2.Location = new System.Drawing.Point(291, 632);
+            this.linkLabel2.Location = new System.Drawing.Point(293, 632);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(55, 17);
             this.linkLabel2.TabIndex = 43;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Sign up";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Image = global::MangageCoffee.Properties.Resources.google;
-            this.guna2Button1.Location = new System.Drawing.Point(41, 457);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(397, 47);
-            this.guna2Button1.TabIndex = 42;
-            this.guna2Button1.Text = " Log in with Google";
             // 
             // guna2Button3
             // 
@@ -198,7 +197,7 @@
             this.guna2Button3.FillColor = System.Drawing.Color.Black;
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(41, 391);
+            this.guna2Button3.Location = new System.Drawing.Point(41, 443);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(397, 47);
             this.guna2Button3.TabIndex = 1;
@@ -210,7 +209,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(328, 326);
+            this.linkLabel1.Location = new System.Drawing.Point(328, 360);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(110, 16);
             this.linkLabel1.TabIndex = 1;
@@ -229,7 +228,7 @@
             this.sataTextBox1.ForeColor = System.Drawing.Color.Black;
             this.sataTextBox1.Icon = null;
             this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox1.Location = new System.Drawing.Point(41, 269);
+            this.sataTextBox1.Location = new System.Drawing.Point(41, 303);
             this.sataTextBox1.Multiline = false;
             this.sataTextBox1.Name = "sataTextBox1";
             this.sataTextBox1.PasswordChar = true;
@@ -253,7 +252,7 @@
             this.sataTextBox2.ForeColor = System.Drawing.Color.Black;
             this.sataTextBox2.Icon = null;
             this.sataTextBox2.IconSize = new System.Drawing.Size(20, 20);
-            this.sataTextBox2.Location = new System.Drawing.Point(41, 199);
+            this.sataTextBox2.Location = new System.Drawing.Point(41, 233);
             this.sataTextBox2.Multiline = false;
             this.sataTextBox2.Name = "sataTextBox2";
             this.sataTextBox2.PasswordChar = false;
@@ -269,7 +268,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
             this.panel3.ForeColor = System.Drawing.Color.Black;
-            this.panel3.Location = new System.Drawing.Point(41, 312);
+            this.panel3.Location = new System.Drawing.Point(41, 346);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(397, 2);
             this.panel3.TabIndex = 34;
@@ -279,30 +278,11 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
             this.panel4.ForeColor = System.Drawing.Color.Black;
-            this.panel4.Location = new System.Drawing.Point(41, 242);
+            this.panel4.Location = new System.Drawing.Point(41, 276);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(397, 2);
             this.panel4.TabIndex = 33;
             this.panel4.UseWaitCursor = true;
-            // 
-            // btnHome
-            // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
-            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnHome.Location = new System.Drawing.Point(447, 3);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(29, 27);
-            this.btnHome.TabIndex = 70;
-            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
             // Login_add
             // 
@@ -332,7 +312,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.LinkLabel linkLabel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private SATATextBox sataTextBox1;

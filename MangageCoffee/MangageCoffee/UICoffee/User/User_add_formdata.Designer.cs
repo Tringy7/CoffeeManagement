@@ -43,6 +43,7 @@
             this.user_add_datastaff1 = new MangageCoffee.UICoffee.User_add_datastaff();
             this.user_add_datastaff2 = new MangageCoffee.UICoffee.User_add_datastaff();
             this.user_add_datastaff3 = new MangageCoffee.UICoffee.User_add_datastaff();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
@@ -72,6 +73,7 @@
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel7);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel6);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel5);
+            this.guna2GradientPanel2.Controls.Add(this.guna2Panel1);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel4);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel3);
             this.guna2GradientPanel2.Controls.Add(this.guna2HtmlLabel2);
@@ -190,6 +192,14 @@
             this.user_add_datastaff3.Size = new System.Drawing.Size(1285, 50);
             this.user_add_datastaff3.TabIndex = 10;
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Black;
+            this.guna2Panel1.Location = new System.Drawing.Point(3, 42);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(1285, 2);
+            this.guna2Panel1.TabIndex = 11;
+            // 
             // User_add_formdata
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -224,5 +234,6 @@
         private User_add_datastaff user_add_datastaff1;
         private User_add_datastaff user_add_datastaff2;
         private User_add_datastaff user_add_datastaff3;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
     }
 }

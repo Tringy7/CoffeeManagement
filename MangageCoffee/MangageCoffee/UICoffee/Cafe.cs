@@ -48,7 +48,7 @@ namespace MangageCoffee
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            manage1.BringToFront();
+            new1.BringToFront();
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)

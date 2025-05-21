@@ -15,7 +15,7 @@ namespace MangageCoffee
         public Form2()
         {
             InitializeComponent();
-            this.StartPosition = FormStartPosition.CenterScreen; // <-- Đặt giữa màn hình
+            this.StartPosition = FormStartPosition.CenterScreen;
 
             login_add1.begin = this;
             signup_add1.begin = this;
@@ -31,7 +31,7 @@ namespace MangageCoffee
 
         private void Login_add1_exit(object sender, EventArgs e)
         {
-            this.Close(); // Đóng form
+            this.Close(); 
         }
 
         public void Login_add_load()
@@ -42,11 +42,6 @@ namespace MangageCoffee
         public void Signup_add_load()
         {
             signup_add1.BringToFront();
-        }
-
-        private void login_add1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

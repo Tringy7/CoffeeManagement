@@ -16,5 +16,28 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             InitializeComponent();
         }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            ManageDishes_edit edit = new ManageDishes_edit();
+            edit.Show();
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            ManageDishes_edit edit = new ManageDishes_edit();
+            edit.Show();
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            ManageDishes_edit edit = new ManageDishes_edit();
+            edit.Show();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            Filter.Visible = !Filter.Visible;
+        }
     }
 }

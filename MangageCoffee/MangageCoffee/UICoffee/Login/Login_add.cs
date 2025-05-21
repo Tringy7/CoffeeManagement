@@ -19,7 +19,6 @@ namespace MangageCoffee
         public Login_add()
         {
             InitializeComponent();
-            //begin = parent;
         }
 
         private void view_Click(object sender, EventArgs e)
@@ -52,7 +51,7 @@ namespace MangageCoffee
 
         private void btnHome_Click(object sender, EventArgs e)
         {
-            exit?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
+            exit?.Invoke(this, EventArgs.Empty); 
         }
     }
 }

@@ -245,7 +245,6 @@
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(62, 62);
             this.guna2Button5.TabIndex = 9;
-            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // label4
             // 
