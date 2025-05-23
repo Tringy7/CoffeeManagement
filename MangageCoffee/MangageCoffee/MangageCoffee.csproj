@@ -75,6 +75,15 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADO.NET\BLL\UsersBLL.cs" />
+    <Compile Include="ADO.NET\DAL\UsersDAL.cs" />
+    <Compile Include="DTO\UsersDTO.cs" />
+    <Compile Include="UICoffee\Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\Customer\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,11 +206,23 @@
     <Compile Include="UICoffee\Untils\Qr.Designer.cs">
       <DependentUpon>Qr.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\User\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\User\User_add.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UICoffee\User\User_add.Designer.cs">
       <DependentUpon>User_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datacustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datacustomer.Designer.cs">
+      <DependentUpon>User_add_datacustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\User\User_add_datastaff.cs">
       <SubType>UserControl</SubType>
@@ -214,6 +235,12 @@
     </Compile>
     <Compile Include="UICoffee\User\User_add_editprofile.Designer.cs">
       <DependentUpon>User_add_editprofile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formcustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formcustomer.Designer.cs">
+      <DependentUpon>User_add_formcustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\User\User_add_formdata.cs">
       <SubType>UserControl</SubType>
@@ -291,14 +318,23 @@
     <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add.resx">
       <DependentUpon>User_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_datacustomer.resx">
+      <DependentUpon>User_add_datacustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add_datastaff.resx">
       <DependentUpon>User_add_datastaff.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add_editprofile.resx">
       <DependentUpon>User_add_editprofile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_formcustomer.resx">
+      <DependentUpon>User_add_formcustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add_formdata.resx">
       <DependentUpon>User_add_formdata.cs</DependentUpon>
@@ -449,6 +485,44 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_phone_20dp_1F1F1F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_phone_32dp_1F1F1F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\danh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\tri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\vu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\add2.png" />
+    <None Include="Resources\add1.png" />
+    <None Include="Resources\default.png" />
+    <None Include="Resources\tri.png" />
+    <None Include="Resources\vu.png" />
+    <None Include="Resources\danh.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

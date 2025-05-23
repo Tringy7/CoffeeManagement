@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\",
+  "WorkspaceRootPath": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\ado.net\\dal\\usersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\usersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\ado.net\\bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\user\\user_add_formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add_formdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\acer\\h\u1ECDc ph\u1EA7n\\n\u0103m 2_hk2\\l\u1EADp tr\u00ECnh window\\\u0111\u1ED3 \u00E1n\\management system\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\user\\user_add_datastaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add_datastaff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,75 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:50.397Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Item.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Item.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Item.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
+              "Title": "UsersBLL.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA7wE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:47.617Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-23T17:38:45.004Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Customer\\Form1.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Customer\\Form1.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
+              "Title": "UsersDAL.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwLwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:20.487Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-23T16:18:09.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersDTO.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\DTO\\UsersDTO.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\DTO\\UsersDTO.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\DTO\\UsersDTO.cs",
+              "RelativeToolTip": "MangageCoffee\\DTO\\UsersDTO.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA8wDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T17:38:43.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User_add_datastaff.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add_datastaff.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add_datastaff.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add_datastaff.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add_datastaff.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:51:54.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User_add.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T15:52:11.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
+              "Title": "User_add_formdata.cs",
+              "DocumentMoniker": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add_formdata.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add_formdata.cs",
+              "ToolTip": "D:\\ACER\\H\u1ECCC PH\u1EA6N\\N\u0103m 2_HK2\\L\u1EADp tr\u00ECnh Window\\\u0110\u1ED3 \u00E1n\\Management System\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add_formdata.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add_formdata.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwC4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:40:27.819Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-23T15:51:45.016Z",
+              "EditorCaption": ""
             }
           ]
         }

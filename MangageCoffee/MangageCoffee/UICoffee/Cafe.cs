@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.UICoffee.ManageDishes;
 
 namespace MangageCoffee
@@ -19,6 +20,8 @@ namespace MangageCoffee
             this.StartPosition = FormStartPosition.CenterScreen; // <-- Đặt giữa màn hình
 
         }
+
+        private UserBLL userBLL = new UserBLL();
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -37,11 +40,21 @@ namespace MangageCoffee
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
+            try
+            {
+                userBLL.ResetAllUserStatus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi reset trạng thái người dùng: " + ex.Message);
+                return;
+            }
+
             if (Application.OpenForms["Form2"] == null)
             {
                 Form2 login = new Form2();
                 login.Show();
-                this.Hide(); // Ẩn form hiện tại
+                this.Hide(); 
             }
             this.Close();
         }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MangageCoffee.ADO.NET.BLL;
 
 namespace MangageCoffee
 {
@@ -15,6 +16,7 @@ namespace MangageCoffee
         public Form2()
         {
             InitializeComponent();
+            this.AcceptButton = login_add1.btnLogin;
             this.StartPosition = FormStartPosition.CenterScreen;
 
             login_add1.begin = this;
@@ -25,7 +27,7 @@ namespace MangageCoffee
 
         private void Signup_add1_exit(object sender, EventArgs e)
         {
-            this.Close(); // Đóng form
+            this.Close();
         }
 
 
@@ -42,6 +44,8 @@ namespace MangageCoffee
         public void Signup_add_load()
         {
             signup_add1.BringToFront();
+            
         }
+
     }
 }
