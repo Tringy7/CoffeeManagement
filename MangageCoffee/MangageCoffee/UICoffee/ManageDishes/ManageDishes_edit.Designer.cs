@@ -322,7 +322,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(676, 580);
+            this.ClientSize = new System.Drawing.Size(676, 565);
             this.Controls.Add(this.guna2Button2);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.guna2CirclePictureBox2);

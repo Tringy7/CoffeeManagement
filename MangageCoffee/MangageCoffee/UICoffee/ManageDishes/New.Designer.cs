@@ -40,21 +40,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.manage_itemlist1 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
-            this.manage_item1 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item2 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item3 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item4 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item5 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item6 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item7 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
-            this.manage_item8 = new MangageCoffee.UICoffee.ManageDishes.Manage_item();
             this.Filter = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -62,13 +50,17 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.guna2GradientPanel4 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.manage_itemlist1 = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.guna2GradientPanel4.SuspendLayout();
             this.Filter.SuspendLayout();
+            this.guna2GradientPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -175,72 +167,11 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.Controls.Add(this.guna2GradientPanel4);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item1);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item2);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item3);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item4);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item5);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item6);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item7);
-            this.flowLayoutPanel1.Controls.Add(this.manage_item8);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(1277, 647);
             this.flowLayoutPanel1.TabIndex = 6;
-            // 
-            // guna2GradientPanel4
-            // 
-            this.guna2GradientPanel4.Controls.Add(this.guna2Button2);
-            this.guna2GradientPanel4.Controls.Add(this.guna2Button4);
-            this.guna2GradientPanel4.Location = new System.Drawing.Point(32, 20);
-            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
-            this.guna2GradientPanel4.Size = new System.Drawing.Size(251, 251);
-            this.guna2GradientPanel4.TabIndex = 93;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BorderRadius = 7;
-            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Image = global::MangageCoffee.Properties.Resources.more;
-            this.guna2Button2.ImageSize = new System.Drawing.Size(27, 27);
-            this.guna2Button2.Location = new System.Drawing.Point(92, 93);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(58, 47);
-            this.guna2Button2.TabIndex = 118;
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // guna2Button4
-            // 
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderColor = System.Drawing.Color.Teal;
-            this.guna2Button4.BorderRadius = 10;
-            this.guna2Button4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.guna2Button4.BorderThickness = 3;
-            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Button4.FillColor = System.Drawing.Color.White;
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button4.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(251, 251);
-            this.guna2Button4.TabIndex = 116;
-            this.guna2Button4.Text = "Add New Dishes";
-            this.guna2Button4.TextOffset = new System.Drawing.Point(0, 35);
-            this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
             // guna2Button3
             // 
@@ -304,79 +235,6 @@
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(448, 38);
             this.guna2TextBox1.TabIndex = 101;
-            // 
-            // manage_itemlist1
-            // 
-            this.manage_itemlist1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
-            this.manage_itemlist1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.manage_itemlist1.Location = new System.Drawing.Point(0, 0);
-            this.manage_itemlist1.Name = "manage_itemlist1";
-            this.manage_itemlist1.Size = new System.Drawing.Size(1133, 50);
-            this.manage_itemlist1.TabIndex = 0;
-            // 
-            // manage_item1
-            // 
-            this.manage_item1.Location = new System.Drawing.Point(347, 20);
-            this.manage_item1.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item1.Name = "manage_item1";
-            this.manage_item1.Size = new System.Drawing.Size(251, 251);
-            this.manage_item1.TabIndex = 94;
-            // 
-            // manage_item2
-            // 
-            this.manage_item2.Location = new System.Drawing.Point(662, 20);
-            this.manage_item2.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item2.Name = "manage_item2";
-            this.manage_item2.Size = new System.Drawing.Size(251, 251);
-            this.manage_item2.TabIndex = 95;
-            // 
-            // manage_item3
-            // 
-            this.manage_item3.Location = new System.Drawing.Point(977, 20);
-            this.manage_item3.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item3.Name = "manage_item3";
-            this.manage_item3.Size = new System.Drawing.Size(251, 251);
-            this.manage_item3.TabIndex = 96;
-            // 
-            // manage_item4
-            // 
-            this.manage_item4.Location = new System.Drawing.Point(32, 311);
-            this.manage_item4.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item4.Name = "manage_item4";
-            this.manage_item4.Size = new System.Drawing.Size(251, 251);
-            this.manage_item4.TabIndex = 97;
-            // 
-            // manage_item5
-            // 
-            this.manage_item5.Location = new System.Drawing.Point(347, 311);
-            this.manage_item5.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item5.Name = "manage_item5";
-            this.manage_item5.Size = new System.Drawing.Size(251, 251);
-            this.manage_item5.TabIndex = 98;
-            // 
-            // manage_item6
-            // 
-            this.manage_item6.Location = new System.Drawing.Point(662, 311);
-            this.manage_item6.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item6.Name = "manage_item6";
-            this.manage_item6.Size = new System.Drawing.Size(251, 251);
-            this.manage_item6.TabIndex = 99;
-            // 
-            // manage_item7
-            // 
-            this.manage_item7.Location = new System.Drawing.Point(977, 311);
-            this.manage_item7.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item7.Name = "manage_item7";
-            this.manage_item7.Size = new System.Drawing.Size(251, 251);
-            this.manage_item7.TabIndex = 100;
-            // 
-            // manage_item8
-            // 
-            this.manage_item8.Location = new System.Drawing.Point(32, 602);
-            this.manage_item8.Margin = new System.Windows.Forms.Padding(32, 20, 32, 20);
-            this.manage_item8.Name = "manage_item8";
-            this.manage_item8.Size = new System.Drawing.Size(251, 251);
-            this.manage_item8.TabIndex = 101;
             // 
             // Filter
             // 
@@ -469,6 +327,66 @@
             this.checkBox1.Text = "FastFood";
             this.checkBox1.UseVisualStyleBackColor = false;
             // 
+            // guna2GradientPanel4
+            // 
+            this.guna2GradientPanel4.Controls.Add(this.guna2Button2);
+            this.guna2GradientPanel4.Controls.Add(this.guna2Button4);
+            this.guna2GradientPanel4.Location = new System.Drawing.Point(31, 20);
+            this.guna2GradientPanel4.Margin = new System.Windows.Forms.Padding(31, 20, 31, 20);
+            this.guna2GradientPanel4.Name = "guna2GradientPanel4";
+            this.guna2GradientPanel4.Size = new System.Drawing.Size(251, 251);
+            this.guna2GradientPanel4.TabIndex = 93;
+            // 
+            // manage_itemlist1
+            // 
+            this.manage_itemlist1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.manage_itemlist1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.manage_itemlist1.Location = new System.Drawing.Point(0, 0);
+            this.manage_itemlist1.Name = "manage_itemlist1";
+            this.manage_itemlist1.Size = new System.Drawing.Size(1133, 50);
+            this.manage_itemlist1.TabIndex = 0;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderRadius = 7;
+            this.guna2Button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.Teal;
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Image = global::MangageCoffee.Properties.Resources.more;
+            this.guna2Button2.ImageSize = new System.Drawing.Size(27, 27);
+            this.guna2Button2.Location = new System.Drawing.Point(92, 93);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(58, 47);
+            this.guna2Button2.TabIndex = 120;
+            // 
+            // guna2Button4
+            // 
+            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button4.BorderColor = System.Drawing.Color.Teal;
+            this.guna2Button4.BorderRadius = 10;
+            this.guna2Button4.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            this.guna2Button4.BorderThickness = 3;
+            this.guna2Button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Button4.FillColor = System.Drawing.Color.White;
+            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button4.ForeColor = System.Drawing.Color.Black;
+            this.guna2Button4.Location = new System.Drawing.Point(0, 0);
+            this.guna2Button4.Name = "guna2Button4";
+            this.guna2Button4.Size = new System.Drawing.Size(251, 251);
+            this.guna2Button4.TabIndex = 119;
+            this.guna2Button4.Text = "Add New Dishes";
+            this.guna2Button4.TextOffset = new System.Drawing.Point(0, 35);
+            // 
             // New
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -489,9 +407,9 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2GradientPanel2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.guna2GradientPanel4.ResumeLayout(false);
             this.Filter.ResumeLayout(false);
             this.Filter.PerformLayout();
+            this.guna2GradientPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -513,17 +431,6 @@
         private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Manage_item manage_item1;
-        private Manage_item manage_item2;
-        private Manage_item manage_item3;
-        private Manage_item manage_item4;
-        private Manage_item manage_item5;
-        private Manage_item manage_item6;
-        private Manage_item manage_item7;
-        private Manage_item manage_item8;
         private Manage_itemlist manage_itemlist1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel Filter;
         private System.Windows.Forms.CheckBox checkBox5;
@@ -532,5 +439,8 @@
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel4;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button guna2Button4;
     }
 }
