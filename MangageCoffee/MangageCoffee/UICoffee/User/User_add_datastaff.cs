@@ -37,38 +37,18 @@ namespace MangageCoffee.UICoffee
             DetailButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        public UserDTO UserData
+        public StaffDisplayDTO StaffData //  Use StaffDisplayDTO
         {
             set
             {
-                lblID.Text = value.UserID.ToString();
-                lblHo.Text = value.FullName; // Hoặc lblTen tùy thuộc vào cách bạn lưu FullName
+                lblID.Text = value.StaffID.ToString();
+                lblHo.Text = value.FullName;
                 lblGioiTinh.Text = value.Gender;
                 lblNgaySinh.Text = value.DateOfBirth?.ToString("dd/MM/yyyy");
                 lblSDT.Text = value.Phone;
-                lblVaiTro.Text = value.Role;
-                // Load ảnh nếu có
-                // string imagePath = Path.Combine("Images", value.ImagePath); // Giả sử thư mục Images ngang cấp với file exe
-                // if (File.Exists(imagePath))
-                // {
-                //     ptbAvatar.Image = Image.FromFile(imagePath);
-                // }
-                // else
-                // {
-                //     ptbAvatar.Image = Properties.Resources._default; // Ảnh mặc định
-                // }
+                lblVaiTro.Text = value.Position;
             }
         }
-
-        // Chỉnh sửa sự kiện click nếu bạn muốn truyền UserID khi click
-        //private void btnEdit_Click(object sender, EventArgs e)
-        //{
-        //    // Lấy UserID từ lblID.Text hoặc từ thuộc tính UserData
-        //    // int userId = int.Parse(lblID.Text); 
-        //    // UserDTO userToEdit = new UserBLL().GetUserDetails(new UserDTO { UserID = userId, Role = "Staff" });
-        //    // EditButtonClicked?.Invoke(userToEdit, EventArgs.Empty); 
-        //}
-        //// Tương tự cho btnDelete và guna2Button1 (nút xem chi tiết)
     }
 
 }

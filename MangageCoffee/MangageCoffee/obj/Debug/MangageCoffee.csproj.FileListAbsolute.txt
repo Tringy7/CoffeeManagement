@@ -206,3 +206,17 @@ D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_datacustomer.resources
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formcustomer.resources
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditForm.resources
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.CustomerDetail.resources
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.StaffDetails.resources
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff01.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff02.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff03.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff04.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer1.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer2.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer3.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer4.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer5.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer6.png
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.AddForm.resources
+D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditAdminForm.resources

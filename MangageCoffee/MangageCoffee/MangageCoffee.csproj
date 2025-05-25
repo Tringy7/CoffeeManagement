@@ -77,6 +77,8 @@
   <ItemGroup>
     <Compile Include="ADO.NET\BLL\UsersBLL.cs" />
     <Compile Include="ADO.NET\DAL\UsersDAL.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\StaffDTO.cs" />
     <Compile Include="DTO\UsersDTO.cs" />
     <Compile Include="UICoffee\Customers.cs">
       <SubType>Form</SubType>
@@ -206,11 +208,35 @@
     <Compile Include="UICoffee\Untils\Qr.Designer.cs">
       <DependentUpon>Qr.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\User\AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\EditAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\EditAdminForm.Designer.cs">
+      <DependentUpon>EditAdminForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\User\EditForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UICoffee\User\EditForm.Designer.cs">
       <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\StaffDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\StaffDetails.Designer.cs">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\User\User_add.cs">
       <SubType>UserControl</SubType>
@@ -318,8 +344,20 @@
     <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\EditAdminForm.resx">
+      <DependentUpon>EditAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\EditForm.resx">
       <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\StaffDetails.resx">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\User\User_add.resx">
       <DependentUpon>User_add.cs</DependentUpon>
@@ -505,18 +543,58 @@
     <None Include="Resources\icons8-gender-321.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Images\customer1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="Images\danh.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\default.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\customer6.png" />
+    <None Include="Resources\customer5.png" />
+    <None Include="Resources\customer4.png" />
+    <None Include="Resources\customer3.png" />
+    <None Include="Resources\customer2.png" />
+    <None Include="Resources\customer1.png" />
+    <None Include="Images\staff01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="Images\tri.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Images\vu.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\staff04.png" />
+    <None Include="Resources\staff03.png" />
+    <None Include="Resources\staff02.png" />
+    <None Include="Resources\staff01.png" />
     <None Include="Resources\add2.png" />
     <None Include="Resources\add1.png" />
     <None Include="Resources\default.png" />

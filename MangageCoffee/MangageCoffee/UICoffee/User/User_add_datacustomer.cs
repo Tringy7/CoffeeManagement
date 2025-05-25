@@ -24,18 +24,15 @@ namespace MangageCoffee.UICoffee.User
             DetailButtonClicked?.Invoke(this, EventArgs.Empty);
         }
 
-        public UserDTO UserData
+        public CustomerDisplayDTO CustomerData //  Use CustomerDisplayDTO
         {
             set
             {
-                if (value != null)
-                {
-                    lblID.Text = value.UserID.ToString();
-                    lblHo.Text = value.FullName; 
-                    lblGioiTinh.Text = value.Gender;
-                    lblNgaySinh.Text = value.DateOfBirth?.ToString("dd/MM/yyyy");
-                    lblSDT.Text = value.Phone;
-                }
+                lblID.Text = value.CustomerID.ToString();
+                lblHo.Text = value.FullName;
+                lblGioiTinh.Text = value.Gender;
+                lblNgaySinh.Text = value.DateOfBirth?.ToString("dd/MM/yyyy");
+                lblSDT.Text = value.Phone;
             }
         }
     }

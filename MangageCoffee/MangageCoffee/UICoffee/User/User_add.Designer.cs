@@ -34,11 +34,11 @@
             this.btnCustomers = new Guna.UI2.WinForms.Guna2GradientButton();
             this.btnStaffs = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.ptbAdd = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.user_add_editprofile1 = new MangageCoffee.UICoffee.User_add_editprofile();
             this.user_add_formdata1 = new MangageCoffee.UICoffee.User.User_add_formdata();
             this.user_add_formcustomer1 = new MangageCoffee.UICoffee.User.User_add_formcustomer();
+            this.user_add_editprofile1 = new MangageCoffee.UICoffee.User_add_editprofile();
+            this.ptbAdd = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CustomGradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptbAdd)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
@@ -116,38 +116,6 @@
             this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1446, 802);
             this.guna2CustomGradientPanel1.TabIndex = 0;
             // 
-            // ptbAdd
-            // 
-            this.ptbAdd.Image = global::MangageCoffee.Properties.Resources.add1;
-            this.ptbAdd.ImageRotate = 0F;
-            this.ptbAdd.Location = new System.Drawing.Point(1428, 159);
-            this.ptbAdd.Name = "ptbAdd";
-            this.ptbAdd.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.ptbAdd.Size = new System.Drawing.Size(68, 67);
-            this.ptbAdd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ptbAdd.TabIndex = 104;
-            this.ptbAdd.TabStop = false;
-            // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(955, 88);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(8, 8);
-            this.guna2CirclePictureBox1.TabIndex = 103;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
-            // user_add_editprofile1
-            // 
-            this.user_add_editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
-            this.user_add_editprofile1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.user_add_editprofile1.Location = new System.Drawing.Point(0, 0);
-            this.user_add_editprofile1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.user_add_editprofile1.Name = "user_add_editprofile1";
-            this.user_add_editprofile1.Size = new System.Drawing.Size(1446, 802);
-            this.user_add_editprofile1.TabIndex = 5;
-            // 
             // user_add_formdata1
             // 
             this.user_add_formdata1.BackColor = System.Drawing.Color.White;
@@ -165,6 +133,39 @@
             this.user_add_formcustomer1.Name = "user_add_formcustomer1";
             this.user_add_formcustomer1.Size = new System.Drawing.Size(1446, 802);
             this.user_add_formcustomer1.TabIndex = 2;
+            // 
+            // user_add_editprofile1
+            // 
+            this.user_add_editprofile1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.user_add_editprofile1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.user_add_editprofile1.Location = new System.Drawing.Point(0, 0);
+            this.user_add_editprofile1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.user_add_editprofile1.Name = "user_add_editprofile1";
+            this.user_add_editprofile1.Size = new System.Drawing.Size(1446, 802);
+            this.user_add_editprofile1.TabIndex = 5;
+            // 
+            // ptbAdd
+            // 
+            this.ptbAdd.Image = global::MangageCoffee.Properties.Resources.add1;
+            this.ptbAdd.ImageRotate = 0F;
+            this.ptbAdd.Location = new System.Drawing.Point(1428, 159);
+            this.ptbAdd.Name = "ptbAdd";
+            this.ptbAdd.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.ptbAdd.Size = new System.Drawing.Size(68, 67);
+            this.ptbAdd.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbAdd.TabIndex = 104;
+            this.ptbAdd.TabStop = false;
+            this.ptbAdd.Click += new System.EventHandler(this.ptbAdd_Click);
+            // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(955, 88);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(8, 8);
+            this.guna2CirclePictureBox1.TabIndex = 103;
+            this.guna2CirclePictureBox1.TabStop = false;
             // 
             // User_add
             // 

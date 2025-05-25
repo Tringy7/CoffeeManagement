@@ -15,6 +15,10 @@ namespace MangageCoffee.DTO
         public bool Status { get; set; } // bit
         public string Email { get; set; }
 
+        public int? KPI { get; set; }
+
+        public bool Available { get; set; } = true; //  Default to true
+
         // Thêm các thuộc tính chi tiết từ các bảng Admins, Customers, Staffs
         public string FullName { get; set; }
         public string Phone { get; set; }

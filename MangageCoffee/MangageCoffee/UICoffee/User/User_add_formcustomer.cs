@@ -14,22 +14,11 @@ namespace MangageCoffee.UICoffee.User
 {
     public partial class User_add_formcustomer : UserControl
     {
-        public event EventHandler DetailButtonClickedFromData;
+        public event EventHandler<CustomerDisplayDTO> DetailButtonClickedFromData;
         public User_add_formcustomer()
         {
             InitializeComponent();
             LoadCustomerData();
-        }
-
-        private void LoadCustomerControls()
-        {
-            for (int i = 0; i < 3; i++)
-            {
-                var staffControl = new User_add_datacustomer();
-                staffControl.DetailButtonClicked += (s, e) => DetailButtonClickedFromData?.Invoke(s, e);
-
-                flowLayoutPanel1.Controls.Add(staffControl);
-            }
         }
 
         // Trong lớp User_add_formcustomer.cs
@@ -37,16 +26,15 @@ namespace MangageCoffee.UICoffee.User
 
         public void LoadCustomerData()
         {
-            flowLayoutPanel1.Controls.Clear(); // Xóa các control cũ trước khi tải lại
+            flowLayoutPanel1.Controls.Clear();
 
-            List<UserDTO> customerUsers = userBLL.GetCustomerUsers();
+            List<CustomerDisplayDTO> customerUsers = userBLL.GetCustomerDisplayData(); //  Get CustomerDisplayDTOs
 
-            foreach (UserDTO user in customerUsers)
+            foreach (CustomerDisplayDTO customer in customerUsers)
             {
                 User_add_datacustomer customerControl = new User_add_datacustomer();
-                customerControl.UserData = user; // Truyền dữ liệu người dùng vào control
-                                                 // Thêm các sự kiện khác nếu cần
-                customerControl.Click += (s, e) => DetailButtonClickedFromData?.Invoke(user, e); // Ví dụ cho sự kiện xem chi tiết
+                customerControl.CustomerData = customer; //  Set CustomerData
+                customerControl.DetailButtonClicked += (s, e) => DetailButtonClickedFromData?.Invoke(this, customer); //  Pass CustomerDisplayDTO
                 flowLayoutPanel1.Controls.Add(customerControl);
             }
         }

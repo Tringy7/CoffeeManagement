@@ -14,9 +14,11 @@ namespace MangageCoffee.UICoffee.User
 {
     public partial class User_add_formdata : UserControl
     {
-        public event EventHandler EditButtonClickedFromData;
-        public event EventHandler DeleteButtonClickedFromData;
-        public event EventHandler DetailButtonClickedFromData;
+        public event EventHandler<StaffDisplayDTO> EditButtonClickedFromData; //  Use StaffDisplayDTO
+        public event EventHandler<StaffDisplayDTO> DeleteButtonClickedFromData; //  Use StaffDisplayDTO
+        public event EventHandler<StaffDisplayDTO> DetailButtonClickedFromData; //  Use StaffDisplayDTO
+
+        private UserBLL userBLL = new UserBLL();
 
         public User_add_formdata()
         {
@@ -24,38 +26,22 @@ namespace MangageCoffee.UICoffee.User
             LoadStaffData();
         }
 
-        private void LoadStaffControls()
-        {
-            for (int i = 0; i < 3; i++) 
-            {
-                var staffControl = new User_add_datastaff();
-                staffControl.EditButtonClicked += (s, e) => EditButtonClickedFromData?.Invoke(s, e);
-                staffControl.DeleteButtonClicked += (s, e) => DeleteButtonClickedFromData?.Invoke(s, e);
-                staffControl.DetailButtonClicked += (s, e) => DetailButtonClickedFromData?.Invoke(s, e);
-
-                flowLayoutPanel1.Controls.Add(staffControl); 
-            }
-        }
-
-        // Trong lớp User_add_formdata.cs
-        private UserBLL userBLL = new UserBLL();
-
         public void LoadStaffData()
         {
-            flowLayoutPanel1.Controls.Clear(); // Xóa các control cũ trước khi tải lại
+            flowLayoutPanel1.Controls.Clear();
 
-            List<UserDTO> staffUsers = userBLL.GetStaffUsers();
+            List<StaffDisplayDTO> staffUsers = userBLL.GetStaffDisplayData();// Get StaffDisplayDTOs
 
-            foreach (UserDTO user in staffUsers)
+            foreach (StaffDisplayDTO staff in staffUsers)
             {
                 User_add_datastaff staffControl = new User_add_datastaff();
-                staffControl.UserData = user; // Truyền dữ liệu người dùng vào control
-                staffControl.EditButtonClicked += (s, e) => EditButtonClickedFromData?.Invoke(user, e);
-                staffControl.DeleteButtonClicked += (s, e) => DeleteButtonClickedFromData?.Invoke(user, e);
-                // Thêm các sự kiện khác nếu cần
+                staffControl.StaffData = staff; // Set StaffData
+                staffControl.EditButtonClicked += (s, e) => EditButtonClickedFromData?.Invoke(this, staff); // Pass StaffDisplayDTO
+                staffControl.DeleteButtonClicked += (s, e) => DeleteButtonClickedFromData?.Invoke(this, staff); // Pass StaffDisplayDTO
+                staffControl.DetailButtonClicked += (s, e) => DetailButtonClickedFromData?.Invoke(this, staff); // Pass StaffDisplayDTO
                 flowLayoutPanel1.Controls.Add(staffControl);
             }
         }
     }
 
-}
+ }

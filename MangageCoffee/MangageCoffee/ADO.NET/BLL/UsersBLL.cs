@@ -10,6 +10,9 @@ namespace MangageCoffee.ADO.NET.BLL
 {
     public class UserBLL
     {
+        
+        public static UserDTO CurrentUser { get; private set; }
+
         private UserDAL dal = new UserDAL();
 
         public UserDTO Login(string username, string password)
@@ -18,12 +21,15 @@ namespace MangageCoffee.ADO.NET.BLL
             if (user == null)
                 return null;
 
-            return dal.GetUserDetails(user);
+            dal.UpdateLoginStatus(username); //  Update login status
+            return dal.GetLoggedInUser(); //  Get the logged-in user's details
         }
 
         public UserDTO GetLoggedInUserInfo()
         {
-            return dal.GetLoggedInUser();
+            UserDTO user = dal.GetLoggedInUser();
+            Console.WriteLine($"GetLoggedInUserInfo - KPI: {user?.KPI}"); 
+            return user;
         }
 
         public bool Register(UserDTO user)
@@ -61,18 +67,52 @@ namespace MangageCoffee.ADO.NET.BLL
             return dal.GetUsersByRole("Customer");
         }
 
-        //public UserDTO GetLoggedInUserInfo()
-        //{
-        //    // Phương thức này có thể cần được điều chỉnh để lấy thông tin của người dùng đang đăng nhập thực sự.
-        //    // Giả sử có một cơ chế để lấy UserID của người dùng hiện tại sau khi đăng nhập.
-        //    // Ví dụ tạm thời: Trả về một người dùng Admin mặc định nếu không có người dùng nào được đăng nhập
-        //    // hoặc bạn có thể lưu thông tin người dùng đăng nhập vào một biến tĩnh hoặc Session.
-        //    // Hiện tại, code Home.cs gọi phương thức này, nhưng không có logic xác định người dùng đang đăng nhập.
-        //    // Để ví dụ này hoạt động, tôi sẽ giả định một UserID có sẵn để test.
-        //    // Ví dụ: UserDTO currentUser = new UserDTO { UserID = 1, Role = "Admin" }; 
-        //    // return dal.GetUserDetails(currentUser); 
-        //    return null; // Cần thay thế bằng logic thực tế
-        //}
+        public List<StaffDisplayDTO> GetStaffDisplayData()
+        {
+            return dal.GetStaffDisplayData();
+        }
+
+        public List<CustomerDisplayDTO> GetCustomerDisplayData()
+        {
+            return dal.GetCustomerDisplayData();
+        }
+
+        public bool UpdateUser(UserDTO user)
+        {
+            return dal.UpdateUser(user);
+        }
+
+        public void SetUserAvailability(int userId, bool available)
+        {
+            dal.SetUserAvailability(userId, available);
+        }
+
+        public bool AddStaff(UserDTO staff)
+        {
+            return dal.AddStaff(staff);
+        }
+
+        public bool UpdateAdmin(UserDTO admin)
+        {
+            return dal.UpdateAdmin(admin);
+        }
+
+        public int GetStaffCount()
+        {
+            return dal.GetStaffCount();
+        }
+
+        public int GetCustomerCount()
+        {
+            return dal.GetCustomerCount();
+        }
+
+        public UserDTO GetAdminDetails(UserDTO admin)
+        {
+            UserDTO adminDetails = dal.GetUserDetails(admin);
+            Console.WriteLine($"GetAdminDetails - KPI: {adminDetails?.KPI}"); // Add this
+            return adminDetails;
+        }
 
     }
 
