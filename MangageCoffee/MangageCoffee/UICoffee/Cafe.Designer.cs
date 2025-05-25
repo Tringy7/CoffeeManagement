@@ -41,11 +41,11 @@
             this.btnUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnHome = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.home1 = new MangageCoffee.UICoffee.Home();
+            this.new1 = new MangageCoffee.UICoffee.ManageDishes.Product();
             this.history_add1 = new MangageCoffee.UICoffee.History.History_add();
             this.menu_add1 = new MangageCoffee.UICoffee.Menu.Menu_add();
             this.user_add1 = new MangageCoffee.UICoffee.User_add();
-            this.new1 = new MangageCoffee.UICoffee.ManageDishes.New();
-            this.home1 = new MangageCoffee.UICoffee.Home();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
             this.guna2GradientPanel2.SuspendLayout();
@@ -231,6 +231,25 @@
             this.guna2GradientPanel2.Size = new System.Drawing.Size(1381, 892);
             this.guna2GradientPanel2.TabIndex = 4;
             // 
+            // home1
+            // 
+            this.home1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.home1.Location = new System.Drawing.Point(0, 0);
+            this.home1.Name = "home1";
+            this.home1.Size = new System.Drawing.Size(1381, 892);
+            this.home1.TabIndex = 5;
+            this.home1.Load += new System.EventHandler(this.home1_Load);
+            // 
+            // new1
+            // 
+            this.new1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
+            this.new1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.new1.Location = new System.Drawing.Point(0, 0);
+            this.new1.Name = "new1";
+            this.new1.Size = new System.Drawing.Size(1381, 892);
+            this.new1.TabIndex = 4;
+            // 
             // history_add1
             // 
             this.history_add1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
@@ -258,24 +277,6 @@
             this.user_add1.Name = "user_add1";
             this.user_add1.Size = new System.Drawing.Size(1381, 892);
             this.user_add1.TabIndex = 0;
-            // 
-            // new1
-            // 
-            this.new1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.new1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.new1.Location = new System.Drawing.Point(0, 0);
-            this.new1.Name = "new1";
-            this.new1.Size = new System.Drawing.Size(1381, 892);
-            this.new1.TabIndex = 4;
-            // 
-            // home1
-            // 
-            this.home1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.home1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.home1.Location = new System.Drawing.Point(0, 0);
-            this.home1.Name = "home1";
-            this.home1.Size = new System.Drawing.Size(1381, 892);
-            this.home1.TabIndex = 5;
             // 
             // Cafe
             // 
@@ -312,6 +313,6 @@
         private UICoffee.Menu.Menu_add menu_add1;
         private UICoffee.User_add user_add1;
         private UICoffee.Home home1;
-        private UICoffee.ManageDishes.New new1;
+        private UICoffee.ManageDishes.Product new1;
     }
 }

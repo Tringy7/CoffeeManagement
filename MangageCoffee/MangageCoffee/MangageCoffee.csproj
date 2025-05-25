@@ -75,6 +75,11 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\BL_Menu.cs" />
+    <Compile Include="BL\BL_Product.cs" />
+    <Compile Include="DAL\DB_Main.cs" />
+    <Compile Include="DTO\Class_Menu.cs" />
+    <Compile Include="DTO\Class_product.cs" />
     <Compile Include="UICoffee\Customer\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -161,11 +166,11 @@
     <Compile Include="UICoffee\Home\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\ManageDishes\New.cs">
+    <Compile Include="UICoffee\ManageDishes\Product.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UICoffee\ManageDishes\New.Designer.cs">
-      <DependentUpon>New.cs</DependentUpon>
+    <Compile Include="UICoffee\ManageDishes\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\ManageDishes\test.cs">
       <SubType>UserControl</SubType>
@@ -273,8 +278,8 @@
     <EmbeddedResource Include="UICoffee\Home\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\ManageDishes\New.resx">
-      <DependentUpon>New.cs</DependentUpon>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\ManageDishes\test.resx">
       <DependentUpon>test.cs</DependentUpon>
@@ -450,5 +455,6 @@
   <ItemGroup>
     <None Include="Resources\add.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

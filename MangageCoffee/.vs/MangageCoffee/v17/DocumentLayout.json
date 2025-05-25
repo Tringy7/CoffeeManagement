@@ -1,22 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\",
+  "WorkspaceRootPath": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\managedishes\\managedishes_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\managedishes_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\managedishes\\managedishes_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\managedishes_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\bl\\bl_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\bl\\bl_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\managedishes\\manage_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\manage_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\winform_project_final\\coffeemanagement\\mangagecoffee\\mangagecoffee\\uicoffee\\menu\\menu_add.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\menu_add.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Menu_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:50.397Z",
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -54,47 +66,121 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Item.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Item.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Item.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "ManageDishes_edit.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAIAwwC8AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:47.617Z",
+              "WhenOpened": "2025-05-25T16:45:24.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageDishes_edit.cs [Design]",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:45:23.274Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Customer\\Form1.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Customer\\Form1.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Menu_add.cs [Design]",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:51:20.487Z",
+              "WhenOpened": "2025-05-25T07:29:56.08Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Menu_add.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Menu_add.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAIAwwJcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T04:47:45.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAtwNgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:48:48.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BL_Menu.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\BL\\BL_Menu.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\BL\\BL_Menu.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\BL\\BL_Menu.cs",
+              "RelativeToolTip": "MangageCoffee\\BL\\BL_Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T15:42:52.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
+              "Title": "Product.cs [Design]",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T10:40:27.819Z",
+              "WhenOpened": "2025-05-25T12:48:47.376Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Manage_item.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADgvz8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:49:42.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu_add.Designer.cs",
+              "DocumentMoniker": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.Designer.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Menu_add.Designer.cs",
+              "ToolTip": "D:\\winform_project_final\\CoffeeManagement\\MangageCoffee\\MangageCoffee\\UICoffee\\Menu\\Menu_add.Designer.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Menu_add.Designer.cs",
+              "ViewState": "AgIAAC8CAAAAAAAAAAD4vzoCAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:35:33.912Z",
+              "EditorCaption": ""
             }
           ]
         }
