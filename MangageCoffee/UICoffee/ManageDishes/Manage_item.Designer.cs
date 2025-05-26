@@ -30,19 +30,19 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
-            this.delete = new Guna.UI2.WinForms.Guna2Button();
-            this.Edit_product = new Guna.UI2.WinForms.Guna2Button();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.Name_product = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.price_product = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.delete = new Guna.UI2.WinForms.Guna2Button();
+            this.Edit_product = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2GradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2GradientPanel1
@@ -62,6 +62,57 @@
             this.guna2GradientPanel1.Size = new System.Drawing.Size(251, 251);
             this.guna2GradientPanel1.TabIndex = 86;
             this.guna2GradientPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel1_Paint);
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.Controls.Add(this.Name_product);
+            this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Panel1.CustomBorderColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(15, 186);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(154, 28);
+            this.guna2Panel1.TabIndex = 86;
+            // 
+            // Name_product
+            // 
+            this.Name_product.AutoSize = true;
+            this.Name_product.BackColor = System.Drawing.Color.White;
+            this.Name_product.Dock = System.Windows.Forms.DockStyle.Left;
+            this.Name_product.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name_product.ForeColor = System.Drawing.Color.Black;
+            this.Name_product.Location = new System.Drawing.Point(0, 0);
+            this.Name_product.Name = "Name_product";
+            this.Name_product.Size = new System.Drawing.Size(65, 23);
+            this.Name_product.TabIndex = 77;
+            this.Name_product.Text = "Burger";
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Controls.Add(this.price_product);
+            this.guna2Panel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2Panel2.FillColor = System.Drawing.Color.White;
+            this.guna2Panel2.Location = new System.Drawing.Point(15, 212);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(154, 28);
+            this.guna2Panel2.TabIndex = 88;
+            // 
+            // price_product
+            // 
+            this.price_product.AutoSize = true;
+            this.price_product.BackColor = System.Drawing.Color.Transparent;
+            this.price_product.Dock = System.Windows.Forms.DockStyle.Left;
+            this.price_product.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price_product.ForeColor = System.Drawing.Color.Black;
+            this.price_product.Location = new System.Drawing.Point(0, 0);
+            this.price_product.Name = "price_product";
+            this.price_product.Size = new System.Drawing.Size(45, 23);
+            this.price_product.TabIndex = 78;
+            this.price_product.Text = "True";
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 10;
+            this.guna2Elipse1.TargetControl = this;
             // 
             // delete
             // 
@@ -132,57 +183,6 @@
             this.guna2PictureBox1.TabIndex = 87;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.Controls.Add(this.Name_product);
-            this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Panel1.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2Panel1.Location = new System.Drawing.Point(15, 194);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(154, 28);
-            this.guna2Panel1.TabIndex = 86;
-            // 
-            // Name_product
-            // 
-            this.Name_product.AutoSize = true;
-            this.Name_product.BackColor = System.Drawing.Color.White;
-            this.Name_product.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Name_product.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name_product.ForeColor = System.Drawing.Color.Black;
-            this.Name_product.Location = new System.Drawing.Point(0, 0);
-            this.Name_product.Name = "Name_product";
-            this.Name_product.Size = new System.Drawing.Size(65, 23);
-            this.Name_product.TabIndex = 77;
-            this.Name_product.Text = "Burger";
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.price_product);
-            this.guna2Panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Panel2.FillColor = System.Drawing.Color.White;
-            this.guna2Panel2.Location = new System.Drawing.Point(15, 220);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(154, 28);
-            this.guna2Panel2.TabIndex = 88;
-            // 
-            // price_product
-            // 
-            this.price_product.AutoSize = true;
-            this.price_product.BackColor = System.Drawing.Color.Transparent;
-            this.price_product.Dock = System.Windows.Forms.DockStyle.Left;
-            this.price_product.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.price_product.ForeColor = System.Drawing.Color.Black;
-            this.price_product.Location = new System.Drawing.Point(0, 0);
-            this.price_product.Name = "price_product";
-            this.price_product.Size = new System.Drawing.Size(45, 23);
-            this.price_product.TabIndex = 78;
-            this.price_product.Text = "10 $";
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 10;
-            this.guna2Elipse1.TargetControl = this;
-            // 
             // Manage_item
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -192,11 +192,11 @@
             this.Name = "Manage_item";
             this.Size = new System.Drawing.Size(251, 251);
             this.guna2GradientPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

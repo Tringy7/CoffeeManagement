@@ -200,5 +200,22 @@ namespace MangageCoffee.UICoffee.Menu
         {
             ApplyFilterByMenuCategory("Bakery");
         }
+
+        private void PayNotChoose_Click(object sender, EventArgs e)
+        {
+            CheckOut.Enabled = true;
+        }
+
+        private void QRNotChoose_Click(object sender, EventArgs e)
+        {
+            Qr qr = new Qr();
+            qr.Show();
+            CheckOut.Enabled = true;
+
+        }
+
+        private void CheckOut_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

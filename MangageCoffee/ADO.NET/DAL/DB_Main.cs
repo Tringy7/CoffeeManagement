@@ -10,7 +10,7 @@ namespace MangageCoffee.ADO.NET.DAL
 {
     internal class DB_Main
     {
-        string ConnStr = "Data Source=ANHVU;Initial Catalog=CafeManagementV2;User ID=sa;Password=123;";
+        string ConnStr = "Data Source=(local);Initial Catalog=CafeManagementV2;Integrated Security=True";
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;

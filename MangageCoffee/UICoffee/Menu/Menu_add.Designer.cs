@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
+            this.QRNotChoose = new Guna.UI2.WinForms.Guna2Button();
             this.All = new Guna.UI2.WinForms.Guna2Button();
             this.HotDrink = new Guna.UI2.WinForms.Guna2Button();
             this.ColdDrink = new Guna.UI2.WinForms.Guna2Button();
@@ -55,89 +53,47 @@
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.item_Order3 = new MangageCoffee.UICoffee.Menu.Item_Order();
-            this.item1 = new MangageCoffee.UICoffee.Menu.Item();
-            this.flowLayoutPaneloder_Menu.SuspendLayout();
+            this.PayNotChoose = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtUsername = new SATATextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.sataTextBox1 = new SATATextBox();
             this.panel3.SuspendLayout();
             this.guna2GradientPanel_Oder_Menu.SuspendLayout();
-            this.flowLayoutPanel_Menu.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2CustomGradientPanel1.SuspendLayout();
+            this.guna2CustomGradientPanel3.SuspendLayout();
             this.SuspendLayout();
             // 
-            // guna2Button9
+            // QRNotChoose
             // 
-            this.guna2Button9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button9.BorderRadius = 20;
-            this.guna2Button9.BorderThickness = 1;
-            this.guna2Button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.FillColor = System.Drawing.Color.White;
-            this.guna2Button9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button9.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button9.Image = global::MangageCoffee.Properties.Resources.credit_card;
-            this.guna2Button9.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button9.Location = new System.Drawing.Point(1119, 672);
-            this.guna2Button9.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(108, 85);
-            this.guna2Button9.TabIndex = 115;
-            this.guna2Button9.Text = "Card";
-            this.guna2Button9.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button9.TextOffset = new System.Drawing.Point(24, 30);
-            // 
-            // guna2Button8
-            // 
-            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.BorderRadius = 20;
-            this.guna2Button8.BorderThickness = 1;
-            this.guna2Button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.Color.White;
-            this.guna2Button8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Image = global::MangageCoffee.Properties.Resources.barcode_scanner;
-            this.guna2Button8.ImageOffset = new System.Drawing.Point(-1, 0);
-            this.guna2Button8.ImageSize = new System.Drawing.Size(37, 37);
-            this.guna2Button8.Location = new System.Drawing.Point(1248, 672);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(108, 85);
-            this.guna2Button8.TabIndex = 114;
-            this.guna2Button8.Text = "QR Code";
-            this.guna2Button8.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.TextOffset = new System.Drawing.Point(10, 30);
-            // 
-            // guna2Button7
-            // 
-            this.guna2Button7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button7.BorderRadius = 20;
-            this.guna2Button7.BorderThickness = 1;
-            this.guna2Button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button7.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button7.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button7.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button7.FillColor = System.Drawing.Color.White;
-            this.guna2Button7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button7.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button7.Image = global::MangageCoffee.Properties.Resources.money__1_;
-            this.guna2Button7.ImageSize = new System.Drawing.Size(40, 40);
-            this.guna2Button7.Location = new System.Drawing.Point(987, 672);
-            this.guna2Button7.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
-            this.guna2Button7.Name = "guna2Button7";
-            this.guna2Button7.Size = new System.Drawing.Size(108, 85);
-            this.guna2Button7.TabIndex = 113;
-            this.guna2Button7.Text = "Pay";
-            this.guna2Button7.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button7.TextOffset = new System.Drawing.Point(27, 30);
+            this.QRNotChoose.BackColor = System.Drawing.Color.Transparent;
+            this.QRNotChoose.BorderRadius = 20;
+            this.QRNotChoose.BorderThickness = 2;
+            this.QRNotChoose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.QRNotChoose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.QRNotChoose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.QRNotChoose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.QRNotChoose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.QRNotChoose.FillColor = System.Drawing.Color.White;
+            this.QRNotChoose.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.QRNotChoose.ForeColor = System.Drawing.Color.Black;
+            this.QRNotChoose.Image = global::MangageCoffee.Properties.Resources.barcode_scanner;
+            this.QRNotChoose.ImageOffset = new System.Drawing.Point(-1, 0);
+            this.QRNotChoose.ImageSize = new System.Drawing.Size(25, 25);
+            this.QRNotChoose.Location = new System.Drawing.Point(1176, 746);
+            this.QRNotChoose.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
+            this.QRNotChoose.Name = "QRNotChoose";
+            this.QRNotChoose.Size = new System.Drawing.Size(89, 66);
+            this.QRNotChoose.TabIndex = 114;
+            this.QRNotChoose.Text = "QR Code";
+            this.QRNotChoose.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.QRNotChoose.TextOffset = new System.Drawing.Point(7, 20);
+            this.QRNotChoose.Click += new System.EventHandler(this.QRNotChoose_Click);
             // 
             // All
             // 
@@ -314,7 +270,6 @@
             // 
             this.flowLayoutPaneloder_Menu.AutoScroll = true;
             this.flowLayoutPaneloder_Menu.BackColor = System.Drawing.Color.White;
-            this.flowLayoutPaneloder_Menu.Controls.Add(this.item_Order3);
             this.flowLayoutPaneloder_Menu.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
             this.flowLayoutPaneloder_Menu.Location = new System.Drawing.Point(24, 60);
             this.flowLayoutPaneloder_Menu.Name = "flowLayoutPaneloder_Menu";
@@ -326,8 +281,8 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(981, 619);
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(981, 700);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(198, 31);
             this.label2.TabIndex = 112;
@@ -381,7 +336,7 @@
             this.guna2GradientPanel_Oder_Menu.Controls.Add(this.panel3);
             this.guna2GradientPanel_Oder_Menu.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel_Oder_Menu.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel_Oder_Menu.Location = new System.Drawing.Point(987, 75);
+            this.guna2GradientPanel_Oder_Menu.Location = new System.Drawing.Point(987, 48);
             this.guna2GradientPanel_Oder_Menu.Name = "guna2GradientPanel_Oder_Menu";
             this.guna2GradientPanel_Oder_Menu.Size = new System.Drawing.Size(369, 518);
             this.guna2GradientPanel_Oder_Menu.TabIndex = 107;
@@ -394,19 +349,20 @@
             this.CheckOut.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.CheckOut.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.CheckOut.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.CheckOut.Enabled = false;
             this.CheckOut.FillColor = System.Drawing.Color.Teal;
             this.CheckOut.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckOut.ForeColor = System.Drawing.Color.White;
-            this.CheckOut.Location = new System.Drawing.Point(987, 787);
+            this.CheckOut.Location = new System.Drawing.Point(987, 827);
             this.CheckOut.Name = "CheckOut";
             this.CheckOut.Size = new System.Drawing.Size(369, 43);
             this.CheckOut.TabIndex = 106;
             this.CheckOut.Text = "Checkout";
+            this.CheckOut.Click += new System.EventHandler(this.CheckOut_Click);
             // 
             // flowLayoutPanel_Menu
             // 
             this.flowLayoutPanel_Menu.AutoScroll = true;
-            this.flowLayoutPanel_Menu.Controls.Add(this.item1);
             this.flowLayoutPanel_Menu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel_Menu.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel_Menu.Name = "flowLayoutPanel_Menu";
@@ -489,35 +445,142 @@
             this.guna2Elipse1.BorderRadius = 50;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // item_Order3
+            // PayNotChoose
             // 
-            this.item_Order3.BackColor = System.Drawing.Color.White;
-            this.item_Order3.ItemName = null;
-            this.item_Order3.Location = new System.Drawing.Point(3, 3);
-            this.item_Order3.Name = "item_Order3";
-            this.item_Order3.Quantity = 1;
-            this.item_Order3.Size = new System.Drawing.Size(320, 103);
-            this.item_Order3.TabIndex = 2;
-            this.item_Order3.UnitPrice = 0D;
+            this.PayNotChoose.BackColor = System.Drawing.Color.Transparent;
+            this.PayNotChoose.BorderRadius = 20;
+            this.PayNotChoose.BorderThickness = 2;
+            this.PayNotChoose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.PayNotChoose.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.PayNotChoose.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.PayNotChoose.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.PayNotChoose.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.PayNotChoose.FillColor = System.Drawing.Color.White;
+            this.PayNotChoose.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PayNotChoose.ForeColor = System.Drawing.Color.Black;
+            this.PayNotChoose.Image = global::MangageCoffee.Properties.Resources.money__1_;
+            this.PayNotChoose.ImageSize = new System.Drawing.Size(30, 30);
+            this.PayNotChoose.Location = new System.Drawing.Point(1053, 746);
+            this.PayNotChoose.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
+            this.PayNotChoose.Name = "PayNotChoose";
+            this.PayNotChoose.Size = new System.Drawing.Size(89, 66);
+            this.PayNotChoose.TabIndex = 113;
+            this.PayNotChoose.Text = "Pay";
+            this.PayNotChoose.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.PayNotChoose.TextOffset = new System.Drawing.Point(20, 20);
+            this.PayNotChoose.Click += new System.EventHandler(this.PayNotChoose_Click);
             // 
-            // item1
+            // guna2CustomGradientPanel3
             // 
-            this.item1.BackColor = System.Drawing.Color.White;
-            this.item1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.item1.Location = new System.Drawing.Point(27, 17);
-            this.item1.Margin = new System.Windows.Forms.Padding(27, 17, 27, 17);
-            this.item1.Name = "item1";
-            this.item1.Size = new System.Drawing.Size(242, 249);
-            this.item1.TabIndex = 0;
+            this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel3.BorderRadius = 20;
+            this.guna2CustomGradientPanel3.Controls.Add(this.panel2);
+            this.guna2CustomGradientPanel3.Controls.Add(this.sataTextBox1);
+            this.guna2CustomGradientPanel3.Controls.Add(this.panel9);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtUsername);
+            this.guna2CustomGradientPanel3.Controls.Add(this.label5);
+            this.guna2CustomGradientPanel3.Controls.Add(this.label3);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(987, 572);
+            this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(369, 113);
+            this.guna2CustomGradientPanel3.TabIndex = 115;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(23, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 28);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Customer";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(24, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(71, 28);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Phone";
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.BackColor = System.Drawing.Color.White;
+            this.txtUsername.BorderColor = System.Drawing.Color.Transparent;
+            this.txtUsername.BorderFocusColor = System.Drawing.Color.Transparent;
+            this.txtUsername.BorderRadius = 5;
+            this.txtUsername.BorderSize = 3;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.Icon = null;
+            this.txtUsername.IconSize = new System.Drawing.Size(20, 20);
+            this.txtUsername.Location = new System.Drawing.Point(134, 17);
+            this.txtUsername.Multiline = false;
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.PasswordChar = false;
+            this.txtUsername.PlaceholderColor = System.Drawing.Color.Gray;
+            this.txtUsername.PlaceholderText = "Tri";
+            this.txtUsername.Size = new System.Drawing.Size(220, 40);
+            this.txtUsername.TabIndex = 48;
+            this.txtUsername.Text = "sataTextBox5";
+            this.txtUsername.Texts = "";
+            this.txtUsername.UnderlinedStyle = false;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Black;
+            this.panel9.ForeColor = System.Drawing.Color.Black;
+            this.panel9.Location = new System.Drawing.Point(134, 56);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(220, 2);
+            this.panel9.TabIndex = 50;
+            this.panel9.UseWaitCursor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Black;
+            this.panel2.ForeColor = System.Drawing.Color.Black;
+            this.panel2.Location = new System.Drawing.Point(134, 100);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(220, 2);
+            this.panel2.TabIndex = 52;
+            this.panel2.UseWaitCursor = true;
+            // 
+            // sataTextBox1
+            // 
+            this.sataTextBox1.BackColor = System.Drawing.Color.White;
+            this.sataTextBox1.BorderColor = System.Drawing.Color.Transparent;
+            this.sataTextBox1.BorderFocusColor = System.Drawing.Color.Transparent;
+            this.sataTextBox1.BorderRadius = 5;
+            this.sataTextBox1.BorderSize = 3;
+            this.sataTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sataTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sataTextBox1.ForeColor = System.Drawing.Color.Black;
+            this.sataTextBox1.Icon = null;
+            this.sataTextBox1.IconSize = new System.Drawing.Size(20, 20);
+            this.sataTextBox1.Location = new System.Drawing.Point(134, 61);
+            this.sataTextBox1.Multiline = false;
+            this.sataTextBox1.Name = "sataTextBox1";
+            this.sataTextBox1.PasswordChar = false;
+            this.sataTextBox1.PlaceholderColor = System.Drawing.Color.Gray;
+            this.sataTextBox1.PlaceholderText = "0346500557";
+            this.sataTextBox1.Size = new System.Drawing.Size(220, 40);
+            this.sataTextBox1.TabIndex = 51;
+            this.sataTextBox1.Texts = "";
+            this.sataTextBox1.UnderlinedStyle = false;
             // 
             // Menu_add
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
-            this.Controls.Add(this.guna2Button9);
-            this.Controls.Add(this.guna2Button8);
-            this.Controls.Add(this.guna2Button7);
+            this.Controls.Add(this.guna2CustomGradientPanel3);
+            this.Controls.Add(this.QRNotChoose);
             this.Controls.Add(this.All);
             this.Controls.Add(this.HotDrink);
             this.Controls.Add(this.ColdDrink);
@@ -532,30 +595,27 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.guna2CustomGradientPanel1);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.PayNotChoose);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Name = "Menu_add";
             this.Size = new System.Drawing.Size(1381, 892);
             this.Load += new System.EventHandler(this.Menu_add_Load);
-            this.flowLayoutPaneloder_Menu.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.guna2GradientPanel_Oder_Menu.ResumeLayout(false);
             this.guna2GradientPanel_Oder_Menu.PerformLayout();
-            this.flowLayoutPanel_Menu.ResumeLayout(false);
             this.guna2GradientPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
+            this.guna2CustomGradientPanel3.ResumeLayout(false);
+            this.guna2CustomGradientPanel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Item item1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private Guna.UI2.WinForms.Guna2Button guna2Button7;
+        private Guna.UI2.WinForms.Guna2Button QRNotChoose;
         private Guna.UI2.WinForms.Guna2Button All;
         private Guna.UI2.WinForms.Guna2Button HotDrink;
         private Guna.UI2.WinForms.Guna2Button ColdDrink;
@@ -565,7 +625,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label8;
         public System.Windows.Forms.FlowLayoutPanel flowLayoutPaneloder_Menu;
-        private Item_Order item_Order3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Panel panel3;
@@ -580,5 +639,13 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2Button PayNotChoose;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private SATATextBox txtUsername;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel2;
+        private SATATextBox sataTextBox1;
     }
 }

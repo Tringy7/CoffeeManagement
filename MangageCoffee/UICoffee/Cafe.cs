@@ -74,5 +74,13 @@ namespace MangageCoffee
         {
 
         }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Close();
+
+        }
     }
 }

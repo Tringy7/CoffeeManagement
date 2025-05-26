@@ -548,6 +548,7 @@
     <None Include="Resources\icons8-gender-321.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\delete1.png" />
     <None Include="Images\customer1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

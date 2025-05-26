@@ -267,9 +267,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(58, 181);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 28);
+            this.label5.Size = new System.Drawing.Size(141, 28);
             this.label5.TabIndex = 114;
-            this.label5.Text = "Id";
+            this.label5.Text = "Original price";
             // 
             // Txtname
             // 
@@ -312,7 +312,7 @@
             this.TxtId.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TxtId.Name = "TxtId";
             this.TxtId.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.TxtId.PlaceholderText = "A01";
+            this.TxtId.PlaceholderText = "10000";
             this.TxtId.SelectedText = "";
             this.TxtId.Size = new System.Drawing.Size(229, 43);
             this.TxtId.TabIndex = 112;
