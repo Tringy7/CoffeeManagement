@@ -10,7 +10,7 @@ namespace MangageCoffee.ADO.NET.DAL
 {
     public class UserDAL
     {
-        private readonly string connectionString = "Data Source=(local);Initial Catalog=CafeManagementV7;Integrated Security=True";
+        private readonly string connectionString = "Data Source=(local);Initial Catalog=CafeManagementV2;Integrated Security=True";
 
         public UserDTO CheckLogin(string username, string password)
         {

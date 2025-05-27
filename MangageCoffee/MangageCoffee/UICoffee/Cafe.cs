@@ -17,6 +17,7 @@ namespace MangageCoffee
         public Cafe()
         {
             InitializeComponent();
+            new1.SetMenuControl(menu_add1);
             this.StartPosition = FormStartPosition.CenterScreen; // <-- Đặt giữa màn hình
 
         }
@@ -67,6 +68,19 @@ namespace MangageCoffee
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             history_add1.BringToFront();
+        }
+
+        private void home1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Close();
+
         }
     }
 }

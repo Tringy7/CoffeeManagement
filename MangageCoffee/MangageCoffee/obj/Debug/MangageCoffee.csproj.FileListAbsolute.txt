@@ -220,3 +220,190 @@ D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer6.png
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.AddForm.resources
 D:\ACER\HỌC PHẦN\Năm 2_HK2\Lập trình Window\Đồ án\Management System\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditAdminForm.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\danh.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\default.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\tri.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\vu.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer1.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer2.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer3.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer4.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer5.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\customer6.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff01.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff02.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff03.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Images\staff04.png
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\MangageCoffee.exe.config
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\MangageCoffee.exe
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\MangageCoffee.pdb
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\FontAwesome.Sharp.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\GeoJsonLiveCharts.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Guna.UI2.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\LiveCharts.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Newtonsoft.Json.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\SATAUiFramework.dll
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\bin\Debug\Newtonsoft.Json.xml
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.csproj.AssemblyReference.cache
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Customer.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_add.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_historyform.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_item.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order_item.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.ManageDishes_edit.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_item.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_itemlist.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Cafe.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Form2.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Login_add.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Properties.Resources.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.Signup_add.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Home.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.test.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item_Order.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Menu_add.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Qr.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.AddForm.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.CustomerDetail.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditAdminForm.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditForm.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.StaffDetails.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_datacustomer.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_datastaff.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formcustomer.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formdata.resources
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.csproj.GenerateResource.cache
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.csproj.CoreCompileInputs.cache
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageC.20C02995.Up2Date
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.exe
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.pdb
+D:\mere_wf\CoffeeManagement\MangageCoffee\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Product.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\danh.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\default.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\tri.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\vu.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer1.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer2.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer3.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer4.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer5.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\customer6.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\staff01.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\staff02.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\staff03.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Images\staff04.png
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\MangageCoffee.exe.config
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\MangageCoffee.exe
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\MangageCoffee.pdb
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\GeoJsonLiveCharts.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Guna.UI2.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\LiveCharts.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\SATAUiFramework.dll
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.AssemblyReference.cache
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Customer.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_historyform.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_item.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order_item.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.ManageDishes_edit.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_item.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_itemlist.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.Cafe.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.Form2.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.Login_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.Properties.Resources.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.Signup_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Home.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Product.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.test.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item_Order.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Menu_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Qr.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.AddForm.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.CustomerDetail.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditAdminForm.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditForm.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.StaffDetails.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_datacustomer.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_datastaff.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formcustomer.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formdata.resources
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.GenerateResource.cache
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.CoreCompileInputs.cache
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageC.20C02995.Up2Date
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.exe
+C:\Users\hi\Dropbox\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.pdb
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\danh.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\default.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\tri.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\vu.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer1.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer2.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer3.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer4.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer5.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\customer6.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\staff01.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\staff02.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\staff03.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\staff04.png
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\MangageCoffee.exe.config
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\MangageCoffee.exe
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\MangageCoffee.pdb
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\FontAwesome.Sharp.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\GeoJsonLiveCharts.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Guna.UI2.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\LiveCharts.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Newtonsoft.Json.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\SATAUiFramework.dll
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Newtonsoft.Json.xml
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.csproj.AssemblyReference.cache
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Customer.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_add.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_historyform.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_item.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_order_item.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.ManageDishes_edit.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_item.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Manage_itemlist.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.Cafe.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.Form2.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.Login_add.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.Properties.Resources.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.Signup_add.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Home.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.Product.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.ManageDishes.test.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Item_Order.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Menu.Menu_add.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Qr.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.AddForm.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.CustomerDetail.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditAdminForm.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.EditForm.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.StaffDetails.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_datacustomer.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_datastaff.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formcustomer.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formdata.resources
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.csproj.GenerateResource.cache
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.csproj.CoreCompileInputs.cache
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageC.20C02995.Up2Date
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.exe
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\obj\Debug\MangageCoffee.pdb
+D:\File Rac\winfrom\CoffeeManagement-Anhvu1\MangageCoffee\bin\Debug\Images\hamburger.png

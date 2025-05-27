@@ -47,6 +47,7 @@
             this.menu_add1.Name = "menu_add1";
             this.menu_add1.Size = new System.Drawing.Size(1381, 892);
             this.menu_add1.TabIndex = 0;
+            this.menu_add1.Load += new System.EventHandler(this.menu_add1_Load);
             // 
             // Customer
             // 

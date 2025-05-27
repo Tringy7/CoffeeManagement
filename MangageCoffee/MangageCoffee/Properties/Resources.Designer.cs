@@ -253,6 +253,16 @@ namespace MangageCoffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete1 {
+            get {
+                object obj = ResourceManager.GetObject("delete1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap drink_hot {
             get {
                 object obj = ResourceManager.GetObject("drink_hot", resourceCulture);
@@ -286,6 +296,16 @@ namespace MangageCoffee.Properties {
         internal static System.Drawing.Bitmap google {
             get {
                 object obj = ResourceManager.GetObject("google", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hamburger {
+            get {
+                object obj = ResourceManager.GetObject("hamburger", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

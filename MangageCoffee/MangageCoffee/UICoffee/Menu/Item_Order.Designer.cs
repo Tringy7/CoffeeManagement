@@ -29,146 +29,156 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.name_item = new System.Windows.Forms.Label();
+            this.SoLuong = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.price = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+            this.ptbImage = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImage)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.name_item);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(107, 21);
+            this.panel1.Location = new System.Drawing.Point(126, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(99, 28);
-            this.panel1.TabIndex = 1;
+            this.panel1.Size = new System.Drawing.Size(111, 35);
+            this.panel1.TabIndex = 82;
             // 
-            // label2
+            // name_item
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(0, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 20);
-            this.label2.TabIndex = 78;
-            this.label2.Text = "Burger";
+            this.name_item.AutoSize = true;
+            this.name_item.BackColor = System.Drawing.Color.White;
+            this.name_item.Dock = System.Windows.Forms.DockStyle.Left;
+            this.name_item.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_item.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.name_item.Location = new System.Drawing.Point(0, 0);
+            this.name_item.Name = "name_item";
+            this.name_item.Size = new System.Drawing.Size(70, 25);
+            this.name_item.TabIndex = 78;
+            this.name_item.Text = "Burger";
+            this.name_item.Click += new System.EventHandler(this.name_item_Click);
             // 
-            // label1
+            // SoLuong
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(19, 15);
-            this.label1.TabIndex = 78;
-            this.label1.Text = "x1";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(107, 55);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(57, 28);
-            this.panel2.TabIndex = 79;
+            this.SoLuong.AutoSize = true;
+            this.SoLuong.BackColor = System.Drawing.Color.White;
+            this.SoLuong.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SoLuong.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoLuong.ForeColor = System.Drawing.Color.Black;
+            this.SoLuong.Location = new System.Drawing.Point(0, 0);
+            this.SoLuong.Name = "SoLuong";
+            this.SoLuong.Size = new System.Drawing.Size(24, 20);
+            this.SoLuong.TabIndex = 78;
+            this.SoLuong.Text = "x1";
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.price);
             this.panel3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(212, 21);
+            this.panel3.Location = new System.Drawing.Point(244, 28);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(86, 37);
-            this.panel3.TabIndex = 80;
+            this.panel3.Size = new System.Drawing.Size(97, 46);
+            this.panel3.TabIndex = 84;
             // 
-            // label3
+            // price
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(41, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 23);
-            this.label3.TabIndex = 79;
-            this.label3.Text = "10 $";
+            this.price.AutoSize = true;
+            this.price.BackColor = System.Drawing.Color.Transparent;
+            this.price.Dock = System.Windows.Forms.DockStyle.Right;
+            this.price.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price.ForeColor = System.Drawing.Color.Red;
+            this.price.Location = new System.Drawing.Point(42, 0);
+            this.price.Name = "price";
+            this.price.Size = new System.Drawing.Size(55, 30);
+            this.price.TabIndex = 79;
+            this.price.Text = "10 $";
             // 
-            // btnHome
+            // panel2
             // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnHome.ForeColor = System.Drawing.Color.White;
-            this.btnHome.Image = global::MangageCoffee.Properties.Resources.minus;
-            this.btnHome.Location = new System.Drawing.Point(256, 55);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(42, 28);
-            this.btnHome.TabIndex = 80;
+            this.panel2.Controls.Add(this.SoLuong);
+            this.panel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(126, 70);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(64, 35);
+            this.panel2.TabIndex = 83;
             // 
-            // guna2PictureBox1
+            // btnDelete
             // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.BorderRadius = 10;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.LightGray;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(89, 76);
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
+            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDelete.FillColor = System.Drawing.Color.Transparent;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Image = global::MangageCoffee.Properties.Resources.minus;
+            this.btnDelete.Location = new System.Drawing.Point(294, 70);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(47, 35);
+            this.btnDelete.TabIndex = 85;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // ptbImage
+            // 
+            this.ptbImage.BackColor = System.Drawing.Color.Transparent;
+            this.ptbImage.BorderRadius = 10;
+            this.ptbImage.FillColor = System.Drawing.Color.LightGray;
+            this.ptbImage.ImageRotate = 0F;
+            this.ptbImage.Location = new System.Drawing.Point(19, 16);
+            this.ptbImage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ptbImage.Name = "ptbImage";
+            this.ptbImage.Size = new System.Drawing.Size(100, 95);
+            this.ptbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbImage.TabIndex = 81;
+            this.ptbImage.TabStop = false;
             // 
             // Item_Order
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.btnHome);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.guna2PictureBox1);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.ptbImage);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Item_Order";
-            this.Size = new System.Drawing.Size(320, 103);
+            this.Size = new System.Drawing.Size(360, 129);
+            this.Load += new System.EventHandler(this.Item_Order_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImage)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label name_item;
+        private System.Windows.Forms.Label SoLuong;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
-        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private System.Windows.Forms.Label price;
+        private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2Button btnDelete;
+        private Guna.UI2.WinForms.Guna2PictureBox ptbImage;
     }
 }

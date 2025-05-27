@@ -16,5 +16,10 @@ namespace MangageCoffee.UICoffee.Customer
         {
             InitializeComponent();
         }
+
+        private void menu_add1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
