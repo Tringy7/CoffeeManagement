@@ -193,12 +193,17 @@ namespace MangageCoffee.UICoffee
         private void ptbAdd_Click(object sender, EventArgs e)
         {
 
+            
+        }
+
+        private void btnAvatar_Click(object sender, EventArgs e)
+        {
             AddForm addForm = new AddForm();
 
             if (addForm.ShowDialog() == DialogResult.OK)
             {
                 MessageBox.Show("Chỉnh sửa người dùng thành công.");
-                user_add_formdata1.LoadStaffData(); 
+                user_add_formdata1.LoadStaffData();
             }
             else
             {

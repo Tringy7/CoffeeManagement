@@ -51,6 +51,8 @@
             FrameworkTest.Charts.SATALineChart.DataSet dataSet20 = new FrameworkTest.Charts.SATALineChart.DataSet();
             FrameworkTest.Charts.SATALineChart.DataSet dataSet21 = new FrameworkTest.Charts.SATALineChart.DataSet();
             FrameworkTest.Charts.SATALineChart.DataSet dataSet22 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet23 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet24 = new FrameworkTest.Charts.SATALineChart.DataSet();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
@@ -143,7 +145,7 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.lblSDT);
             this.guna2CustomGradientPanel3.Controls.Add(this.label8);
             this.guna2CustomGradientPanel3.Controls.Add(this.pictureBox2);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(37, 279);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(42, 305);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(365, 494);
             this.guna2CustomGradientPanel3.TabIndex = 15;
@@ -658,6 +660,28 @@
         110F,
         50F,
         40F};
+            dataSet23.Label = "Sample Dataset 1";
+            dataSet23.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet23.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet23.Points = new float[] {
+        105F,
+        65F,
+        80F,
+        120F,
+        135F,
+        65F,
+        30F};
+            dataSet24.Label = "Sample Dataset 2";
+            dataSet24.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet24.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet24.Points = new float[] {
+        80F,
+        90F,
+        70F,
+        100F,
+        110F,
+        50F,
+        40F};
             this.sataLineChart1.DataSets.Add(dataSet1);
             this.sataLineChart1.DataSets.Add(dataSet2);
             this.sataLineChart1.DataSets.Add(dataSet3);
@@ -680,6 +704,8 @@
             this.sataLineChart1.DataSets.Add(dataSet20);
             this.sataLineChart1.DataSets.Add(dataSet21);
             this.sataLineChart1.DataSets.Add(dataSet22);
+            this.sataLineChart1.DataSets.Add(dataSet23);
+            this.sataLineChart1.DataSets.Add(dataSet24);
             this.sataLineChart1.DayColor = System.Drawing.Color.DarkGray;
             this.sataLineChart1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.sataLineChart1.GradientBackground = true;

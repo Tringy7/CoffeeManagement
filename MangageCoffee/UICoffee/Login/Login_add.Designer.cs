@@ -184,7 +184,7 @@
             this.btnLogin.FillColor = System.Drawing.Color.Black;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(41, 443);
+            this.btnLogin.Location = new System.Drawing.Point(41, 423);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(397, 47);
             this.btnLogin.TabIndex = 1;

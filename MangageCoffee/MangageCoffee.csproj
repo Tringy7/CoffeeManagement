@@ -207,6 +207,18 @@
     <Compile Include="UICoffee\Menu\Menu_add.Designer.cs">
       <DependentUpon>Menu_add.cs</DependentUpon>
     </Compile>
+    <Compile Include="UICoffee\Untils\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.Designer.cs">
+      <DependentUpon>Bill_item.cs</DependentUpon>
+    </Compile>
     <Compile Include="UICoffee\Untils\Qr.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -345,6 +357,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Menu_add.resx">
       <DependentUpon>Menu_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill_item.resx">
+      <DependentUpon>Bill_item.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>

@@ -55,12 +55,12 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.PayNotChoose = new Guna.UI2.WinForms.Guna2Button();
             this.guna2CustomGradientPanel3 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtUsername = new SATATextBox();
-            this.panel9 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.sataTextBox1 = new SATATextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.txtUsername = new SATATextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel3.SuspendLayout();
             this.guna2GradientPanel_Oder_Menu.SuspendLayout();
             this.guna2GradientPanel1.SuspendLayout();
@@ -92,7 +92,7 @@
             this.QRNotChoose.TabIndex = 114;
             this.QRNotChoose.Text = "QR Code";
             this.QRNotChoose.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.QRNotChoose.TextOffset = new System.Drawing.Point(7, 20);
+            this.QRNotChoose.TextOffset = new System.Drawing.Point(4, 20);
             this.QRNotChoose.Click += new System.EventHandler(this.QRNotChoose_Click);
             // 
             // All
@@ -482,64 +482,8 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.label3);
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(987, 572);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(369, 113);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(369, 125);
             this.guna2CustomGradientPanel3.TabIndex = 115;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(23, 24);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 28);
-            this.label3.TabIndex = 13;
-            this.label3.Text = "Customer";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 74);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 28);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "Phone";
-            // 
-            // txtUsername
-            // 
-            this.txtUsername.BackColor = System.Drawing.Color.White;
-            this.txtUsername.BorderColor = System.Drawing.Color.Transparent;
-            this.txtUsername.BorderFocusColor = System.Drawing.Color.Transparent;
-            this.txtUsername.BorderRadius = 5;
-            this.txtUsername.BorderSize = 3;
-            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.ForeColor = System.Drawing.Color.Black;
-            this.txtUsername.Icon = null;
-            this.txtUsername.IconSize = new System.Drawing.Size(20, 20);
-            this.txtUsername.Location = new System.Drawing.Point(134, 17);
-            this.txtUsername.Multiline = false;
-            this.txtUsername.Name = "txtUsername";
-            this.txtUsername.PasswordChar = false;
-            this.txtUsername.PlaceholderColor = System.Drawing.Color.Gray;
-            this.txtUsername.PlaceholderText = "Tri";
-            this.txtUsername.Size = new System.Drawing.Size(220, 40);
-            this.txtUsername.TabIndex = 48;
-            this.txtUsername.Text = "sataTextBox5";
-            this.txtUsername.Texts = "";
-            this.txtUsername.UnderlinedStyle = false;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Black;
-            this.panel9.ForeColor = System.Drawing.Color.Black;
-            this.panel9.Location = new System.Drawing.Point(134, 56);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(220, 2);
-            this.panel9.TabIndex = 50;
-            this.panel9.UseWaitCursor = true;
             // 
             // panel2
             // 
@@ -573,6 +517,62 @@
             this.sataTextBox1.TabIndex = 51;
             this.sataTextBox1.Texts = "";
             this.sataTextBox1.UnderlinedStyle = false;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.Black;
+            this.panel9.ForeColor = System.Drawing.Color.Black;
+            this.panel9.Location = new System.Drawing.Point(134, 56);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(220, 2);
+            this.panel9.TabIndex = 50;
+            this.panel9.UseWaitCursor = true;
+            // 
+            // txtUsername
+            // 
+            this.txtUsername.BackColor = System.Drawing.Color.White;
+            this.txtUsername.BorderColor = System.Drawing.Color.Transparent;
+            this.txtUsername.BorderFocusColor = System.Drawing.Color.Transparent;
+            this.txtUsername.BorderRadius = 5;
+            this.txtUsername.BorderSize = 3;
+            this.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsername.ForeColor = System.Drawing.Color.Black;
+            this.txtUsername.Icon = null;
+            this.txtUsername.IconSize = new System.Drawing.Size(20, 20);
+            this.txtUsername.Location = new System.Drawing.Point(134, 17);
+            this.txtUsername.Multiline = false;
+            this.txtUsername.Name = "txtUsername";
+            this.txtUsername.PasswordChar = false;
+            this.txtUsername.PlaceholderColor = System.Drawing.Color.Gray;
+            this.txtUsername.PlaceholderText = "Tri";
+            this.txtUsername.Size = new System.Drawing.Size(220, 40);
+            this.txtUsername.TabIndex = 48;
+            this.txtUsername.Text = "sataTextBox5";
+            this.txtUsername.Texts = "";
+            this.txtUsername.UnderlinedStyle = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(24, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(71, 28);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Phone";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(23, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 28);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "Customer";
             // 
             // Menu_add
             // 

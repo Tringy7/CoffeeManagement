@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.Menu
 {
@@ -216,6 +217,8 @@ namespace MangageCoffee.UICoffee.Menu
 
         private void CheckOut_Click(object sender, EventArgs e)
         {
+            Bill bill = new Bill();
+            bill.Show();
         }
     }
 }
