@@ -3,23 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\customer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\untils\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\untils\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\staffdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\staffdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\staffdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\untils\\bill_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,59 +31,59 @@
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\menu\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\user_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\editadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\editadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\editadminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\user\\customerdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\untils\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\untils\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\untils\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\untils\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\untils\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\untils\\qr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\login\\signup_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\login\\signup_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\login\\signup_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\login\\login_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\login\\login_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\login\\login_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|c:\\users\\hi\\dropbox\\coffeemanagement\\mangagecoffee\\uicoffee\\managedishes\\manage_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|C:\\Users\\hi\\Dropbox\\CoffeeManagement\\mangagecoffee\\uicoffee\\managedishes\\manage_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\manage_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -114,11 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Menu\\Item.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Item.cs",
@@ -127,230 +131,18 @@
               "ViewState": "AgIAADQAAAAAAAAAAAAEwEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T18:16:52.688Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Bill_item.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:51:13.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bill_item.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:43:44.4Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "User_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:24:23.525Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StaffDetails.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\StaffDetails.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\StaffDetails.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\StaffDetails.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\StaffDetails.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:12:34.167Z",
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Bill.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill.cs [Design]",
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Customer\\Form1.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Customer\\Form1.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Customer\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:54:21.246Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CustomerDetail.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:06:00.98Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User_add.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAqwEMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:24:51.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EditForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditForm.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\EditForm.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditForm.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\EditForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:12:17.002Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EditAdminForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditAdminForm.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\EditAdminForm.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditAdminForm.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\EditAdminForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:06:08.225Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\AddForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:00:17.568Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AddForm.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAuwEAAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:02:54.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CustomerDetail.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:19:49.218Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:06:52.585Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Home.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Home\\Home.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAEwFUAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:07:16.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Qr.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Qr.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Qr.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Qr.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Qr.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:54:50.485Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Bill.cs",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:54:46.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Signup_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Signup_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Login\\Signup_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Signup_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Login\\Signup_add.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:52:46.68Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login_add.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Login_add.cs",
-              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Login\\Login_add.cs",
-              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Login_add.cs [Design]",
-              "RelativeToolTip": "MangageCoffee\\UICoffee\\Login\\Login_add.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:52:40.507Z",
+              "WhenOpened": "2025-05-28T12:44:27.016Z",
               "EditorCaption": " [Design]"
             },
             {
@@ -375,19 +167,224 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
+              "Title": "Bill_item.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:51:13.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bill_item.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill_item.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill_item.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:43:44.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User_add.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:24:23.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\StaffDetails.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\StaffDetails.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\StaffDetails.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\StaffDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:12:34.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bill.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:54:21.246Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:06:00.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User_add.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\User_add.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwEMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:24:51.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditForm.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\EditForm.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditForm.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\EditForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:12:17.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditAdminForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditAdminForm.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\EditAdminForm.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\EditAdminForm.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\EditAdminForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:06:08.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\AddForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:00:17.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddForm.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\AddForm.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwEAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:02:54.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerDetail.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\User\\CustomerDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:19:49.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:06:52.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAEwFUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:07:16.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Qr.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Qr.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Qr.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Qr.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Qr.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:54:50.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Untils\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:54:46.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Signup_add.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Signup_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Login\\Signup_add.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Signup_add.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Login\\Signup_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:52:46.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login_add.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Login_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Login\\Login_add.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Login\\Login_add.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Login\\Login_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T03:52:40.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Item.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Menu\\Item.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Item.cs",
               "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
               "RelativeToolTip": "MangageCoffee\\UICoffee\\Menu\\Item.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:13:13.132Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-26T18:13:13.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Item_Order.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Menu\\Item_Order.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Menu\\Item_Order.cs",
@@ -398,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Cafe.cs",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Cafe.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Cafe.cs",
@@ -410,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Cafe.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\Cafe.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Cafe.cs",
@@ -421,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ManageDishes_edit.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\ManageDishes_edit.cs",
@@ -432,19 +429,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Manage_item.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs",
               "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs [Design]",
               "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Manage_item.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:00:07.855Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-26T18:00:07.855Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Product.cs [Design]",
               "DocumentMoniker": "C:\\Users\\hi\\Dropbox\\CoffeeManagement\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
               "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
