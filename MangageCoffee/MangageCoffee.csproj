@@ -75,11 +75,13 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADO.NET\BLL\BL_history.cs" />
     <Compile Include="ADO.NET\BLL\BL_Menu.cs" />
     <Compile Include="ADO.NET\BLL\BL_Product.cs" />
     <Compile Include="ADO.NET\BLL\UsersBLL.cs" />
     <Compile Include="ADO.NET\DAL\DB_Main.cs" />
     <Compile Include="ADO.NET\DAL\UsersDAL.cs" />
+    <Compile Include="DTO\Class_Oder.cs" />
     <Compile Include="DTO\Class_Menu.cs" />
     <Compile Include="DTO\Class_product.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />

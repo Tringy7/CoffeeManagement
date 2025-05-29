@@ -30,33 +30,26 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.label4 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Fullname = new System.Windows.Forms.Label();
+            this.Id = new System.Windows.Forms.Label();
+            this.Time = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Date = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.history_order_item1 = new MangageCoffee.UICoffee.History.History_order_item();
-            this.history_order_item2 = new MangageCoffee.UICoffee.History.History_order_item();
-            this.history_order_item3 = new MangageCoffee.UICoffee.History.History_order_item();
-            this.history_order_item4 = new MangageCoffee.UICoffee.History.History_order_item();
-            this.history_order_item5 = new MangageCoffee.UICoffee.History.History_order_item();
-            this.history_order_item6 = new MangageCoffee.UICoffee.History.History_order_item();
+            this.flowLayoutPanelAdd_Oder = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.totalMoney = new System.Windows.Forms.Label();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.deleteOderHistory = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -66,55 +59,55 @@
             this.guna2Elipse1.BorderRadius = 20;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // label4
+            // Fullname
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(96, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 28);
-            this.label4.TabIndex = 104;
-            this.label4.Text = "Nguyen Huu Tri";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.Fullname.AutoSize = true;
+            this.Fullname.BackColor = System.Drawing.Color.Transparent;
+            this.Fullname.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fullname.ForeColor = System.Drawing.Color.Black;
+            this.Fullname.Location = new System.Drawing.Point(96, 15);
+            this.Fullname.Name = "Fullname";
+            this.Fullname.Size = new System.Drawing.Size(161, 28);
+            this.Fullname.TabIndex = 104;
+            this.Fullname.Text = "Nguyen Huu Tri";
+            this.Fullname.Click += new System.EventHandler(this.label4_Click);
             // 
-            // label1
+            // Id
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(96, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 28);
-            this.label1.TabIndex = 105;
-            this.label1.Text = "001";
+            this.Id.AutoSize = true;
+            this.Id.BackColor = System.Drawing.Color.Transparent;
+            this.Id.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Id.ForeColor = System.Drawing.Color.Black;
+            this.Id.Location = new System.Drawing.Point(96, 51);
+            this.Id.Name = "Id";
+            this.Id.Size = new System.Drawing.Size(45, 28);
+            this.Id.TabIndex = 105;
+            this.Id.Text = "001";
             // 
-            // guna2HtmlLabel6
+            // Time
             // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(317, 85);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(65, 25);
-            this.guna2HtmlLabel6.TabIndex = 107;
-            this.guna2HtmlLabel6.Text = "14:17:25";
+            this.Time.BackColor = System.Drawing.Color.Transparent;
+            this.Time.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Time.Location = new System.Drawing.Point(317, 85);
+            this.Time.Name = "Time";
+            this.Time.Size = new System.Drawing.Size(65, 25);
+            this.Time.TabIndex = 107;
+            this.Time.Text = "14:17:25";
             // 
-            // guna2HtmlLabel5
+            // Date
             // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(19, 85);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(89, 25);
-            this.guna2HtmlLabel5.TabIndex = 106;
-            this.guna2HtmlLabel5.Text = "17/10/2025";
+            this.Date.BackColor = System.Drawing.Color.Transparent;
+            this.Date.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Date.Location = new System.Drawing.Point(19, 85);
+            this.Date.Name = "Date";
+            this.Date.Size = new System.Drawing.Size(89, 25);
+            this.Date.TabIndex = 106;
+            this.Date.Text = "17/10/2025";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.Controls.Add(this.guna2Panel5);
-            this.guna2Panel1.Controls.Add(this.flowLayoutPanel1);
+            this.guna2Panel1.Controls.Add(this.flowLayoutPanelAdd_Oder);
             this.guna2Panel1.Location = new System.Drawing.Point(24, 116);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(358, 185);
@@ -161,62 +154,15 @@
             this.guna2HtmlLabel1.TabIndex = 114;
             this.guna2HtmlLabel1.Text = "Items";
             // 
-            // flowLayoutPanel1
+            // flowLayoutPanelAdd_Oder
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item1);
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item2);
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item3);
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item4);
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item5);
-            this.flowLayoutPanel1.Controls.Add(this.history_order_item6);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 31);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(358, 154);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // history_order_item1
-            // 
-            this.history_order_item1.Location = new System.Drawing.Point(3, 3);
-            this.history_order_item1.Name = "history_order_item1";
-            this.history_order_item1.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item1.TabIndex = 0;
-            // 
-            // history_order_item2
-            // 
-            this.history_order_item2.Location = new System.Drawing.Point(3, 40);
-            this.history_order_item2.Name = "history_order_item2";
-            this.history_order_item2.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item2.TabIndex = 1;
-            // 
-            // history_order_item3
-            // 
-            this.history_order_item3.Location = new System.Drawing.Point(3, 77);
-            this.history_order_item3.Name = "history_order_item3";
-            this.history_order_item3.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item3.TabIndex = 2;
-            // 
-            // history_order_item4
-            // 
-            this.history_order_item4.Location = new System.Drawing.Point(3, 114);
-            this.history_order_item4.Name = "history_order_item4";
-            this.history_order_item4.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item4.TabIndex = 3;
-            // 
-            // history_order_item5
-            // 
-            this.history_order_item5.Location = new System.Drawing.Point(3, 151);
-            this.history_order_item5.Name = "history_order_item5";
-            this.history_order_item5.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item5.TabIndex = 4;
-            // 
-            // history_order_item6
-            // 
-            this.history_order_item6.Location = new System.Drawing.Point(3, 188);
-            this.history_order_item6.Name = "history_order_item6";
-            this.history_order_item6.Size = new System.Drawing.Size(358, 31);
-            this.history_order_item6.TabIndex = 5;
+            this.flowLayoutPanelAdd_Oder.AutoScroll = true;
+            this.flowLayoutPanelAdd_Oder.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.flowLayoutPanelAdd_Oder.Location = new System.Drawing.Point(0, 31);
+            this.flowLayoutPanelAdd_Oder.Name = "flowLayoutPanelAdd_Oder";
+            this.flowLayoutPanelAdd_Oder.Size = new System.Drawing.Size(358, 154);
+            this.flowLayoutPanelAdd_Oder.TabIndex = 0;
+            this.flowLayoutPanelAdd_Oder.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
             // 
             // guna2Panel2
             // 
@@ -248,24 +194,24 @@
             // 
             // guna2Panel4
             // 
-            this.guna2Panel4.Controls.Add(this.label3);
+            this.guna2Panel4.Controls.Add(this.totalMoney);
             this.guna2Panel4.Location = new System.Drawing.Point(166, 323);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(215, 24);
             this.guna2Panel4.TabIndex = 112;
             // 
-            // label3
+            // totalMoney
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(153, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
-            this.label3.TabIndex = 113;
-            this.label3.Text = "10000";
+            this.totalMoney.AutoSize = true;
+            this.totalMoney.BackColor = System.Drawing.Color.Transparent;
+            this.totalMoney.Dock = System.Windows.Forms.DockStyle.Right;
+            this.totalMoney.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalMoney.ForeColor = System.Drawing.Color.Black;
+            this.totalMoney.Location = new System.Drawing.Point(153, 0);
+            this.totalMoney.Name = "totalMoney";
+            this.totalMoney.Size = new System.Drawing.Size(62, 25);
+            this.totalMoney.TabIndex = 113;
+            this.totalMoney.Text = "10000";
             // 
             // guna2Button1
             // 
@@ -294,40 +240,41 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // btnHome
+            // deleteOderHistory
             // 
-            this.btnHome.BackColor = System.Drawing.Color.Transparent;
-            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnHome.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnHome.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnHome.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnHome.FillColor = System.Drawing.Color.Transparent;
-            this.btnHome.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btnHome.ForeColor = System.Drawing.Color.Transparent;
-            this.btnHome.Image = global::MangageCoffee.Properties.Resources.close;
-            this.btnHome.ImageSize = new System.Drawing.Size(24, 24);
-            this.btnHome.Location = new System.Drawing.Point(376, 3);
-            this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(29, 27);
-            this.btnHome.TabIndex = 115;
+            this.deleteOderHistory.BackColor = System.Drawing.Color.Transparent;
+            this.deleteOderHistory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.deleteOderHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.deleteOderHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.deleteOderHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.deleteOderHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.deleteOderHistory.FillColor = System.Drawing.Color.Transparent;
+            this.deleteOderHistory.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.deleteOderHistory.ForeColor = System.Drawing.Color.Transparent;
+            this.deleteOderHistory.Image = global::MangageCoffee.Properties.Resources.close;
+            this.deleteOderHistory.ImageSize = new System.Drawing.Size(24, 24);
+            this.deleteOderHistory.Location = new System.Drawing.Point(376, 3);
+            this.deleteOderHistory.Name = "deleteOderHistory";
+            this.deleteOderHistory.Size = new System.Drawing.Size(29, 27);
+            this.deleteOderHistory.TabIndex = 115;
+            this.deleteOderHistory.Click += new System.EventHandler(this.deleteOderHistory_Click);
             // 
             // History_order
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.btnHome);
+            this.Controls.Add(this.deleteOderHistory);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Panel4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.guna2HtmlLabel6);
-            this.Controls.Add(this.guna2HtmlLabel5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.Time);
+            this.Controls.Add(this.Date);
+            this.Controls.Add(this.Id);
+            this.Controls.Add(this.Fullname);
             this.Controls.Add(this.guna2PictureBox1);
             this.Margin = new System.Windows.Forms.Padding(10);
             this.Name = "History_order";
@@ -335,7 +282,6 @@
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -348,28 +294,22 @@
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Fullname;
+        private System.Windows.Forms.Label Id;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelAdd_Oder;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Time;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Date;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label totalMoney;
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private History_order_item history_order_item1;
-        private History_order_item history_order_item2;
-        private History_order_item history_order_item3;
-        private History_order_item history_order_item4;
-        private History_order_item history_order_item5;
-        private History_order_item history_order_item6;
-        private Guna.UI2.WinForms.Guna2Button btnHome;
+        private Guna.UI2.WinForms.Guna2Button deleteOderHistory;
     }
 }

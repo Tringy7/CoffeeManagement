@@ -10,7 +10,7 @@ namespace MangageCoffee.ADO.NET.DAL
 {
     public class UserDAL
     {
-        private readonly string connectionString = "Data Source=(local);Initial Catalog=CafeManagementV2;Integrated Security=True";
+        private readonly string connectionString = "Data Source=(local);Initial Catalog=CafeManagementV0;Integrated Security=True";
 
         public UserDTO CheckLogin(string username, string password)
         {
@@ -391,7 +391,7 @@ namespace MangageCoffee.ADO.NET.DAL
                         customerList.Add(new CustomerDisplayDTO
                         {
                             UserID = (int)reader["UserID"],
-                            CustomerID = reader["CustomerID"] == DBNull.Value ? null : reader["CustomerID"].ToString(),
+                            CustomerID = (int)reader["CustomerID"],
                             Username = reader["Username"].ToString(),
                             FullName = reader["FullName"] == DBNull.Value ? null : reader["FullName"].ToString(),
                             Phone = reader["Phone"] == DBNull.Value ? null : reader["Phone"].ToString(),

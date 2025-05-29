@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.unitPrice = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Quantity = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.Name_oder_item = new System.Windows.Forms.Label();
             this.guna2Panel5.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
+            this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel5
@@ -47,41 +47,41 @@
             this.guna2Panel5.Controls.Add(this.guna2Panel2);
             this.guna2Panel5.Controls.Add(this.guna2Panel1);
             this.guna2Panel5.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2Panel5.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2Panel5.Controls.Add(this.Quantity);
             this.guna2Panel5.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel5.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(358, 31);
             this.guna2Panel5.TabIndex = 2;
+            this.guna2Panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel5_Paint);
             // 
-            // guna2HtmlLabel2
+            // guna2Panel2
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(186, 6);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(10, 19);
-            this.guna2HtmlLabel2.TabIndex = 115;
-            this.guna2HtmlLabel2.Text = "1";
-            // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(16, 6);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(34, 19);
-            this.guna2HtmlLabel1.TabIndex = 114;
-            this.guna2HtmlLabel1.Text = "Items";
+            this.guna2Panel2.Controls.Add(this.Name_oder_item);
+            this.guna2Panel2.Location = new System.Drawing.Point(16, 6);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(105, 19);
+            this.guna2Panel2.TabIndex = 118;
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel4);
+            this.guna2Panel1.Controls.Add(this.unitPrice);
             this.guna2Panel1.Location = new System.Drawing.Point(238, 6);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(105, 19);
             this.guna2Panel1.TabIndex = 117;
+            // 
+            // unitPrice
+            // 
+            this.unitPrice.BackColor = System.Drawing.Color.Transparent;
+            this.unitPrice.Dock = System.Windows.Forms.DockStyle.Right;
+            this.unitPrice.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unitPrice.Location = new System.Drawing.Point(74, 0);
+            this.unitPrice.Name = "unitPrice";
+            this.unitPrice.Size = new System.Drawing.Size(31, 19);
+            this.unitPrice.TabIndex = 117;
+            this.unitPrice.Text = "1000";
             // 
             // guna2HtmlLabel3
             // 
@@ -93,35 +93,35 @@
             this.guna2HtmlLabel3.TabIndex = 116;
             this.guna2HtmlLabel3.Text = "Price";
             // 
-            // guna2HtmlLabel4
+            // Quantity
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(74, 0);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(31, 19);
-            this.guna2HtmlLabel4.TabIndex = 117;
-            this.guna2HtmlLabel4.Text = "1000";
+            this.Quantity.BackColor = System.Drawing.Color.Transparent;
+            this.Quantity.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Quantity.Location = new System.Drawing.Point(186, 6);
+            this.Quantity.Name = "Quantity";
+            this.Quantity.Size = new System.Drawing.Size(10, 19);
+            this.Quantity.TabIndex = 115;
+            this.Quantity.Text = "1";
             // 
-            // guna2Panel2
+            // guna2HtmlLabel1
             // 
-            this.guna2Panel2.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel2.Location = new System.Drawing.Point(16, 6);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(105, 19);
-            this.guna2Panel2.TabIndex = 118;
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(16, 6);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(34, 19);
+            this.guna2HtmlLabel1.TabIndex = 114;
+            this.guna2HtmlLabel1.Text = "Items";
             // 
-            // guna2HtmlLabel5
+            // Name_oder_item
             // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(0, 0);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(54, 19);
-            this.guna2HtmlLabel5.TabIndex = 115;
-            this.guna2HtmlLabel5.Text = "Banh Mi";
+            this.Name_oder_item.AutoSize = true;
+            this.Name_oder_item.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name_oder_item.Location = new System.Drawing.Point(3, 0);
+            this.Name_oder_item.Name = "Name_oder_item";
+            this.Name_oder_item.Size = new System.Drawing.Size(45, 16);
+            this.Name_oder_item.TabIndex = 119;
+            this.Name_oder_item.Text = "name";
             // 
             // History_order_item
             // 
@@ -132,10 +132,10 @@
             this.Size = new System.Drawing.Size(358, 31);
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -143,12 +143,12 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
+        private Guna.UI2.WinForms.Guna2HtmlLabel Quantity;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2HtmlLabel unitPrice;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
+        private System.Windows.Forms.Label Name_oder_item;
     }
 }

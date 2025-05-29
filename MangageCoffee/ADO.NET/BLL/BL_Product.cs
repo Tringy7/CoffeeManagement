@@ -102,7 +102,7 @@ namespace MangageCoffee.ADO.NET.BLL
             string sqlDeleteMenuItems = "DELETE FROM MenuItems WHERE ProductID = @ProductID";
             SqlParameter[] parameters1 = new SqlParameter[]
             {
-        new SqlParameter("@ProductID", productId)
+                    new SqlParameter("@ProductID", productId)
             };
 
             bool menuItemsDeleted = db.MyExecuteNonQuery(sqlDeleteMenuItems, CommandType.Text, ref error, parameters1);

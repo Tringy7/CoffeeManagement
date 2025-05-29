@@ -146,7 +146,7 @@ namespace MangageCoffee.UICoffee
         {
             CustomerDetail customerDetail = new CustomerDetail();
 
-            customerDetail.lblID.Text = customer.CustomerID;
+            customerDetail.lblID.Text = customer.CustomerID.ToString();
             customerDetail.lblHoTen.Text = customer.FullName;
             customerDetail.lblDon.Text = customer.TotalOrders.HasValue ? customer.TotalOrders.Value.ToString() : "";
             customerDetail.lblGioiTinh.Text = customer.Gender;
