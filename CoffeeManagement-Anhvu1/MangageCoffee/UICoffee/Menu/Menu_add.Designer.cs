@@ -85,10 +85,10 @@
             this.QRNotChoose.Image = global::MangageCoffee.Properties.Resources.barcode_scanner;
             this.QRNotChoose.ImageOffset = new System.Drawing.Point(-1, 0);
             this.QRNotChoose.ImageSize = new System.Drawing.Size(25, 25);
-            this.QRNotChoose.Location = new System.Drawing.Point(1323, 932);
-            this.QRNotChoose.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.QRNotChoose.Location = new System.Drawing.Point(1176, 746);
+            this.QRNotChoose.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.QRNotChoose.Name = "QRNotChoose";
-            this.QRNotChoose.Size = new System.Drawing.Size(100, 82);
+            this.QRNotChoose.Size = new System.Drawing.Size(89, 66);
             this.QRNotChoose.TabIndex = 114;
             this.QRNotChoose.Text = "QR Code";
             this.QRNotChoose.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -110,10 +110,10 @@
             this.All.ForeColor = System.Drawing.Color.Black;
             this.All.Image = global::MangageCoffee.Properties.Resources.list;
             this.All.ImageSize = new System.Drawing.Size(40, 40);
-            this.All.Location = new System.Drawing.Point(792, 375);
-            this.All.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.All.Location = new System.Drawing.Point(704, 300);
+            this.All.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.All.Name = "All";
-            this.All.Size = new System.Drawing.Size(117, 125);
+            this.All.Size = new System.Drawing.Size(104, 100);
             this.All.TabIndex = 111;
             this.All.Text = "All";
             this.All.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -135,10 +135,10 @@
             this.HotDrink.ForeColor = System.Drawing.Color.Black;
             this.HotDrink.Image = global::MangageCoffee.Properties.Resources.cup;
             this.HotDrink.ImageSize = new System.Drawing.Size(40, 40);
-            this.HotDrink.Location = new System.Drawing.Point(640, 375);
-            this.HotDrink.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.HotDrink.Location = new System.Drawing.Point(569, 300);
+            this.HotDrink.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.HotDrink.Name = "HotDrink";
-            this.HotDrink.Size = new System.Drawing.Size(117, 125);
+            this.HotDrink.Size = new System.Drawing.Size(104, 100);
             this.HotDrink.TabIndex = 110;
             this.HotDrink.Text = "Hot Drink";
             this.HotDrink.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -160,10 +160,10 @@
             this.ColdDrink.ForeColor = System.Drawing.Color.Black;
             this.ColdDrink.Image = global::MangageCoffee.Properties.Resources.soda;
             this.ColdDrink.ImageSize = new System.Drawing.Size(40, 40);
-            this.ColdDrink.Location = new System.Drawing.Point(488, 375);
-            this.ColdDrink.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.ColdDrink.Location = new System.Drawing.Point(434, 300);
+            this.ColdDrink.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.ColdDrink.Name = "ColdDrink";
-            this.ColdDrink.Size = new System.Drawing.Size(117, 125);
+            this.ColdDrink.Size = new System.Drawing.Size(104, 100);
             this.ColdDrink.TabIndex = 109;
             this.ColdDrink.Text = "Cold Drink";
             this.ColdDrink.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -185,10 +185,10 @@
             this.Bakery.ForeColor = System.Drawing.Color.Black;
             this.Bakery.Image = global::MangageCoffee.Properties.Resources.cake;
             this.Bakery.ImageSize = new System.Drawing.Size(40, 40);
-            this.Bakery.Location = new System.Drawing.Point(336, 375);
-            this.Bakery.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.Bakery.Location = new System.Drawing.Point(299, 300);
+            this.Bakery.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.Bakery.Name = "Bakery";
-            this.Bakery.Size = new System.Drawing.Size(117, 125);
+            this.Bakery.Size = new System.Drawing.Size(104, 100);
             this.Bakery.TabIndex = 108;
             this.Bakery.Text = "Bakery";
             this.Bakery.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -210,10 +210,10 @@
             this.FastFood.ForeColor = System.Drawing.Color.Black;
             this.FastFood.Image = global::MangageCoffee.Properties.Resources.fast_food;
             this.FastFood.ImageSize = new System.Drawing.Size(40, 40);
-            this.FastFood.Location = new System.Drawing.Point(184, 375);
-            this.FastFood.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.FastFood.Location = new System.Drawing.Point(164, 300);
+            this.FastFood.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.FastFood.Name = "FastFood";
-            this.FastFood.Size = new System.Drawing.Size(117, 125);
+            this.FastFood.Size = new System.Drawing.Size(104, 100);
             this.FastFood.TabIndex = 103;
             this.FastFood.Text = "Fast Food";
             this.FastFood.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -236,23 +236,22 @@
             this.textSearch.ForeColor = System.Drawing.Color.Black;
             this.textSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.textSearch.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
-            this.textSearch.Location = new System.Drawing.Point(557, 28);
-            this.textSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.textSearch.Location = new System.Drawing.Point(495, 22);
+            this.textSearch.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textSearch.Name = "textSearch";
             this.textSearch.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.textSearch.PlaceholderText = "Search";
             this.textSearch.SelectedText = "";
-            this.textSearch.Size = new System.Drawing.Size(504, 48);
+            this.textSearch.Size = new System.Drawing.Size(448, 38);
             this.textSearch.TabIndex = 101;
             this.textSearch.TextChanged += new System.EventHandler(this.textSearch_TextChanged);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Black;
-            this.panel1.Location = new System.Drawing.Point(27, 65);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(24, 52);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(360, 2);
+            this.panel1.Size = new System.Drawing.Size(320, 2);
             this.panel1.TabIndex = 88;
             // 
             // label8
@@ -261,9 +260,9 @@
             this.label8.BackColor = System.Drawing.Color.White;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label8.Location = new System.Drawing.Point(124, 22);
+            this.label8.Location = new System.Drawing.Point(110, 18);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(176, 38);
+            this.label8.Size = new System.Drawing.Size(143, 31);
             this.label8.TabIndex = 87;
             this.label8.Text = "Order Menu";
             // 
@@ -272,11 +271,11 @@
             this.flowLayoutPaneloder_Menu.AutoScroll = true;
             this.flowLayoutPaneloder_Menu.BackColor = System.Drawing.Color.White;
             this.flowLayoutPaneloder_Menu.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPaneloder_Menu.Location = new System.Drawing.Point(27, 75);
-            this.flowLayoutPaneloder_Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flowLayoutPaneloder_Menu.Location = new System.Drawing.Point(24, 60);
             this.flowLayoutPaneloder_Menu.Name = "flowLayoutPaneloder_Menu";
-            this.flowLayoutPaneloder_Menu.Size = new System.Drawing.Size(360, 474);
+            this.flowLayoutPaneloder_Menu.Size = new System.Drawing.Size(320, 379);
             this.flowLayoutPaneloder_Menu.TabIndex = 86;
+            this.flowLayoutPaneloder_Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPaneloder_Menu_Paint);
             // 
             // label2
             // 
@@ -284,9 +283,9 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(1104, 875);
+            this.label2.Location = new System.Drawing.Point(981, 700);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(244, 38);
+            this.label2.Size = new System.Drawing.Size(198, 31);
             this.label2.TabIndex = 112;
             this.label2.Text = "Payment Method";
             // 
@@ -299,7 +298,7 @@
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label9.Location = new System.Drawing.Point(0, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(89, 38);
+            this.label9.Size = new System.Drawing.Size(73, 31);
             this.label9.TabIndex = 87;
             this.label9.Text = "Total:";
             // 
@@ -308,10 +307,9 @@
             this.panel3.BackColor = System.Drawing.Color.White;
             this.panel3.Controls.Add(this.TotalMoney);
             this.panel3.Controls.Add(this.label9);
-            this.panel3.Location = new System.Drawing.Point(25, 579);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(22, 463);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(360, 41);
+            this.panel3.Size = new System.Drawing.Size(320, 33);
             this.panel3.TabIndex = 89;
             // 
             // TotalMoney
@@ -321,11 +319,12 @@
             this.TotalMoney.Dock = System.Windows.Forms.DockStyle.Right;
             this.TotalMoney.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TotalMoney.ForeColor = System.Drawing.Color.Red;
-            this.TotalMoney.Location = new System.Drawing.Point(279, 0);
+            this.TotalMoney.Location = new System.Drawing.Point(237, 0);
             this.TotalMoney.Name = "TotalMoney";
-            this.TotalMoney.Size = new System.Drawing.Size(81, 38);
+            this.TotalMoney.Size = new System.Drawing.Size(83, 31);
             this.TotalMoney.TabIndex = 88;
-            this.TotalMoney.Text = "200$";
+            this.TotalMoney.Text = "0 VND";
+            this.TotalMoney.Click += new System.EventHandler(this.TotalMoney_Click_1);
             // 
             // guna2GradientPanel_Oder_Menu
             // 
@@ -339,10 +338,9 @@
             this.guna2GradientPanel_Oder_Menu.Controls.Add(this.panel3);
             this.guna2GradientPanel_Oder_Menu.FillColor = System.Drawing.Color.White;
             this.guna2GradientPanel_Oder_Menu.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientPanel_Oder_Menu.Location = new System.Drawing.Point(1110, 60);
-            this.guna2GradientPanel_Oder_Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2GradientPanel_Oder_Menu.Location = new System.Drawing.Point(987, 48);
             this.guna2GradientPanel_Oder_Menu.Name = "guna2GradientPanel_Oder_Menu";
-            this.guna2GradientPanel_Oder_Menu.Size = new System.Drawing.Size(415, 648);
+            this.guna2GradientPanel_Oder_Menu.Size = new System.Drawing.Size(369, 518);
             this.guna2GradientPanel_Oder_Menu.TabIndex = 107;
             // 
             // CheckOut
@@ -357,10 +355,9 @@
             this.CheckOut.FillColor = System.Drawing.Color.Teal;
             this.CheckOut.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CheckOut.ForeColor = System.Drawing.Color.White;
-            this.CheckOut.Location = new System.Drawing.Point(1110, 1034);
-            this.CheckOut.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.CheckOut.Location = new System.Drawing.Point(987, 827);
             this.CheckOut.Name = "CheckOut";
-            this.CheckOut.Size = new System.Drawing.Size(415, 54);
+            this.CheckOut.Size = new System.Drawing.Size(369, 43);
             this.CheckOut.TabIndex = 106;
             this.CheckOut.Text = "Checkout";
             this.CheckOut.Click += new System.EventHandler(this.CheckOut_Click);
@@ -370,9 +367,8 @@
             this.flowLayoutPanel_Menu.AutoScroll = true;
             this.flowLayoutPanel_Menu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel_Menu.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel_Menu.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayoutPanel_Menu.Name = "flowLayoutPanel_Menu";
-            this.flowLayoutPanel_Menu.Size = new System.Drawing.Size(1025, 542);
+            this.flowLayoutPanel_Menu.Size = new System.Drawing.Size(911, 434);
             this.flowLayoutPanel_Menu.TabIndex = 0;
             // 
             // guna2GradientPanel1
@@ -383,10 +379,9 @@
             this.guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.guna2GradientPanel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(36, 545);
-            this.guna2GradientPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2GradientPanel1.Location = new System.Drawing.Point(32, 436);
             this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(1025, 542);
+            this.guna2GradientPanel1.Size = new System.Drawing.Size(911, 434);
             this.guna2GradientPanel1.TabIndex = 105;
             // 
             // label7
@@ -395,9 +390,9 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Location = new System.Drawing.Point(28, 502);
+            this.label7.Location = new System.Drawing.Point(25, 402);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 38);
+            this.label7.Size = new System.Drawing.Size(76, 31);
             this.label7.TabIndex = 104;
             this.label7.Text = "Menu";
             // 
@@ -407,9 +402,9 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(28, 331);
+            this.label1.Location = new System.Drawing.Point(25, 265);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 38);
+            this.label1.Size = new System.Drawing.Size(111, 31);
             this.label1.TabIndex = 102;
             this.label1.Text = "Category";
             // 
@@ -421,9 +416,8 @@
             this.guna2PictureBox1.Image = global::MangageCoffee.Properties.Resources.pic_sale;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(1025, 234);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(911, 187);
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
@@ -431,10 +425,9 @@
             // 
             this.guna2CustomGradientPanel1.BorderRadius = 30;
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(36, 94);
-            this.guna2CustomGradientPanel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(32, 75);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(1025, 234);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(911, 187);
             this.guna2CustomGradientPanel1.TabIndex = 100;
             // 
             // label4
@@ -443,9 +436,9 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label4.Location = new System.Drawing.Point(28, 28);
+            this.label4.Location = new System.Drawing.Point(25, 22);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(152, 45);
+            this.label4.Size = new System.Drawing.Size(129, 38);
             this.label4.TabIndex = 99;
             this.label4.Text = "Hey, Fen";
             // 
@@ -469,10 +462,10 @@
             this.PayNotChoose.ForeColor = System.Drawing.Color.Black;
             this.PayNotChoose.Image = global::MangageCoffee.Properties.Resources.money__1_;
             this.PayNotChoose.ImageSize = new System.Drawing.Size(30, 30);
-            this.PayNotChoose.Location = new System.Drawing.Point(1185, 932);
-            this.PayNotChoose.Margin = new System.Windows.Forms.Padding(34, 4, 34, 4);
+            this.PayNotChoose.Location = new System.Drawing.Point(1053, 746);
+            this.PayNotChoose.Margin = new System.Windows.Forms.Padding(30, 3, 30, 3);
             this.PayNotChoose.Name = "PayNotChoose";
-            this.PayNotChoose.Size = new System.Drawing.Size(100, 82);
+            this.PayNotChoose.Size = new System.Drawing.Size(89, 66);
             this.PayNotChoose.TabIndex = 113;
             this.PayNotChoose.Text = "Pay";
             this.PayNotChoose.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -489,20 +482,18 @@
             this.guna2CustomGradientPanel3.Controls.Add(this.txtName);
             this.guna2CustomGradientPanel3.Controls.Add(this.label5);
             this.guna2CustomGradientPanel3.Controls.Add(this.label3);
-            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(1110, 715);
-            this.guna2CustomGradientPanel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(987, 572);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(415, 156);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(369, 125);
             this.guna2CustomGradientPanel3.TabIndex = 115;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Black;
             this.panel2.ForeColor = System.Drawing.Color.Black;
-            this.panel2.Location = new System.Drawing.Point(151, 125);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(134, 100);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 2);
+            this.panel2.Size = new System.Drawing.Size(220, 2);
             this.panel2.TabIndex = 52;
             this.panel2.UseWaitCursor = true;
             // 
@@ -518,14 +509,13 @@
             this.txtSDT.ForeColor = System.Drawing.Color.Black;
             this.txtSDT.Icon = null;
             this.txtSDT.IconSize = new System.Drawing.Size(20, 20);
-            this.txtSDT.Location = new System.Drawing.Point(151, 76);
-            this.txtSDT.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSDT.Location = new System.Drawing.Point(134, 61);
             this.txtSDT.Multiline = false;
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.PasswordChar = false;
             this.txtSDT.PlaceholderColor = System.Drawing.Color.Gray;
             this.txtSDT.PlaceholderText = "0346500557";
-            this.txtSDT.Size = new System.Drawing.Size(248, 44);
+            this.txtSDT.Size = new System.Drawing.Size(220, 40);
             this.txtSDT.TabIndex = 51;
             this.txtSDT.Texts = "";
             this.txtSDT.UnderlinedStyle = false;
@@ -534,10 +524,9 @@
             // 
             this.panel9.BackColor = System.Drawing.Color.Black;
             this.panel9.ForeColor = System.Drawing.Color.Black;
-            this.panel9.Location = new System.Drawing.Point(151, 70);
-            this.panel9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel9.Location = new System.Drawing.Point(134, 56);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(248, 2);
+            this.panel9.Size = new System.Drawing.Size(220, 2);
             this.panel9.TabIndex = 50;
             this.panel9.UseWaitCursor = true;
             // 
@@ -553,14 +542,13 @@
             this.txtName.ForeColor = System.Drawing.Color.Black;
             this.txtName.Icon = null;
             this.txtName.IconSize = new System.Drawing.Size(20, 20);
-            this.txtName.Location = new System.Drawing.Point(151, 21);
-            this.txtName.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtName.Location = new System.Drawing.Point(134, 17);
             this.txtName.Multiline = false;
             this.txtName.Name = "txtName";
             this.txtName.PasswordChar = false;
             this.txtName.PlaceholderColor = System.Drawing.Color.Gray;
             this.txtName.PlaceholderText = "Tri";
-            this.txtName.Size = new System.Drawing.Size(248, 44);
+            this.txtName.Size = new System.Drawing.Size(220, 40);
             this.txtName.TabIndex = 48;
             this.txtName.Text = "sataTextBox5";
             this.txtName.Texts = "";
@@ -571,9 +559,9 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(27, 92);
+            this.label5.Location = new System.Drawing.Point(24, 74);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 32);
+            this.label5.Size = new System.Drawing.Size(71, 28);
             this.label5.TabIndex = 15;
             this.label5.Text = "Phone";
             // 
@@ -582,15 +570,15 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 30);
+            this.label3.Location = new System.Drawing.Point(23, 24);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(124, 32);
+            this.label3.Size = new System.Drawing.Size(102, 28);
             this.label3.TabIndex = 13;
             this.label3.Text = "Customer";
             // 
             // Menu_add
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
             this.Controls.Add(this.guna2CustomGradientPanel3);
@@ -611,9 +599,8 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.PayNotChoose);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Menu_add";
-            this.Size = new System.Drawing.Size(1554, 1115);
+            this.Size = new System.Drawing.Size(1381, 892);
             this.Load += new System.EventHandler(this.Menu_add_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

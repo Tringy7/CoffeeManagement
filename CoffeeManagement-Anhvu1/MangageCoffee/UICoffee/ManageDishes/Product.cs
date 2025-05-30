@@ -15,6 +15,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
 {
     public partial class Product : UserControl
     {
+        
         BL_Product bl_product;
         private Menu_add menu_Add;
         public Product()
@@ -22,7 +23,9 @@ namespace MangageCoffee.UICoffee.ManageDishes
             bl_product = new BL_Product();
             InitializeComponent();
             loadData();
+            
         }
+      
         private void Product_Load_1(object sender, EventArgs e)
         {
             checkBoxAll.CheckedChanged += CategoryCheckbox_CheckedChanged;
@@ -37,6 +40,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             this.menu_Add = menuControl;
             //MessageBox.Show("gọi menu_add");
+            menu_Add.SetProductControl(this);
         }
         public void loadData()
         {
@@ -79,7 +83,12 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 // đăng ký sự kiện mờ edit
                 item.EditButtonClicked += Item_EditButtonClicked;
                 // đăng ký sự kiện xoá
+                item.SetProductControl(this); // truyền chính Product vào cho item
                 item.DeleteButtonClicked += Item_DeleteButtonClicked;
+                // đăng ký sự kiện chỉnh status
+                item.HideButtonClicked += Item_HideButtonClicked;
+                item.ShowButtonClicked += Item_ShowButtonClicked;
+
 
                 flowLayoutPanel_Product.Controls.Add(item); // Thêm vào panel chính
 
@@ -87,6 +96,17 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
             total_Product.Text = listProduct.Count.ToString();
 
+        }
+        private void Item_HideButtonClicked(object sender, EventArgs e)
+        {
+            // Có thể xử lý thêm nếu cần
+            loadData();
+        }
+
+        private void Item_ShowButtonClicked(object sender, EventArgs e)
+        {
+            // Có thể xử lý thêm nếu cần
+            loadData();
         }
 
         private void Item_ItemSelected(object sender, EventArgs e)
@@ -175,14 +195,12 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 if (result == DialogResult.Yes)
                 {
                     string error = "";
-                    bool success = bl_product.deleteProduct(selectedProduct.Id, ref error); // Giả sử có hàm deleteProduct
+                    bool success = bl_product.MarkProductUnavailable(selectedProduct.Id, ref error); // Giả sử có hàm deleteProduct
 
                     if (success)
                     {
                         flowLayoutPanel_Product.Controls.Remove(selectedItem); // Xoá khỏi UI
                         selectedItem.Dispose(); // Giải phóng bộ nhớ
-
-
                     }
                     else
                     {
@@ -306,7 +324,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 // Gắn lại các sự kiện
                 item.ItemSelected += Item_ItemSelected;
                 item.EditButtonClicked += Item_EditButtonClicked;
-                item.DeleteButtonClicked += Item_DeleteButtonClicked;
+                //item.DeleteButtonClicked += Item_DeleteButtonClicked;
 
                 // Thêm vào panel
                 flowLayoutPanel_Product.Controls.Add(item);

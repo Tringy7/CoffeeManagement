@@ -27,7 +27,7 @@ namespace MangageCoffee.ADO.NET.BLL
         }
         public DataSet getOrderData()
         {
-            string sqlString = "SELECT * FROM Orders WHERE Available = 1";
+            string sqlString = "SELECT * FROM Orders WHERE Available = 'True'";
             return db.ExecuteQueryDataSet(sqlString, CommandType.Text);
         }
 
@@ -134,7 +134,9 @@ namespace MangageCoffee.ADO.NET.BLL
                     Convert.ToInt32(row["DiscountPercent"]),
                     Convert.ToInt32(row["CreatedBy"]),
                     row["ImagePath"].ToString(),
-                    Convert.ToInt32(row["ProductID"])
+                    Convert.ToInt32(row["ProductID"]),
+                    Convert.ToBoolean(row["Available"])
+
                 );
 
                 return menu;

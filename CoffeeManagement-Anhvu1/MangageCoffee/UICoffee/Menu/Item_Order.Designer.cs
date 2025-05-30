@@ -46,10 +46,9 @@
             // 
             this.panel1.Controls.Add(this.name_item);
             this.panel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel1.Location = new System.Drawing.Point(126, 28);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Location = new System.Drawing.Point(112, 22);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(111, 35);
+            this.panel1.Size = new System.Drawing.Size(83, 28);
             this.panel1.TabIndex = 82;
             // 
             // name_item
@@ -61,7 +60,7 @@
             this.name_item.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.name_item.Location = new System.Drawing.Point(0, 0);
             this.name_item.Name = "name_item";
-            this.name_item.Size = new System.Drawing.Size(70, 25);
+            this.name_item.Size = new System.Drawing.Size(57, 20);
             this.name_item.TabIndex = 78;
             this.name_item.Text = "Burger";
             this.name_item.Click += new System.EventHandler(this.name_item_Click);
@@ -75,7 +74,7 @@
             this.SoLuong.ForeColor = System.Drawing.Color.Black;
             this.SoLuong.Location = new System.Drawing.Point(0, 0);
             this.SoLuong.Name = "SoLuong";
-            this.SoLuong.Size = new System.Drawing.Size(24, 20);
+            this.SoLuong.Size = new System.Drawing.Size(19, 15);
             this.SoLuong.TabIndex = 78;
             this.SoLuong.Text = "x1";
             // 
@@ -83,10 +82,9 @@
             // 
             this.panel3.Controls.Add(this.price);
             this.panel3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(244, 28);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Location = new System.Drawing.Point(201, 22);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(97, 46);
+            this.panel3.Size = new System.Drawing.Size(102, 37);
             this.panel3.TabIndex = 84;
             // 
             // price
@@ -94,22 +92,21 @@
             this.price.AutoSize = true;
             this.price.BackColor = System.Drawing.Color.Transparent;
             this.price.Dock = System.Windows.Forms.DockStyle.Right;
-            this.price.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.price.ForeColor = System.Drawing.Color.Red;
-            this.price.Location = new System.Drawing.Point(42, 0);
+            this.price.Location = new System.Drawing.Point(47, 0);
             this.price.Name = "price";
-            this.price.Size = new System.Drawing.Size(55, 30);
-            this.price.TabIndex = 79;
-            this.price.Text = "10 $";
+            this.price.Size = new System.Drawing.Size(55, 17);
+            this.price.TabIndex = 80;
+            this.price.Text = "10 VND";
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.SoLuong);
             this.panel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel2.Location = new System.Drawing.Point(126, 70);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Location = new System.Drawing.Point(112, 56);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(64, 35);
+            this.panel2.Size = new System.Drawing.Size(57, 28);
             this.panel2.TabIndex = 83;
             // 
             // btnDelete
@@ -124,10 +121,9 @@
             this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnDelete.ForeColor = System.Drawing.Color.White;
             this.btnDelete.Image = global::MangageCoffee.Properties.Resources.minus;
-            this.btnDelete.Location = new System.Drawing.Point(294, 70);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Location = new System.Drawing.Point(261, 56);
             this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(47, 35);
+            this.btnDelete.Size = new System.Drawing.Size(42, 28);
             this.btnDelete.TabIndex = 85;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
@@ -137,17 +133,16 @@
             this.ptbImage.BorderRadius = 10;
             this.ptbImage.FillColor = System.Drawing.Color.LightGray;
             this.ptbImage.ImageRotate = 0F;
-            this.ptbImage.Location = new System.Drawing.Point(19, 16);
-            this.ptbImage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ptbImage.Location = new System.Drawing.Point(17, 13);
             this.ptbImage.Name = "ptbImage";
-            this.ptbImage.Size = new System.Drawing.Size(100, 95);
+            this.ptbImage.Size = new System.Drawing.Size(89, 76);
             this.ptbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbImage.TabIndex = 81;
             this.ptbImage.TabStop = false;
             // 
             // Item_Order
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
@@ -155,9 +150,8 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.ptbImage);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Item_Order";
-            this.Size = new System.Drawing.Size(360, 129);
+            this.Size = new System.Drawing.Size(320, 103);
             this.Load += new System.EventHandler(this.Item_Order_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -176,9 +170,9 @@
         private System.Windows.Forms.Label name_item;
         private System.Windows.Forms.Label SoLuong;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label price;
         private System.Windows.Forms.Panel panel2;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private Guna.UI2.WinForms.Guna2PictureBox ptbImage;
+        private System.Windows.Forms.Label price;
     }
 }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee.ManageDishes;
 using System.IO;
+using System.Globalization;
 
 namespace MangageCoffee.UICoffee.Menu
 {
@@ -41,7 +42,7 @@ namespace MangageCoffee.UICoffee.Menu
         {
             this.menuData = menuItem;
             name_Item.Text = menuItem.Name;
-            Item_cost.Text = menuItem.Price.ToString("C");
+            Item_cost.Text = menuItem.Price.ToString("C", CultureInfo.GetCultureInfo("vi-VN"));
             if (!string.IsNullOrEmpty(menuItem.ImagePath))
             {
                 try
@@ -127,6 +128,11 @@ namespace MangageCoffee.UICoffee.Menu
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Item_Load(object sender, EventArgs e)
         {
 
         }

@@ -61,10 +61,9 @@
             this.btnHome.ForeColor = System.Drawing.Color.White;
             this.btnHome.Image = global::MangageCoffee.Properties.Resources.item_icon;
             this.btnHome.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnHome.Location = new System.Drawing.Point(202, 222);
-            this.btnHome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHome.Location = new System.Drawing.Point(180, 178);
             this.btnHome.Name = "btnHome";
-            this.btnHome.Size = new System.Drawing.Size(56, 51);
+            this.btnHome.Size = new System.Drawing.Size(50, 41);
             this.btnHome.TabIndex = 87;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
@@ -75,9 +74,9 @@
             this.ptbImage.FillColor = System.Drawing.Color.LightGray;
             this.ptbImage.ImageRotate = 0F;
             this.ptbImage.Location = new System.Drawing.Point(0, 0);
-            this.ptbImage.Margin = new System.Windows.Forms.Padding(3, 38, 3, 38);
+            this.ptbImage.Margin = new System.Windows.Forms.Padding(3, 30, 3, 30);
             this.ptbImage.Name = "ptbImage";
-            this.ptbImage.Size = new System.Drawing.Size(272, 214);
+            this.ptbImage.Size = new System.Drawing.Size(242, 171);
             this.ptbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptbImage.TabIndex = 84;
             this.ptbImage.TabStop = false;
@@ -92,17 +91,16 @@
             this.Item_cost.ForeColor = System.Drawing.Color.Red;
             this.Item_cost.Location = new System.Drawing.Point(0, 0);
             this.Item_cost.Name = "Item_cost";
-            this.Item_cost.Size = new System.Drawing.Size(55, 30);
+            this.Item_cost.Size = new System.Drawing.Size(72, 23);
             this.Item_cost.TabIndex = 78;
-            this.Item_cost.Text = "10 $";
+            this.Item_cost.Text = "10 VND";
             // 
             // guna2Panel2
             // 
             this.guna2Panel2.Controls.Add(this.Item_cost);
-            this.guna2Panel2.Location = new System.Drawing.Point(14, 266);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Panel2.Location = new System.Drawing.Point(12, 213);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(172, 35);
+            this.guna2Panel2.Size = new System.Drawing.Size(153, 28);
             this.guna2Panel2.TabIndex = 89;
             // 
             // name_Item
@@ -114,17 +112,16 @@
             this.name_Item.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.name_Item.Location = new System.Drawing.Point(0, 0);
             this.name_Item.Name = "name_Item";
-            this.name_Item.Size = new System.Drawing.Size(79, 30);
+            this.name_Item.Size = new System.Drawing.Size(65, 23);
             this.name_Item.TabIndex = 77;
             this.name_Item.Text = "Burger";
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.Controls.Add(this.name_Item);
-            this.guna2Panel1.Location = new System.Drawing.Point(14, 231);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.guna2Panel1.Location = new System.Drawing.Point(12, 185);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(172, 35);
+            this.guna2Panel1.Size = new System.Drawing.Size(153, 28);
             this.guna2Panel1.TabIndex = 88;
             // 
             // numeric
@@ -134,15 +131,15 @@
             this.numeric.BorderRadius = 15;
             this.numeric.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.numeric.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.numeric.Location = new System.Drawing.Point(193, 266);
-            this.numeric.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.numeric.Location = new System.Drawing.Point(172, 213);
+            this.numeric.Margin = new System.Windows.Forms.Padding(4);
             this.numeric.Minimum = new decimal(new int[] {
             1,
             0,
             0,
             0});
             this.numeric.Name = "numeric";
-            this.numeric.Size = new System.Drawing.Size(75, 40);
+            this.numeric.Size = new System.Drawing.Size(67, 32);
             this.numeric.TabIndex = 90;
             this.numeric.UpDownButtonFillColor = System.Drawing.Color.Black;
             this.numeric.UpDownButtonForeColor = System.Drawing.Color.White;
@@ -154,7 +151,7 @@
             // 
             // Item
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -163,9 +160,10 @@
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.ptbImage);
             this.Controls.Add(this.btnHome);
-            this.Margin = new System.Windows.Forms.Padding(34, 21, 34, 21);
+            this.Margin = new System.Windows.Forms.Padding(30, 17, 30, 17);
             this.Name = "Item";
-            this.Size = new System.Drawing.Size(272, 311);
+            this.Size = new System.Drawing.Size(242, 249);
+            this.Load += new System.EventHandler(this.Item_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptbImage)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();

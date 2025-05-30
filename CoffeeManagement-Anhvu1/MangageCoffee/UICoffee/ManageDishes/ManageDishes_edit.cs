@@ -83,6 +83,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
                     tempProduct.Status = TxtStatus.SelectedItem?.ToString();
                     tempProduct.OriginalPrice = double.Parse(TxtId.Text);
                     tempProduct.ImagePath = _newImagePath ?? tempProduct.ImagePath;
+                    tempProduct.Available = true;
                     success = bl_product.updateProduct(tempProduct, ref error);
                 }
                 else
@@ -96,6 +97,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
                     newProduct.CreatedBy = 1;
                     newProduct.OriginalPrice = double.Parse(TxtId.Text);
                     newProduct.ImagePath = _newImagePath;
+                    newProduct.Available = true;
                     success = bl_product.addNewProduct(newProduct, ref error);
                 }
 

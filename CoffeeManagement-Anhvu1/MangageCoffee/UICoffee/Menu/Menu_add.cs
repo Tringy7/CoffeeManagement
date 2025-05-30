@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,7 @@ using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.ADO.NET.DAL;
 using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.ManageDishes;
 using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.Menu
@@ -20,11 +22,17 @@ namespace MangageCoffee.UICoffee.Menu
         BL_Menu menu;
         private BL_Order orderBLL = new BL_Order();
         private BL_Product productBLL = new BL_Product();
+        private Product productControl;
         public Menu_add()
         {
             menu = new BL_Menu();
             InitializeComponent();
             loaddata();
+            productControl = new Product();
+        }
+        public void SetProductControl(Product product)
+        {
+            this.productControl = product;
         }
 
         public void loaddata()
@@ -38,17 +46,25 @@ namespace MangageCoffee.UICoffee.Menu
             {
 
                 Item item = new Item();
-                item.setdata(item_menu); // Gán dữ liệu cho control
+                item.setdata(item_menu); // Gán dữ liệu cho control 
                 item.SetParentMenu(this);
-
+                
+                
                 // Đăng ký sự kiện chọn item
+                
                 item.ItemSelected += Item_ItemSelected;
+
+                Manage_item manage_Item = new Manage_item();
+                manage_Item.SetMenuParent(this);
+                
 
 
                 flowLayoutPanel_Menu.Controls.Add(item); // Thêm vào panel chính
 
             }
         }
+       
+
         private void Item_ItemSelected(object sender, EventArgs e)
         {
             try
@@ -81,7 +97,7 @@ namespace MangageCoffee.UICoffee.Menu
                 }
             }
 
-            TotalMoney.Text = total.ToString("C"); // Hiển thị dạng tiền tệ
+            TotalMoney.Text = total.ToString("C", CultureInfo.GetCultureInfo("vi-VN")); // Hiển thị dạng tiền tệ
         }
 
         private void TotalMoney_Click(object sender, EventArgs e)
@@ -260,8 +276,12 @@ namespace MangageCoffee.UICoffee.Menu
                                 MessageBox.Show($"Failed to update quantity for ItemID {orderItem.ItemID}.\nError: {error}");
                                 return;
                             }
+                            else
+                            {
+                                productControl.loadData();
+                            }
 
-                            decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
+                                decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
                             totalProfit += itemProfit;
                         }
                         else
@@ -321,6 +341,16 @@ namespace MangageCoffee.UICoffee.Menu
             TotalMoney.Text = "0";
             textSearch.Text = "";
             loaddata();
+        }
+
+        private void flowLayoutPaneloder_Menu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void TotalMoney_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

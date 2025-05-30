@@ -21,7 +21,7 @@ namespace MangageCoffee.ADO.NET.BLL
 
         public DataSet getData()
         {
-            string sqlString = "SELECT * FROM MenuItems WHERE Status = 'True'";
+            string sqlString = "SELECT * FROM MenuItems WHERE Status = 'True' AND Available = 'True'";
             return db.ExecuteQueryDataSet(sqlString, CommandType.Text);
         }
 
@@ -42,7 +42,8 @@ namespace MangageCoffee.ADO.NET.BLL
                     Status = row["Status"].ToString(),
                     Discount = Convert.ToInt32(row["DiscountPercent"]),
                     CreatedBy = Convert.ToInt32(row["CreatedBy"]),
-                    ImagePath = row["ImagePath"].ToString()
+                    ImagePath = row["ImagePath"].ToString(),
+                    Available = Convert.ToBoolean(row["Available"])
 
                 };
                 items.Add(item);
@@ -51,62 +52,62 @@ namespace MangageCoffee.ADO.NET.BLL
             return items;
         }
 
-        public bool addNewMenuItem(Class_Menu item, ref string error)
-        {
-            string sqlString = "INSERT INTO MenuItems (Name, Description, Price, Category, Status, DiscountPercent, CreatedBy,ImagePath) " +
-                               "VALUES (@Name, @Description, @Price, @Category, @Status, @DiscountPercent, @CreatedBy,@ImagePath)";
+        //public bool addNewMenuItem(Class_Menu item, ref string error)
+        //{
+        //    string sqlString = "INSERT INTO MenuItems (Name, Description, Price, Category, Status, DiscountPercent, CreatedBy,ImagePath) " +
+        //                       "VALUES (@Name, @Description, @Price, @Category, @Status, @DiscountPercent, @CreatedBy,@ImagePath)";
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-            new SqlParameter("@Name", item.Name),
-            new SqlParameter("@Description", item.Description),
-            new SqlParameter("@Price", item.Price),
-            new SqlParameter("@Category", item.Category),
-            new SqlParameter("@Status", item.Status),
-            new SqlParameter("@DiscountPercent", item.Discount),
-            new SqlParameter("@CreatedBy", item.CreatedBy),
-            new SqlParameter("@ImagePath", item.ImagePath)
+        //    SqlParameter[] parameters = new SqlParameter[]
+        //    {
+        //    new SqlParameter("@Name", item.Name),
+        //    new SqlParameter("@Description", item.Description),
+        //    new SqlParameter("@Price", item.Price),
+        //    new SqlParameter("@Category", item.Category),
+        //    new SqlParameter("@Status", item.Status),
+        //    new SqlParameter("@DiscountPercent", item.Discount),
+        //    new SqlParameter("@CreatedBy", item.CreatedBy),
+        //    new SqlParameter("@ImagePath", item.ImagePath)
 
-            };
+        //    };
 
-            return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
-        }
+        //    return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
+        //}
 
-        public bool updateMenuItem(Class_Menu item, ref string error)
-        {
-            string sqlString = "UPDATE MenuItems SET Name = @Name, Description = @Description, Price = @Price, " +
-                               "Category = @Category, Status = @Status, DiscountPercent = @DiscountPercent, CreatedBy = @CreatedBy, " +
-                               "ImagePath = @ImagePath " +  
-                               "WHERE ItemID = @ItemID";
+        //public bool updateMenuItem(Class_Menu item, ref string error)
+        //{
+        //    string sqlString = "UPDATE MenuItems SET Name = @Name, Description = @Description, Price = @Price, " +
+        //                       "Category = @Category, Status = @Status, DiscountPercent = @DiscountPercent, CreatedBy = @CreatedBy, " +
+        //                       "ImagePath = @ImagePath " +  
+        //                       "WHERE ItemID = @ItemID";
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-                new SqlParameter("@ItemID", item.Item_id),
-                new SqlParameter("@Name", item.Name),
-                new SqlParameter("@Description", item.Description),
-                new SqlParameter("@Price", item.Price),
-                new SqlParameter("@Category", item.Category),
-                new SqlParameter("@Status", item.Status),
-                new SqlParameter("@DiscountPercent", item.Discount),
-                new SqlParameter("@CreatedBy", item.CreatedBy),
-                new SqlParameter("@ImagePath", item.ImagePath) 
-            };
+        //    SqlParameter[] parameters = new SqlParameter[]
+        //    {
+        //        new SqlParameter("@ItemID", item.Item_id),
+        //        new SqlParameter("@Name", item.Name),
+        //        new SqlParameter("@Description", item.Description),
+        //        new SqlParameter("@Price", item.Price),
+        //        new SqlParameter("@Category", item.Category),
+        //        new SqlParameter("@Status", item.Status),
+        //        new SqlParameter("@DiscountPercent", item.Discount),
+        //        new SqlParameter("@CreatedBy", item.CreatedBy),
+        //        new SqlParameter("@ImagePath", item.ImagePath) 
+        //    };
 
-            return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
-        }
+        //    return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
+        //}
 
 
-        public bool deleteMenuItem(int itemId, ref string error)
-        {
-            string sqlString = "DELETE FROM MenuItems WHERE ItemID = @ItemID";
+        //public bool deleteMenuItem(int itemId, ref string error)
+        //{
+        //    string sqlString = "DELETE FROM MenuItems WHERE ItemID = @ItemID";
 
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-            new SqlParameter("@ItemID", itemId)
-            };
+        //    SqlParameter[] parameters = new SqlParameter[]
+        //    {
+        //    new SqlParameter("@ItemID", itemId)
+        //    };
 
-            return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
-        }
+        //    return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
+        //}
 
     public Class_Menu getMenuItemByID(int itemId)
         {

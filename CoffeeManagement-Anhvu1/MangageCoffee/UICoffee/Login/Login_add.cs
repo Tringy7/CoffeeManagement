@@ -11,6 +11,7 @@ using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.ADO.NET.DAL;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee;
+using MangageCoffee.UICoffee.Customer;
 
 namespace MangageCoffee
 {
@@ -70,7 +71,7 @@ namespace MangageCoffee
                 }
                 else if (user.Role == "Customer")
                 {
-                    Customers customerForm = new Customers();
+                    Customer1 customerForm = new Customer1();
                     customerForm.Show();
                     customerForm.FormClosed += (s, args) => this.Show();
                     this.Hide();

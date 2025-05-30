@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Globalization;
 
 namespace MangageCoffee.UICoffee.Menu
 {
@@ -51,7 +52,7 @@ namespace MangageCoffee.UICoffee.Menu
         {
             name_item.Text = ItemName;
             SoLuong.Text = Quantity.ToString();
-            price.Text = (UnitPrice * Quantity).ToString("C");
+            price.Text = (UnitPrice * Quantity).ToString("C", CultureInfo.GetCultureInfo("vi-VN"));
             LoadImage();
         }
 
@@ -115,6 +116,11 @@ namespace MangageCoffee.UICoffee.Menu
         }
 
         private void name_item_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void price_Click(object sender, EventArgs e)
         {
 
         }

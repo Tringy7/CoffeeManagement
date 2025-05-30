@@ -19,12 +19,13 @@ namespace MangageCoffee.DTO
         private string imagePath;
         private int productID;
         private double originalPrice;
+        private bool available;
         public Class_Menu()
         {
 
         }
 
-        public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath, int productID)
+        public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath, int productID,bool available)
         {
             this.item_id = item_id;
             this.name = name;
@@ -35,6 +36,7 @@ namespace MangageCoffee.DTO
             this.discount = discount;
             this.createdBy = createdBy;
             this.imagePath = imagePath;
+            this.available = available;
         }
 
         public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath, int productID, double originalPrice)
@@ -67,5 +69,6 @@ namespace MangageCoffee.DTO
         {
             get => originalPrice; set => originalPrice = value;
         }
+        public bool Available { get => available; set => available = value; }
     }
 }

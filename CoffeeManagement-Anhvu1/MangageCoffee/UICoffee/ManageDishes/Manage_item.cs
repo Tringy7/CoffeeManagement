@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee.Menu;
 using System.IO;
+using MangageCoffee.ADO.NET.BLL;
 
 namespace MangageCoffee.UICoffee.ManageDishes
 {
@@ -17,8 +18,11 @@ namespace MangageCoffee.UICoffee.ManageDishes
     {
         public event EventHandler ItemSelected;
         public event EventHandler DeleteButtonClicked;
-        private Menu_add menuParent;
+        public event EventHandler HideButtonClicked;
+        public event EventHandler ShowButtonClicked;
 
+        private Menu_add menuParent;
+        BL_Product bl = null;
         public Image ProductImage
         {
             get { return ptbImage.Image; }
@@ -29,10 +33,14 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             InitializeComponent();
 
+            bl = new BL_Product();
+            
             this.Click += Manage_item_Click; 
             foreach (Control c in this.Controls) 
                 c.Click += Manage_item_Click;
         }
+
+        
         public void SetMenuParent(Menu_add parent)
         {
             this.menuParent = parent;
@@ -47,7 +55,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             this.ProductData = product;
             Name_product.Text = product.Name_Product;
-            price_product.Text = product.Price.ToString("C");
+            status_product.Text = product.Status;
             if (!string.IsNullOrEmpty(product.ImagePath))
             {
                 try
@@ -83,16 +91,49 @@ namespace MangageCoffee.UICoffee.ManageDishes
             EditButtonClicked?.Invoke(this, EventArgs.Empty);
             this.menuParent?.loaddata();
         }
+    /// <summary>
+    /// ////////////////////////////////////////////////////////////////////
+    /// </summary>
+        private Product productControl;
+
+        public void SetProductControl(Product product)
+        {
+            this.productControl = product;
+        }
+
+        public event EventHandler RequestReloadMenu;
 
         private void delete_Click(object sender, EventArgs e)
         {
-            DeleteButtonClicked?.Invoke(this, EventArgs.Empty);
-            this.menuParent?.loaddata();
-        }
+            string error = " ";
+            bl.SetProductStatus1(ProductData.Id, ref error);  // ví dụ là ẩn sản phẩm
 
+            HideButtonClicked?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
+            menuParent?.loaddata(); // Load lại dữ liệu
+
+        }
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            string error = " ";
+            bl.SetProductStatus2(ProductData.Id, ref error); // ví dụ là hiện lại sản phẩm
+
+            ShowButtonClicked?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
+            menuParent?.loaddata(); // Load lại dữ liệu
+
+        }
         private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        private void delete_product_Click(object sender, EventArgs e)
+        {
+
+            DeleteButtonClicked?.Invoke(this, EventArgs.Empty);
+            this.menuParent?.loaddata();
+
+        }
+
+       
     }
 }
