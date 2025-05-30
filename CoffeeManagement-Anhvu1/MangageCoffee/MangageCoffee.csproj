@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MangageCoffee</RootNamespace>
+    <AssemblyName>MangageCoffee</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FontAwesome.Sharp, Version=6.6.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.6.0\lib\net472\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GeoJsonLiveCharts, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\GeoJsonLiveCharts.1.0.0.1\lib\net45\GeoJsonLiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\libary\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Core.0.9.8\lib\net40\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SATAUiFramework, Version=1.0.0.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SATAUiFramework.1.1.3\lib\net40\SATAUiFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADO.NET\BLL\BL_history.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Menu.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Order.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Product.cs" />
+    <Compile Include="ADO.NET\BLL\UsersBLL.cs" />
+    <Compile Include="ADO.NET\DAL\DB_Main.cs" />
+    <Compile Include="ADO.NET\DAL\UsersDAL.cs" />
+    <Compile Include="DTO\Class_Oder.cs" />
+    <Compile Include="DTO\Class_Menu.cs" />
+    <Compile Include="DTO\Class_product.cs" />
+    <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\CustomerInfoDTO.cs" />
+    <Compile Include="DTO\OrderDTO.cs" />
+    <Compile Include="DTO\OrderItemDTO.cs" />
+    <Compile Include="DTO\StaffDTO.cs" />
+    <Compile Include="DTO\UsersDTO.cs" />
+    <Compile Include="UICoffee\Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Customer\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Customer\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_add.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_add.Designer.cs">
+      <DependentUpon>History_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_historyform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_historyform.Designer.cs">
+      <DependentUpon>History_historyform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_item.Designer.cs">
+      <DependentUpon>History_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order.Designer.cs">
+      <DependentUpon>History_order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\History\History_order_item.Designer.cs">
+      <DependentUpon>History_order_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\ManageDishes_edit.Designer.cs">
+      <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_item.Designer.cs">
+      <DependentUpon>Manage_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_itemlist.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Manage_itemlist.Designer.cs">
+      <DependentUpon>Manage_itemlist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Cafe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Cafe.Designer.cs">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Login\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Login\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Login\Login_add.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Login\Login_add.Designer.cs">
+      <DependentUpon>Login_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UICoffee\Login\Signup_add.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Login\Signup_add.Designer.cs">
+      <DependentUpon>Signup_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Home\Home.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Home\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\test.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\ManageDishes\test.Designer.cs">
+      <DependentUpon>test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Item.Designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Item_Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Item_Order.Designer.cs">
+      <DependentUpon>Item_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Menu_add.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Menu\Menu_add.Designer.cs">
+      <DependentUpon>Menu_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.Designer.cs">
+      <DependentUpon>Bill_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Qr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Qr.Designer.cs">
+      <DependentUpon>Qr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\AddForm.Designer.cs">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\EditAdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\EditAdminForm.Designer.cs">
+      <DependentUpon>EditAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\StaffDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\StaffDetails.Designer.cs">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add.Designer.cs">
+      <DependentUpon>User_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datacustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datacustomer.Designer.cs">
+      <DependentUpon>User_add_datacustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datastaff.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_datastaff.Designer.cs">
+      <DependentUpon>User_add_datastaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_editprofile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_editprofile.Designer.cs">
+      <DependentUpon>User_add_editprofile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formcustomer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formcustomer.Designer.cs">
+      <DependentUpon>User_add_formcustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formdata.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\User\User_add_formdata.Designer.cs">
+      <DependentUpon>User_add_formdata.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UICoffee\Customer\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_add.resx">
+      <DependentUpon>History_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_historyform.resx">
+      <DependentUpon>History_historyform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_item.resx">
+      <DependentUpon>History_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_order.resx">
+      <DependentUpon>History_order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\History\History_order_item.resx">
+      <DependentUpon>History_order_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\ManageDishes_edit.resx">
+      <DependentUpon>ManageDishes_edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Manage_item.resx">
+      <DependentUpon>Manage_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Manage_itemlist.resx">
+      <DependentUpon>Manage_itemlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Cafe.resx">
+      <DependentUpon>Cafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Login\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Login\Login_add.resx">
+      <DependentUpon>Login_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UICoffee\Login\Signup_add.resx">
+      <DependentUpon>Signup_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Home\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\ManageDishes\test.resx">
+      <DependentUpon>test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Menu\Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Menu\Item_Order.resx">
+      <DependentUpon>Item_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Menu\Menu_add.resx">
+      <DependentUpon>Menu_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill_item.resx">
+      <DependentUpon>Bill_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
+      <DependentUpon>Qr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\EditAdminForm.resx">
+      <DependentUpon>EditAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\StaffDetails.resx">
+      <DependentUpon>StaffDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add.resx">
+      <DependentUpon>User_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_datacustomer.resx">
+      <DependentUpon>User_add_datacustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_datastaff.resx">
+      <DependentUpon>User_add_datastaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_editprofile.resx">
+      <DependentUpon>User_add_editprofile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_formcustomer.resx">
+      <DependentUpon>User_add_formcustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\User\User_add_formdata.resx">
+      <DependentUpon>User_add_formdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11zon_resized.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search-interface-symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-05-14 154216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-05-14 1542161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-05-14 155239.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rimnerio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\order-history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_sale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fast-food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drink_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome to Coffee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barcode-scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\credit-card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiple-users-silhouette %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiple-users-silhouette %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings-sliders.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_phone_20dp_1F1F1F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_phone_32dp_1F1F1F.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-gender-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+    <None Include="Images\customer1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer4.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer5.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\customer6.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Images\danh.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\customer6.png" />
+    <None Include="Resources\customer5.png" />
+    <None Include="Resources\customer4.png" />
+    <None Include="Resources\customer3.png" />
+    <None Include="Resources\customer2.png" />
+    <None Include="Resources\customer1.png" />
+    <None Include="Images\staff01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff03.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Images\staff04.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <Content Include="Images\tri.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\vu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\staff04.png" />
+    <None Include="Resources\staff03.png" />
+    <None Include="Resources\staff02.png" />
+    <None Include="Resources\staff01.png" />
+    <None Include="Resources\add2.png" />
+    <None Include="Resources\add1.png" />
+    <None Include="Resources\default.png" />
+    <None Include="Resources\tri.png" />
+    <None Include="Resources\vu.png" />
+    <None Include="Resources\danh.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
