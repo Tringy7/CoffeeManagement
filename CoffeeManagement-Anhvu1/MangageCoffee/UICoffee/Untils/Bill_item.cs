@@ -21,7 +21,7 @@ namespace MangageCoffee.UICoffee.Untils
         {
             lblName.Text = itemName;
             lblQuantity.Text = quantity.ToString();
-            lblUnitprice.Text = unitPrice.ToString("C"); // Format as currency
+            lblUnitprice.Text = unitPrice.ToString("C");
             lblTotal.Text = (quantity * unitPrice).ToString("C");
         }
 

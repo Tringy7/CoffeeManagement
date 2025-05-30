@@ -17,13 +17,11 @@ namespace MangageCoffee.ADO.NET.BLL
         {
             db = new DB_Main();
         }
-        // get data
         public DataSet getData()
         {
             string sqlString = "select * from Products";
             return db.ExecuteQueryDataSet(sqlString, CommandType.Text);
         }
-        // convert listProduct
         public List<Class_product> getProductList()
         {
             List<Class_product> products = new List<Class_product>();
@@ -98,7 +96,6 @@ namespace MangageCoffee.ADO.NET.BLL
         // delete product
         public bool deleteProduct(int productId, ref string error)
         {
-            // Xoá tất cả MenuItems liên kết với ProductID
             string sqlDeleteMenuItems = "DELETE FROM MenuItems WHERE ProductID = @ProductID";
             SqlParameter[] parameters1 = new SqlParameter[]
             {
@@ -110,7 +107,6 @@ namespace MangageCoffee.ADO.NET.BLL
             if (!menuItemsDeleted)
                 return false;
 
-            // Sau đó xoá Product
             string sqlDeleteProduct = "DELETE FROM Products WHERE ProductID = @ProductID";
             SqlParameter[] parameters2 = new SqlParameter[]
             {
@@ -118,6 +114,11 @@ namespace MangageCoffee.ADO.NET.BLL
             };
 
             return db.MyExecuteNonQuery(sqlDeleteProduct, CommandType.Text, ref error, parameters2);
+        }
+
+        public bool UpdateProductQuantity(int productId, int quantity, ref string error)
+        {
+            return db.UpdateProductQuantity(productId, quantity, ref error);
         }
     }
 }

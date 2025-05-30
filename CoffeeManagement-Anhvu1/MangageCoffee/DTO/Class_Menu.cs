@@ -18,22 +18,10 @@ namespace MangageCoffee.DTO
         private int createdBy;
         private string imagePath;
         private int productID;
+        private double originalPrice;
         public Class_Menu()
         {
 
-        }
-
-        public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath)
-        {
-            this.item_id = item_id;
-            this.name = name;
-            this.description = description;
-            this.price = price;
-            this.category = category;
-            this.status = status;
-            this.discount = discount;
-            this.createdBy = createdBy;
-            this.imagePath = imagePath;
         }
 
         public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath, int productID)
@@ -47,7 +35,22 @@ namespace MangageCoffee.DTO
             this.discount = discount;
             this.createdBy = createdBy;
             this.imagePath = imagePath;
+        }
+
+        public Class_Menu(int item_id, string name, string description, double price, string category, string status, int discount, int createdBy, string imagePath, int productID, double originalPrice)
+        {
+            this.item_id = item_id;
+            this.name = name;
+            this.description = description;
+            this.price = price;
+            this.category = category;
+            this.status = status;
+            this.discount = discount;
+            this.createdBy = createdBy;
+            this.imagePath = imagePath;
             this.productID = productID;
+            this.originalPrice = originalPrice;
+
         }
 
         public int Item_id { get => item_id; set => item_id = value; }
@@ -60,5 +63,9 @@ namespace MangageCoffee.DTO
         public string Status { get => status; set => status = value; }
         public string ImagePath { get => imagePath; set => imagePath = value; }
         public int ProductID { get => productID; set => productID = value; }
+        public double OriginalPrice
+        {
+            get => originalPrice; set => originalPrice = value;
+        }
     }
 }

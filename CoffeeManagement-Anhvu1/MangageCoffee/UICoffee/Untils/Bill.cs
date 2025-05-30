@@ -36,6 +36,11 @@ namespace MangageCoffee.UICoffee.Untils
 
         public Bill(List<OrderItemDTO> orderItems, string customerName, string customerPhoneNumber) : this()
         {
+            Console.WriteLine("Bill Constructor:");
+            Console.WriteLine("Customer Name: " + customerName);
+            Console.WriteLine("Customer Phone: " + customerPhoneNumber);
+            Console.WriteLine("Order Items Null? " + (orderItems == null));
+
             _orderItems = orderItems;
             CustomerName = customerName;
             CustomerPhoneNumber = customerPhoneNumber;

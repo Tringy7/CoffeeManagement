@@ -81,23 +81,43 @@ namespace MangageCoffee.UICoffee.Menu
                 return;
 
             var panel = parentMenu.flowLayoutPaneloder_Menu;
-            int quantityToAdd = (int)numeric.Value; // Get the quantity
+            int quantityToAdd = (int)numeric.Value;
 
-            foreach (Control control in panel.Controls)
+            try
             {
-                if (control is Item_Order order && order.ItemName == menuData.Name)
+                foreach (Control control in panel.Controls)
                 {
-                    order.IncreaseQuantity(quantityToAdd); 
-                    parentMenu.UpdateTotalMoney();
-                    return;
+                    if (control is Item_Order order && order.ItemID == menuData.Item_id) 
+                    {
+                        order.IncreaseQuantity(quantityToAdd);
+                        UpdateTotal(); // Chỉ gọi UpdateTotal một lần
+                        return;
+                    }
+                    //else if (control is Item_Order order && order.ItemName == menuData.Name)
+                    //{
+                    //    order.IncreaseQuantity(quantityToAdd);
+                    //    UpdateTotal();
+                    //    return;
+                    //}
                 }
+
+                // Tạo Item_Order mới
+                Item_Order newOrder = new Item_Order(menuData.Name, menuData.Price, parentMenu, quantityToAdd);
+                newOrder.ItemID = menuData.Item_id; 
+                newOrder.ImagePath = menuData.ImagePath;
+                newOrder.UpdateUI();
+
+                panel.Controls.Add(newOrder);
+                UpdateTotal(); 
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error adding item to order: " + ex.Message);
+            }
+        }
 
-            Item_Order newOrder = new Item_Order(menuData.Name, menuData.Price, parentMenu, quantityToAdd); // Pass quantity
-            newOrder.ImagePath = menuData.ImagePath;
-            newOrder.UpdateUI();
-
-            panel.Controls.Add(newOrder);
+        private void UpdateTotal()
+        {
             parentMenu.UpdateTotalMoney();
         }
 

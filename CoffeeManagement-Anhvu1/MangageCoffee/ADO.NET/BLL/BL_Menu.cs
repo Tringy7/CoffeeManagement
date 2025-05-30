@@ -19,14 +19,12 @@ namespace MangageCoffee.ADO.NET.BLL
             db = new DB_Main();
         }
 
-        // Lấy toàn bộ dữ liệu menu item
         public DataSet getData()
         {
             string sqlString = "SELECT * FROM MenuItems WHERE Status = 'True'";
             return db.ExecuteQueryDataSet(sqlString, CommandType.Text);
         }
 
-        // Chuyển dữ liệu thành danh sách đối tượng Class_menuitem
         public List<Class_Menu> getMenuItemList()
         {
             List<Class_Menu> items = new List<Class_Menu>();
@@ -53,7 +51,6 @@ namespace MangageCoffee.ADO.NET.BLL
             return items;
         }
 
-        // Thêm mới menu item
         public bool addNewMenuItem(Class_Menu item, ref string error)
         {
             string sqlString = "INSERT INTO MenuItems (Name, Description, Price, Category, Status, DiscountPercent, CreatedBy,ImagePath) " +
@@ -75,7 +72,6 @@ namespace MangageCoffee.ADO.NET.BLL
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
         }
 
-        // Cập nhật menu item
         public bool updateMenuItem(Class_Menu item, ref string error)
         {
             string sqlString = "UPDATE MenuItems SET Name = @Name, Description = @Description, Price = @Price, " +
@@ -100,7 +96,6 @@ namespace MangageCoffee.ADO.NET.BLL
         }
 
 
-        // Xóa menu item
         public bool deleteMenuItem(int itemId, ref string error)
         {
             string sqlString = "DELETE FROM MenuItems WHERE ItemID = @ItemID";
@@ -112,5 +107,33 @@ namespace MangageCoffee.ADO.NET.BLL
 
             return db.MyExecuteNonQuery(sqlString, CommandType.Text, ref error, parameters);
         }
+
+    public Class_Menu getMenuItemByID(int itemId)
+        {
+            Class_Menu product = null;
+            string error = "";
+            DataSet ds = db.GetProductInfo(itemId, ref error); // Use DAL method  
+            if (ds != null && ds.Tables.Count > 0 && ds.Tables[0].Rows.Count > 0)
+            {
+                DataRow row = ds.Tables[0].Rows[0];
+                product = new Class_Menu
+                {
+                    Item_id = itemId,
+                    ProductID = Convert.ToInt32(row["ProductID"]),
+                    OriginalPrice = Convert.ToDouble(row["OriginalPrice"]) // Explicitly cast decimal to double  
+                };
+            }
+            if (product == null)
+            {
+                product = new Class_Menu
+                {
+                    Item_id = itemId,
+                    ProductID = -1, 
+                    OriginalPrice = 0
+                };
+            }
+            return product;
+        }
+        
     }
 }

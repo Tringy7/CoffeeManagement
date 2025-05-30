@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
+using MangageCoffee.ADO.NET.DAL;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee.Untils;
 
@@ -16,6 +18,8 @@ namespace MangageCoffee.UICoffee.Menu
     public partial class Menu_add : UserControl
     {
         BL_Menu menu;
+        private BL_Order orderBLL = new BL_Order();
+        private BL_Product productBLL = new BL_Product();
         public Menu_add()
         {
             menu = new BL_Menu();
@@ -207,61 +211,117 @@ namespace MangageCoffee.UICoffee.Menu
             CheckOut.Enabled = true;
 
         }
-
+        private UserBLL userBLL = new UserBLL();
+        DB_Main db = new DB_Main();
         private void CheckOut_Click(object sender, EventArgs e)
         {
+            UserDTO user = userBLL.GetLoggedInUserInfo();
+            string error = "";
+            decimal totalProfit = 0;
+            DateTime orderDate = DateTime.Now.Date;
+            int adminId = user.AdminID;
             List<OrderItemDTO> orderItems = new List<OrderItemDTO>();
+
             foreach (Control control in flowLayoutPaneloder_Menu.Controls)
             {
-                if (control is Item_Order itemOrder)
+                if (control is Item_Order itemOrder) 
                 {
-                    OrderItemDTO orderItem = new OrderItemDTO
+                    orderItems.Add(new OrderItemDTO
                     {
                         ItemID = itemOrder.ItemID,
                         Name = itemOrder.ItemName,
                         Quantity = itemOrder.Quantity,
                         UnitPrice = itemOrder.UnitPrice
-                    };
-                    orderItems.Add(orderItem);
+                    });
                 }
             }
-            
+
+            if (orderItems.Count == 0)
+            {
+                MessageBox.Show("No items to checkout!");
+                return;
+            }
             string customerName = txtName.Texts;
             string customerPhoneNumber = txtSDT.Texts;
 
-            Bill bill = new Bill(orderItems, customerName, customerPhoneNumber);
-
-            if (bill.ShowDialog() == DialogResult.OK)
+            using (SqlTransaction transaction = db.BeginTransaction())
             {
-                CustomerInfoDTO customerInfo = new CustomerInfoDTO()
+                try
                 {
-                    Name = bill.CustomerName,
-                    PhoneNumber = bill.CustomerPhoneNumber
-                };
-
-                BL_Order blOrder = new BL_Order();
-                string error = "";
-                int customerId = blOrder.GetOrCreateCustomer(customerInfo, ref error);
-                if (customerId > 0)
-                {
-                    int orderId = blOrder.CreateOrder(customerId, orderItems, ref error);
-                    if (orderId > 0)
+                    foreach (OrderItemDTO orderItem in orderItems)
                     {
-                        bill.OrderID = orderId;
-                        bill.ShowDialog(); 
+                        Class_Menu menuItem = menu.getMenuItemByID(orderItem.ItemID);
+                        if (menuItem != null && menuItem.ProductID != -1)
+                        {
+                            bool updated = productBLL.UpdateProductQuantity(menuItem.ProductID, orderItem.Quantity, ref error);
+                            if (!updated)
+                            {
+                                transaction.Rollback();
+                                MessageBox.Show($"Failed to update quantity for ItemID {orderItem.ItemID}.\nError: {error}");
+                                return;
+                            }
 
-                        MessageBox.Show("Order created successfully!");
+                            decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
+                            totalProfit += itemProfit;
+                        }
+                        else
+                        {
+                            transaction.Rollback();
+                            MessageBox.Show($"MenuItem not found for ItemID {orderItem.ItemID}.");
+                            return;
+                        }
                     }
-                    else
+
+                    bool profitSaved = db.SaveDailyProfit(orderDate, totalProfit, orderItems.Count, adminId, ref error, transaction);
+                    if (!profitSaved)
                     {
-                        MessageBox.Show("Error creating order: " + error);
+                        transaction.Rollback();
+                        MessageBox.Show("Failed to save daily profit.\nError: " + error);
+                        return;
                     }
+
+                    transaction.Commit();
+                    MessageBox.Show($"Checkout successful!\nTotal Profit: {totalProfit.ToString("C")}");
+
+                    ClearOrderUI();
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Error getting/creating customer: " + error);
+                    try
+                    {
+                        transaction.Rollback();
+                    }
+                    catch (Exception rollbackEx)
+                    {
+                        MessageBox.Show($"Error rolling back transaction: {rollbackEx.Message}");
+                    }
+
+                    MessageBox.Show("Checkout failed: " + ex.Message);
                 }
             }
+
+
+            try
+            {
+                Bill bill = new Bill(orderItems, customerName, customerPhoneNumber);
+                bill.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error generating bill: " + ex.Message);
+            }
+        }
+
+
+        private void ClearOrderUI()
+        {
+            flowLayoutPaneloder_Menu.Controls.Clear();
+            txtName.Texts = "";
+            txtSDT.Texts = "";
+            TotalMoney.Text = "0";
+            textSearch.Text = "";
+            loaddata();
         }
     }
 }
+

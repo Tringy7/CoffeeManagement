@@ -54,7 +54,7 @@ namespace MangageCoffee.ADO.NET.DAL
 
                 if (user.Role == "Admin")
                 {
-                    query = "SELECT FullName, Phone, Gender, DateOfBirth, ImagePath, KPI FROM Admins WHERE UserID = @UserID"; // Get KPI
+                    query = "SELECT AdminID, FullName, Phone, Gender, DateOfBirth, ImagePath, KPI FROM Admins WHERE UserID = @UserID";
                 }
                 else if (user.Role == "Customer")
                 {
@@ -76,6 +76,7 @@ namespace MangageCoffee.ADO.NET.DAL
                 {
                     if (reader.Read())
                     {
+                        
                         user.FullName = reader["FullName"] == DBNull.Value ? null : reader["FullName"].ToString();
                         user.Phone = reader["Phone"] == DBNull.Value ? null : reader["Phone"].ToString();
                         user.Gender = reader["Gender"] == DBNull.Value ? null : reader["Gender"].ToString();
@@ -96,7 +97,9 @@ namespace MangageCoffee.ADO.NET.DAL
                         }
                         else if (user.Role == "Admin")
                         {
-                            user.KPI = reader["KPI"] == DBNull.Value ? (int?)null : (int)reader["KPI"]; // Get KPI
+                            user.KPI = reader["KPI"] == DBNull.Value ? (int?)null : (int)reader["KPI"];
+                            user.AdminID = reader["AdminID"] == DBNull.Value ? 0 : (int)reader["AdminID"];
+
                         }
                     }
                 }
@@ -163,58 +166,6 @@ namespace MangageCoffee.ADO.NET.DAL
             }
         }
 
-        public UserDTO GetUserDetails(int userID) //  Modified to take userID
-        {
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                conn.Open();
-                string query;
-                SqlCommand cmd;
-
-                //  No need for user.Role checks here, as we get the role from the Users table
-                query = @"SELECT u.UserID, u.Username, u.Role, u.Status, u.Email,
-                                 a.FullName, a.Phone, a.Gender, a.DateOfBirth, a.ImagePath,
-                                 c.TotalOrders, c.TotalFeedbacks, c.TotalSpent,
-                                 s.Position, s.Salary, s.HireDate
-                          FROM Users u
-                          LEFT JOIN Admins a ON u.UserID = a.UserID
-                          LEFT JOIN Customers c ON u.UserID = c.UserID
-                          LEFT JOIN Staffs s ON u.UserID = s.UserID
-                          WHERE u.UserID = @UserID";
-
-                cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@UserID", userID);
-
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    if (reader.Read())
-                    {
-                        var user = new UserDTO
-                        {
-                            UserID = (int)reader["UserID"],
-                            Username = reader["Username"].ToString(),
-                            Role = reader["Role"].ToString(),
-                            Status = (bool)reader["Status"],
-                            Email = reader["Email"] == DBNull.Value ? null : reader["Email"].ToString(),
-                            FullName = reader["FullName"] == DBNull.Value ? null : reader["FullName"].ToString(),
-                            Phone = reader["Phone"] == DBNull.Value ? null : reader["Phone"].ToString(),
-                            Gender = reader["Gender"] == DBNull.Value ? null : reader["Gender"].ToString(),
-                            DateOfBirth = reader["DateOfBirth"] == DBNull.Value ? null : (DateTime?)Convert.ToDateTime(reader["DateOfBirth"]),
-                            ImagePath = reader["ImagePath"] == DBNull.Value ? null : reader["ImagePath"].ToString(),
-                            TotalOrders = reader["TotalOrders"] == DBNull.Value ? (int?)null : (int)reader["TotalOrders"],
-                            TotalFeedbacks = reader["TotalFeedbacks"] == DBNull.Value ? (int?)null : (int)reader["TotalFeedbacks"],
-                            TotalSpent = reader["TotalSpent"] == DBNull.Value ? (decimal?)null : (decimal)reader["TotalSpent"],
-                            Position = reader["Position"] == DBNull.Value ? null : reader["Position"].ToString(),
-                            Salary = reader["Salary"] == DBNull.Value ? null : (decimal?)reader["Salary"],
-                            HireDate = reader["HireDate"] == DBNull.Value ? null : (DateTime?)Convert.ToDateTime(reader["HireDate"])
-                        };
-                        return user;
-                    }
-                    return null;
-                }
-            }
-        }
-
         public bool RegisterUser(UserDTO user)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -254,76 +205,6 @@ namespace MangageCoffee.ADO.NET.DAL
                 SqlCommand cmd = new SqlCommand(query, conn);
                 cmd.ExecuteNonQuery();
             }
-        }
-        public List<UserDTO> GetUsersByRole(string role)
-        {
-            List<UserDTO> users = new List<UserDTO>();
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                conn.Open();
-                string query = "SELECT UserID, Username, Role, Status, Email FROM Users WHERE Role = @Role AND Status = 1 AND Available = 1"; //  Only get available users
-                SqlCommand cmd = new SqlCommand(query, conn);
-                cmd.Parameters.AddWithValue("@Role", role);
-
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        UserDTO user = new UserDTO
-                        {
-                            UserID = (int)reader["UserID"],
-                            Username = reader["Username"].ToString(),
-                            Role = reader["Role"].ToString(),
-                            Status = (bool)reader["Status"],
-                            Email = reader["Email"] == DBNull.Value ? null : reader["Email"].ToString(),
-                            Available = (bool)reader["Available"] //  Get Available status
-                        };
-                        users.Add(user);
-                    }
-                }
-            }
-
-            foreach (var user in users)
-            {
-                GetUserDetails(user);
-            }
-
-            return users;
-        }
-
-        public List<UserDTO> GetAllUsers()
-        {
-            List<UserDTO> allUsers = new List<UserDTO>();
-            using (SqlConnection conn = new SqlConnection(connectionString))
-            {
-                conn.Open();
-                string query = "SELECT UserID, Username, Role, Status, Email, Available FROM Users WHERE Available = 1"; //  Only get available users
-                SqlCommand cmd = new SqlCommand(query, conn);
-
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        UserDTO user = new UserDTO
-                        {
-                            UserID = (int)reader["UserID"],
-                            Username = reader["Username"].ToString(),
-                            Role = reader["Role"].ToString(),
-                            Status = (bool)reader["Status"],
-                            Email = reader["Email"] == DBNull.Value ? null : reader["Email"].ToString(),
-                            Available = (bool)reader["Available"]
-                        };
-                        allUsers.Add(user);
-                    }
-                }
-            }
-
-            foreach (var user in allUsers)
-            {
-                GetUserDetails(user);
-            }
-
-            return allUsers;
         }
         public void SetUserAvailability(int userId, bool available)
         {

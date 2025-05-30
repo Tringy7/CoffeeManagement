@@ -9,17 +9,41 @@ using MangageCoffee.DTO;
 
 namespace MangageCoffee.ADO.NET.DAL
 {
-    internal class DB_Main
+    public class DB_Main
     {
-        string ConnStr = "Data Source=(local);Initial Catalog=CafeManagementV0;Integrated Security=True";
+        public string ConnStr = "Data Source=(local);Initial Catalog=CafeManagementV0;Integrated Security=True";
         SqlConnection conn = null;
         SqlCommand comm = null;
         SqlDataAdapter da = null;
+        private SqlTransaction transaction = null;
 
         public DB_Main()
         {
             conn = new SqlConnection(ConnStr);
             comm = conn.CreateCommand();
+        }
+
+        private void OpenConnection()
+        {
+            if (conn.State == ConnectionState.Closed)
+            {
+                conn.Open();
+            }
+        }
+        public SqlConnection GetConnection()
+        {
+            if (conn.State != ConnectionState.Open)
+            {
+                conn.Open();
+            }
+            return conn;
+        }
+        private void CloseConnection()
+        {
+            if (conn.State == ConnectionState.Open)
+            {
+                conn.Close();
+            }
         }
         public DataSet ExecuteQueryDataSet(string strSQL, CommandType ct, params SqlParameter[] parameters)
         {
@@ -85,15 +109,14 @@ namespace MangageCoffee.ADO.NET.DAL
 
         public DataSet GetCustomerByName(string customerName)
         {
-            string sql = "SELECT CustomerID, PhoneNumber FROM Customers WHERE Name = @Name";
+            string sql = "SELECT CustomerID, Phone FROM Customers WHERE FullName = @Name";
             SqlParameter param = new SqlParameter("@Name", customerName);
             return ExecuteQueryDataSet(sql, CommandType.Text, param);
         }
 
-        // Add new Customer (returns the new CustomerID)
         public int AddCustomer(string customerName, string customerPhoneNumber, ref string error)
         {
-            string sql = "INSERT INTO Customers (Name, PhoneNumber) VALUES (@Name, @PhoneNumber); SELECT SCOPE_IDENTITY();";
+            string sql = "INSERT INTO Customers (FullName, Phone) VALUES (@Name, @PhoneNumber); SELECT SCOPE_IDENTITY();";
             SqlParameter[] parameters = {
         new SqlParameter("@Name", customerName),
         new SqlParameter("@PhoneNumber", customerPhoneNumber)
@@ -110,7 +133,6 @@ namespace MangageCoffee.ADO.NET.DAL
             }
         }
 
-        // Add new Order (returns the new OrderID)
         public int AddOrder(int customerId, double totalAmount, ref string error)
         {
             string sql = "INSERT INTO Orders (CustomerID, OrderDate, TotalAmount) VALUES (@CustomerID, GETDATE(), @TotalAmount); SELECT SCOPE_IDENTITY();";
@@ -130,7 +152,6 @@ namespace MangageCoffee.ADO.NET.DAL
             }
         }
 
-        // Add Order Details
         public bool AddOrderDetails(int orderId, OrderItemDTO item, ref string error)
         {
             string sql = "INSERT INTO OrderDetails (OrderID, ItemID, Quantity, UnitPrice) VALUES (@OrderID, @ItemID, @Quantity, @UnitPrice)";
@@ -142,5 +163,80 @@ namespace MangageCoffee.ADO.NET.DAL
     };
             return MyExecuteNonQuery(sql, CommandType.Text, ref error, parameters);
         }
+
+        public DataSet GetProductInfo(int itemId, ref string error)
+        {
+            string sql = "SELECT p.ProductID, p.OriginalPrice " +
+                         "FROM MenuItems mi " +
+                         "JOIN Products p ON mi.Name = p.Name " +
+                         "WHERE mi.ItemID = @ItemID";
+            SqlParameter param = new SqlParameter("@ItemID", itemId);
+            return ExecuteQueryDataSet(sql, CommandType.Text, param);
+        }
+        public bool UpdateProductQuantity(int productId, int quantity, ref string error)
+        {
+            string sql = "UPDATE Products SET Quantity = Quantity - @Quantity WHERE ProductID = @ProductID";
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+            new SqlParameter("@ProductID", productId),
+            new SqlParameter("@Quantity", quantity)
+            };
+            return MyExecuteNonQuery(sql, CommandType.Text, ref error, parameters);
+        }
+        private bool ExecuteNonQuery(string sql, CommandType commandType, ref string error, SqlParameter[] parameters, SqlTransaction transaction = null)
+        {
+            using (SqlCommand command = new SqlCommand(sql, GetConnection(), transaction))
+            {
+                command.CommandType = commandType;
+                if (parameters != null)
+                {
+                    command.Parameters.AddRange(parameters);
+                }
+                try
+                {
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0;
+                }
+                catch (Exception ex)
+                {
+                    error = ex.Message;
+                    return false;
+                }
+            }
+        }
+        public bool SaveDailyProfit(DateTime summaryDate, decimal profit, int orderCount, int adminId, ref string error, SqlTransaction transaction)
+        {
+            string sql = "INSERT INTO DailyProfitSummary (SummaryDate, Profit, OrderCount, AdminID) " +
+                         "VALUES (@SummaryDate, @Profit, @OrderCount, @AdminID)";
+            SqlParameter[] parameters = {
+            new SqlParameter("@SummaryDate", SqlDbType.Date) { Value = summaryDate },
+            new SqlParameter("@Profit", SqlDbType.Decimal) { Value = profit },
+            new SqlParameter("@OrderCount", SqlDbType.Int) { Value = orderCount },
+            new SqlParameter("@AdminID", SqlDbType.Int) { Value = adminId }
+        };
+            return ExecuteNonQuery(sql, CommandType.Text, ref error, parameters, transaction);
+        }
+
+        public SqlTransaction BeginTransaction()
+        {
+            OpenConnection(); 
+            transaction = conn.BeginTransaction();
+            comm.Transaction = transaction; // Assign transaction to command
+            return transaction;
+        }
+
+        public void CommitTransaction()
+        {
+            transaction.Commit();
+            CloseConnection();
+        }
+
+        public void RollbackTransaction()
+        {
+            transaction.Rollback();
+            CloseConnection();
+        }
+
+
     }
 }

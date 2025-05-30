@@ -20,18 +20,17 @@ namespace MangageCoffee.DTO
         public bool Available { get; set; } = true; //  Default to true
 
         // Thêm các thuộc tính chi tiết từ các bảng Admins, Customers, Staffs
+        public int AdminID { get; set; }
         public string FullName { get; set; }
         public string Phone { get; set; }
         public string Gender { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        public string ImagePath { get; set; } // Đường dẫn ảnh đại diện
+        public string ImagePath { get; set; } 
 
-        // Thuộc tính riêng cho Staff
         public string Position { get; set; }
         public decimal? Salary { get; set; }
         public DateTime? HireDate { get; set; }
 
-        // Thuộc tính riêng cho Customer
         public int? TotalOrders { get; set; }
         public int? TotalFeedbacks { get; set; }
         public decimal? TotalSpent { get; set; }

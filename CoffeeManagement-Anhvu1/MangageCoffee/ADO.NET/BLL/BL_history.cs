@@ -43,7 +43,7 @@ namespace MangageCoffee.ADO.NET.BLL
                     OderId = Convert.ToInt32(row["OrderID"]),
                     ItemID = Convert.ToInt32(row["ItemID"]),
                     OderDate = Convert.ToDateTime(row["OrderDate"]),
-                    OderTime = (TimeSpan)row["OrderTime"], // nếu trong SQL là kiểu TIME
+                    OderTime = (TimeSpan)row["OrderTime"], 
                     Quantity = Convert.ToInt32(row["Quantity"]),
                     Unitprice = Convert.ToDouble(row["UnitPrice"]),
                     TotalAmount = Convert.ToDouble(row["TotalAmount"]),
@@ -137,10 +137,10 @@ namespace MangageCoffee.ADO.NET.BLL
                     Convert.ToInt32(row["ProductID"])
                 );
 
-                return menu; // ✅ FIXED: trả về object menu đã tạo
+                return menu;
             }
 
-            return null; // Nếu không tìm thấy
+            return null; 
         }
 
 
@@ -161,7 +161,7 @@ namespace MangageCoffee.ADO.NET.BLL
                         OderId = Convert.ToInt32(row["OrderID"]),
                         ItemID = Convert.ToInt32(row["ItemID"]),
                         OderDate = Convert.ToDateTime(row["OrderDate"]),
-                        OderTime = (TimeSpan)row["OrderTime"], // đảm bảo cột trong DB là kiểu TIME
+                        OderTime = (TimeSpan)row["OrderTime"], 
                         Quantity = Convert.ToInt32(row["Quantity"]),
                         Unitprice = Convert.ToDouble(row["UnitPrice"]),
                         Available = Convert.ToBoolean(row["Available"])
