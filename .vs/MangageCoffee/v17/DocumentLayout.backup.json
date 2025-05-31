@@ -1,0 +1,403 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CoffeeManagement-Anhvu1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|d:\\coffeemanagement-anhvu1\\mangagecoffee\\ado.net\\bll\\bl_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\bl_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\usersbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\bll\\dailyprofitbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\dailyprofitbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\bll\\bl_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\bl_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\bll\\bl_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\bl_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\bll\\bl_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\bll\\bl_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\dailyprofitdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\dailyprofitdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\dto\\class_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\dto\\class_product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\dto\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\db_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\db_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\oderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\oderdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\historydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\historydal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\usersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\usersdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\ado.net\\dal\\menudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\ado.net\\dal\\menudal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\home\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\history\\history_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\history\\history_order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\history\\history_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\history\\history_item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\history\\history_historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\history\\history_historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\history\\history_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\history\\history_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\managedishes\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|D:\\CoffeeManagement-Anhvu1\\mangagecoffee\\uicoffee\\customer\\customer_menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16ABC55A-F443-4CE7-B0CC-71EE8DE59DA7}|MangageCoffee\\MangageCoffee.csproj|solutionrelative:mangagecoffee\\uicoffee\\customer\\customer_menu_add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:10:18.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BL_Order.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Order.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\BL_Order.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Order.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\BL_Order.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwDkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:54:33.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BL_Menu.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Menu.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\BL_Menu.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Menu.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\BL_Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:39:49.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BL_Product.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\BL_Product.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_Product.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\BL_Product.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAzwCcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:37:26.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DailyProfitDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\DailyProfitDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\DailyProfitDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\DailyProfitDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\DailyProfitDAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:38:07.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BL_history.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_history.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\BL_history.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\BL_history.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\BL_history.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwB8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:45:06.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DailyProfitBLL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\DailyProfitBLL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\DailyProfitBLL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\DailyProfitBLL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\DailyProfitBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:37:26.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersBLL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\BLL\\UsersBLL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:37:11.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\ProductDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\ProductDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\ProductDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\ProductDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:02:50.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Class_product.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\DTO\\Class_product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\DTO\\Class_product.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\DTO\\Class_product.cs",
+              "RelativeToolTip": "MangageCoffee\\DTO\\Class_product.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA1wDkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T03:04:13.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UsersDTO.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\DTO\\UsersDTO.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\DTO\\UsersDTO.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\DTO\\UsersDTO.cs",
+              "RelativeToolTip": "MangageCoffee\\DTO\\UsersDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:51:45.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OderDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\OderDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\OderDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\OderDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\OderDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:55:57.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HistoryDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\HistoryDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\HistoryDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\HistoryDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\HistoryDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:45:30.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DB_Main.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\DB_Main.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\DB_Main.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\DB_Main.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\DB_Main.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwKUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:37:31.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\UsersDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T00:37:55.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MenuDAL.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\MenuDAL.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\ADO.NET\\DAL\\MenuDAL.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\ADO.NET\\DAL\\MenuDAL.cs",
+              "RelativeToolTip": "MangageCoffee\\ADO.NET\\DAL\\MenuDAL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T02:39:34.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Home\\Home.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Home\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:02:48.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "History_order.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_order.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\History\\History_order.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_order.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:37.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "History_item.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_item.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\History\\History_item.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_item.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:35.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "History_historyform.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_historyform.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\History\\History_historyform.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_historyform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:33.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "History_add.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\History\\History_add.cs",
+              "ToolTip": "C:\\Users\\hi\\Dropbox\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\History\\History_add.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:25.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs [Design]",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\ManageDishes\\Product.cs [Design]",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\ManageDishes\\Product.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:15.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Customer_Menu_add.cs",
+              "DocumentMoniker": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\Customer\\Customer_Menu_add.cs",
+              "RelativeDocumentMoniker": "MangageCoffee\\UICoffee\\Customer\\Customer_Menu_add.cs",
+              "ToolTip": "D:\\CoffeeManagement-Anhvu1\\MangageCoffee\\UICoffee\\Customer\\Customer_Menu_add.cs",
+              "RelativeToolTip": "MangageCoffee\\UICoffee\\Customer\\Customer_Menu_add.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T20:00:03.158Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

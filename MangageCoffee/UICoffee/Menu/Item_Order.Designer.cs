@@ -1,0 +1,184 @@
+﻿namespace MangageCoffee.UICoffee.Menu
+{
+    partial class Item_Order
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.name_item = new System.Windows.Forms.Label();
+            this.SoLuong = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.price = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+            this.ptbImage = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImage)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.name_item);
+            this.panel1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Location = new System.Drawing.Point(126, 28);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(93, 35);
+            this.panel1.TabIndex = 82;
+            // 
+            // name_item
+            // 
+            this.name_item.AutoSize = true;
+            this.name_item.BackColor = System.Drawing.Color.White;
+            this.name_item.Dock = System.Windows.Forms.DockStyle.Left;
+            this.name_item.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name_item.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.name_item.Location = new System.Drawing.Point(0, 0);
+            this.name_item.Name = "name_item";
+            this.name_item.Size = new System.Drawing.Size(70, 25);
+            this.name_item.TabIndex = 78;
+            this.name_item.Text = "Burger";
+            this.name_item.Click += new System.EventHandler(this.name_item_Click);
+            // 
+            // SoLuong
+            // 
+            this.SoLuong.AutoSize = true;
+            this.SoLuong.BackColor = System.Drawing.Color.White;
+            this.SoLuong.Dock = System.Windows.Forms.DockStyle.Left;
+            this.SoLuong.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SoLuong.ForeColor = System.Drawing.Color.Black;
+            this.SoLuong.Location = new System.Drawing.Point(0, 0);
+            this.SoLuong.Name = "SoLuong";
+            this.SoLuong.Size = new System.Drawing.Size(24, 20);
+            this.SoLuong.TabIndex = 78;
+            this.SoLuong.Text = "x1";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.price);
+            this.panel3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Location = new System.Drawing.Point(226, 28);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(115, 46);
+            this.panel3.TabIndex = 84;
+            // 
+            // price
+            // 
+            this.price.AutoSize = true;
+            this.price.BackColor = System.Drawing.Color.Transparent;
+            this.price.Dock = System.Windows.Forms.DockStyle.Right;
+            this.price.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.price.ForeColor = System.Drawing.Color.Red;
+            this.price.Location = new System.Drawing.Point(47, 0);
+            this.price.Name = "price";
+            this.price.Size = new System.Drawing.Size(68, 21);
+            this.price.TabIndex = 80;
+            this.price.Text = "10 VND";
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.SoLuong);
+            this.panel2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Location = new System.Drawing.Point(126, 70);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(64, 35);
+            this.panel2.TabIndex = 83;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
+            this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDelete.FillColor = System.Drawing.Color.Transparent;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Image = global::MangageCoffee.Properties.Resources.minus;
+            this.btnDelete.Location = new System.Drawing.Point(294, 70);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(47, 35);
+            this.btnDelete.TabIndex = 85;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
+            // 
+            // ptbImage
+            // 
+            this.ptbImage.BackColor = System.Drawing.Color.Transparent;
+            this.ptbImage.BorderRadius = 10;
+            this.ptbImage.FillColor = System.Drawing.Color.LightGray;
+            this.ptbImage.ImageRotate = 0F;
+            this.ptbImage.Location = new System.Drawing.Point(19, 16);
+            this.ptbImage.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ptbImage.Name = "ptbImage";
+            this.ptbImage.Size = new System.Drawing.Size(100, 95);
+            this.ptbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.ptbImage.TabIndex = 81;
+            this.ptbImage.TabStop = false;
+            // 
+            // Item_Order
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.ptbImage);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "Item_Order";
+            this.Size = new System.Drawing.Size(360, 129);
+            this.Load += new System.EventHandler(this.Item_Order_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbImage)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label name_item;
+        private System.Windows.Forms.Label SoLuong;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel2;
+        private Guna.UI2.WinForms.Guna2Button btnDelete;
+        private Guna.UI2.WinForms.Guna2PictureBox ptbImage;
+        private System.Windows.Forms.Label price;
+    }
+}
