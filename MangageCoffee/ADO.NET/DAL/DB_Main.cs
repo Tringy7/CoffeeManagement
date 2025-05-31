@@ -173,16 +173,7 @@ namespace MangageCoffee.ADO.NET.DAL
             SqlParameter param = new SqlParameter("@ItemID", itemId);
             return ExecuteQueryDataSet(sql, CommandType.Text, param);
         }
-        public bool UpdateProductQuantity(int productId, int quantity, ref string error)
-        {
-            string sql = "UPDATE Products SET Quantity = Quantity - @Quantity WHERE ProductID = @ProductID";
-            SqlParameter[] parameters = new SqlParameter[]
-            {
-            new SqlParameter("@ProductID", productId),
-            new SqlParameter("@Quantity", quantity)
-            };
-            return MyExecuteNonQuery(sql, CommandType.Text, ref error, parameters);
-        }
+        
         private bool ExecuteNonQuery(string sql, CommandType commandType, ref string error, SqlParameter[] parameters, SqlTransaction transaction = null)
         {
             using (SqlCommand command = new SqlCommand(sql, GetConnection(), transaction))
@@ -204,6 +195,53 @@ namespace MangageCoffee.ADO.NET.DAL
                 }
             }
         }
+
+        public bool UpdateProductQuantity(int productId, int quantity, ref string error)
+        {
+            try
+            {
+                // 1. Lấy số lượng hiện tại
+                string checkSql = "SELECT Quantity FROM Products WHERE ProductID = @ProductID";
+                SqlParameter[] checkParams = new SqlParameter[]
+                {
+            new SqlParameter("@ProductID", productId)
+                };
+
+                DataSet ds = this.ExecuteQueryDataSet(checkSql, CommandType.Text, checkParams);
+
+                if (ds.Tables[0].Rows.Count == 0)
+                {
+                    error = "Sản phẩm không tồn tại.";
+                    return false;
+                }
+
+                int currentQuantity = Convert.ToInt32(ds.Tables[0].Rows[0]["Quantity"]);
+
+                // 2. Kiểm tra số lượng có đủ hay không
+                if (currentQuantity < quantity)
+                {
+                    error = $"Không đủ số lượng sản phẩm. Hiện có {currentQuantity}, yêu cầu {quantity}.";
+                    return false;
+                }
+
+                // 3. Trừ số lượng
+                string updateSql = "UPDATE Products SET Quantity = Quantity - @Quantity WHERE ProductID = @ProductID";
+                SqlParameter[] updateParams = new SqlParameter[]
+                {
+            new SqlParameter("@ProductID", productId),
+            new SqlParameter("@Quantity", quantity)
+                };
+
+                return MyExecuteNonQuery(updateSql, CommandType.Text, ref error, updateParams);
+            }
+            catch (Exception ex)
+            {
+                error = "Lỗi hệ thống: " + ex.Message;
+                return false;
+            }
+        }
+
+
         public bool SaveDailyProfit(DateTime summaryDate, decimal profit, int orderCount, ref string error, SqlTransaction transaction)
         {
             string sql = "INSERT INTO DailyProfitSummary (SummaryDate, Profit, OrderCount) " +

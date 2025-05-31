@@ -23,50 +23,65 @@ namespace MangageCoffee.UICoffee.History
             loaddata();
         }
 
+        
         private void loaddata()
         {
             flowLayoutPanelHistory.Controls.Clear();
 
             List<Class_Oder> listHistory = bl_history.getOrderList();
 
-            // Tạo HashSet để lưu CustomerID đã xử lý
-            HashSet<int> processedCustomerIDs = new HashSet<int>();
+            // Dictionary để nhóm đơn hàng theo (CustomerID, OrderTime)
+            var groupedOrders = listHistory
+                .GroupBy(order => $"{order.CustomerID}_{order.OderTime:hh\\:mm\\:ss}")
+                .ToDictionary(g => g.Key, g => g.ToList());
 
-            foreach (Class_Oder ItemHistory_Oder in listHistory)
+            HashSet<string> processedKeys = new HashSet<string>();
+
+            foreach (var kvp in groupedOrders)
             {
-                if (processedCustomerIDs.Contains(ItemHistory_Oder.CustomerID))
-                    continue; // Nếu đã xử lý CustomerID này thì bỏ qua
+                string key = kvp.Key;
 
-                processedCustomerIDs.Add(ItemHistory_Oder.CustomerID); // Đánh dấu là đã xử lý
+                if (processedKeys.Contains(key))
+                    continue;
+
+                processedKeys.Add(key);
+
+                List<Class_Oder> sameTimeOrders = kvp.Value;
 
                 History_order history_Order = new History_order();
-                history_Order.setdata(ItemHistory_Oder);
+                history_Order.setdata(sameTimeOrders); // gửi cả danh sách sản phẩm theo thời điểm
+
                 flowLayoutPanelHistory.Controls.Add(history_Order);
             }
-
         }
+
+
         private void text_search_TextChanged(object sender, EventArgs e)
         {
             string keyword = text_search.Text.Trim().ToLower();
-
             flowLayoutPanelHistory.Controls.Clear();
-            List<Class_Oder> listHistory = bl_history.getOrderList();
-            HashSet<int> processedCustomerIDs = new HashSet<int>();
 
-            foreach (Class_Oder item in listHistory)
+            List<Class_Oder> listHistory = bl_history.getOrderList();
+            HashSet<string> processedKeys = new HashSet<string>(); // CustomerID + Time
+
+            var groupedOrders = listHistory
+                .GroupBy(o => new { o.CustomerID, o.OderTime }) // nhóm theo ID và thời điểm
+                .ToList();
+
+            foreach (var group in groupedOrders)
             {
-                if (processedCustomerIDs.Contains(item.CustomerID))
+                string key = $"{group.Key.CustomerID}_{group.Key.OderTime:hh\\:mm\\:ss}";
+                if (processedKeys.Contains(key))
                     continue;
 
-                CustomerDisplayDTO customer = bl_history.GetCustomerInfoByCustomerID(item.CustomerID);
+                CustomerDisplayDTO customer = bl_history.GetCustomerInfoByCustomerID(group.Key.CustomerID);
+
                 if (customer != null && customer.FullName.ToLower().Contains(keyword))
                 {
-                    processedCustomerIDs.Add(item.CustomerID);
+                    processedKeys.Add(key);
 
                     History_order history_Order = new History_order();
-                    history_Order.setdata(item);
-            // đăng ký sự kiện xoá
-                    
+                    history_Order.setdata(group.ToList()); // truyền list đơn hàng mua cùng lúc
                     flowLayoutPanelHistory.Controls.Add(history_Order);
                 }
             }

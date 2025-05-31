@@ -34,6 +34,7 @@
             this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2GradientPanel3 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.manage_itemlist_Product = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
             this.label1 = new System.Windows.Forms.Label();
             this.total_Product = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -53,7 +54,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.checkBoxAll = new System.Windows.Forms.CheckBox();
             this.checkBoxHotDrink = new System.Windows.Forms.CheckBox();
-            this.manage_itemlist_Product = new MangageCoffee.UICoffee.ManageDishes.Manage_itemlist();
             this.guna2GradientPanel1.SuspendLayout();
             this.guna2GradientPanel3.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -105,6 +105,15 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1133, 50);
             this.guna2Panel1.TabIndex = 90;
+            // 
+            // manage_itemlist_Product
+            // 
+            this.manage_itemlist_Product.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
+            this.manage_itemlist_Product.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.manage_itemlist_Product.Location = new System.Drawing.Point(0, 0);
+            this.manage_itemlist_Product.Name = "manage_itemlist_Product";
+            this.manage_itemlist_Product.Size = new System.Drawing.Size(1133, 50);
+            this.manage_itemlist_Product.TabIndex = 0;
             // 
             // label1
             // 
@@ -214,7 +223,7 @@
             this.Buttonadd_product.TabIndex = 125;
             this.Buttonadd_product.Text = "Add New Dishes";
             this.Buttonadd_product.TextOffset = new System.Drawing.Point(0, 35);
-            this.Buttonadd_product.Click += new System.EventHandler(this.Buttonadd_product_Click);
+            this.Buttonadd_product.Click += new System.EventHandler(this.insert_product_Click);
             // 
             // label4
             // 
@@ -383,15 +392,6 @@
             this.checkBoxHotDrink.TabIndex = 81;
             this.checkBoxHotDrink.Text = "Hot Drink";
             this.checkBoxHotDrink.UseVisualStyleBackColor = false;
-            // 
-            // manage_itemlist_Product
-            // 
-            this.manage_itemlist_Product.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
-            this.manage_itemlist_Product.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.manage_itemlist_Product.Location = new System.Drawing.Point(0, 0);
-            this.manage_itemlist_Product.Name = "manage_itemlist_Product";
-            this.manage_itemlist_Product.Size = new System.Drawing.Size(1133, 50);
-            this.manage_itemlist_Product.TabIndex = 0;
             // 
             // Product
             // 
