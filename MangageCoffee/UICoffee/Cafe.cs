@@ -136,7 +136,6 @@ namespace MangageCoffee
                             {
                                 productControl.loadData();
                             }
-
                             decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
                             totalProfit += itemProfit;
                         }

@@ -234,6 +234,7 @@ namespace MangageCoffee.UICoffee.Menu
         {
 
            ButtonClicked?.Invoke(this, EventArgs.Empty);
+            productControl.loadData();
 
         }
 
