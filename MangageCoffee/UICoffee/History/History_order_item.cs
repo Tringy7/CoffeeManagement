@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.History
 {
@@ -33,8 +34,8 @@ namespace MangageCoffee.UICoffee.History
             }
             else
             {
-                MessageBox.Show("Không tìm thấy thông tin món ăn với ItemID: " + oderItem.ItemID,
-                                "Lỗi dữ liệu", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Notice mess = new Notice("No information found!");
+                mess.ShowDialog();
             }
         }
 

@@ -770,7 +770,6 @@ D:\CoffeeManagement\MangageCoffee\bin\Debug\SATAUiFramework.dll
 D:\CoffeeManagement\MangageCoffee\bin\Debug\Newtonsoft.Json.xml
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.AssemblyReference.cache
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Customer1.resources
-D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Customer_Menu_add.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.Customer.Info.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_add.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.History.History_historyform.resources
@@ -805,7 +804,6 @@ D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.StaffDet
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_datacustomer.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_datastaff.resources
-D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formcustomer.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User.User_add_formdata.resources
 D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.GenerateResource.cache
@@ -882,3 +880,4 @@ D:\finnally merge\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.csproj.
 D:\finnally merge\CoffeeManagement\MangageCoffee\obj\Debug\MangageC.20C02995.Up2Date
 D:\finnally merge\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.exe
 D:\finnally merge\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.pdb
+D:\CoffeeManagement\MangageCoffee\obj\Debug\MangageCoffee.UICoffee.User_add_editprofile.resources

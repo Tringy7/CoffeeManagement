@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
 using System.IO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.ManageDishes
 {
@@ -53,13 +54,15 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 }
                 else
                 {
-                    MessageBox.Show("Image file not found: " + imageFullPath);
+                    Notice mess = new Notice("Image file not found!");
+                    mess.ShowDialog();
                     ptbImage.Image = null; // Clear the PictureBox
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error loading image: " + ex.Message);
+                Notice mess = new Notice("Error loading image!");
+                mess.ShowDialog();
                 ptbImage.Image = null; // Clear the PictureBox
             }
         }
@@ -69,7 +72,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
             try
             {
 
-                string error = "không thêm sản phẩm được";
+                string error = "Cannot add product!";
                 bool success;
 
 
@@ -103,14 +106,15 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
                 if (success)
                 {
-                    MessageBox.Show(isEdit ? "Cập nhật thành công!" : "Thêm sản phẩm thành công!");
+                    Notice mess = new Notice("Product added successfully!");
+                    mess.ShowDialog();
                     this.DialogResult = DialogResult.OK;
                     this.Close();
                 }
                 else
                 {
-
-                    MessageBox.Show(error);
+                    Notice mess = new Notice("Cannot add product!");
+                    mess.ShowDialog();
                 }
             }
             catch (Exception ex)
@@ -169,7 +173,8 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi khi tải ảnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                 }
             }
 

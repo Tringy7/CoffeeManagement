@@ -11,6 +11,7 @@ using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee.Customer;
 using MangageCoffee.UICoffee.Menu;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.ManageDishes
 {
@@ -19,7 +20,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
         
         BL_Product bl_product;
         private Menu_add menu_Add;
-        private Customer_Menu_add menu_Add1;
         public Product()
         {
             bl_product = new BL_Product();
@@ -44,11 +44,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
             menu_Add.SetProductControl(this);
         }
 
-        public void SetMenuControl1(Customer_Menu_add menuControl)
-        {
-            this.menu_Add1 = menuControl;
-            menu_Add1.SetProductControl(this);
-        }
         public void loadData()
         {
             Control buttonAdd = null;
@@ -128,11 +123,10 @@ namespace MangageCoffee.UICoffee.ManageDishes
                     Class_product selectedProduct = selectedItem.ProductData;
                     if (selectedProduct == null)
                     {
-                        MessageBox.Show("ProductData is null!");
+                        Notice mess = new Notice("ProductData is null!");
+                        mess.ShowDialog();
                         return;
                     }
-
-                    //MessageBox.Show("Bạn đã chọn: " + selectedProduct.Name_Product);
 
                     Manage_itemlist manage_Itemlist = new Manage_itemlist();
                     manage_Itemlist.Setdata(selectedProduct);
@@ -145,7 +139,8 @@ namespace MangageCoffee.UICoffee.ManageDishes
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                Notice mess = new Notice("Error!");
+                mess.ShowDialog();
             }
         }
 
@@ -157,7 +152,8 @@ namespace MangageCoffee.UICoffee.ManageDishes
                 Class_product selectedProduct = selectedItem.ProductData;
                 if (selectedProduct == null)
                 {
-                    MessageBox.Show("ProductData is null!");
+                    Notice mess = new Notice("ProductData is null!");
+                    mess.ShowDialog();
                     return;
                 }
 
@@ -190,16 +186,15 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
                 if (selectedProduct == null)
                 {
-                    MessageBox.Show("Không có dữ liệu sản phẩm.");
+                    Notice mess = new Notice("No product data available!");
+                    mess.ShowDialog();
                     return;
                 }
+                Mess mess1 = new Mess();
+                mess1.ShowDialog();
+            
 
-                DialogResult result = MessageBox.Show("Bạn có chắc muốn xoá sản phẩm này không?",
-                                                      "Xác nhận xoá",
-                                                      MessageBoxButtons.YesNo,
-                                                      MessageBoxIcon.Warning);
-
-                if (result == DialogResult.Yes)
+                if (mess1.Proceed)
                 {
                     string error = "";
                     bool success = bl_product.MarkProductUnavailable(selectedProduct.Id, ref error); // Giả sử có hàm deleteProduct
@@ -208,12 +203,11 @@ namespace MangageCoffee.UICoffee.ManageDishes
                     {
                         flowLayoutPanel_Product.Controls.Remove(selectedItem); // Xoá khỏi UI
                         selectedItem.Dispose(); // Giải phóng bộ nhớ
-
-
                     }
                     else
                     {
-                        MessageBox.Show("Không thể xoá: " + error);
+                        Notice mess = new Notice("Cannot be deleted!");
+                        mess.ShowDialog();
                     }
                 }
             }
@@ -311,22 +305,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
             total_Product.Text = list.Count.ToString();
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            ManageDishes_edit edit = new ManageDishes_edit();
-            edit.Show();
-        }
-
-        private void guna2Button4_Click(object sender, EventArgs e)
-        {
-            ManageDishes_edit edit = new ManageDishes_edit();
-            edit.Show();
-        }
-
-        private void flowLayoutPanel_Product_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void insert_product_Click(object sender, EventArgs e)
         {

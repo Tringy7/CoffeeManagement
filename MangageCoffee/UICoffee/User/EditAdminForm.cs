@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
 using System.IO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.User
 {
@@ -65,7 +66,7 @@ namespace MangageCoffee.UICoffee.User
         private void btnAvatar_Click(object sender, EventArgs e)
         {
             openFileDialog.Filter = "Image Files (*.png;*.jpg;*.jpeg;*.gif;)|*.png;*.jpg;*.jpeg;*.gif;";
-            openFileDialog.Title = "Chọn ảnh đại diện";
+            openFileDialog.Title = "Select profile picture";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -87,7 +88,8 @@ namespace MangageCoffee.UICoffee.User
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi khi tải ảnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                 }
             }
         }
@@ -131,13 +133,15 @@ namespace MangageCoffee.UICoffee.User
 
             if (userBLL.UpdateAdmin(userToUpdate)) 
             {
-                MessageBox.Show("Admin information updated successfully.");
+                Notice mess = new Notice("Updated successfully.!");
+                mess.ShowDialog();
                 DialogResult = DialogResult.OK;
                 this.Close();
             }
             else
             {
-                MessageBox.Show("Failed to update Admin information.");
+                Notice mess = new Notice("Update failedy.!");
+                mess.ShowDialog();
             }
         }
     }

@@ -12,6 +12,7 @@ using MangageCoffee.UICoffee.Menu;
 using System.IO;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.UICoffee.Customer;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.ManageDishes
 {
@@ -23,7 +24,7 @@ namespace MangageCoffee.UICoffee.ManageDishes
         public event EventHandler ShowButtonClicked;
 
         private Menu_add menuParent;
-        private Customer_Menu_add menuParent1;
+        //private Customer_Menu_add menuParent1;
         BL_Product bl = null;
         public Image ProductImage
         {
@@ -48,10 +49,10 @@ namespace MangageCoffee.UICoffee.ManageDishes
             this.menuParent = parent;
         }
 
-        public void SetMenuParent1(Customer_Menu_add parent)
-        {
-            this.menuParent1 = parent;
-        }
+        //public void SetMenuParent1(Customer_Menu_add parent)
+        //{
+        //    this.menuParent1 = parent;
+        //}
         public Class_product ProductData { get; private set; }
         private void Manage_item_Click(object sender, EventArgs e)
         {
@@ -76,13 +77,15 @@ namespace MangageCoffee.UICoffee.ManageDishes
                     }
                     else
                     {
-                        Console.WriteLine("Image file not found: " + imageFullPath);
+                        Notice mess = new Notice("Image file not found!");
+                        mess.ShowDialog();
                         ProductImage = Properties.Resources._default;
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Error loading image: " + ex.Message);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     ProductImage = Properties.Resources._default;
                 }
             }
@@ -97,7 +100,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
             EditButtonClicked?.Invoke(this, EventArgs.Empty);
             this.menuParent?.loaddata();
-            this.menuParent1?.loaddata();
         }
     /// <summary>
     /// ////////////////////////////////////////////////////////////////////
@@ -118,7 +120,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
             HideButtonClicked?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
             menuParent?.loaddata(); // Load lại dữ liệu
-            menuParent1?.loaddata(); // Load lại dữ liệu
 
         }
         private void btnHome_Click(object sender, EventArgs e)
@@ -128,7 +129,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
             ShowButtonClicked?.Invoke(this, EventArgs.Empty); // Gọi sự kiện
             menuParent?.loaddata(); // Load lại dữ liệu
-            menuParent1?.loaddata(); // Load lại dữ liệu
 
         }
         private void guna2GradientPanel1_Paint(object sender, PaintEventArgs e)
@@ -141,7 +141,6 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
             DeleteButtonClicked?.Invoke(this, EventArgs.Empty);
             this.menuParent?.loaddata();
-            this.menuParent1?.loaddata();
 
         }
 

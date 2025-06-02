@@ -12,13 +12,13 @@ using MangageCoffee.UICoffee.ManageDishes;
 using System.IO;
 using System.Globalization;
 using MangageCoffee.UICoffee.Customer;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.Menu
 {
     public partial class Item : UserControl
     {
         private Menu_add parentMenu;
-        private Customer_Menu_add parentMenu1;
         public event EventHandler ItemSelected;
         public Item()
         {
@@ -58,13 +58,15 @@ namespace MangageCoffee.UICoffee.Menu
                     }
                     else
                     {
-                        Console.WriteLine("Image file not found: " + imageFullPath);
+                        Notice mess = new Notice("Image file not found!");
+                        mess.ShowDialog();
                         ItemImage = Properties.Resources._default;
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Error loading image: " + ex.Message);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     ItemImage = Properties.Resources._default;
                 }
             }
@@ -78,10 +80,6 @@ namespace MangageCoffee.UICoffee.Menu
             this.parentMenu = menu;
         }
 
-        public void SetParentMenu1(Customer_Menu_add menu)
-        {
-            this.parentMenu1 = menu;
-        }
 
         private void btnHome_Click(object sender, EventArgs e)
         {
@@ -120,7 +118,8 @@ namespace MangageCoffee.UICoffee.Menu
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error adding item to order: " + ex.Message);
+                Notice mess = new Notice("Error adding item!");
+                mess.ShowDialog();
             }
         }
 

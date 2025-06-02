@@ -56,7 +56,8 @@ namespace MangageCoffee.UICoffee.Customer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi reset trạng thái người dùng: " + ex.Message);
+                Notice mess = new Notice("Error resetting user status!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -97,7 +98,8 @@ namespace MangageCoffee.UICoffee.Customer
 
             if (orderItems.Count == 0)
             {
-                MessageBox.Show("No items to checkout!");
+                Notice mess = new Notice("No items to checkout!");
+                mess.ShowDialog();
                 return;
             }
             string customerName = user.FullName;
@@ -128,7 +130,8 @@ namespace MangageCoffee.UICoffee.Customer
                         if (!inserted)
                         {
                             transaction.Rollback();
-                            MessageBox.Show("Failed to insert order.\nError: " + error);
+                            Notice mess2 = new Notice("Failed to insert order!");
+                            mess2.ShowDialog();
                             return;
                         }
 
@@ -139,7 +142,8 @@ namespace MangageCoffee.UICoffee.Customer
                             if (!updated)
                             {
                                 transaction.Rollback();
-                                MessageBox.Show($"Failed to update quantity for ItemID {orderItem.ItemID}.\nError: {error}");
+                                Notice mess2 = new Notice("Failed to update quantity!");
+                                mess2.ShowDialog();
                                 return;
                             }
 
@@ -149,7 +153,8 @@ namespace MangageCoffee.UICoffee.Customer
                         else
                         {
                             transaction.Rollback();
-                            MessageBox.Show($"MenuItem not found for ItemID {orderItem.ItemID}.");
+                            Notice mess2 = new Notice("MenuItem not found!");
+                            mess2.ShowDialog();
                             return;
                         }
                     }
@@ -158,12 +163,14 @@ namespace MangageCoffee.UICoffee.Customer
                     if (!profitSaved)
                     {
                         transaction.Rollback();
-                        MessageBox.Show("Failed to save daily profit.\nError: " + error);
+                        Notice mess2 = new Notice("Failed to save daily profit!");
+                        mess2.ShowDialog();
                         return;
                     }
 
                     transaction.Commit();
-                    MessageBox.Show($"Checkout successful!\nTotal Profit: {totalProfit.ToString("C")}");
+                    Notice mess = new Notice("Checkout successful!");
+                    mess.ShowDialog();
 
                     ClearOrderUI();
                 }
@@ -175,10 +182,12 @@ namespace MangageCoffee.UICoffee.Customer
                     }
                     catch (Exception rollbackEx)
                     {
-                        MessageBox.Show($"Error rolling back transaction: {rollbackEx.Message}");
+                        Notice mess2 = new Notice("Error rolling back transaction!");
+                        mess2.ShowDialog();
                     }
 
-                    MessageBox.Show("Checkout failed: " + ex.Message);
+                    Notice mess = new Notice("Checkout failed!");
+                    mess.ShowDialog();
                 }
             }
 
@@ -189,7 +198,8 @@ namespace MangageCoffee.UICoffee.Customer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error generating bill: " + ex.Message);
+                Notice mess = new Notice("Error generating bill!");
+                mess.ShowDialog();
             }
         }
 
@@ -237,14 +247,16 @@ namespace MangageCoffee.UICoffee.Customer
                     Class_Menu selectedMenuItem = selectedItem.menuData;
                     if (selectedMenuItem == null)
                     {
-                        MessageBox.Show("ItemData is null!");
+                        Notice mess = new Notice("ItemData is null!");
+                        mess.ShowDialog();
                         return;
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                Notice mess = new Notice("Error!");
+                mess.ShowDialog();
             }
         }
 
@@ -256,7 +268,8 @@ namespace MangageCoffee.UICoffee.Customer
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi reset trạng thái người dùng: " + ex.Message);
+                Notice mess = new Notice("Error resetting user status!");
+                mess.ShowDialog();
                 return;
             }
 

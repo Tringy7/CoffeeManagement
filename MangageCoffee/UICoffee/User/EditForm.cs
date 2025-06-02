@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
 using System.IO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.User
 {
@@ -125,7 +126,8 @@ namespace MangageCoffee.UICoffee.User
             }
             else
             {
-                MessageBox.Show("Không thể cập nhật thông tin người dùng.");
+                Notice mess = new Notice("Unable to update information!");
+                mess.ShowDialog();
             }
         }
 
@@ -135,7 +137,7 @@ namespace MangageCoffee.UICoffee.User
         private void btnAvatar_Click(object sender, EventArgs e)
         {
             openFileDialog.Filter = "Image Files (*.png;*.jpg;*.jpeg;*.gif;)|*.png;*.jpg;*.jpeg;*.gif;";
-            openFileDialog.Title = "Chọn ảnh đại diện";
+            openFileDialog.Title = "Select profile picture";
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
@@ -160,7 +162,8 @@ namespace MangageCoffee.UICoffee.User
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Lỗi khi tải ảnh: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                 }
             }
         }

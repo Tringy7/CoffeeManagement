@@ -87,29 +87,6 @@ namespace MangageCoffee.UICoffee.History
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             history_historyform1.BringToFront();

@@ -62,7 +62,8 @@ namespace MangageCoffee
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi reset trạng thái người dùng: " + ex.Message);
+                Notice mess = new Notice("Error resetting user status!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -110,7 +111,8 @@ namespace MangageCoffee
 
             if (orderItems.Count == 0)
             {
-                MessageBox.Show("No items to checkout!");
+                Notice mess = new Notice("No items to checkout!");
+                mess.ShowDialog();
                 return;
             }
             string customerName = menu_add1.txtName.Texts;
@@ -129,7 +131,8 @@ namespace MangageCoffee
                             if (!updated)
                             {
                                 transaction.Rollback();
-                                MessageBox.Show($"Failed to update quantity for ItemID {orderItem.ItemID}.\nError: {error}");
+                                Notice mess1 = new Notice("Failed to update quantity!");
+                                mess1.ShowDialog();
                                 return;
                             }
                             else
@@ -142,7 +145,8 @@ namespace MangageCoffee
                         else
                         {
                             transaction.Rollback();
-                            MessageBox.Show($"MenuItem not found for ItemID {orderItem.ItemID}.");
+                            Notice mess1 = new Notice("MenuItem not found!");
+                            mess1.ShowDialog();
                             return;
                         }
                     }
@@ -151,13 +155,14 @@ namespace MangageCoffee
                     if (!profitSaved)
                     {
                         transaction.Rollback();
-                        MessageBox.Show("Failed to save daily profit.\nError: " + error);
+                        Notice mess1 = new Notice("Failed to save daily profit!");
+                        mess1.ShowDialog();
                         return;
                     }
 
                     transaction.Commit();
-                    MessageBox.Show($"Checkout successful!\nTotal Profit: {totalProfit.ToString("C")}");
-
+                    Notice mess = new Notice("Checkout successful!");
+                    mess.ShowDialog();
                     ClearOrderUI();
                 }
                 catch (Exception ex)
@@ -168,10 +173,12 @@ namespace MangageCoffee
                     }
                     catch (Exception rollbackEx)
                     {
-                        MessageBox.Show($"Error rolling back transaction: {rollbackEx.Message}");
+                        Notice mess1 = new Notice("Error rolling back transaction!");
+                        mess1.ShowDialog();
                     }
 
-                    MessageBox.Show("Checkout failed: " + ex.Message);
+                    Notice mess = new Notice("Checkout failed!");
+                    mess.ShowDialog();
                 }
             }
 
@@ -183,7 +190,8 @@ namespace MangageCoffee
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error generating bill: " + ex.Message);
+                Notice mess = new Notice("Error generating bill!");
+                mess.ShowDialog();
             }
         }
 
@@ -235,8 +243,8 @@ namespace MangageCoffee
                     Class_Menu selectedMenuItem = selectedItem.menuData;
                     if (selectedMenuItem == null)
                     {
-                        MessageBox.Show("ItemData is null!");
-                        return;
+                        Notice mess = new Notice("ItemData is null!");
+                        mess.ShowDialog(); return;
                     }
                 }
             }

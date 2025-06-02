@@ -11,6 +11,7 @@ using System.IO;
 using System.Globalization;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.UICoffee.Customer;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.Menu
 {
@@ -18,7 +19,6 @@ namespace MangageCoffee.UICoffee.Menu
     public partial class Item_Order : UserControl
     {
         private Menu_add parent;
-        private Customer_Menu_add customerParent;
         public int ItemID { get; set; }
         public string ItemName { get; set; }
         public int Quantity { get; set; } = 1;
@@ -49,7 +49,6 @@ namespace MangageCoffee.UICoffee.Menu
             Quantity += amount;
             UpdateUI();
             (this.Parent as Menu_add)?.UpdateTotalMoney();
-            (this.Parent as Customer_Menu_add)?.UpdateTotalMoney();
         }
 
         public void UpdateUI()
@@ -77,14 +76,15 @@ namespace MangageCoffee.UICoffee.Menu
                     }
                     else
                     {
-                        Console.WriteLine("Image file not found: " + imageFullPath);
+                        Notice mess = new Notice("Image file not found!");
+                        mess.ShowDialog();
                         ptbImage.Image = Properties.Resources._default; // Or a default image
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine("Error loading image: " + ex.Message);
-                    ptbImage.Image = Properties.Resources._default; // Or a default image
+                    Notice mess = new Notice("Error adding item!");
+                    mess.ShowDialog();// Or a default image
                 }
             }
             else
@@ -103,7 +103,6 @@ namespace MangageCoffee.UICoffee.Menu
                 Quantity--;
                 UpdateUI();
                 this.parent?.UpdateTotalMoney();
-                this.customerParent?.UpdateTotalMoney();
             }
             else
             {
@@ -113,7 +112,6 @@ namespace MangageCoffee.UICoffee.Menu
                     parent.Controls.Remove(this);
                     this.Dispose();
                     this.parent?.UpdateTotalMoney();
-                    this.customerParent?.UpdateTotalMoney();
                 }
             }
         }

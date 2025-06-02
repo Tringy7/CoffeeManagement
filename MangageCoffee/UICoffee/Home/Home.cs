@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing; 
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms; 
-using MangageCoffee.ADO.NET.BLL;
-using MangageCoffee.DTO;
+using System.Drawing;
 using System.IO;
-using MangageCoffee.UICoffee.User;
+using System.Linq;
+using System.Windows.Forms;
+using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.ADO.NET.DAL;
+using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
+using MangageCoffee.UICoffee.User;
 
 namespace MangageCoffee.UICoffee
 {
@@ -24,7 +21,7 @@ namespace MangageCoffee.UICoffee
             LoadStaffAndCustomerCounts();
             chart.Visible = true; // Ensure the chart is visible
             chart1.Visible = false; // Hide the second chart if not needed
-            lblChart.Text = "Biểu đồ lợi nhuận theo ngày";
+            lblChart.Text = "Daily Profit Chart";
         }
 
         private UserBLL userBLL = new UserBLL();
@@ -32,11 +29,12 @@ namespace MangageCoffee.UICoffee
 
         private void LoadUserInfo()
         {
-            UserDTO user = userBLL.GetLoggedInUserInfo(); 
+            UserDTO user = userBLL.GetLoggedInUserInfo();
 
             if (user == null)
             {
-                MessageBox.Show("Không có người dùng đang đăng nhập.");
+                Notice mess = new Notice("No users are logged in!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -63,7 +61,8 @@ namespace MangageCoffee.UICoffee
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Lỗi khi tải ảnh: {ex.Message}\nĐường dẫn: {fullImagePath}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     ptbAvatar.Image = null;
                 }
             }
@@ -77,7 +76,8 @@ namespace MangageCoffee.UICoffee
                 else
                 {
                     ptbAvatar.Image = null;
-                    MessageBox.Show($"Không tìm thấy ảnh: {fullImagePath} và không có ảnh mặc định tại {defaultImagePath}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                 }
             }
         }
@@ -95,7 +95,8 @@ namespace MangageCoffee.UICoffee
             }
             else
             {
-                MessageBox.Show("Bạn không có quyền chỉnh sửa thông tin này.");
+                Notice mess = new Notice("Error!");
+                mess.ShowDialog();
             }
         }
 
@@ -152,7 +153,8 @@ namespace MangageCoffee.UICoffee
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi tải dữ liệu biểu đồ lợi nhuận: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Notice mess = new Notice("Error loading chart data!");
+                mess.ShowDialog();
             }
         }
 
@@ -216,7 +218,8 @@ namespace MangageCoffee.UICoffee
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi tải dữ liệu biểu đồ số đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                Notice mess = new Notice("Error loading chart data!");
+                mess.ShowDialog();
             }
         }
 

@@ -76,14 +76,16 @@ namespace MangageCoffee.UICoffee.Menu
                     Class_Menu selectedMenuItem = selectedItem.menuData;
                     if (selectedMenuItem == null)
                     {
-                        MessageBox.Show("ItemData is null!");
+                        Notice mess = new Notice("ItemData is null!!");
+                        mess.ShowDialog();
                         return;
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi: " + ex.Message);
+                Notice mess = new Notice("Error!");
+                mess.ShowDialog();
             }
         }
         public void UpdateTotalMoney()
@@ -237,120 +239,6 @@ namespace MangageCoffee.UICoffee.Menu
             productControl.loadData();
 
         }
-
-        //private void Click(object sender, EventArgs e)
-        //{
-        //    UserDTO user = userBLL.GetLoggedInUserInfo();
-        //    string error = "";
-        //    decimal totalProfit = 0;
-        //    DateTime orderDate = DateTime.Now.Date;
-        //    int adminId = user.AdminID;
-        //    List<OrderItemDTO> orderItems = new List<OrderItemDTO>();
-
-        //    foreach (Control control in flowLayoutPaneloder_Menu.Controls)
-        //    {
-        //        if (control is Item_Order itemOrder)
-        //        {
-        //            orderItems.Add(new OrderItemDTO
-        //            {
-        //                ItemID = itemOrder.ItemID,
-        //                Name = itemOrder.ItemName,
-        //                Quantity = itemOrder.Quantity,
-        //                UnitPrice = itemOrder.UnitPrice
-        //            });
-        //        }
-        //    }
-
-        //    if (orderItems.Count == 0)
-        //    {
-        //        MessageBox.Show("No items to checkout!");
-        //        return;
-        //    }
-        //    string customerName = txtName.Texts;
-        //    string customerPhoneNumber = txtSDT.Texts;
-
-        //    using (SqlTransaction transaction = db.BeginTransaction())
-        //    {
-        //        try
-        //        {
-        //            foreach (OrderItemDTO orderItem in orderItems)
-        //            {
-        //                Class_Menu menuItem = menu.getMenuItemByID(orderItem.ItemID);
-        //                if (menuItem != null && menuItem.ProductID != -1)
-        //                {
-        //                    bool updated = productBLL.UpdateProductQuantity(menuItem.ProductID, orderItem.Quantity, ref error);
-        //                    if (!updated)
-        //                    {
-        //                        transaction.Rollback();
-        //                        MessageBox.Show($"Failed to update quantity for ItemID {orderItem.ItemID}.\nError: {error}");
-        //                        return;
-        //                    }
-        //                    else
-        //                    {
-        //                        productControl.loadData();
-        //                    }
-
-        //                    decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
-        //                    totalProfit += itemProfit;
-        //                }
-        //                else
-        //                {
-        //                    transaction.Rollback();
-        //                    MessageBox.Show($"MenuItem not found for ItemID {orderItem.ItemID}.");
-        //                    return;
-        //                }
-        //            }
-
-        //            bool profitSaved = db.SaveDailyProfit(orderDate, totalProfit, orderItems.Count, ref error, transaction);
-        //            if (!profitSaved)
-        //            {
-        //                transaction.Rollback();
-        //                MessageBox.Show("Failed to save daily profit.\nError: " + error);
-        //                return;
-        //            }
-
-        //            transaction.Commit();
-        //            MessageBox.Show($"Checkout successful!\nTotal Profit: {totalProfit.ToString("C")}");
-
-        //            ClearOrderUI();
-        //        }
-        //        catch (Exception ex)
-        //        {
-        //            try
-        //            {
-        //                transaction.Rollback();
-        //            }
-        //            catch (Exception rollbackEx)
-        //            {
-        //                MessageBox.Show($"Error rolling back transaction: {rollbackEx.Message}");
-        //            }
-
-        //            MessageBox.Show("Checkout failed: " + ex.Message);
-        //        }
-        //    }
-
-
-        //    try
-        //    {
-        //        Bill bill = new Bill(orderItems, customerName, customerPhoneNumber);
-        //        bill.ShowDialog();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        MessageBox.Show("Error generating bill: " + ex.Message);
-        //    }
-        //}
-
-
-        //private void ClearOrderUI()
-        //{
-        //    flowLayoutPaneloder_Menu.Controls.Clear();
-        //    txtName.Texts = "";
-        //    txtSDT.Texts = "";
-        //    TotalMoney.Text = "0";
-        //    textSearch.Text = "";
-        //    loaddata();
-        //}
 
         private void flowLayoutPaneloder_Menu_Paint(object sender, PaintEventArgs e)
         {

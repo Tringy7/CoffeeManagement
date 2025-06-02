@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee.History
 {
@@ -24,38 +25,12 @@ namespace MangageCoffee.UICoffee.History
           
         }
 
-        //public void setdata(Class_Oder history)
-        //{
-        //    oderItem = history;
-
-        //    CustomerDisplayDTO customer = bl_history.GetCustomerInfoByCustomerID(history.CustomerID);
-        //    Fullname.Text = customer.FullName;
-        //    Id.Text = customer.CustomerID.ToString();
-        //    Date.Text = history.OderDate.ToString("dd/MM/yyyy");
-        //    Time.Text = history.OderTime.ToString();
-        //    totalMoney.Text = history.TotalAmount.ToString();
-
-        //    List<Class_Oder> listOder = bl_history.GetListOderByCustomerID(history.CustomerID);
-        //    if (listOder != null && listOder.Count > 0)
-        //    {
-        //        foreach (Class_Oder oderItem in listOder)
-        //        {
-        //            History_order_item history_Order_Item = new History_order_item();
-        //            history_Order_Item.setData(oderItem);
-        //            flowLayoutPanelAdd_Oder.Controls.Add(history_Order_Item);
-        //        }
-        //    }
-        //    else
-        //    {
-        //        MessageBox.Show("Không có đơn hàng nào của khách hàng này.");
-        //    }
-
-        //}
         public void setdata(List<Class_Oder> orders)
         {
             if (orders == null || orders.Count == 0)
             {
-                MessageBox.Show("Không có đơn hàng nào.");
+                Notice mess = new Notice("No orders yet!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -89,33 +64,6 @@ namespace MangageCoffee.UICoffee.History
             }
         }
 
-        //public delegate void DeleteOrderHandler();
-        //public event DeleteOrderHandler OnOrderDeleted;
-
-        //private void deleteOderHistory_Click(object sender, EventArgs e)
-        //{
-        //    DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn xóa tất cả đơn hàng của khách hàng này không?",
-        //                                          "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
-        //    if (result == DialogResult.Yes)
-        //    {
-        //        string error = " "; 
-        //        MessageBox.Show("odderritme " + oderItem.ItemID);
-        //        bool isDeleted = bl_history.DeleteOrderByOderID(oderItem.OderId,ref error);
-
-        //        if (isDeleted)
-        //        {
-        //            MessageBox.Show("Xóa đơn hàng thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-        //            // Gọi event thông báo lên form cha để load lại dữ liệu
-        //            OnOrderDeleted?.Invoke();
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show("Xóa đơn hàng thất bại!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        //        }
-        //    }
-        //}
 
 
 
@@ -132,20 +80,23 @@ namespace MangageCoffee.UICoffee.History
         private void deleteOderHistory_Click(object sender, EventArgs e)
         {
             string error = " ";
-            DialogResult result = MessageBox.Show("Bạn có chắc muốn xoá lịch sử đơn hàng này?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            Mess mess1 = new Mess();
+            mess1.ShowDialog();
 
-            if (result == DialogResult.Yes)
+            if (mess1.Proceed)
             {
                 bool success = bl_history.DeleteOrderByOderID(oderItem.OderId,ref error);
 
                 if (success)
                 {
-                    MessageBox.Show("xoá đơn hàng thành công.");
+                    Notice mess = new Notice("Order deleted successfully!");
+                    mess.ShowDialog();
                     this.Parent.Controls.Remove(this); // Xóa UserControl này khỏi giao diện
                 }
                 else
                 {
-                    MessageBox.Show("xoá đơn hàng thất bại.");
+                    Notice mess = new Notice("Delete failed order!");
+                    mess.ShowDialog();
                 }
             }
         }

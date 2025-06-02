@@ -107,12 +107,6 @@
     <Compile Include="UICoffee\Customer\customer.Designer.cs">
       <DependentUpon>customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\Customer\Customer_Menu_add.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UICoffee\Customer\Customer_Menu_add.Designer.cs">
-      <DependentUpon>Customer_Menu_add.cs</DependentUpon>
-    </Compile>
     <Compile Include="UICoffee\Customer\Info.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -333,9 +327,6 @@
     </Compile>
     <EmbeddedResource Include="UICoffee\Customer\customer.resx">
       <DependentUpon>customer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\Customer\Customer_Menu_add.resx">
-      <DependentUpon>Customer_Menu_add.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Customer\Info.resx">
       <DependentUpon>Info.cs</DependentUpon>
