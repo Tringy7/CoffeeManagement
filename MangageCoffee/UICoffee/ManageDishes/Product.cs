@@ -151,36 +151,73 @@ namespace MangageCoffee.UICoffee.ManageDishes
 
         private void Item_EditButtonClicked(object sender, EventArgs e)
         {
+            Manage_item selectedItem = sender as Manage_item;
+            if (selectedItem != null)
+            {
+                Class_product selectedProduct = selectedItem.ProductData;
+                if (selectedProduct == null)
+                {
+                    MessageBox.Show("ProductData is null!");
+                    return;
+                }
 
+                ManageDishes_edit editForm = new ManageDishes_edit();
+                editForm.Setdata(selectedProduct, true); // nếu form có hàm Setdata(Class_product)
+
+                if (editForm.ShowDialog() == DialogResult.OK)
+                {
+                    loadData();
+                    // Gọi lại setdata với product mới (đã chỉnh sửa)
+                    selectedItem.setdata(selectedProduct);
+
+                    menu_Add.loaddata();
+                    // kiểm tra xem có đối tượng nào đang hiển thị không
+                    if (manage_itemlist_Product.Controls.Count > 0 &&
+                    manage_itemlist_Product.Controls[0] is Manage_itemlist detailControl)
+                    {
+                        detailControl.Setdata(selectedProduct);
+                    }
+                }
+            }
         }
 
         private void Item_DeleteButtonClicked(object sender, EventArgs e)
         {
+            Manage_item selectedItem = sender as Manage_item;
+            if (selectedItem != null)
+            {
+                Class_product selectedProduct = selectedItem.ProductData;
 
+                if (selectedProduct == null)
+                {
+                    MessageBox.Show("Không có dữ liệu sản phẩm.");
+                    return;
+                }
+
+                DialogResult result = MessageBox.Show("Bạn có chắc muốn xoá sản phẩm này không?",
+                                                      "Xác nhận xoá",
+                                                      MessageBoxButtons.YesNo,
+                                                      MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    string error = "";
+                    bool success = bl_product.MarkProductUnavailable(selectedProduct.Id, ref error); // Giả sử có hàm deleteProduct
+
+                    if (success)
+                    {
+                        flowLayoutPanel_Product.Controls.Remove(selectedItem); // Xoá khỏi UI
+                        selectedItem.Dispose(); // Giải phóng bộ nhớ
+
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Không thể xoá: " + error);
+                    }
+                }
+            }
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         private void guna2Button6_Click(object sender, EventArgs e)
@@ -189,7 +226,27 @@ namespace MangageCoffee.UICoffee.ManageDishes
         }
         private void CategoryCheckbox_CheckedChanged(object sender, EventArgs e)
         {
+            // Nếu chọn "All", chọn hoặc bỏ chọn tất cả
+            if (sender == checkBoxAll)
+            {
+                bool check = checkBoxAll.Checked;
 
+                checkBoxfastFood.Checked = check;
+                checkBoxHotDrink.Checked = check;
+                checkBoxColDrink.Checked = check;
+                checkBoxBakery.Checked = check;
+            }
+
+            // Nếu một checkbox con bị bỏ chọn → bỏ check "All"
+            if (!checkBoxfastFood.Checked || !checkBoxHotDrink.Checked || !checkBoxColDrink.Checked || !checkBoxBakery.Checked)
+            {
+                checkBoxAll.CheckedChanged -= CategoryCheckbox_CheckedChanged; // tránh vòng lặp
+                checkBoxAll.Checked = false;
+                checkBoxAll.CheckedChanged += CategoryCheckbox_CheckedChanged;
+            }
+
+            // Gọi hàm lọc mỗi khi thay đổi checkbox
+            ApplyFilterByCategory();
         }
         private void ApplyFilterByCategory()
         {
