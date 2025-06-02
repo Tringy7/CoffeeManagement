@@ -97,8 +97,8 @@ namespace MangageCoffee.UICoffee.Menu
                     total += item.UnitPrice * item.Quantity;
                 }
             }
-
-            TotalMoney.Text = total.ToString("C", CultureInfo.GetCultureInfo("vi-VN")); // Hiển thị dạng tiền tệ
+         
+            TotalMoney.Text = total.ToString("C0", CultureInfo.GetCultureInfo("vi-VN")); // Hiển thị dạng tiền tệ
         }
 
         private void TotalMoney_Click(object sender, EventArgs e)

@@ -159,9 +159,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(43, 320);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(194, 28);
+            this.label4.Size = new System.Drawing.Size(136, 28);
             this.label4.TabIndex = 128;
-            this.label4.Text = "Month / Day / Year";
+            this.label4.Text = "Date of birth";
             // 
             // label3
             // 
@@ -172,7 +172,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 28);
             this.label3.TabIndex = 127;
-            this.label3.Text = "Chức vụ";
+            this.label3.Text = "Position";
             // 
             // label2
             // 
@@ -181,9 +181,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(385, 419);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 28);
+            this.label2.Size = new System.Drawing.Size(71, 28);
             this.label2.TabIndex = 125;
-            this.label2.Text = "Lương";
+            this.label2.Text = "Salary";
             // 
             // txtLuong
             // 
@@ -215,9 +215,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(385, 224);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 28);
+            this.label1.Size = new System.Drawing.Size(71, 28);
             this.label1.TabIndex = 123;
-            this.label1.Text = "Số điện thoại";
+            this.label1.Text = "Phone";
             // 
             // label5
             // 
@@ -226,9 +226,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(47, 224);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 28);
+            this.label5.Size = new System.Drawing.Size(102, 28);
             this.label5.TabIndex = 122;
-            this.label5.Text = "Họ tên";
+            this.label5.Text = "FullName";
             // 
             // txtSDT
             // 

@@ -35,11 +35,11 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.flowLayoutPanelHistory = new System.Windows.Forms.FlowLayoutPanel();
+            this.text_search = new Guna.UI2.WinForms.Guna2TextBox();
             this.history_order1 = new MangageCoffee.UICoffee.History.History_order();
             this.history_historyform2 = new MangageCoffee.UICoffee.History.History_historyform();
             this.history_historyform3 = new MangageCoffee.UICoffee.History.History_historyform();
             this.history_historyform1 = new MangageCoffee.UICoffee.History.History_historyform();
-            this.text_search = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
             this.flowLayoutPanelHistory.SuspendLayout();
             this.SuspendLayout();
@@ -53,11 +53,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(38, 23);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 38);
+            this.label4.Size = new System.Drawing.Size(174, 46);
             this.label4.TabIndex = 98;
             this.label4.Text = "Customer";
             // 
@@ -72,7 +72,7 @@
             this.guna2Button6.FillColor = System.Drawing.Color.Teal;
             this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(45, 74);
+            this.guna2Button6.Location = new System.Drawing.Point(45, 87);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(161, 42);
             this.guna2Button6.TabIndex = 100;
@@ -90,7 +90,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.Teal;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(226, 74);
+            this.guna2Button1.Location = new System.Drawing.Point(223, 87);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(161, 42);
             this.guna2Button1.TabIndex = 101;
@@ -118,6 +118,32 @@
             this.flowLayoutPanelHistory.Size = new System.Drawing.Size(1286, 713);
             this.flowLayoutPanelHistory.TabIndex = 2;
             this.flowLayoutPanelHistory.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanelHistory_Paint);
+            // 
+            // text_search
+            // 
+            this.text_search.BorderColor = System.Drawing.Color.Black;
+            this.text_search.BorderRadius = 10;
+            this.text_search.BorderThickness = 2;
+            this.text_search.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.text_search.DefaultText = "";
+            this.text_search.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.text_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.text_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_search.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_search.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_search.ForeColor = System.Drawing.Color.Black;
+            this.text_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_search.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
+            this.text_search.Location = new System.Drawing.Point(838, 91);
+            this.text_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.text_search.Name = "text_search";
+            this.text_search.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.text_search.PlaceholderText = "Search";
+            this.text_search.SelectedText = "";
+            this.text_search.Size = new System.Drawing.Size(493, 38);
+            this.text_search.TabIndex = 99;
+            this.text_search.TextChanged += new System.EventHandler(this.text_search_TextChanged);
             // 
             // history_order1
             // 
@@ -154,32 +180,6 @@
             this.history_historyform1.Name = "history_historyform1";
             this.history_historyform1.Size = new System.Drawing.Size(1286, 713);
             this.history_historyform1.TabIndex = 0;
-            // 
-            // text_search
-            // 
-            this.text_search.BorderColor = System.Drawing.Color.Black;
-            this.text_search.BorderRadius = 10;
-            this.text_search.BorderThickness = 2;
-            this.text_search.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.text_search.DefaultText = "";
-            this.text_search.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.text_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.text_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_search.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.text_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_search.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.text_search.ForeColor = System.Drawing.Color.Black;
-            this.text_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.text_search.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
-            this.text_search.Location = new System.Drawing.Point(838, 78);
-            this.text_search.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.text_search.Name = "text_search";
-            this.text_search.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.text_search.PlaceholderText = "Search";
-            this.text_search.SelectedText = "";
-            this.text_search.Size = new System.Drawing.Size(493, 38);
-            this.text_search.TabIndex = 99;
-            this.text_search.TextChanged += new System.EventHandler(this.text_search_TextChanged);
             // 
             // History_add
             // 

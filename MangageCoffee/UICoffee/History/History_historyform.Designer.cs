@@ -76,9 +76,9 @@
             this.guna2HtmlLabel7.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(960, 12);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(129, 25);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(73, 25);
             this.guna2HtmlLabel7.TabIndex = 7;
-            this.guna2HtmlLabel7.Text = "Tiền thanh toán";
+            this.guna2HtmlLabel7.Text = "Payment";
             // 
             // guna2HtmlLabel6
             // 
@@ -86,9 +86,9 @@
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(803, 12);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(31, 25);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(43, 25);
             this.guna2HtmlLabel6.TabIndex = 6;
-            this.guna2HtmlLabel6.Text = "Giờ ";
+            this.guna2HtmlLabel6.Text = "Time";
             // 
             // guna2HtmlLabel5
             // 
@@ -96,9 +96,9 @@
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(657, 12);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(45, 25);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(41, 25);
             this.guna2HtmlLabel5.TabIndex = 5;
-            this.guna2HtmlLabel5.Text = "Ngày";
+            this.guna2HtmlLabel5.Text = "Date";
             // 
             // guna2HtmlLabel4
             // 
@@ -108,7 +108,7 @@
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(129, 25);
             this.guna2HtmlLabel4.TabIndex = 4;
-            this.guna2HtmlLabel4.Text = "Tên khách hàng";
+            this.guna2HtmlLabel4.Text = "Customer name";
             this.guna2HtmlLabel4.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2HtmlLabel3
@@ -117,9 +117,9 @@
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(223, 12);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(125, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(103, 25);
             this.guna2HtmlLabel3.TabIndex = 3;
-            this.guna2HtmlLabel3.Text = "Mã khách hàng";
+            this.guna2HtmlLabel3.Text = "ID Customer";
             // 
             // guna2HtmlLabel2
             // 
@@ -127,9 +127,9 @@
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(25, 12);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(99, 25);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(82, 25);
             this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "Mã hóa đơn";
+            this.guna2HtmlLabel2.Text = "ID Invoice";
             // 
             // flowLayoutPanel1
             // 

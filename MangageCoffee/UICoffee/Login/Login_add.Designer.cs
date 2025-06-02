@@ -41,7 +41,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.btnLogin = new Guna.UI2.WinForms.Guna2Button();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.txtPassword = new SATATextBox();
             this.txtUsername = new SATATextBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -69,7 +68,6 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.linkLabel2);
             this.panel2.Controls.Add(this.btnLogin);
-            this.panel2.Controls.Add(this.linkLabel1);
             this.panel2.Controls.Add(this.txtPassword);
             this.panel2.Controls.Add(this.txtUsername);
             this.panel2.Controls.Add(this.panel3);
@@ -184,25 +182,12 @@
             this.btnLogin.FillColor = System.Drawing.Color.Black;
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(41, 423);
+            this.btnLogin.Location = new System.Drawing.Point(41, 413);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(397, 47);
             this.btnLogin.TabIndex = 1;
             this.btnLogin.Text = "Log in";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(328, 360);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(110, 16);
-            this.linkLabel1.TabIndex = 1;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "forgot password?";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // txtPassword
             // 
@@ -298,7 +283,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.LinkLabel linkLabel2;
         public Guna.UI2.WinForms.Guna2Button btnLogin;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private SATATextBox txtPassword;
         private SATATextBox txtUsername;
         private System.Windows.Forms.Panel panel3;

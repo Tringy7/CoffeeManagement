@@ -38,5 +38,10 @@ namespace MangageCoffee.UICoffee.ManageDishes
         {
 
         }
+
+        private void GiaSP_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

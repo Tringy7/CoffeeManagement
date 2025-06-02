@@ -149,9 +149,9 @@
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(493, 436);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(95, 28);
+            this.label6.Size = new System.Drawing.Size(80, 28);
             this.label6.TabIndex = 148;
-            this.label6.Text = "Giới tính";
+            this.label6.Text = "Gender";
             // 
             // dtpNgaySinh
             // 
@@ -176,9 +176,9 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(31, 421);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 28);
+            this.label4.Size = new System.Drawing.Size(136, 28);
             this.label4.TabIndex = 146;
-            this.label4.Text = "Ngày sinh";
+            this.label4.Text = "Date of birth";
             // 
             // label3
             // 
@@ -189,7 +189,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 28);
             this.label3.TabIndex = 145;
-            this.label3.Text = "Chức vụ";
+            this.label3.Text = "Position";
             // 
             // label2
             // 
@@ -198,9 +198,9 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(373, 515);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 28);
+            this.label2.Size = new System.Drawing.Size(71, 28);
             this.label2.TabIndex = 144;
-            this.label2.Text = "Lương";
+            this.label2.Text = "Salary";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtLuong
@@ -234,9 +234,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(372, 325);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 28);
+            this.label1.Size = new System.Drawing.Size(71, 28);
             this.label1.TabIndex = 142;
-            this.label1.Text = "Số điện thoại";
+            this.label1.Text = "Phone";
             // 
             // label5
             // 
@@ -245,9 +245,9 @@
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(37, 325);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 28);
+            this.label5.Size = new System.Drawing.Size(102, 28);
             this.label5.TabIndex = 141;
-            this.label5.Text = "Họ tên";
+            this.label5.Text = "FullName";
             // 
             // txtSDT
             // 
@@ -350,9 +350,9 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(254, 421);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(143, 28);
+            this.label7.Size = new System.Drawing.Size(208, 28);
             this.label7.TabIndex = 157;
-            this.label7.Text = "Ngày vào làm";
+            this.label7.Text = "Date of employment";
             // 
             // label8
             // 

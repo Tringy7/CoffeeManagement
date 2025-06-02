@@ -8,13 +8,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MangageCoffee.UICoffee.ManageDishes
+namespace MangageCoffee.UICoffee.Customer
 {
-    public partial class test : UserControl
+    public partial class Info : Form
     {
-        public test()
+        public Info()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

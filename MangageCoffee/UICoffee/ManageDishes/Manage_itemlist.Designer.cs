@@ -72,41 +72,41 @@
             // 
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(982, 13);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(1010, 13);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(86, 25);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(54, 25);
             this.guna2HtmlLabel6.TabIndex = 19;
-            this.guna2HtmlLabel6.Text = "Tình trạng:";
+            this.guna2HtmlLabel6.Text = "Status:";
             // 
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(809, 13);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(847, 13);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(38, 25);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(43, 25);
             this.guna2HtmlLabel5.TabIndex = 18;
-            this.guna2HtmlLabel5.Text = "Loại:";
+            this.guna2HtmlLabel5.Text = "Type:";
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(607, 13);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(648, 13);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(75, 25);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(73, 25);
             this.guna2HtmlLabel4.TabIndex = 17;
-            this.guna2HtmlLabel4.Text = "Số lượng:";
+            this.guna2HtmlLabel4.Text = "Quantity:";
             // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(436, 13);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(493, 13);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(32, 25);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(41, 25);
             this.guna2HtmlLabel3.TabIndex = 16;
-            this.guna2HtmlLabel3.Text = "Giá:";
+            this.guna2HtmlLabel3.Text = "Cost:";
             // 
             // guna2HtmlLabel2
             // 
@@ -114,19 +114,19 @@
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(30, 13);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(35, 25);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(53, 25);
             this.guna2HtmlLabel2.TabIndex = 15;
-            this.guna2HtmlLabel2.Text = "Tên:";
+            this.guna2HtmlLabel2.Text = "Name:";
             // 
             // guna2HtmlLabel1
             // 
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(243, 13);
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(239, 13);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(65, 25);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(109, 25);
             this.guna2HtmlLabel1.TabIndex = 14;
-            this.guna2HtmlLabel1.Text = "Giá gốc:";
+            this.guna2HtmlLabel1.Text = "Original price:";
             // 
             // TinhTrang_sp
             // 
@@ -142,7 +142,7 @@
             // 
             this.loaiSP.BackColor = System.Drawing.Color.Transparent;
             this.loaiSP.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loaiSP.Location = new System.Drawing.Point(849, 13);
+            this.loaiSP.Location = new System.Drawing.Point(896, 13);
             this.loaiSP.Name = "loaiSP";
             this.loaiSP.Size = new System.Drawing.Size(31, 25);
             this.loaiSP.TabIndex = 12;
@@ -152,7 +152,7 @@
             // 
             this.SoLuong_SP.BackColor = System.Drawing.Color.Transparent;
             this.SoLuong_SP.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SoLuong_SP.Location = new System.Drawing.Point(684, 13);
+            this.SoLuong_SP.Location = new System.Drawing.Point(727, 13);
             this.SoLuong_SP.Name = "SoLuong_SP";
             this.SoLuong_SP.Size = new System.Drawing.Size(30, 25);
             this.SoLuong_SP.TabIndex = 11;
@@ -162,17 +162,18 @@
             // 
             this.GiaSP.BackColor = System.Drawing.Color.Transparent;
             this.GiaSP.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GiaSP.Location = new System.Drawing.Point(470, 13);
+            this.GiaSP.Location = new System.Drawing.Point(540, 13);
             this.GiaSP.Name = "GiaSP";
             this.GiaSP.Size = new System.Drawing.Size(32, 25);
             this.GiaSP.TabIndex = 10;
             this.GiaSP.Text = "PSP";
+            this.GiaSP.Click += new System.EventHandler(this.GiaSP_Click);
             // 
             // TenSP
             // 
             this.TenSP.BackColor = System.Drawing.Color.Transparent;
             this.TenSP.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TenSP.Location = new System.Drawing.Point(71, 13);
+            this.TenSP.Location = new System.Drawing.Point(89, 13);
             this.TenSP.Name = "TenSP";
             this.TenSP.Size = new System.Drawing.Size(35, 25);
             this.TenSP.TabIndex = 9;
@@ -182,7 +183,7 @@
             // 
             this.GiaGoc.BackColor = System.Drawing.Color.Transparent;
             this.GiaGoc.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GiaGoc.Location = new System.Drawing.Point(314, 13);
+            this.GiaGoc.Location = new System.Drawing.Point(354, 13);
             this.GiaGoc.Name = "GiaGoc";
             this.GiaGoc.Size = new System.Drawing.Size(46, 25);
             this.GiaGoc.TabIndex = 8;

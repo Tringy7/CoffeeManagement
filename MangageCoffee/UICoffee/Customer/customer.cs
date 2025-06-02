@@ -33,7 +33,12 @@ namespace MangageCoffee.UICoffee.Customer
             menu_add1.txtName.Enabled = false;
             menu_add1.txtSDT.Enabled = false;
             menu_add1.CheckOut.Click += CheckOut_Click1;
-            this.Load += Customer1_Load; 
+            this.Load += Customer1_Load;
+            this.StartPosition = FormStartPosition.CenterScreen;
+            
+            menu_add1.BringToFront();
+            Edit.BringToFront();
+            Cart.BringToFront();
         }
 
         private void Customer1_Load(object sender, EventArgs e)
@@ -262,6 +267,28 @@ namespace MangageCoffee.UICoffee.Customer
                 this.Hide();
             }
             this.Close();
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            Info info = new Info();
+            info.ShowDialog();
+        }
+
+        private void Cart_Click(object sender, EventArgs e)
+        {
+            history_add1.BringToFront();
+            Edit.SendToBack();
+            Cart.SendToBack();
+            back_menu.BringToFront();
+        }
+
+        private void back_menu_Click(object sender, EventArgs e)
+        {
+            menu_add1.BringToFront();
+            Edit.BringToFront();
+            Cart.BringToFront();
+            back_menu.SendToBack();
         }
     }
 }

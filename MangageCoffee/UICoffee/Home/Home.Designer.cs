@@ -29,78 +29,82 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet1 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet2 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet3 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet4 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet5 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet6 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet7 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet8 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet9 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet10 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet11 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet12 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet13 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet14 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet15 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet16 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet17 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet18 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet19 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet20 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet21 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet22 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet23 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet24 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet25 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet26 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet27 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet28 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet29 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet30 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet31 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet32 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet33 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet34 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet35 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet36 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet37 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet38 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet39 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet40 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet41 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet42 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet43 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet44 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet45 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet46 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet47 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet48 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet49 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet50 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet51 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet52 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet53 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet54 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet55 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet56 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet57 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet58 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet59 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet60 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet61 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet62 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet63 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet64 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet65 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet66 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet67 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet68 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet69 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet70 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet71 = new FrameworkTest.Charts.SATALineChart.DataSet();
-            FrameworkTest.Charts.SATALineChart.DataSet dataSet72 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet229 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet230 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet231 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet232 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet233 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet234 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet235 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet236 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet237 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet238 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet239 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet240 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet241 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet242 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet243 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet244 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet245 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet246 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet247 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet248 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet249 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet250 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet251 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet252 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet253 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet254 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet255 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet256 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet257 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet258 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet259 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet260 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet261 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet262 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet263 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet264 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet265 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet266 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet267 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet268 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet269 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet270 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet271 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet272 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet273 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet274 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet275 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet276 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet277 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet278 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet279 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet280 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet281 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet282 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet283 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet284 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet285 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet286 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet287 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet288 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet289 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet290 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet291 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet292 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet293 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet294 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet295 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet296 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet297 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet298 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet299 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet300 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet301 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet302 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet303 = new FrameworkTest.Charts.SATALineChart.DataSet();
+            FrameworkTest.Charts.SATALineChart.DataSet dataSet304 = new FrameworkTest.Charts.SATALineChart.DataSet();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
@@ -287,7 +291,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 28);
             this.label2.TabIndex = 13;
-            this.label2.Text = "Chức vụ:";
+            this.label2.Text = "Position:";
             // 
             // pictureBox1
             // 
@@ -314,11 +318,11 @@
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(52, 188);
+            this.label7.Location = new System.Drawing.Point(52, 182);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 28);
+            this.label7.Size = new System.Drawing.Size(141, 28);
             this.label7.TabIndex = 20;
-            this.label7.Text = "Ngày sinh:";
+            this.label7.Text = "Date of birth:";
             // 
             // lblGender
             // 
@@ -338,9 +342,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(52, 127);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 28);
+            this.label1.Size = new System.Drawing.Size(86, 28);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Giới tính:";
+            this.label1.Text = "Gender:";
             // 
             // pictureBox4
             // 
@@ -378,9 +382,9 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(52, 74);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(143, 28);
+            this.label8.Size = new System.Drawing.Size(76, 28);
             this.label8.TabIndex = 13;
-            this.label8.Text = "Số điện thoại:";
+            this.label8.Text = "Phone:";
             // 
             // pictureBox2
             // 
@@ -495,13 +499,13 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(36, 9);
+            this.label9.Location = new System.Drawing.Point(3, 12);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(155, 23);
+            this.label9.Size = new System.Drawing.Size(201, 20);
             this.label9.TabIndex = 16;
-            this.label9.Text = "Tổng số nhân viên";
+            this.label9.Text = "Total number of employees";
             // 
             // label14
             // 
@@ -509,11 +513,11 @@
             this.label14.BackColor = System.Drawing.Color.Transparent;
             this.label14.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(23, 9);
+            this.label14.Location = new System.Drawing.Point(20, 12);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(165, 23);
+            this.label14.Size = new System.Drawing.Size(174, 23);
             this.label14.TabIndex = 16;
-            this.label14.Text = "Số lượng sản phẩm";
+            this.label14.Text = "Number of products";
             // 
             // lblTongSP
             // 
@@ -549,11 +553,11 @@
             this.label16.BackColor = System.Drawing.Color.Transparent;
             this.label16.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Red;
-            this.label16.Location = new System.Drawing.Point(56, 9);
+            this.label16.Location = new System.Drawing.Point(72, 12);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(89, 23);
+            this.label16.Size = new System.Drawing.Size(56, 23);
             this.label16.TabIndex = 16;
-            this.label16.Text = "Lợi nhuận";
+            this.label16.Text = "Profit";
             // 
             // label15
             // 
@@ -587,13 +591,13 @@
             // 
             this.label.AutoSize = true;
             this.label.BackColor = System.Drawing.Color.Transparent;
-            this.label.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label.ForeColor = System.Drawing.Color.Red;
-            this.label.Location = new System.Drawing.Point(19, 9);
+            this.label.Location = new System.Drawing.Point(5, 12);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(170, 23);
+            this.label.Size = new System.Drawing.Size(199, 20);
             this.label.TabIndex = 16;
-            this.label.Text = "Tổng số khách hàng";
+            this.label.Text = "Total number of customers";
             // 
             // lblTongKH
             // 
@@ -633,6 +637,7 @@
             this.lblChart.Size = new System.Drawing.Size(64, 28);
             this.lblChart.TabIndex = 96;
             this.lblChart.Text = "Chart";
+            this.lblChart.Click += new System.EventHandler(this.lblChart_Click);
             // 
             // btnChartOrder
             // 
@@ -682,10 +687,10 @@
             this.chart1.AxisColor = System.Drawing.Color.Gray;
             this.chart1.ChartPadding = 40;
             this.chart1.CustomXAxis = new string[0];
-            dataSet1.Label = "Sample Dataset 1";
-            dataSet1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet1.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet1.Points = new float[] {
+            dataSet229.Label = "Sample Dataset 1";
+            dataSet229.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet229.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet229.Points = new float[] {
         105F,
         65F,
         80F,
@@ -693,10 +698,10 @@
         135F,
         65F,
         30F};
-            dataSet2.Label = "Sample Dataset 2";
-            dataSet2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet2.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet2.Points = new float[] {
+            dataSet230.Label = "Sample Dataset 2";
+            dataSet230.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet230.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet230.Points = new float[] {
         80F,
         90F,
         70F,
@@ -704,10 +709,10 @@
         110F,
         50F,
         40F};
-            dataSet3.Label = "Sample Dataset 1";
-            dataSet3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet3.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet3.Points = new float[] {
+            dataSet231.Label = "Sample Dataset 1";
+            dataSet231.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet231.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet231.Points = new float[] {
         105F,
         65F,
         80F,
@@ -715,10 +720,10 @@
         135F,
         65F,
         30F};
-            dataSet4.Label = "Sample Dataset 2";
-            dataSet4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet4.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet4.Points = new float[] {
+            dataSet232.Label = "Sample Dataset 2";
+            dataSet232.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet232.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet232.Points = new float[] {
         80F,
         90F,
         70F,
@@ -726,10 +731,10 @@
         110F,
         50F,
         40F};
-            dataSet5.Label = "Sample Dataset 1";
-            dataSet5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet5.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet5.Points = new float[] {
+            dataSet233.Label = "Sample Dataset 1";
+            dataSet233.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet233.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet233.Points = new float[] {
         105F,
         65F,
         80F,
@@ -737,10 +742,10 @@
         135F,
         65F,
         30F};
-            dataSet6.Label = "Sample Dataset 2";
-            dataSet6.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet6.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet6.Points = new float[] {
+            dataSet234.Label = "Sample Dataset 2";
+            dataSet234.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet234.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet234.Points = new float[] {
         80F,
         90F,
         70F,
@@ -748,10 +753,10 @@
         110F,
         50F,
         40F};
-            dataSet7.Label = "Sample Dataset 1";
-            dataSet7.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet7.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet7.Points = new float[] {
+            dataSet235.Label = "Sample Dataset 1";
+            dataSet235.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet235.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet235.Points = new float[] {
         105F,
         65F,
         80F,
@@ -759,10 +764,10 @@
         135F,
         65F,
         30F};
-            dataSet8.Label = "Sample Dataset 2";
-            dataSet8.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet8.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet8.Points = new float[] {
+            dataSet236.Label = "Sample Dataset 2";
+            dataSet236.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet236.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet236.Points = new float[] {
         80F,
         90F,
         70F,
@@ -770,10 +775,10 @@
         110F,
         50F,
         40F};
-            dataSet9.Label = "Sample Dataset 1";
-            dataSet9.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet9.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet9.Points = new float[] {
+            dataSet237.Label = "Sample Dataset 1";
+            dataSet237.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet237.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet237.Points = new float[] {
         105F,
         65F,
         80F,
@@ -781,10 +786,10 @@
         135F,
         65F,
         30F};
-            dataSet10.Label = "Sample Dataset 2";
-            dataSet10.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet10.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet10.Points = new float[] {
+            dataSet238.Label = "Sample Dataset 2";
+            dataSet238.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet238.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet238.Points = new float[] {
         80F,
         90F,
         70F,
@@ -792,10 +797,10 @@
         110F,
         50F,
         40F};
-            dataSet11.Label = "Sample Dataset 1";
-            dataSet11.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet11.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet11.Points = new float[] {
+            dataSet239.Label = "Sample Dataset 1";
+            dataSet239.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet239.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet239.Points = new float[] {
         105F,
         65F,
         80F,
@@ -803,10 +808,10 @@
         135F,
         65F,
         30F};
-            dataSet12.Label = "Sample Dataset 2";
-            dataSet12.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet12.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet12.Points = new float[] {
+            dataSet240.Label = "Sample Dataset 2";
+            dataSet240.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet240.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet240.Points = new float[] {
         80F,
         90F,
         70F,
@@ -814,10 +819,10 @@
         110F,
         50F,
         40F};
-            dataSet13.Label = "Sample Dataset 1";
-            dataSet13.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet13.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet13.Points = new float[] {
+            dataSet241.Label = "Sample Dataset 1";
+            dataSet241.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet241.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet241.Points = new float[] {
         105F,
         65F,
         80F,
@@ -825,10 +830,10 @@
         135F,
         65F,
         30F};
-            dataSet14.Label = "Sample Dataset 2";
-            dataSet14.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet14.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet14.Points = new float[] {
+            dataSet242.Label = "Sample Dataset 2";
+            dataSet242.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet242.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet242.Points = new float[] {
         80F,
         90F,
         70F,
@@ -836,10 +841,10 @@
         110F,
         50F,
         40F};
-            dataSet15.Label = "Sample Dataset 1";
-            dataSet15.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet15.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet15.Points = new float[] {
+            dataSet243.Label = "Sample Dataset 1";
+            dataSet243.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet243.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet243.Points = new float[] {
         105F,
         65F,
         80F,
@@ -847,10 +852,10 @@
         135F,
         65F,
         30F};
-            dataSet16.Label = "Sample Dataset 2";
-            dataSet16.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet16.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet16.Points = new float[] {
+            dataSet244.Label = "Sample Dataset 2";
+            dataSet244.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet244.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet244.Points = new float[] {
         80F,
         90F,
         70F,
@@ -858,10 +863,10 @@
         110F,
         50F,
         40F};
-            dataSet17.Label = "Sample Dataset 1";
-            dataSet17.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet17.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet17.Points = new float[] {
+            dataSet245.Label = "Sample Dataset 1";
+            dataSet245.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet245.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet245.Points = new float[] {
         105F,
         65F,
         80F,
@@ -869,10 +874,10 @@
         135F,
         65F,
         30F};
-            dataSet18.Label = "Sample Dataset 2";
-            dataSet18.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet18.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet18.Points = new float[] {
+            dataSet246.Label = "Sample Dataset 2";
+            dataSet246.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet246.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet246.Points = new float[] {
         80F,
         90F,
         70F,
@@ -880,10 +885,10 @@
         110F,
         50F,
         40F};
-            dataSet19.Label = "Sample Dataset 1";
-            dataSet19.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet19.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet19.Points = new float[] {
+            dataSet247.Label = "Sample Dataset 1";
+            dataSet247.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet247.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet247.Points = new float[] {
         105F,
         65F,
         80F,
@@ -891,10 +896,10 @@
         135F,
         65F,
         30F};
-            dataSet20.Label = "Sample Dataset 2";
-            dataSet20.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet20.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet20.Points = new float[] {
+            dataSet248.Label = "Sample Dataset 2";
+            dataSet248.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet248.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet248.Points = new float[] {
         80F,
         90F,
         70F,
@@ -902,10 +907,10 @@
         110F,
         50F,
         40F};
-            dataSet21.Label = "Sample Dataset 1";
-            dataSet21.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet21.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet21.Points = new float[] {
+            dataSet249.Label = "Sample Dataset 1";
+            dataSet249.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet249.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet249.Points = new float[] {
         105F,
         65F,
         80F,
@@ -913,10 +918,10 @@
         135F,
         65F,
         30F};
-            dataSet22.Label = "Sample Dataset 2";
-            dataSet22.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet22.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet22.Points = new float[] {
+            dataSet250.Label = "Sample Dataset 2";
+            dataSet250.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet250.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet250.Points = new float[] {
         80F,
         90F,
         70F,
@@ -924,10 +929,10 @@
         110F,
         50F,
         40F};
-            dataSet23.Label = "Sample Dataset 1";
-            dataSet23.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet23.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet23.Points = new float[] {
+            dataSet251.Label = "Sample Dataset 1";
+            dataSet251.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet251.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet251.Points = new float[] {
         105F,
         65F,
         80F,
@@ -935,10 +940,10 @@
         135F,
         65F,
         30F};
-            dataSet24.Label = "Sample Dataset 2";
-            dataSet24.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet24.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet24.Points = new float[] {
+            dataSet252.Label = "Sample Dataset 2";
+            dataSet252.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet252.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet252.Points = new float[] {
         80F,
         90F,
         70F,
@@ -946,10 +951,10 @@
         110F,
         50F,
         40F};
-            dataSet25.Label = "Sample Dataset 1";
-            dataSet25.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet25.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet25.Points = new float[] {
+            dataSet253.Label = "Sample Dataset 1";
+            dataSet253.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet253.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet253.Points = new float[] {
         105F,
         65F,
         80F,
@@ -957,10 +962,10 @@
         135F,
         65F,
         30F};
-            dataSet26.Label = "Sample Dataset 2";
-            dataSet26.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet26.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet26.Points = new float[] {
+            dataSet254.Label = "Sample Dataset 2";
+            dataSet254.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet254.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet254.Points = new float[] {
         80F,
         90F,
         70F,
@@ -968,10 +973,10 @@
         110F,
         50F,
         40F};
-            dataSet27.Label = "Sample Dataset 1";
-            dataSet27.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet27.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet27.Points = new float[] {
+            dataSet255.Label = "Sample Dataset 1";
+            dataSet255.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet255.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet255.Points = new float[] {
         105F,
         65F,
         80F,
@@ -979,10 +984,10 @@
         135F,
         65F,
         30F};
-            dataSet28.Label = "Sample Dataset 2";
-            dataSet28.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet28.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet28.Points = new float[] {
+            dataSet256.Label = "Sample Dataset 2";
+            dataSet256.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet256.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet256.Points = new float[] {
         80F,
         90F,
         70F,
@@ -990,10 +995,10 @@
         110F,
         50F,
         40F};
-            dataSet29.Label = "Sample Dataset 1";
-            dataSet29.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet29.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet29.Points = new float[] {
+            dataSet257.Label = "Sample Dataset 1";
+            dataSet257.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet257.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet257.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1001,10 +1006,10 @@
         135F,
         65F,
         30F};
-            dataSet30.Label = "Sample Dataset 2";
-            dataSet30.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet30.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet30.Points = new float[] {
+            dataSet258.Label = "Sample Dataset 2";
+            dataSet258.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet258.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet258.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1012,10 +1017,10 @@
         110F,
         50F,
         40F};
-            dataSet31.Label = "Sample Dataset 1";
-            dataSet31.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet31.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet31.Points = new float[] {
+            dataSet259.Label = "Sample Dataset 1";
+            dataSet259.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet259.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet259.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1023,10 +1028,10 @@
         135F,
         65F,
         30F};
-            dataSet32.Label = "Sample Dataset 2";
-            dataSet32.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet32.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet32.Points = new float[] {
+            dataSet260.Label = "Sample Dataset 2";
+            dataSet260.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet260.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet260.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1034,10 +1039,10 @@
         110F,
         50F,
         40F};
-            dataSet33.Label = "Sample Dataset 1";
-            dataSet33.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet33.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet33.Points = new float[] {
+            dataSet261.Label = "Sample Dataset 1";
+            dataSet261.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet261.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet261.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1045,10 +1050,10 @@
         135F,
         65F,
         30F};
-            dataSet34.Label = "Sample Dataset 2";
-            dataSet34.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet34.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet34.Points = new float[] {
+            dataSet262.Label = "Sample Dataset 2";
+            dataSet262.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet262.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet262.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1056,10 +1061,10 @@
         110F,
         50F,
         40F};
-            dataSet35.Label = "Sample Dataset 1";
-            dataSet35.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet35.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet35.Points = new float[] {
+            dataSet263.Label = "Sample Dataset 1";
+            dataSet263.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet263.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet263.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1067,10 +1072,10 @@
         135F,
         65F,
         30F};
-            dataSet36.Label = "Sample Dataset 2";
-            dataSet36.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet36.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet36.Points = new float[] {
+            dataSet264.Label = "Sample Dataset 2";
+            dataSet264.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet264.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet264.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1078,10 +1083,10 @@
         110F,
         50F,
         40F};
-            dataSet37.Label = "Sample Dataset 1";
-            dataSet37.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet37.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet37.Points = new float[] {
+            dataSet265.Label = "Sample Dataset 1";
+            dataSet265.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet265.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet265.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1089,10 +1094,10 @@
         135F,
         65F,
         30F};
-            dataSet38.Label = "Sample Dataset 2";
-            dataSet38.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet38.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet38.Points = new float[] {
+            dataSet266.Label = "Sample Dataset 2";
+            dataSet266.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet266.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet266.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1100,10 +1105,10 @@
         110F,
         50F,
         40F};
-            dataSet39.Label = "Sample Dataset 1";
-            dataSet39.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet39.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet39.Points = new float[] {
+            dataSet267.Label = "Sample Dataset 1";
+            dataSet267.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet267.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet267.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1111,10 +1116,10 @@
         135F,
         65F,
         30F};
-            dataSet40.Label = "Sample Dataset 2";
-            dataSet40.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet40.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet40.Points = new float[] {
+            dataSet268.Label = "Sample Dataset 2";
+            dataSet268.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet268.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet268.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1122,46 +1127,94 @@
         110F,
         50F,
         40F};
-            this.chart1.DataSets.Add(dataSet1);
-            this.chart1.DataSets.Add(dataSet2);
-            this.chart1.DataSets.Add(dataSet3);
-            this.chart1.DataSets.Add(dataSet4);
-            this.chart1.DataSets.Add(dataSet5);
-            this.chart1.DataSets.Add(dataSet6);
-            this.chart1.DataSets.Add(dataSet7);
-            this.chart1.DataSets.Add(dataSet8);
-            this.chart1.DataSets.Add(dataSet9);
-            this.chart1.DataSets.Add(dataSet10);
-            this.chart1.DataSets.Add(dataSet11);
-            this.chart1.DataSets.Add(dataSet12);
-            this.chart1.DataSets.Add(dataSet13);
-            this.chart1.DataSets.Add(dataSet14);
-            this.chart1.DataSets.Add(dataSet15);
-            this.chart1.DataSets.Add(dataSet16);
-            this.chart1.DataSets.Add(dataSet17);
-            this.chart1.DataSets.Add(dataSet18);
-            this.chart1.DataSets.Add(dataSet19);
-            this.chart1.DataSets.Add(dataSet20);
-            this.chart1.DataSets.Add(dataSet21);
-            this.chart1.DataSets.Add(dataSet22);
-            this.chart1.DataSets.Add(dataSet23);
-            this.chart1.DataSets.Add(dataSet24);
-            this.chart1.DataSets.Add(dataSet25);
-            this.chart1.DataSets.Add(dataSet26);
-            this.chart1.DataSets.Add(dataSet27);
-            this.chart1.DataSets.Add(dataSet28);
-            this.chart1.DataSets.Add(dataSet29);
-            this.chart1.DataSets.Add(dataSet30);
-            this.chart1.DataSets.Add(dataSet31);
-            this.chart1.DataSets.Add(dataSet32);
-            this.chart1.DataSets.Add(dataSet33);
-            this.chart1.DataSets.Add(dataSet34);
-            this.chart1.DataSets.Add(dataSet35);
-            this.chart1.DataSets.Add(dataSet36);
-            this.chart1.DataSets.Add(dataSet37);
-            this.chart1.DataSets.Add(dataSet38);
-            this.chart1.DataSets.Add(dataSet39);
-            this.chart1.DataSets.Add(dataSet40);
+            dataSet269.Label = "Sample Dataset 1";
+            dataSet269.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet269.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet269.Points = new float[] {
+        105F,
+        65F,
+        80F,
+        120F,
+        135F,
+        65F,
+        30F};
+            dataSet270.Label = "Sample Dataset 2";
+            dataSet270.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet270.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet270.Points = new float[] {
+        80F,
+        90F,
+        70F,
+        100F,
+        110F,
+        50F,
+        40F};
+            dataSet271.Label = "Sample Dataset 1";
+            dataSet271.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet271.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet271.Points = new float[] {
+        105F,
+        65F,
+        80F,
+        120F,
+        135F,
+        65F,
+        30F};
+            dataSet272.Label = "Sample Dataset 2";
+            dataSet272.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet272.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet272.Points = new float[] {
+        80F,
+        90F,
+        70F,
+        100F,
+        110F,
+        50F,
+        40F};
+            this.chart1.DataSets.Add(dataSet229);
+            this.chart1.DataSets.Add(dataSet230);
+            this.chart1.DataSets.Add(dataSet231);
+            this.chart1.DataSets.Add(dataSet232);
+            this.chart1.DataSets.Add(dataSet233);
+            this.chart1.DataSets.Add(dataSet234);
+            this.chart1.DataSets.Add(dataSet235);
+            this.chart1.DataSets.Add(dataSet236);
+            this.chart1.DataSets.Add(dataSet237);
+            this.chart1.DataSets.Add(dataSet238);
+            this.chart1.DataSets.Add(dataSet239);
+            this.chart1.DataSets.Add(dataSet240);
+            this.chart1.DataSets.Add(dataSet241);
+            this.chart1.DataSets.Add(dataSet242);
+            this.chart1.DataSets.Add(dataSet243);
+            this.chart1.DataSets.Add(dataSet244);
+            this.chart1.DataSets.Add(dataSet245);
+            this.chart1.DataSets.Add(dataSet246);
+            this.chart1.DataSets.Add(dataSet247);
+            this.chart1.DataSets.Add(dataSet248);
+            this.chart1.DataSets.Add(dataSet249);
+            this.chart1.DataSets.Add(dataSet250);
+            this.chart1.DataSets.Add(dataSet251);
+            this.chart1.DataSets.Add(dataSet252);
+            this.chart1.DataSets.Add(dataSet253);
+            this.chart1.DataSets.Add(dataSet254);
+            this.chart1.DataSets.Add(dataSet255);
+            this.chart1.DataSets.Add(dataSet256);
+            this.chart1.DataSets.Add(dataSet257);
+            this.chart1.DataSets.Add(dataSet258);
+            this.chart1.DataSets.Add(dataSet259);
+            this.chart1.DataSets.Add(dataSet260);
+            this.chart1.DataSets.Add(dataSet261);
+            this.chart1.DataSets.Add(dataSet262);
+            this.chart1.DataSets.Add(dataSet263);
+            this.chart1.DataSets.Add(dataSet264);
+            this.chart1.DataSets.Add(dataSet265);
+            this.chart1.DataSets.Add(dataSet266);
+            this.chart1.DataSets.Add(dataSet267);
+            this.chart1.DataSets.Add(dataSet268);
+            this.chart1.DataSets.Add(dataSet269);
+            this.chart1.DataSets.Add(dataSet270);
+            this.chart1.DataSets.Add(dataSet271);
+            this.chart1.DataSets.Add(dataSet272);
             this.chart1.DayColor = System.Drawing.Color.DarkGray;
             this.chart1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.chart1.GradientBackground = true;
@@ -1183,10 +1236,10 @@
             this.chart.AxisColor = System.Drawing.Color.Gray;
             this.chart.ChartPadding = 40;
             this.chart.CustomXAxis = new string[0];
-            dataSet41.Label = "Sample Dataset 1";
-            dataSet41.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet41.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet41.Points = new float[] {
+            dataSet273.Label = "Sample Dataset 1";
+            dataSet273.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet273.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet273.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1194,10 +1247,10 @@
         135F,
         65F,
         30F};
-            dataSet42.Label = "Sample Dataset 2";
-            dataSet42.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet42.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet42.Points = new float[] {
+            dataSet274.Label = "Sample Dataset 2";
+            dataSet274.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet274.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet274.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1205,10 +1258,10 @@
         110F,
         50F,
         40F};
-            dataSet43.Label = "Sample Dataset 1";
-            dataSet43.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet43.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet43.Points = new float[] {
+            dataSet275.Label = "Sample Dataset 1";
+            dataSet275.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet275.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet275.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1216,10 +1269,10 @@
         135F,
         65F,
         30F};
-            dataSet44.Label = "Sample Dataset 2";
-            dataSet44.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet44.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet44.Points = new float[] {
+            dataSet276.Label = "Sample Dataset 2";
+            dataSet276.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet276.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet276.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1227,10 +1280,10 @@
         110F,
         50F,
         40F};
-            dataSet45.Label = "Sample Dataset 1";
-            dataSet45.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet45.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet45.Points = new float[] {
+            dataSet277.Label = "Sample Dataset 1";
+            dataSet277.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet277.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet277.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1238,10 +1291,10 @@
         135F,
         65F,
         30F};
-            dataSet46.Label = "Sample Dataset 2";
-            dataSet46.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet46.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet46.Points = new float[] {
+            dataSet278.Label = "Sample Dataset 2";
+            dataSet278.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet278.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet278.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1249,10 +1302,10 @@
         110F,
         50F,
         40F};
-            dataSet47.Label = "Sample Dataset 1";
-            dataSet47.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet47.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet47.Points = new float[] {
+            dataSet279.Label = "Sample Dataset 1";
+            dataSet279.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet279.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet279.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1260,10 +1313,10 @@
         135F,
         65F,
         30F};
-            dataSet48.Label = "Sample Dataset 2";
-            dataSet48.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet48.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet48.Points = new float[] {
+            dataSet280.Label = "Sample Dataset 2";
+            dataSet280.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet280.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet280.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1271,10 +1324,10 @@
         110F,
         50F,
         40F};
-            dataSet49.Label = "Sample Dataset 1";
-            dataSet49.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet49.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet49.Points = new float[] {
+            dataSet281.Label = "Sample Dataset 1";
+            dataSet281.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet281.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet281.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1282,10 +1335,10 @@
         135F,
         65F,
         30F};
-            dataSet50.Label = "Sample Dataset 2";
-            dataSet50.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet50.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet50.Points = new float[] {
+            dataSet282.Label = "Sample Dataset 2";
+            dataSet282.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet282.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet282.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1293,10 +1346,10 @@
         110F,
         50F,
         40F};
-            dataSet51.Label = "Sample Dataset 1";
-            dataSet51.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet51.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet51.Points = new float[] {
+            dataSet283.Label = "Sample Dataset 1";
+            dataSet283.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet283.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet283.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1304,10 +1357,10 @@
         135F,
         65F,
         30F};
-            dataSet52.Label = "Sample Dataset 2";
-            dataSet52.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet52.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet52.Points = new float[] {
+            dataSet284.Label = "Sample Dataset 2";
+            dataSet284.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet284.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet284.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1315,10 +1368,10 @@
         110F,
         50F,
         40F};
-            dataSet53.Label = "Sample Dataset 1";
-            dataSet53.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet53.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet53.Points = new float[] {
+            dataSet285.Label = "Sample Dataset 1";
+            dataSet285.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet285.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet285.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1326,10 +1379,10 @@
         135F,
         65F,
         30F};
-            dataSet54.Label = "Sample Dataset 2";
-            dataSet54.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet54.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet54.Points = new float[] {
+            dataSet286.Label = "Sample Dataset 2";
+            dataSet286.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet286.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet286.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1337,10 +1390,10 @@
         110F,
         50F,
         40F};
-            dataSet55.Label = "Sample Dataset 1";
-            dataSet55.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet55.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet55.Points = new float[] {
+            dataSet287.Label = "Sample Dataset 1";
+            dataSet287.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet287.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet287.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1348,10 +1401,10 @@
         135F,
         65F,
         30F};
-            dataSet56.Label = "Sample Dataset 2";
-            dataSet56.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet56.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet56.Points = new float[] {
+            dataSet288.Label = "Sample Dataset 2";
+            dataSet288.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet288.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet288.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1359,10 +1412,10 @@
         110F,
         50F,
         40F};
-            dataSet57.Label = "Sample Dataset 1";
-            dataSet57.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet57.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet57.Points = new float[] {
+            dataSet289.Label = "Sample Dataset 1";
+            dataSet289.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet289.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet289.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1370,10 +1423,10 @@
         135F,
         65F,
         30F};
-            dataSet58.Label = "Sample Dataset 2";
-            dataSet58.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet58.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet58.Points = new float[] {
+            dataSet290.Label = "Sample Dataset 2";
+            dataSet290.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet290.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet290.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1381,10 +1434,10 @@
         110F,
         50F,
         40F};
-            dataSet59.Label = "Sample Dataset 1";
-            dataSet59.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet59.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet59.Points = new float[] {
+            dataSet291.Label = "Sample Dataset 1";
+            dataSet291.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet291.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet291.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1392,10 +1445,10 @@
         135F,
         65F,
         30F};
-            dataSet60.Label = "Sample Dataset 2";
-            dataSet60.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet60.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet60.Points = new float[] {
+            dataSet292.Label = "Sample Dataset 2";
+            dataSet292.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet292.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet292.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1403,10 +1456,10 @@
         110F,
         50F,
         40F};
-            dataSet61.Label = "Sample Dataset 1";
-            dataSet61.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet61.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet61.Points = new float[] {
+            dataSet293.Label = "Sample Dataset 1";
+            dataSet293.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet293.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet293.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1414,10 +1467,10 @@
         135F,
         65F,
         30F};
-            dataSet62.Label = "Sample Dataset 2";
-            dataSet62.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet62.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet62.Points = new float[] {
+            dataSet294.Label = "Sample Dataset 2";
+            dataSet294.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet294.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet294.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1425,10 +1478,10 @@
         110F,
         50F,
         40F};
-            dataSet63.Label = "Sample Dataset 1";
-            dataSet63.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet63.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet63.Points = new float[] {
+            dataSet295.Label = "Sample Dataset 1";
+            dataSet295.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet295.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet295.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1436,10 +1489,10 @@
         135F,
         65F,
         30F};
-            dataSet64.Label = "Sample Dataset 2";
-            dataSet64.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet64.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet64.Points = new float[] {
+            dataSet296.Label = "Sample Dataset 2";
+            dataSet296.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet296.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet296.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1447,10 +1500,10 @@
         110F,
         50F,
         40F};
-            dataSet65.Label = "Sample Dataset 1";
-            dataSet65.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet65.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet65.Points = new float[] {
+            dataSet297.Label = "Sample Dataset 1";
+            dataSet297.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet297.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet297.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1458,10 +1511,10 @@
         135F,
         65F,
         30F};
-            dataSet66.Label = "Sample Dataset 2";
-            dataSet66.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet66.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet66.Points = new float[] {
+            dataSet298.Label = "Sample Dataset 2";
+            dataSet298.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet298.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet298.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1469,10 +1522,10 @@
         110F,
         50F,
         40F};
-            dataSet67.Label = "Sample Dataset 1";
-            dataSet67.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet67.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet67.Points = new float[] {
+            dataSet299.Label = "Sample Dataset 1";
+            dataSet299.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet299.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet299.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1480,10 +1533,10 @@
         135F,
         65F,
         30F};
-            dataSet68.Label = "Sample Dataset 2";
-            dataSet68.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet68.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet68.Points = new float[] {
+            dataSet300.Label = "Sample Dataset 2";
+            dataSet300.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet300.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet300.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1491,10 +1544,10 @@
         110F,
         50F,
         40F};
-            dataSet69.Label = "Sample Dataset 1";
-            dataSet69.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet69.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet69.Points = new float[] {
+            dataSet301.Label = "Sample Dataset 1";
+            dataSet301.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet301.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet301.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1502,10 +1555,10 @@
         135F,
         65F,
         30F};
-            dataSet70.Label = "Sample Dataset 2";
-            dataSet70.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet70.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet70.Points = new float[] {
+            dataSet302.Label = "Sample Dataset 2";
+            dataSet302.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet302.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet302.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1513,10 +1566,10 @@
         110F,
         50F,
         40F};
-            dataSet71.Label = "Sample Dataset 1";
-            dataSet71.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet71.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
-            dataSet71.Points = new float[] {
+            dataSet303.Label = "Sample Dataset 1";
+            dataSet303.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet303.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(8)))), ((int)(((byte)(79)))), ((int)(((byte)(165)))));
+            dataSet303.Points = new float[] {
         105F,
         65F,
         80F,
@@ -1524,10 +1577,10 @@
         135F,
         65F,
         30F};
-            dataSet72.Label = "Sample Dataset 2";
-            dataSet72.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet72.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
-            dataSet72.Points = new float[] {
+            dataSet304.Label = "Sample Dataset 2";
+            dataSet304.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet304.PointColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(160)))), ((int)(((byte)(1)))));
+            dataSet304.Points = new float[] {
         80F,
         90F,
         70F,
@@ -1535,38 +1588,38 @@
         110F,
         50F,
         40F};
-            this.chart.DataSets.Add(dataSet41);
-            this.chart.DataSets.Add(dataSet42);
-            this.chart.DataSets.Add(dataSet43);
-            this.chart.DataSets.Add(dataSet44);
-            this.chart.DataSets.Add(dataSet45);
-            this.chart.DataSets.Add(dataSet46);
-            this.chart.DataSets.Add(dataSet47);
-            this.chart.DataSets.Add(dataSet48);
-            this.chart.DataSets.Add(dataSet49);
-            this.chart.DataSets.Add(dataSet50);
-            this.chart.DataSets.Add(dataSet51);
-            this.chart.DataSets.Add(dataSet52);
-            this.chart.DataSets.Add(dataSet53);
-            this.chart.DataSets.Add(dataSet54);
-            this.chart.DataSets.Add(dataSet55);
-            this.chart.DataSets.Add(dataSet56);
-            this.chart.DataSets.Add(dataSet57);
-            this.chart.DataSets.Add(dataSet58);
-            this.chart.DataSets.Add(dataSet59);
-            this.chart.DataSets.Add(dataSet60);
-            this.chart.DataSets.Add(dataSet61);
-            this.chart.DataSets.Add(dataSet62);
-            this.chart.DataSets.Add(dataSet63);
-            this.chart.DataSets.Add(dataSet64);
-            this.chart.DataSets.Add(dataSet65);
-            this.chart.DataSets.Add(dataSet66);
-            this.chart.DataSets.Add(dataSet67);
-            this.chart.DataSets.Add(dataSet68);
-            this.chart.DataSets.Add(dataSet69);
-            this.chart.DataSets.Add(dataSet70);
-            this.chart.DataSets.Add(dataSet71);
-            this.chart.DataSets.Add(dataSet72);
+            this.chart.DataSets.Add(dataSet273);
+            this.chart.DataSets.Add(dataSet274);
+            this.chart.DataSets.Add(dataSet275);
+            this.chart.DataSets.Add(dataSet276);
+            this.chart.DataSets.Add(dataSet277);
+            this.chart.DataSets.Add(dataSet278);
+            this.chart.DataSets.Add(dataSet279);
+            this.chart.DataSets.Add(dataSet280);
+            this.chart.DataSets.Add(dataSet281);
+            this.chart.DataSets.Add(dataSet282);
+            this.chart.DataSets.Add(dataSet283);
+            this.chart.DataSets.Add(dataSet284);
+            this.chart.DataSets.Add(dataSet285);
+            this.chart.DataSets.Add(dataSet286);
+            this.chart.DataSets.Add(dataSet287);
+            this.chart.DataSets.Add(dataSet288);
+            this.chart.DataSets.Add(dataSet289);
+            this.chart.DataSets.Add(dataSet290);
+            this.chart.DataSets.Add(dataSet291);
+            this.chart.DataSets.Add(dataSet292);
+            this.chart.DataSets.Add(dataSet293);
+            this.chart.DataSets.Add(dataSet294);
+            this.chart.DataSets.Add(dataSet295);
+            this.chart.DataSets.Add(dataSet296);
+            this.chart.DataSets.Add(dataSet297);
+            this.chart.DataSets.Add(dataSet298);
+            this.chart.DataSets.Add(dataSet299);
+            this.chart.DataSets.Add(dataSet300);
+            this.chart.DataSets.Add(dataSet301);
+            this.chart.DataSets.Add(dataSet302);
+            this.chart.DataSets.Add(dataSet303);
+            this.chart.DataSets.Add(dataSet304);
             this.chart.DayColor = System.Drawing.Color.DarkGray;
             this.chart.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.chart.GradientBackground = true;

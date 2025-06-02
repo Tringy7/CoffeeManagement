@@ -56,7 +56,8 @@ namespace MangageCoffee.UICoffee.Menu
         {
             name_item.Text = ItemName;
             SoLuong.Text = Quantity.ToString();
-            price.Text = (UnitPrice * Quantity).ToString("C", CultureInfo.GetCultureInfo("vi-VN"));
+            price.Text = (UnitPrice * Quantity).ToString("C0", CultureInfo.GetCultureInfo("vi-VN"));
+            //price.Text = (UnitPrice * Quantity).ToString("C", CultureInfo.GetCultureInfo("vi-VN"));
             LoadImage();
         }
 

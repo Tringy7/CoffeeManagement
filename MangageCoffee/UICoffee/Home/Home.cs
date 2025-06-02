@@ -160,14 +160,14 @@ namespace MangageCoffee.UICoffee
         {
             chart.Visible = true; // Hiển thị biểu đồ lợi nhuận
             chart1.Visible = false; // Ẩn biểu đồ khác nếu có
-            lblChart.Text = "Biểu đồ lợi nhuận theo ngày"; // Cập nhật tiêu đề biểu đồ
+            lblChart.Text = "Daily Profit Chart"; // Cập nhật tiêu đề biểu đồ
         }
 
         private void btnChartOrder_Click(object sender, EventArgs e)
         {
             chart.Visible = false; // Ẩn biểu đồ lợi nhuận
             chart1.Visible = true; // Hiển thị biểu đồ khác nếu có
-            lblChart.Text = "Biểu đồ số lượng đơn theo ngày"; // Cập nhật tiêu đề biểu đồ
+            lblChart.Text = "Chart of order quantity by day"; // Cập nhật tiêu đề biểu đồ
         }
 
         private void chart1_Load(object sender, EventArgs e)
@@ -218,6 +218,11 @@ namespace MangageCoffee.UICoffee
             {
                 MessageBox.Show("Lỗi khi tải dữ liệu biểu đồ số đơn: " + ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void lblChart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

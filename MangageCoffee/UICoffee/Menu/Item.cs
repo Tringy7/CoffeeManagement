@@ -44,7 +44,7 @@ namespace MangageCoffee.UICoffee.Menu
         {
             this.menuData = menuItem;
             name_Item.Text = menuItem.Name;
-            Item_cost.Text = menuItem.Price.ToString("C", CultureInfo.GetCultureInfo("vi-VN"));
+            Item_cost.Text = menuItem.Price.ToString("C0", CultureInfo.GetCultureInfo("vi-VN"));
             if (!string.IsNullOrEmpty(menuItem.ImagePath))
             {
                 try
