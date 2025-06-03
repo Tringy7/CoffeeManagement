@@ -11,6 +11,8 @@ using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.ADO.NET.DAL;
 using MangageCoffee.DTO;
 using MangageCoffee.UICoffee;
+using MangageCoffee.UICoffee.Customer;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee
 {
@@ -52,7 +54,8 @@ namespace MangageCoffee
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Vui lòng nhập tên đăng nhập và mật khẩu.");
+                Notice_2 notice_2 = new Notice_2();
+                notice_2.ShowDialog();  
                 return;
             }
 
@@ -60,26 +63,31 @@ namespace MangageCoffee
             if (user != null)
             {
                 userBLL.SetLoginStatus(username);
-                MessageBox.Show("Đăng nhập thành công");
-                if (user.Role == "Admin")
+                Mess mess = new Mess();
+                mess.ShowDialog();
+                if (mess.Proceed)
                 {
-                    Cafe cafeForm = new Cafe();
-                    cafeForm.Show();
-                    cafeForm.FormClosed += (s, args) => this.Show();
-                    this.Hide();
-                }
-                else if (user.Role == "Customer")
-                {
-                    Customers customerForm = new Customers();
-                    customerForm.Show();
-                    customerForm.FormClosed += (s, args) => this.Show();
-                    this.Hide();
+                    if (user.Role == "Admin")
+                    {
+                        Cafe cafeForm = new Cafe();
+                        cafeForm.Show();
+                        cafeForm.FormClosed += (s, args) => this.Show();
+                        this.Hide();
+                    }
+                    else if (user.Role == "Customer")
+                    {
+                        Customer1 customerForm = new Customer1();
+                        customerForm.Show();
+                        customerForm.FormClosed += (s, args) => this.Show();
+                        this.Hide();
+                    }
                 }
             }
 
             else
             {
-                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu.");
+                Notice mess = new Notice("Wrong username or password!");
+                mess.ShowDialog();
             }
 
             txtUsername.Texts = string.Empty;
@@ -90,6 +98,11 @@ namespace MangageCoffee
         private void btnHome_Click(object sender, EventArgs e)
         {
             exit?.Invoke(this, EventArgs.Empty);
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            begin.Signup_add_load();
         }
     }
 }

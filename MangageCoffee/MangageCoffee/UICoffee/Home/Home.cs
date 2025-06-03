@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing; 
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms; 
-using MangageCoffee.ADO.NET.BLL;
-using MangageCoffee.DTO;
+using System.Drawing;
 using System.IO;
-using MangageCoffee.UICoffee.User; 
+using System.Linq;
+using System.Windows.Forms;
+using MangageCoffee.ADO.NET.BLL;
+using MangageCoffee.ADO.NET.DAL;
+using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
+using MangageCoffee.UICoffee.User;
 
 namespace MangageCoffee.UICoffee
 {
@@ -21,17 +19,22 @@ namespace MangageCoffee.UICoffee
             InitializeComponent();
             LoadUserInfo();
             LoadStaffAndCustomerCounts();
+            chart.Visible = true; // Ensure the chart is visible
+            chart1.Visible = false; // Hide the second chart if not needed
+            lblChart.Text = "Daily Profit Chart";
         }
 
         private UserBLL userBLL = new UserBLL();
+        private DailyProfitBLL profitBLL = new DailyProfitBLL(new DB_Main().ConnStr);
 
         private void LoadUserInfo()
         {
-            UserDTO user = userBLL.GetLoggedInUserInfo(); 
+            UserDTO user = userBLL.GetLoggedInUserInfo();
 
             if (user == null)
             {
-                MessageBox.Show("Không có người dùng đang đăng nhập.");
+                Notice mess = new Notice("No users are logged in!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -58,7 +61,8 @@ namespace MangageCoffee.UICoffee
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Lỗi khi tải ảnh: {ex.Message}\nĐường dẫn: {fullImagePath}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     ptbAvatar.Image = null;
                 }
             }
@@ -72,7 +76,8 @@ namespace MangageCoffee.UICoffee
                 else
                 {
                     ptbAvatar.Image = null;
-                    MessageBox.Show($"Không tìm thấy ảnh: {fullImagePath} và không có ảnh mặc định tại {defaultImagePath}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                 }
             }
         }
@@ -90,7 +95,8 @@ namespace MangageCoffee.UICoffee
             }
             else
             {
-                MessageBox.Show("Bạn không có quyền chỉnh sửa thông tin này.");
+                Notice mess = new Notice("Error!");
+                mess.ShowDialog();
             }
         }
 
@@ -98,6 +104,129 @@ namespace MangageCoffee.UICoffee
         {
             lblTongNV.Text = userBLL.GetStaffCount().ToString();
             lblTongKH.Text = userBLL.GetCustomerCount().ToString();
+            lblTongSP.Text = userBLL.GetProductCount().ToString();
+            lblTongProfit.Text = userBLL.GetProfitCount().ToString();
+        }
+
+        private void chart_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                var dataTable = profitBLL.GetProfitDataForChart();
+                if (dataTable == null || dataTable.Rows.Count == 0)
+                {
+                    chart.DataSets.Clear();
+                    chart.CustomXAxis = new string[0];
+                    chart.Invalidate();
+                    return;
+                }
+
+                // GỘP DỮ LIỆU THEO NGÀY VÀ TÍNH TỔNG PROFIT
+                var groupedData = dataTable.AsEnumerable()
+                    .Where(row => row["SummaryDate"] != DBNull.Value && row["Profit"] != DBNull.Value)
+                    .GroupBy(row => Convert.ToDateTime(row["SummaryDate"]).ToString("dd/MM"))
+                    .Select(g => new
+                    {
+                        Date = g.Key,
+                        TotalProfit = g.Sum(r => Convert.ToSingle(r["Profit"]))
+                    })
+                    .OrderBy(x => DateTime.ParseExact(x.Date, "dd/MM", null)) // sắp xếp theo ngày
+                    .ToList();
+
+                // GÁN DỮ LIỆU LÊN BIỂU ĐỒ LỢI NHUẬN
+                chart.DataSets.Clear();
+                chart.CustomXAxis = groupedData.Select(x => x.Date).ToArray();
+
+                // Determine MaxValue for Profit Chart
+                float maxProfit = groupedData.Max(x => x.TotalProfit);
+                chart.MaxValue = maxProfit + maxProfit * 0.2f; // Add some padding
+
+                var profitDataSet = new FrameworkTest.Charts.SATALineChart.DataSet
+                {
+                    Label = "Lợi nhuận",
+                    LineColor = Color.FromArgb(8, 79, 165),
+                    PointColor = Color.FromArgb(8, 79, 165),
+                    Points = groupedData.Select(x => x.TotalProfit).ToArray()
+                };
+                chart.DataSets.Add(profitDataSet);
+
+                chart.Invalidate();
+            }
+            catch (Exception ex)
+            {
+                Notice mess = new Notice("Error loading chart data!");
+                mess.ShowDialog();
+            }
+        }
+
+        private void btnChartProfit_Click(object sender, EventArgs e)
+        {
+            chart.Visible = true; // Hiển thị biểu đồ lợi nhuận
+            chart1.Visible = false; // Ẩn biểu đồ khác nếu có
+            lblChart.Text = "Daily Profit Chart"; // Cập nhật tiêu đề biểu đồ
+        }
+
+        private void btnChartOrder_Click(object sender, EventArgs e)
+        {
+            chart.Visible = false; // Ẩn biểu đồ lợi nhuận
+            chart1.Visible = true; // Hiển thị biểu đồ khác nếu có
+            lblChart.Text = "Chart of order quantity by day"; // Cập nhật tiêu đề biểu đồ
+        }
+
+        private void chart1_Load(object sender, EventArgs e)
+        {
+            try
+            {
+                var dataTable = profitBLL.GetProfitDataForChart();
+                if (dataTable == null || dataTable.Rows.Count == 0)
+                {
+                    chart1.DataSets.Clear();
+                    chart1.CustomXAxis = new string[0];
+                    chart1.Invalidate();
+                    return;
+                }
+
+                // GỘP DỮ LIỆU THEO NGÀY VÀ TÍNH TỔNG SỐ ĐƠN
+                var groupedData = dataTable.AsEnumerable()
+                    .Where(row => row["SummaryDate"] != DBNull.Value && row["OrderCount"] != DBNull.Value)
+                    .GroupBy(row => Convert.ToDateTime(row["SummaryDate"]).ToString("dd/MM"))
+                    .Select(g => new
+                    {
+                        Date = g.Key,
+                        TotalOrders = g.Sum(r => Convert.ToInt32(r["OrderCount"]))
+                    })
+                    .OrderBy(x => DateTime.ParseExact(x.Date, "dd/MM", null)) // sắp xếp theo ngày
+                    .ToList();
+
+                // GÁN DỮ LIỆU LÊN BIỂU ĐỒ SỐ LƯỢNG ĐƠN
+                chart1.DataSets.Clear();
+                chart1.CustomXAxis = groupedData.Select(x => x.Date).ToArray();
+
+                // Determine MaxValue for Order Count Chart
+                int maxOrders = groupedData.Max(x => x.TotalOrders);
+                chart1.MaxValue = maxOrders + maxOrders * 0.2f; // Add some padding
+
+                var orderCountDataSet = new FrameworkTest.Charts.SATALineChart.DataSet
+                {
+                    Label = "Số lượng đơn",
+                    LineColor = Color.FromArgb(255, 128, 0), // Chọn màu
+                    PointColor = Color.FromArgb(255, 128, 0),
+                    Points = groupedData.Select(x => (float)x.TotalOrders).ToArray()
+                };
+                chart1.DataSets.Add(orderCountDataSet);
+
+                chart1.Invalidate();
+            }
+            catch (Exception ex)
+            {
+                Notice mess = new Notice("Error loading chart data!");
+                mess.ShowDialog();
+            }
+        }
+
+        private void lblChart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

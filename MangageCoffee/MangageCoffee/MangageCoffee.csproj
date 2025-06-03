@@ -45,6 +45,9 @@
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\libary\lib\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
       <HintPath>..\packages\LiveCharts.Core.0.9.8\lib\net40\LiveCharts.dll</HintPath>
     </Reference>
@@ -75,22 +78,40 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADO.NET\BLL\BL_history.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Menu.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Order.cs" />
+    <Compile Include="ADO.NET\BLL\BL_Product.cs" />
+    <Compile Include="ADO.NET\BLL\DailyProfitBLL.cs" />
     <Compile Include="ADO.NET\BLL\UsersBLL.cs" />
+    <Compile Include="ADO.NET\DAL\DailyProfitDAL.cs" />
+    <Compile Include="ADO.NET\DAL\DB_Main.cs" />
+    <Compile Include="ADO.NET\DAL\HistoryDAL.cs" />
+    <Compile Include="ADO.NET\DAL\MenuDAL.cs" />
+    <Compile Include="ADO.NET\DAL\OderDAL.cs" />
+    <Compile Include="ADO.NET\DAL\ProductDAL.cs" />
     <Compile Include="ADO.NET\DAL\UsersDAL.cs" />
+    <Compile Include="DTO\ChartDTO.cs" />
+    <Compile Include="DTO\Class_Oder.cs" />
+    <Compile Include="DTO\Class_Menu.cs" />
+    <Compile Include="DTO\Class_product.cs" />
     <Compile Include="DTO\CustomerDTO.cs" />
+    <Compile Include="DTO\CustomerInfoDTO.cs" />
+    <Compile Include="DTO\OrderDTO.cs" />
+    <Compile Include="DTO\OrderItemDTO.cs" />
     <Compile Include="DTO\StaffDTO.cs" />
     <Compile Include="DTO\UsersDTO.cs" />
-    <Compile Include="UICoffee\Customers.cs">
+    <Compile Include="UICoffee\Customer\customer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UICoffee\Customers.Designer.cs">
-      <DependentUpon>Customers.cs</DependentUpon>
+    <Compile Include="UICoffee\Customer\customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\Customer\Form1.cs">
+    <Compile Include="UICoffee\Customer\Info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UICoffee\Customer\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UICoffee\Customer\Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\History\History_add.cs">
       <SubType>UserControl</SubType>
@@ -172,17 +193,11 @@
     <Compile Include="UICoffee\Home\Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="UICoffee\ManageDishes\New.cs">
+    <Compile Include="UICoffee\ManageDishes\Product.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UICoffee\ManageDishes\New.Designer.cs">
-      <DependentUpon>New.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UICoffee\ManageDishes\test.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UICoffee\ManageDishes\test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
+    <Compile Include="UICoffee\ManageDishes\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Menu\Item.cs">
       <SubType>UserControl</SubType>
@@ -201,6 +216,42 @@
     </Compile>
     <Compile Include="UICoffee\Menu\Menu_add.Designer.cs">
       <DependentUpon>Menu_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Bill_item.Designer.cs">
+      <DependentUpon>Bill_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Mess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Mess.Designer.cs">
+      <DependentUpon>Mess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Notice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Notice.Designer.cs">
+      <DependentUpon>Notice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Notice_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UICoffee\Untils\Mess\Notice_2.Designer.cs">
+      <DependentUpon>Notice_2.cs</DependentUpon>
     </Compile>
     <Compile Include="UICoffee\Untils\Qr.cs">
       <SubType>Form</SubType>
@@ -274,8 +325,11 @@
     <Compile Include="UICoffee\User\User_add_formdata.Designer.cs">
       <DependentUpon>User_add_formdata.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UICoffee\Customer\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UICoffee\Customer\customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Customer\Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\History\History_add.resx">
       <DependentUpon>History_add.cs</DependentUpon>
@@ -326,11 +380,8 @@
     <EmbeddedResource Include="UICoffee\Home\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\ManageDishes\New.resx">
-      <DependentUpon>New.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UICoffee\ManageDishes\test.resx">
-      <DependentUpon>test.cs</DependentUpon>
+    <EmbeddedResource Include="UICoffee\ManageDishes\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Item.resx">
       <DependentUpon>Item.cs</DependentUpon>
@@ -340,6 +391,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Menu\Menu_add.resx">
       <DependentUpon>Menu_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Bill_item.resx">
+      <DependentUpon>Bill_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Mess\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Mess\Mess.resx">
+      <DependentUpon>Mess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Mess\Notice.resx">
+      <DependentUpon>Notice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UICoffee\Untils\Mess\Notice_2.resx">
+      <DependentUpon>Notice_2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UICoffee\Untils\Qr.resx">
       <DependentUpon>Qr.cs</DependentUpon>
@@ -543,6 +612,11 @@
     <None Include="Resources\icons8-gender-321.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\app.png" />
+    <None Include="Resources\grocery-store.png" />
+    <None Include="Resources\question.png" />
+    <None Include="Resources\exclamation-mark-in-a-circle.png" />
+    <None Include="Resources\delete1.png" />
     <None Include="Images\customer1.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

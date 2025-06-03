@@ -29,19 +29,14 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.login_add1 = new MangageCoffee.Login_add();
             this.signup_add1 = new MangageCoffee.Signup_add();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // guna2Elipse1
-            // 
-            this.guna2Elipse1.BorderRadius = 20;
-            this.guna2Elipse1.TargetControl = this;
             // 
             // pictureBox2
             // 
@@ -53,6 +48,11 @@
             this.pictureBox2.TabIndex = 51;
             this.pictureBox2.TabStop = false;
             // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.BorderRadius = 20;
+            this.guna2Elipse1.TargetControl = this;
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -63,7 +63,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(958, 676);
-            this.panel1.TabIndex = 1;
+            this.panel1.TabIndex = 3;
             // 
             // login_add1
             // 
@@ -98,9 +98,9 @@
 
         #endregion
 
+        private System.Windows.Forms.PictureBox pictureBox2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private Login_add login_add1;
         private Signup_add signup_add1;
     }

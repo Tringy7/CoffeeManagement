@@ -123,6 +123,16 @@ namespace MangageCoffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap app {
+            get {
+                object obj = ResourceManager.GetObject("app", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap barcode_scanner {
             get {
                 object obj = ResourceManager.GetObject("barcode-scanner", resourceCulture);
@@ -253,6 +263,16 @@ namespace MangageCoffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap delete1 {
+            get {
+                object obj = ResourceManager.GetObject("delete1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap drink_hot {
             get {
                 object obj = ResourceManager.GetObject("drink_hot", resourceCulture);
@@ -273,6 +293,16 @@ namespace MangageCoffee.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exclamation_mark_in_a_circle {
+            get {
+                object obj = ResourceManager.GetObject("exclamation-mark-in-a-circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fast_food {
             get {
                 object obj = ResourceManager.GetObject("fast-food", resourceCulture);
@@ -286,6 +316,16 @@ namespace MangageCoffee.Properties {
         internal static System.Drawing.Bitmap google {
             get {
                 object obj = ResourceManager.GetObject("google", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grocery_store {
+            get {
+                object obj = ResourceManager.GetObject("grocery-store", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -506,6 +546,16 @@ namespace MangageCoffee.Properties {
         internal static System.Drawing.Bitmap pic_sale {
             get {
                 object obj = ResourceManager.GetObject("pic_sale", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question {
+            get {
+                object obj = ResourceManager.GetObject("question", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

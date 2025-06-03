@@ -2,21 +2,38 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 using MangageCoffee.ADO.NET.BLL;
+using MangageCoffee.ADO.NET.DAL;
+using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.History;
 using MangageCoffee.UICoffee.ManageDishes;
+using MangageCoffee.UICoffee.Menu;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee
 {
     public partial class Cafe : Form
     {
+        BL_Menu menu;
+        private BL_Order orderBLL = new BL_Order();
+        private BL_Product productBLL = new BL_Product();
+        private Product productControl;
+        BL_history bl_history = null;
+        DB_Main db = new DB_Main();
         public Cafe()
         {
             InitializeComponent();
+            bl_history = new BL_history();
+            menu = new BL_Menu();
+            productControl = new Product();
+            new1.SetMenuControl(menu_add1);
             this.StartPosition = FormStartPosition.CenterScreen; // <-- Đặt giữa màn hình
 
         }
@@ -36,6 +53,7 @@ namespace MangageCoffee
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             menu_add1.BringToFront();  
+            menu_add1.CheckOut.Click += Click;
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -46,7 +64,8 @@ namespace MangageCoffee
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Lỗi khi reset trạng thái người dùng: " + ex.Message);
+                Notice mess = new Notice("Error resetting user status!");
+                mess.ShowDialog();
                 return;
             }
 
@@ -67,6 +86,219 @@ namespace MangageCoffee
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             history_add1.BringToFront();
+            loaddataHistory();
+        }
+
+        private void loaddataHistory() 
+        {
+            history_add1.flowLayoutPanelHistory.Controls.Clear();
+
+            List<Class_Oder> listHistory = bl_history.getOrderList();
+
+            var groupedOrders = listHistory
+                .GroupBy(order => $"{order.CustomerID}_{order.OderTime:hh\\:mm\\:ss}")
+                .ToDictionary(g => g.Key, g => g.ToList());
+
+            HashSet<string> processedKeys = new HashSet<string>();
+
+            foreach (var kvp in groupedOrders)
+            {
+                string key = kvp.Key;
+
+                if (processedKeys.Contains(key))
+                    continue;
+
+                processedKeys.Add(key);
+
+                List<Class_Oder> sameTimeOrders = kvp.Value;
+
+                History_order history_Order = new History_order();
+                history_Order.setdata(sameTimeOrders); 
+
+                history_add1.flowLayoutPanelHistory.Controls.Add(history_Order);
+            }
+        }
+
+        private void Click(object sender, EventArgs e)
+        {
+            UserDTO user = userBLL.GetLoggedInUserInfo();
+            string error = "";
+            decimal totalProfit = 0;
+            DateTime orderDate = DateTime.Now.Date;
+            int adminId = user.AdminID;
+            List<OrderItemDTO> orderItems = new List<OrderItemDTO>();
+
+            foreach (Control control in menu_add1.flowLayoutPaneloder_Menu.Controls)
+            {
+                if (control is Item_Order itemOrder)
+                {
+                    orderItems.Add(new OrderItemDTO
+                    {
+                        ItemID = itemOrder.ItemID,
+                        Name = itemOrder.ItemName,
+                        Quantity = itemOrder.Quantity,
+                        UnitPrice = itemOrder.UnitPrice
+                    });
+                }
+            }
+
+            if (orderItems.Count == 0)
+            {
+                Notice mess = new Notice("No items to checkout!");
+                mess.ShowDialog();
+                return;
+            }
+            string customerName = menu_add1.txtName.Texts;
+            string customerPhoneNumber = menu_add1.txtSDT.Texts;
+
+            using (SqlTransaction transaction = db.BeginTransaction())
+            {
+                try
+                {
+                    foreach (OrderItemDTO orderItem in orderItems)
+                    {
+                        Class_Menu menuItem = menu.getMenuItemByID(orderItem.ItemID);
+                        if (menuItem != null && menuItem.ProductID != -1)
+                        {
+                            bool updated = productBLL.UpdateProductQuantity(menuItem.ProductID, orderItem.Quantity, ref error);
+                            if (!updated)
+                            {
+                                transaction.Rollback();
+                                Notice mess1 = new Notice("Failed to update quantity!");
+                                mess1.ShowDialog();
+                                return;
+                            }
+                            else
+                            {
+                                productControl.loadData();
+                            }
+                            decimal itemProfit = (decimal)(orderItem.UnitPrice - menuItem.OriginalPrice) * orderItem.Quantity;
+                            totalProfit += itemProfit;
+                        }
+                        else
+                        {
+                            transaction.Rollback();
+                            Notice mess1 = new Notice("MenuItem not found!");
+                            mess1.ShowDialog();
+                            return;
+                        }
+                    }
+
+                    bool profitSaved = db.SaveDailyProfit(orderDate, totalProfit, orderItems.Count, ref error, transaction);
+                    if (!profitSaved)
+                    {
+                        transaction.Rollback();
+                        Notice mess1 = new Notice("Failed to save daily profit!");
+                        mess1.ShowDialog();
+                        return;
+                    }
+
+                    transaction.Commit();
+                    Notice mess = new Notice("Checkout successful!");
+                    mess.ShowDialog();
+                    ClearOrderUI();
+                }
+                catch (Exception ex)
+                {
+                    try
+                    {
+                        transaction.Rollback();
+                    }
+                    catch (Exception rollbackEx)
+                    {
+                        Notice mess1 = new Notice("Error rolling back transaction!");
+                        mess1.ShowDialog();
+                    }
+
+                    Notice mess = new Notice("Checkout failed!");
+                    mess.ShowDialog();
+                }
+            }
+
+
+            try
+            {
+                Bill bill = new Bill(orderItems, customerName, customerPhoneNumber);
+                bill.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                Notice mess = new Notice("Error generating bill!");
+                mess.ShowDialog();
+            }
+        }
+
+
+        private void ClearOrderUI()
+        {
+            menu_add1.flowLayoutPaneloder_Menu.Controls.Clear();
+            menu_add1.txtName.Texts = "";
+            menu_add1.txtSDT.Texts = "";
+            menu_add1.TotalMoney.Text = "0";
+            menu_add1.textSearch.Text = "";
+            loaddata();
+        }
+
+        public void loaddata()
+        {
+
+            List<Class_Menu> listMenuItem = menu.getMenuItemList();
+
+            menu_add1.flowLayoutPanel_Menu.Controls.Clear();
+            //MessageBox.Show("Số lượng menu item: " + listMenuItem.Count);
+            foreach (Class_Menu item_menu in listMenuItem)
+            {
+
+                Item item = new Item();
+                item.setdata(item_menu);
+                item.SetParentMenu(menu_add1);
+
+
+
+                item.ItemSelected += Item_ItemSelected;
+
+                Manage_item manage_Item = new Manage_item();
+                manage_Item.SetMenuParent(menu_add1);
+
+
+                menu_add1.flowLayoutPanel_Menu.Controls.Add(item);
+
+            }
+        }
+
+        private void Item_ItemSelected(object sender, EventArgs e)
+        {
+            try
+            {
+                Item selectedItem = sender as Item;
+                if (selectedItem != null)
+                {
+                    Class_Menu selectedMenuItem = selectedItem.menuData;
+                    if (selectedMenuItem == null)
+                    {
+                        Notice mess = new Notice("ItemData is null!");
+                        mess.ShowDialog(); return;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+
+        private void home1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button6_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form2 form2 = new Form2();
+            form2.Close();
+
         }
     }
 }

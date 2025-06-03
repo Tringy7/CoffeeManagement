@@ -13,6 +13,9 @@ namespace MangageCoffee
 {
     public partial class Form2 : Form
     {
+        private Bitmap buffer;
+        private Graphics gBuffer;
+
         public Form2()
         {
             InitializeComponent();
@@ -46,6 +49,5 @@ namespace MangageCoffee
             signup_add1.BringToFront();
             
         }
-
     }
 }

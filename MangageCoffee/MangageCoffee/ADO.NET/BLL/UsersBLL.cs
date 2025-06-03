@@ -56,17 +56,6 @@ namespace MangageCoffee.ADO.NET.BLL
             dal.ResetAllUserStatus();
         }
 
-        // Trong lớp UserBLL
-        public List<UserDTO> GetStaffUsers()
-        {
-            return dal.GetUsersByRole("Staff");
-        }
-
-        public List<UserDTO> GetCustomerUsers()
-        {
-            return dal.GetUsersByRole("Customer");
-        }
-
         public List<StaffDisplayDTO> GetStaffDisplayData()
         {
             return dal.GetStaffDisplayData();
@@ -97,6 +86,11 @@ namespace MangageCoffee.ADO.NET.BLL
             return dal.UpdateAdmin(admin);
         }
 
+        public bool UpdateCustomer(UserDTO cus)
+        {
+            return dal.UpdateCustomer(cus);
+        }
+
         public int GetStaffCount()
         {
             return dal.GetStaffCount();
@@ -107,13 +101,15 @@ namespace MangageCoffee.ADO.NET.BLL
             return dal.GetCustomerCount();
         }
 
-        public UserDTO GetAdminDetails(UserDTO admin)
+        public int GetProductCount()
         {
-            UserDTO adminDetails = dal.GetUserDetails(admin);
-            Console.WriteLine($"GetAdminDetails - KPI: {adminDetails?.KPI}"); // Add this
-            return adminDetails;
+            return dal.GetProductCount();
         }
 
+        public int GetProfitCount()
+        {
+            return dal.GetProfitCount();
+        }
     }
 
 }

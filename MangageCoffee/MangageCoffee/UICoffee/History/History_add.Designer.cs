@@ -31,22 +31,17 @@
             this.components = new System.ComponentModel.Container();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnInvoice = new Guna.UI2.WinForms.Guna2Button();
+            this.btnHistory = new Guna.UI2.WinForms.Guna2Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanelHistory = new System.Windows.Forms.FlowLayoutPanel();
             this.history_order1 = new MangageCoffee.UICoffee.History.History_order();
-            this.history_order2 = new MangageCoffee.UICoffee.History.History_order();
-            this.history_order3 = new MangageCoffee.UICoffee.History.History_order();
-            this.history_order4 = new MangageCoffee.UICoffee.History.History_order();
-            this.history_order5 = new MangageCoffee.UICoffee.History.History_order();
-            this.history_order6 = new MangageCoffee.UICoffee.History.History_order();
             this.history_historyform2 = new MangageCoffee.UICoffee.History.History_historyform();
             this.history_historyform3 = new MangageCoffee.UICoffee.History.History_historyform();
             this.history_historyform1 = new MangageCoffee.UICoffee.History.History_historyform();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.text_search = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanelHistory.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Elipse1
@@ -58,146 +53,103 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(38, 23);
+            this.label4.Location = new System.Drawing.Point(43, 29);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(143, 38);
+            this.label4.Size = new System.Drawing.Size(205, 54);
             this.label4.TabIndex = 98;
             this.label4.Text = "Customer";
             // 
-            // guna2Button6
+            // btnInvoice
             // 
-            this.guna2Button6.BorderRadius = 10;
-            this.guna2Button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.Location = new System.Drawing.Point(45, 74);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(161, 42);
-            this.guna2Button6.TabIndex = 100;
-            this.guna2Button6.Text = "Invoice";
-            this.guna2Button6.Click += new System.EventHandler(this.guna2Button6_Click);
+            this.btnInvoice.BorderRadius = 10;
+            this.btnInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnInvoice.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnInvoice.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnInvoice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnInvoice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnInvoice.FillColor = System.Drawing.Color.Teal;
+            this.btnInvoice.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInvoice.ForeColor = System.Drawing.Color.White;
+            this.btnInvoice.Location = new System.Drawing.Point(51, 109);
+            this.btnInvoice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnInvoice.Name = "btnInvoice";
+            this.btnInvoice.Size = new System.Drawing.Size(181, 52);
+            this.btnInvoice.TabIndex = 100;
+            this.btnInvoice.Text = "Invoice";
+            this.btnInvoice.Click += new System.EventHandler(this.guna2Button6_Click);
             // 
-            // guna2Button1
+            // btnHistory
             // 
-            this.guna2Button1.BorderRadius = 10;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(226, 74);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(161, 42);
-            this.guna2Button1.TabIndex = 101;
-            this.guna2Button1.Text = "History";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            this.btnHistory.BorderRadius = 10;
+            this.btnHistory.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHistory.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnHistory.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnHistory.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnHistory.FillColor = System.Drawing.Color.Teal;
+            this.btnHistory.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHistory.ForeColor = System.Drawing.Color.White;
+            this.btnHistory.Location = new System.Drawing.Point(251, 109);
+            this.btnHistory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnHistory.Name = "btnHistory";
+            this.btnHistory.Size = new System.Drawing.Size(181, 52);
+            this.btnHistory.TabIndex = 101;
+            this.btnHistory.Text = "History";
+            this.btnHistory.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.flowLayoutPanel1);
+            this.panel1.Controls.Add(this.flowLayoutPanelHistory);
             this.panel1.Controls.Add(this.history_historyform1);
-            this.panel1.Location = new System.Drawing.Point(45, 144);
+            this.panel1.Location = new System.Drawing.Point(51, 180);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1286, 713);
+            this.panel1.Size = new System.Drawing.Size(1447, 891);
             this.panel1.TabIndex = 102;
             // 
-            // flowLayoutPanel1
+            // flowLayoutPanelHistory
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.history_order1);
-            this.flowLayoutPanel1.Controls.Add(this.history_order2);
-            this.flowLayoutPanel1.Controls.Add(this.history_order3);
-            this.flowLayoutPanel1.Controls.Add(this.history_order4);
-            this.flowLayoutPanel1.Controls.Add(this.history_order5);
-            this.flowLayoutPanel1.Controls.Add(this.history_order6);
-            this.flowLayoutPanel1.Controls.Add(this.history_historyform2);
-            this.flowLayoutPanel1.Controls.Add(this.history_historyform3);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1286, 713);
-            this.flowLayoutPanel1.TabIndex = 2;
+            this.flowLayoutPanelHistory.AutoScroll = true;
+            this.flowLayoutPanelHistory.Controls.Add(this.history_order1);
+            this.flowLayoutPanelHistory.Controls.Add(this.history_historyform2);
+            this.flowLayoutPanelHistory.Controls.Add(this.history_historyform3);
+            this.flowLayoutPanelHistory.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelHistory.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanelHistory.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.flowLayoutPanelHistory.Name = "flowLayoutPanelHistory";
+            this.flowLayoutPanelHistory.Size = new System.Drawing.Size(1447, 891);
+            this.flowLayoutPanelHistory.TabIndex = 2;
+            this.flowLayoutPanelHistory.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanelHistory_Paint);
             // 
             // history_order1
             // 
             this.history_order1.BackColor = System.Drawing.Color.White;
-            this.history_order1.Location = new System.Drawing.Point(10, 10);
-            this.history_order1.Margin = new System.Windows.Forms.Padding(10);
+            this.history_order1.Location = new System.Drawing.Point(11, 12);
+            this.history_order1.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             this.history_order1.Name = "history_order1";
-            this.history_order1.Size = new System.Drawing.Size(408, 415);
+            this.history_order1.Size = new System.Drawing.Size(459, 519);
             this.history_order1.TabIndex = 0;
-            // 
-            // history_order2
-            // 
-            this.history_order2.BackColor = System.Drawing.Color.White;
-            this.history_order2.Location = new System.Drawing.Point(438, 10);
-            this.history_order2.Margin = new System.Windows.Forms.Padding(10);
-            this.history_order2.Name = "history_order2";
-            this.history_order2.Size = new System.Drawing.Size(408, 415);
-            this.history_order2.TabIndex = 1;
-            // 
-            // history_order3
-            // 
-            this.history_order3.BackColor = System.Drawing.Color.White;
-            this.history_order3.Location = new System.Drawing.Point(866, 10);
-            this.history_order3.Margin = new System.Windows.Forms.Padding(10);
-            this.history_order3.Name = "history_order3";
-            this.history_order3.Size = new System.Drawing.Size(408, 415);
-            this.history_order3.TabIndex = 2;
-            // 
-            // history_order4
-            // 
-            this.history_order4.BackColor = System.Drawing.Color.White;
-            this.history_order4.Location = new System.Drawing.Point(10, 445);
-            this.history_order4.Margin = new System.Windows.Forms.Padding(10);
-            this.history_order4.Name = "history_order4";
-            this.history_order4.Size = new System.Drawing.Size(408, 415);
-            this.history_order4.TabIndex = 3;
-            // 
-            // history_order5
-            // 
-            this.history_order5.BackColor = System.Drawing.Color.White;
-            this.history_order5.Location = new System.Drawing.Point(438, 445);
-            this.history_order5.Margin = new System.Windows.Forms.Padding(10);
-            this.history_order5.Name = "history_order5";
-            this.history_order5.Size = new System.Drawing.Size(408, 415);
-            this.history_order5.TabIndex = 4;
-            // 
-            // history_order6
-            // 
-            this.history_order6.BackColor = System.Drawing.Color.White;
-            this.history_order6.Location = new System.Drawing.Point(866, 445);
-            this.history_order6.Margin = new System.Windows.Forms.Padding(10);
-            this.history_order6.Name = "history_order6";
-            this.history_order6.Size = new System.Drawing.Size(408, 415);
-            this.history_order6.TabIndex = 5;
             // 
             // history_historyform2
             // 
             this.history_historyform2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.history_historyform2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.history_historyform2.Location = new System.Drawing.Point(3, 873);
+            this.history_historyform2.Location = new System.Drawing.Point(3, 548);
+            this.history_historyform2.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.history_historyform2.Name = "history_historyform2";
-            this.history_historyform2.Size = new System.Drawing.Size(1286, 0);
+            this.history_historyform2.Size = new System.Drawing.Size(1447, 0);
             this.history_historyform2.TabIndex = 9;
             // 
             // history_historyform3
             // 
             this.history_historyform3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.history_historyform3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.history_historyform3.Location = new System.Drawing.Point(3, 879);
+            this.history_historyform3.Location = new System.Drawing.Point(3, 558);
+            this.history_historyform3.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.history_historyform3.Name = "history_historyform3";
-            this.history_historyform3.Size = new System.Drawing.Size(1286, 0);
+            this.history_historyform3.Size = new System.Drawing.Size(1447, 0);
             this.history_historyform3.TabIndex = 10;
             // 
             // history_historyform1
@@ -205,49 +157,53 @@
             this.history_historyform1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(229)))));
             this.history_historyform1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.history_historyform1.Location = new System.Drawing.Point(0, 0);
+            this.history_historyform1.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.history_historyform1.Name = "history_historyform1";
-            this.history_historyform1.Size = new System.Drawing.Size(1286, 713);
+            this.history_historyform1.Size = new System.Drawing.Size(1447, 891);
             this.history_historyform1.TabIndex = 0;
             // 
-            // guna2TextBox1
+            // text_search
             // 
-            this.guna2TextBox1.BorderColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.BorderRadius = 10;
-            this.guna2TextBox1.BorderThickness = 2;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2TextBox1.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
-            this.guna2TextBox1.Location = new System.Drawing.Point(838, 78);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TextBox1.PlaceholderText = "Search";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(493, 38);
-            this.guna2TextBox1.TabIndex = 99;
+            this.text_search.BorderColor = System.Drawing.Color.Black;
+            this.text_search.BorderRadius = 10;
+            this.text_search.BorderThickness = 2;
+            this.text_search.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.text_search.DefaultText = "";
+            this.text_search.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.text_search.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.text_search.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_search.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.text_search.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_search.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.text_search.ForeColor = System.Drawing.Color.Black;
+            this.text_search.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.text_search.IconLeft = global::MangageCoffee.Properties.Resources.search_interface_symbol;
+            this.text_search.Location = new System.Drawing.Point(943, 114);
+            this.text_search.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.text_search.Name = "text_search";
+            this.text_search.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.text_search.PlaceholderText = "Search";
+            this.text_search.SelectedText = "";
+            this.text_search.Size = new System.Drawing.Size(555, 48);
+            this.text_search.TabIndex = 99;
+            this.text_search.TextChanged += new System.EventHandler(this.text_search_TextChanged);
             // 
             // History_add
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(248)))), ((int)(((byte)(245)))));
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2Button6);
-            this.Controls.Add(this.guna2TextBox1);
+            this.Controls.Add(this.btnHistory);
+            this.Controls.Add(this.btnInvoice);
+            this.Controls.Add(this.text_search);
             this.Controls.Add(this.label4);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "History_add";
-            this.Size = new System.Drawing.Size(1381, 892);
+            this.Size = new System.Drawing.Size(1554, 1115);
+            this.Load += new System.EventHandler(this.History_add_Load);
             this.panel1.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanelHistory.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -256,19 +212,14 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox text_search;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnInvoice;
+        private Guna.UI2.WinForms.Guna2Button btnHistory;
         private System.Windows.Forms.Panel panel1;
         private History_historyform history_historyform1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        public System.Windows.Forms.FlowLayoutPanel flowLayoutPanelHistory;
         private History_order history_order1;
-        private History_order history_order2;
-        private History_order history_order3;
-        private History_order history_order4;
-        private History_order history_order5;
-        private History_order history_order6;
         private History_historyform history_historyform2;
         private History_historyform history_historyform3;
     }

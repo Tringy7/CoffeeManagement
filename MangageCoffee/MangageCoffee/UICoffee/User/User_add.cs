@@ -12,6 +12,7 @@ using MangageCoffee.DTO;
 using MangageCoffee.UICoffee.User;
 using System.IO;
 using MangageCoffee.ADO.NET.DAL;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee.UICoffee
 {
@@ -43,10 +44,9 @@ namespace MangageCoffee.UICoffee
             label4.Text = "CUSTOMER"; // Cập nhật tiêu đề
             user_add_formcustomer1.BringToFront(); // Đưa form customer lên trên
             user_add_formcustomer1.LoadCustomerData(); // Tải dữ liệu customer
-            this.ptbAdd.Visible = false; // Ẩn nút thêm người dùng
+            this.ptbAdd.Visible = false; 
         }
 
-        // Các phương thức xử lý sự kiện
         private void User_add_edit_ButtonClicked_Staff(object sender, StaffDisplayDTO e)
         {
             StaffDisplayDTO staffToEdit = e;
@@ -55,12 +55,14 @@ namespace MangageCoffee.UICoffee
 
             if (editForm.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Chỉnh sửa người dùng thành công.");
+                Notice mess = new Notice("Edit user successfully!");
+                mess.ShowDialog();
                 user_add_formdata1.LoadStaffData(); // Refresh the staff data
             }
             else
             {
-                MessageBox.Show("Chỉnh sửa người dùng bị hủy bỏ.");
+                Notice mess = new Notice("Edit user is cancelled!");
+                mess.ShowDialog();
             }
         }
 
@@ -69,16 +71,19 @@ namespace MangageCoffee.UICoffee
 
             if (e != null)
             {
-                DialogResult confirm = MessageBox.Show($"Bạn có chắc muốn xóa người dùng {e.FullName}?", "Xác nhận xóa", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (confirm == DialogResult.Yes)
+                Mess mess2 = new Mess();
+                mess2.ShowDialog();
+                if (mess2.Proceed)
                 {
-                    userBLL.SetUserAvailability(e.UserID, false); // Cập nhật Available = false
-                    MessageBox.Show("Xóa người dùng thành công.");
-                    user_add_formdata1.LoadStaffData(); // Refresh Staff Data
+                    userBLL.SetUserAvailability(e.UserID, false);
+                    Notice mess = new Notice("User deleted successfully!");
+                    mess.ShowDialog();
+                    user_add_formdata1.LoadStaffData(); 
                 }
                 else
                 {
-                    MessageBox.Show("Hủy thao tác");
+                    Notice mess = new Notice("Cancel operation!");
+                    mess.ShowDialog();
                 }
             }
 
@@ -121,7 +126,8 @@ namespace MangageCoffee.UICoffee
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Lỗi khi tải ảnh: {ex.Message}\nĐường dẫn: {fullImagePath}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     staffDetailsForm.ptbAvatar.Image = null;
                 }
             }
@@ -135,18 +141,19 @@ namespace MangageCoffee.UICoffee
                 else
                 {
                     staffDetailsForm.ptbAvatar.Image = null;
-                    MessageBox.Show($"Không tìm thấy ảnh: {fullImagePath} và không có ảnh mặc định tại {defaultImagePath}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Notice mess = new Notice("No image found!");
+                    mess.ShowDialog();
                 }
             }
 
-            staffDetailsForm.ShowDialog(); //  Show the StaffDetails Form as a dialog
+            staffDetailsForm.ShowDialog(); 
         }
 
         private void ShowCustomerDetailsForm(CustomerDisplayDTO customer)
         {
             CustomerDetail customerDetail = new CustomerDetail();
 
-            customerDetail.lblID.Text = customer.CustomerID;
+            customerDetail.lblID.Text = customer.CustomerID.ToString();
             customerDetail.lblHoTen.Text = customer.FullName;
             customerDetail.lblDon.Text = customer.TotalOrders.HasValue ? customer.TotalOrders.Value.ToString() : "";
             customerDetail.lblGioiTinh.Text = customer.Gender;
@@ -169,7 +176,8 @@ namespace MangageCoffee.UICoffee
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show($"Lỗi khi tải ảnh: {ex.Message}\nĐường dẫn: {fullImagePath}", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    Notice mess = new Notice("Error loading image!");
+                    mess.ShowDialog();
                     customerDetail.ptbAvatar.Image = null;
                 }
             }
@@ -183,26 +191,34 @@ namespace MangageCoffee.UICoffee
                 else
                 {
                     customerDetail.ptbAvatar.Image = null;
-                    MessageBox.Show($"Không tìm thấy ảnh: {fullImagePath} và không có ảnh mặc định tại {defaultImagePath}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    Notice mess = new Notice("No image found!");
+                    mess.ShowDialog();
                 }
             }
 
-            customerDetail.ShowDialog(); // Show the CustomerDetail Form as a dialog  
+            customerDetail.ShowDialog(); 
         }
 
         private void ptbAdd_Click(object sender, EventArgs e)
         {
 
+            
+        }
+
+        private void btnAvatar_Click(object sender, EventArgs e)
+        {
             AddForm addForm = new AddForm();
 
             if (addForm.ShowDialog() == DialogResult.OK)
             {
-                MessageBox.Show("Chỉnh sửa người dùng thành công.");
-                user_add_formdata1.LoadStaffData(); 
+                //Notice mess = new Notice("Edit user successfully!");
+                //mess.ShowDialog();
+                user_add_formdata1.LoadStaffData();
             }
             else
             {
-                MessageBox.Show("Chỉnh sửa người dùng bị hủy bỏ.");
+                Notice mess = new Notice("Edit user is cancelled!");
+                mess.ShowDialog();
             }
         }
     }

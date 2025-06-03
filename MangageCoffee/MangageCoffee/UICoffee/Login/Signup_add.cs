@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using MangageCoffee.ADO.NET.BLL;
 using MangageCoffee.ADO.NET.DAL;
 using MangageCoffee.DTO;
+using MangageCoffee.UICoffee.Untils;
 
 namespace MangageCoffee
 {
@@ -57,13 +58,15 @@ namespace MangageCoffee
 
             if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
             {
-                MessageBox.Show("Vui lòng nhập tên đăng nhập và mật khẩu.");
+                Notice_2 notice_2 = new Notice_2();
+                notice_2.ShowDialog();
                 return;
             }
 
             if (userBLL.IsUsernameTaken(username))
             {
-                MessageBox.Show("Tên đăng nhập đã tồn tại.");
+                Form1 form1 = new Form1();
+                form1.ShowDialog();
                 return;
             }
 
@@ -71,7 +74,8 @@ namespace MangageCoffee
 
             if (userBLL.Register(newUser))
             {
-                MessageBox.Show("Đăng ký thành công!");
+                Notice notice = new Notice("Registration successful!");
+                notice.ShowDialog();
                 if (begin is Form2 form)
                 {
                     form.Login_add_load();
@@ -79,7 +83,8 @@ namespace MangageCoffee
             }
             else
             {
-                MessageBox.Show("Đăng ký thất bại.");
+                Notice notice = new Notice("Registration failed!");
+                notice.ShowDialog();
             }
             txtUsername.Texts = string.Empty;
             txtPassword.Texts = string.Empty;
